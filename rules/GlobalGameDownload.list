@@ -1,0 +1,39 @@
+# Garena LOL TW download
+DOMAIN-SUFFIX,loltw.qcloud.gpipe.garenanow.com
+DOMAIN-SUFFIX,loltw.aws.gpipe.garenanow.com
+DOMAIN-SUFFIX,loltw.cdn.gpipe.garenanow.com
+DOMAIN-SUFFIX,cdn.gxx.garenanow.com
+# 暴雪战网下载 akamaihd CDN
+DOMAIN-SUFFIX,blzddist1-a.akamaihd.net
+DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net
+# 暴雪战网下载 level3 CDN
+DOMAIN-SUFFIX,level3.blizzard.com
+# 暴雪战网下载 level3 CDN
+DOMAIN-SUFFIX,blizzard.nefficient.co.kr
+# sony playstation
+DOMAIN-SUFFIX,gs2.sonycoment.loris-e.llnwd.net
+DOMAIN-SUFFIX,dl.playstation.net
+DOMAIN-SUFFIX,ps4.update.playstation.net
+# 彩虹六号
+DOMAIN-SUFFIX,r6pcaddons.azureedge.net
+DOMAIN-SUFFIX,r6statuspc.azureedge.net
+# R星
+DOMAIN-SUFFIX,gamedownloads.rockstargames.com
+DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+# EA平台 level3 CDN
+DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
+# EA平台 akamaihd CDN
+DOMAIN-SUFFIX,origin-a.akamaihd.net
+# 微软
+DOMAIN-SUFFIX,xvcf1.xboxlive.com
+DOMAIN-SUFFIX,xvcf2.xboxlive.com
+# 一些软件
+DOMAIN-SUFFIX,download.java.net
+DOMAIN-SUFFIX,release.tinymediamanager.org
+DOMAIN-SUFFIX,ocsp.digicert.com
+DOMAIN-SUFFIX,isrg.trustid.ocsp.identrust.com
+DOMAIN-SUFFIX,ocsp.int-x3.letsencrypt.org
+DOMAIN-SUFFIX,kjkpubsf.sfo2.digitaloceanspaces.com
+DOMAIN-SUFFIX,the.earth.li
+# DMM 不需要多解释吧
+DOMAIN-SUFFIX,dmm.com

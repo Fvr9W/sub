@@ -1,0 +1,22 @@
+DOMAIN-SUFFIX,sf.prod.athena.msrareservices.com
+DOMAIN-SUFFIX,sfbridge.prod.athena.msrareservices.com
+DOMAIN-SUFFIX,athenaprod.maelstrom.gameservices.xboxlive.com
+# Xbox Live
+DOMAIN-SUFFIX,profile.xboxlive.com
+DOMAIN-SUFFIX,rta.xboxlive.com
+DOMAIN-SUFFIX,gameserverds.xboxlive.com
+DOMAIN-SUFFIX,sessiondirectory.xboxlive.com
+DOMAIN-SUFFIX,social.xboxlive.com
+DOMAIN-SUFFIX,notify.xboxlive.com
+DOMAIN-SUFFIX,userpresence.xboxlive.com
+DOMAIN-SUFFIX,images-eds-ssl.xboxlive.com
+DOMAIN-SUFFIX,peoplehub.xboxlive.com
+DOMAIN-SUFFIX,achievements.xboxlive.com
+DOMAIN-SUFFIX,privacy.xboxlive.com
+DOMAIN-SUFFIX,x1ds.xboxlive.com
+# Xbox Cloud Sync
+DOMAIN-SUFFIX,titlestorage.xboxlive.com
+# Sea of Thieves
+IP-CIDR,52.241.142.45/32,no-resolve
+DOMAIN-SUFFIX,xblcxplatqos-ause-9-18-2-0.cloudapp.net
+DOMAIN-SUFFIX,pfmsqosprod.westus.cloudapp.azure.com

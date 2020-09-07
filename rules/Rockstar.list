@@ -1,0 +1,14 @@
+# Rockstar Launcher
+DOMAIN-SUFFIX,ps-rgl-prod.ros.rockstargames.com
+DOMAIN-SUFFIX,prs-rgl-prod.ros.rockstargames.com
+DOMAIN-SUFFIX,prod.ros.rockstargames.com
+DOMAIN-SUFFIX,auth-rgl-prod.ros.rockstargames.com
+DOMAIN-SUFFIX,rgl-prod.ros.rockstargames.com
+DOMAIN-SUFFIX,app-rgl-prod.ros.rockstargames.com
+DOMAIN-SUFFIX,prod.cloud.rockstargames.com
+# GTA V
+DOMAIN-SUFFIX,prod.telemetry.ros.rockstargames.com
+DOMAIN-SUFFIX,patches.rockstargames.com
+# Rockstar Final
+DOMAIN-SUFFIX,rockstargames.com
+DOMAIN-SUFFIX,a.rsg.sc
