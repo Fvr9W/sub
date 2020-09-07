@@ -2,7 +2,7 @@ Premium`fallback`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#P
 Game`select`^(?!.*?(Premium|Daily|TCP|WS)).*深圳 - 香港 γ.*$`^(?!.*?(Premium|Daily|TCP|WS)).*上海.*$`.*(Game|Fullcone).*$
 Daily`select`^(?!.*?(Premium|Game|IEPL|Pro)).*香港.*$`.*TCP.*$
 Call of Duty`select`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]SelectKR 🇰🇷`[]SelectJP 🇯🇵
-League of Legends(garena)`select`[]AutoTW 🇨🇳 🇨🇳`[]AutoSGP 🇸🇬`[]AutoHK 🇭🇰`[]SelectTW 🇨🇳`[]SelectSGP 🇸🇬`[]SelectHK 🇭🇰
+League of Legends(garena)`select`[]AutoTW 🇨🇳`[]AutoSGP 🇸🇬`[]AutoHK 🇭🇰`[]SelectTW 🇨🇳`[]SelectSGP 🇸🇬`[]SelectHK 🇭🇰
 GTA V or RDR2(Rockstar)`select`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲`[]SelectHK 🇭🇰`[]SelectNA 🇺🇲
 GranTurismo`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]SelectHK 🇭🇰`[]SelectJP 🇯🇵
 R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]SelectHK 🇭🇰`[]SelectJP 🇯🇵
