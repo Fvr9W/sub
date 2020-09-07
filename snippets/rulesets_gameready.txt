@@ -1,0 +1,30 @@
+DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/UnbreakWindows.list
+Hijacking,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Advertising.list
+Hijacking,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Hijacking.list
+DIRECT,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Apple.list
+GlobalGameDownload,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GlobalGameDownload.list
+Call of Duty,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/COD16.list
+League of Legends(garena),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/LOLTW.list
+GTA V or RDR2(Rockstar),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Rockstar.list
+GranTurismo,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GranTurismo.list
+R6 Rainbow Six Siege(ubisoft),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/ubi.list
+Sea of Thieves(XboxLive),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/XboxLive.list
+Steam Community,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/SteamCommunity.list
+Onetap,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Onetap.list
+Skeet,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnCA.list
+TeamViewer,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeamViewer.list
+Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Netflix.list
+GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+Telegram,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Telegram.list
+GlobalMedia,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Microsoft.list
+GlobalMedia,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/discord.list
+B1gProxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+DIRECT,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/China.list
+DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+AutoRU,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnRU.list
+AutoEU,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnEU.list
+AutoCA,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnCA.list
+AutoUS,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnUS.list
+AutoSGP,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnSGP.list
+DIRECT,[]GEOIP,CN
+Other Games,[]FINAL

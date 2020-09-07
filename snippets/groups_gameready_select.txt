@@ -8,8 +8,9 @@ GranTurismo`select`[]AutoHK`[]AutoJP`[]SelectHK`[]SelectJP
 R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK`[]AutoJP`[]SelectHK`[]SelectJP
 Sea of Thieves(XboxLive)`select`[]AutoHK`[]AutoJP`[]SelectHK`[]SelectJP
 Steam Community`select`[]FallbackLowRate 🇭🇰`[]Premium`[]SelectEU`[]SelectRU`[]SelectSGP`[]DIRECT`[]REJECT
-TeamViewer`select`[]FallbackLowRate 🇭🇰`[]Premium`[]DIRECT
+Onetap`select`[]AutoHK`[]SelectUS
 Skeet`select`[]AutoCA`[]SelectUS
+TeamViewer`select`[]FallbackLowRate 🇭🇰`[]Premium`[]DIRECT
 Other Games`select`[]AutoHK`[]Game`[]VMESS`.*香港 Pro.*$`[]DIRECT
 B1gProxy`select`[]Premium`[]VMESS`[]DIRECT
 Telegram`select`[]FallbackLowRate 🇸🇬`[]AutoLowRate 🇸🇬`[]LowRateSGP`(新加坡 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*
