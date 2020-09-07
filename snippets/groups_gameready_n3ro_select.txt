@@ -26,8 +26,8 @@ AutoKR 🇰🇷`fallback`^(?!.*?(Premium|Daily|TCP|WS)).*(韩国|首尔).*$`^(?!
 SelectKR 🇰🇷`select`^(?!.*?(Premium|Daily|TCP|WS)).*(韩国|首尔).*$`^(?!.*?(Game|Daily|TCP|WS)).*(韩国|首尔).*$`[]SelectHK 🇭🇰
 AutoJP 🇯🇵`fallback`^(?!.*?(Daily|TCP|WS)).*上海 - 日本 β.*$`^(?!.*?(Premium|Daily|TCP|WS)).*(东京|大阪|日本).*$`^(?!.*?(Game|Daily|TCP|WS)).*(东京|大阪|日本).*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 SelectJP 🇯🇵`select`^(?!.*?(Premium|Daily|TCP|WS)).*(东京|大阪|日本).*$`^(?!.*?(Game|Daily|TCP|WS)).*(东京|大阪|日本).*$`[]SelectHK 🇭🇰
-AutoSGP 🇸🇬`fallback`^(?!.*?(Premium|Daily|TCP|WS)).*深圳 - 新加坡.*$`^(?!.*?(Daily|TCP|WS)).*新加坡.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
-SelectSGP 🇸🇬`select`^(?!.*?(Premium|Daily|TCP|WS)).*深圳 - 新加坡.*$`^(?!.*?(Daily|TCP|WS)).*新加坡.*$`[]SelectHK 🇭🇰
+AutoSGP 🇸🇬`fallback`^(?!.*?(Daily|TCP|WS)).*深圳 - 新加坡.*$`^(?!.*?(Daily|TCP|WS)).*新加坡.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
+SelectSGP 🇸🇬`select`^(?!.*?(Daily|TCP|WS)).*深圳 - 新加坡.*$`^(?!.*?(Daily|TCP|WS)).*新加坡.*$`[]SelectHK 🇭🇰
 AutoSEA 🌏`fallback`.*(胡志明市|曼谷|孟买|印度).*$`[]AutoSGP 🇸🇬`http://cp.cloudflare.com/generate_204`300
 SelectSEA 🌏`fallback`.*(胡志明市|曼谷|孟买|印度).*$`[]SelectHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 AutoAU 🇦🇺`fallback`.*(悉尼|澳大利亚).*$`[]AutoSGP 🇸🇬`http://cp.cloudflare.com/generate_204`300
