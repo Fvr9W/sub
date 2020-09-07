@@ -13,7 +13,7 @@ Skeet`select`[]AutoCA 🇨🇦`[]SelectNA 🇺🇲
 TeamViewer`select`[]FallbackLowRate 🇭🇰`[]Premium`[]DIRECT
 Other Games`select`[]AutoHK 🇭🇰`[]Game`[]Daily`.*香港 Pro.*$`[]DIRECT
 B1gProxy`select`[]Premium`[]Daily`[]DIRECT
-Telegram`select`[]FallbackLowRate 🇸🇬`[]AutoLowRate 🇸🇬`[]`[]LowRateSGP 🇸🇬`(新加坡 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*
+Telegram`select`[]FallbackLowRate 🇸🇬`[]AutoLowRate 🇸🇬`[]LowRateSGP 🇸🇬`(新加坡 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*
 Netflix`select`[]FallbackLowRate 🇸🇬`[]AutoLowRate 🇸🇬`[]AutoLowRate 🇨🇳`[]AutoLowRate 🇺🇲`[]LowRateSGP 🇸🇬`[]LowRateTW 🇨🇳`[]LowRateNA 🇺🇲`(新加坡 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*
 GlobalMedia`select`[]FallbackLowRate 🇭🇰`[]AutoLowRate 🇭🇰`[]AutoLowRate 🇺🇲`[]LowRateHK 🇭🇰`[]LowRateNA 🇺🇲`[]Premium
 GlobalGameDownload`select`[]DIRECT`[]Daily
