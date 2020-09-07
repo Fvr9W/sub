@@ -1,0 +1,36 @@
+;short names
+TCP:@TCP
+WS:@WS
+;times RE
+\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
+( |-)(01|A)@ α
+( |-)(02|B)@ β
+( |-)(03|C)@ γ
+( |-)(04|D)@ δ
+( |-)(05|E)@ ε
+( |-)(06|F)@ ζ
+( |-)(07|G)@ η
+( |-)(08|H)@ θ
+( |-)(09|I)@ ι
+( |-)(11|K)@ λ
+( |-)(12|L)@ μ
+!!GROUPID=2!!(美国 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #North America #V2Tun
+!!GROUPID=2!!((印度|狮城|日本|台湾|香港) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #Asia #V2Tun
+!!GROUPID=2!!狮城@新加坡
+!!GROUPID=2!!专线@IPLC
+!!GROUPID=2!!中继@BGP
+!!GROUPID=2!! → @ - 
+!!GROUPID=2!!联通@
+!!GROUPID=2!!双线@
+!!GROUPID=2!!HKT (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@ $1 #HKT
+!!GROUPID=2!!([A-Z]+) ([\u4e00-\u9fa5]+ - [\u4e00-\u9fa5]+)@$2 $1
+!!GROUPID=2!!([A-Z]+ )(α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@$2 $1
+!!GROUPID=2!!IPLC @#Premium
+!!GROUPID=2!!BGP @#Daily
+!!GROUPID=2!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (新加坡|香港|日本|韩国|台湾|印度) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Daily))@$1 #Asia #N3RO
+!!GROUPID=2!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (加拿大|美国|墨西哥) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Daily))@$1 #North America #N3RO
+!!GROUPID=2!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (英国|德国|法国|俄罗斯) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Daily))@$1 #Europe  #N3RO
+!!GROUPID=2!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (澳大利亚|悉尼|墨尔本) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Daily))@$1 #Oceania #N3RO
+!!GROUPID=2!!#Daily@0.2x #Daily
+North αmerica@North America
+ιEPL@IEPL
