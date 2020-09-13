@@ -1,0 +1,61 @@
+[custom]
+;This is an example external configuration file
+;All possible customization settings are shown below
+
+;Options for custom groups
+{% if request.target == "quanx" %}
+  {% if exists("request.n3ro") %}
+    custom_proxy_group=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/groups_n3roQX_select.txt
+  {% else %}
+    {% if exists("request.polymer") %}
+      custom_proxy_group=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/groups_polymerQX_select.txt
+    {% else %}
+      custom_proxy_group=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/groups_gamereadyQX_select.txt
+    {% endif %}
+  {% endif %}
+{% else %}
+  {% if exists("request.n3ro") %}
+    custom_proxy_group=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/groups_n3ro_select.txt
+  {% else %}
+    {% if exists("request.polymer") %}
+      custom_proxy_group=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/groups_polymer_select.txt
+    {% else %}
+      custom_proxy_group=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/groups_gameready_nyancat_select.txt
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+;Options for custom rulesets
+enable_rule_generator=true
+overwrite_original_rules=true
+surge_ruleset=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/rulesets_gameready.txt
+
+;Options for custom base configuration file
+clash_rule_base=https://raw.githubusercontent.com/Fvr9W/sub/master/base/all_base.tpl
+;surge_rule_base=https://raw.githubusercontent.com/Fvr9W/sub/master/base/all_base.tpl
+;surfboard_rule_base=https://raw.githubusercontent.com/Fvr9W/sub/master/base/all_base.tpl
+mellow_rule_base=https://raw.githubusercontent.com/Fvr9W/sub/master/base/all_base.tpl
+;quan_rule_base=https://raw.githubusercontent.com/Fvr9W/sub/master/base/all_base.tpl
+quanx_rule_base=https://raw.githubusercontent.com/Fvr9W/sub/master/base/all_base.tpl
+
+;Options for renaming nodes
+{% if exists("request.n3ro") %}
+rename=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/rename_node_N3RO.txt
+{% else %}
+{% if exists("request.polymer") %}
+rename=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/rename_node_polymer.txt
+{% else %}
+rename=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/rename_node_nyancat&v2tun.txt
+{% endif %}
+{% endif %}
+
+;Options for adding emojis
+emoji=!!import:https://raw.githubusercontent.com/Fvr9W/sub/master/snippets/emoji.txt
+
+;Options for filtering nodes
+;include_remarks=
+;exclude_remarks=
+
+;[template]
+;;variables in the local scope
+;clash.dns.port=5353
