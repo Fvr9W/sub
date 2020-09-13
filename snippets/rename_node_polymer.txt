@@ -1,0 +1,43 @@
+# 0是N3RO,1是nyancat的SS订阅，2是nyancat的VMESS订阅，3是V2TUN的订阅
+!!GROUPID=0!!专线Light@LITE
+!!GROUPID=0!!专线@IPLC
+!!GROUPID=0!!中继Pro@BGPRO
+!!GROUPID=0!!中继@BGP
+!!GROUPID=0!! → @ - 
+!!GROUPID=0!!联通@
+!!GROUPID=0!!双线@
+\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
+TCP:@TCP
+WS:@WS
+( |-)(01|A)@ α
+( |-)(02|B)@ β
+( |-)(03|C)@ γ
+( |-)(04|D)@ δ
+( |-)(05|E)@ ε
+( |-)(06|F)@ ζ
+( |-)(07|G)@ η
+( |-)(08|H)@ θ
+( |-)(09|I)@ ι
+( |-)(10|J)@ κ
+( |-)(11|K)@ λ
+( |-)(12|L)@ μ
+!!GROUPID=0!!HKT (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@ $1 #HKT
+!!GROUPID=0!!([A-Z]+) ([\u4e00-\u9fa5]+ - [\u4e00-\u9fa5]+)@$2 $1
+!!GROUPID=0!!([A-Z]+ )(α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@$2 $1
+!!GROUPID=0!!IPLC @#Premium
+!!GROUPID=0!!LITE @#Lite
+!!GROUPID=0!!BGPRO @#DailyPro
+!!GROUPID=0!!BGP @#Daily
+!!GROUPID=0!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (新加坡|香港|日本|韩国|台湾|印度) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Lite|DailyPro|Daily))@$1 #Asia #N3RO
+!!GROUPID=0!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (加拿大|美国|墨西哥) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Lite|DailyPro|Daily))@$1 #North America #N3RO
+!!GROUPID=0!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (英国|德国|法国|俄罗斯) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Lite|DailyPro|Daily))@$1 #Europe #N3RO
+!!GROUPID=0!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (澳大利亚|悉尼|墨尔本) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Lite|DailyPro|Daily))@$1 #Oceania #N3RO
+!!GROUPID=0!!#Daily @0.2x #Daily 
+!!GROUPID=0!!#DailyPro @0.45x #DailyPro 
+!!GROUPID=0!!#Lite @0.6x #PremiumLite 
+!!GROUPID=3!!(美国 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #North America #V2Tun
+!!GROUPID=3!!((印度|狮城|日本|台湾|香港) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #Asia #V2Tun
+!!GROUPID=3!!狮城@新加坡
+!!GROUPID=3!!#Daily @0.2x #Daily 
+North αmerica@North America
+ιEPL@IEPL
