@@ -1,7 +1,6 @@
-;short names
+# 0是nyancat的ss订阅，1是nyancat的vmess订阅，2是v2tun的订阅
 TCP:@TCP
 WS:@WS
-;times RE
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 ( |-)(01|A)@ α
 ( |-)(02|B)@ β
@@ -34,3 +33,4 @@ WS:@WS
 !!GROUPID=2!!#Daily@0.2x #Daily
 North αmerica@North America
 ιEPL@IEPL
+αsia@Asia
