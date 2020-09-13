@@ -174,9 +174,10 @@ static=Hijacking, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/
 [rewrite_remote]
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag = 去广告1, enabled = true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf, tag = 去广告2, enabled = true
-https://raw.githubusercontent.com/loric729/Sricpt/master/TikTok.conf, tag=TikTok, enabled=true
-https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Js.conf, tag=nzw9314, enabled=true
-https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag=获取Cookie, enabled=false
+https://raw.githubusercontent.com/loric729/Sricpt/master/TikTok.conf, tag = TikTok, enabled = true
+https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Js.conf, tag = nzw9314, enabled = true
+https://subweb.oss-cn-hongkong.aliyuncs.com/Module/embyUnlocked.conf, tag = emby破解, enabled = true
+https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = 获取Cookie, enabled = false
 [server_local]
 
 [task_local]
@@ -201,10 +202,6 @@ https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.c
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
 3 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png,enabled=true
 3 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png,enabled=true
-
-# 豆瓣电影日历 (By @zZPiglet)
-# 进入  widget 界面（iOS 13 负一屏），添加「豆瓣·电影日历」，并重新进入此界面使其刷新获取内容，若弹出"首次写入 MovieCalendar APIKey 成功"即可正常食用
-0 18 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js, tag=电影日历
 
 # 中国联通
 #1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
@@ -232,7 +229,7 @@ https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.c
 10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js, tag=wanda-签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/wanda.png,enabled=true
 
 # TestFlight公测监控 (By @syzzzf)
-0 0-23/1 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, tag=TestFlight公测监控, img-url=https://raw.githubusercontent.com/Orz-3/task/master/testflight.png,enabled=true
+0 0-23/1 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, tag=TestFlight公测监控, img-url=https://raw.githubusercontent.com/Orz-3/task/master/testflight.png,enabled=false
 
 # 飞客茶馆
 # 打开 APP, 访问下`个人中心`
