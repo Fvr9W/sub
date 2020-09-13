@@ -1,6 +1,6 @@
 Premium`fallback`^(?!.*?N3RO).*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`^(?!.*?N3RO).*(华南 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`^(?!.*?N3RO).*深圳 - 香港 Pro.*$`^(?!.*?N3RO).*(上海 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`^(?!.*?N3RO).*(新加坡 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`http://cp.cloudflare.com/generate_204`300
 Game`select`^(?!.*?(Premium|Daily|TCP|WS|IEPL)).*深圳 - 香港 γ.*$`^(?!.*?(Premium|Daily|TCP|WS)).*上海.*$`.*(Game|Fullcone).*$
-N3RO`fallback`^(?!.*?(Daily|京|上|α|IEPL)).*(香港 (β|γ|δ|ε|ζ|η||θ|ι) #Premium).*$`^(?!.*?(Daily|京|α|IEPL)).*(香港 (β|γ|δ|ε|ζ|η||θ|ι) #Premium).*$`.*(香港 (α|β|γ|δ|ε|ζ|η||θ|ι) #Premium).*$`^(?!.*?(Daily|京|上|α)).*新.*$`^(?!.*?(Daily|京)).*新.*$`http://cp.cloudflare.com/generate_204`300
+N3RO`fallback`^(?!.*?(Daily|TCP)).*深圳 - 香港 (ε|ζ).*$`^(?!.*?(Daily|TCP)).*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`^(?!.*?(Daily|TCP)).*(香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`[]Premium`http://cp.cloudflare.com/generate_204`300
 Daily`select`^(?!.*?(Premium|Game|IEPL|Pro)).*香港.*$`^(?!.*?(Premium|Game|IEPL)).*TCP.*$
 Call of Duty`select`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]SelectKR 🇰🇷`[]SelectJP 🇯🇵
 League of Legends(garena)`select`[]AutoTW 🇨🇳`[]AutoSGP 🇸🇬`[]AutoHK 🇭🇰`[]SelectTW 🇨🇳`[]SelectSGP 🇸🇬`[]SelectHK 🇭🇰
