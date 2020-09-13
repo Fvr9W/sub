@@ -280,6 +280,9 @@ geoip, cn, direct
 final, Final
 
 [rewrite_local]
+(?<=_region=)CN(?=&) url 307 JP
+(?<=&app_version=)1(6|7)..(?=.?.?&) url 307 1
+(?<=\?version_code=)1(6|7)..(?=.?.?&) url 307 1
 
 [mitm]
 hostname = www.zhihu.com
