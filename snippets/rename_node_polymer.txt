@@ -41,3 +41,4 @@ WS:@WS
 !!GROUPID=3!!#Daily @0.2x #Daily 
 North αmerica@North America
 ιEPL@IEPL
+αsia@Asia
