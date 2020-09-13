@@ -134,38 +134,69 @@ server=192.168.123.1
 {% endif %}
 
 [policy]
-static=IPLC, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
-static=BGP, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/BGP.png
-static=VMESS, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/VMess.png
-static=Special, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/NyanCat.png
 static=Premium, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/NyanCat.png
 static=Game, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=Daily, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Daily.png
-static=SelectHK, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-static=SelectTW, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
-static=SelectKR, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
-static=SelectJP, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
-static=SelectSGP, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
-static=SelectSEA, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
-static=SelectAU, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
-static=SelectUS, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
-static=SelectCA, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
-static=SelectRU, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
-static=SelectEU, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
-static=LowRate, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/x0.1.png
-static=LowRateHK, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/x0.1.png
-static=LowRateTW, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/x0.1.png
-static=LowRateSGP, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/x0.1.png
-static=LowRateNA, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/x0.1.png
-static=B1gProxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
-static=FINAL, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
-static=Apple, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
-static=Microsoft, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=Call of Duty, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=League of Legends(garena), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=GTA V or RDR2(Rockstar), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=GranTurismo, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=R6 Rainbow Six Siege(ubisoft), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Sea of Thieves(XboxLive), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Steam Community, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Onetap, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Skeet, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=TeamViewer, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Other Games, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=B1gProxy, img-url=img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
 static=Telegram, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
 static=Netflix, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 static=GlobalMedia, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
 static=GlobalGameDownload, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
 static=Hijacking, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hijacking.png
+static=AutoHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+static=SelectHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+static=AutoTW 🇨🇳, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+static=SelectTW 🇨🇳, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+static=AutoKR 🇰🇷, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+static=SelectKR 🇰🇷, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+static=AutoJP 🇯🇵, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+static=SelectJP 🇯🇵, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+static=AutoSGP 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+static=SelectSGP 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+static=AutoSEA 🌏, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+static=SelectSEA 🌏, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+static=AutoAU 🇦🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+static=SelectAU 🇦🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+static=AutoRU 🇷🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
+static=SelectRU 🇷🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
+static=AutoEU 🇪🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+static=SelectEU 🇪🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+static=AutoCA 🇨🇦, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
+static=SelectCA 🇨🇦, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
+static=AutoNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+static=SelectNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+static=LowRateHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+static=AutoLowRate 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+static=FallbackLowRate 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+static=LowRateTW 🇨🇳, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+static=AutoLowRate 🇨🇳, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+static=FallbackLowRate 🇨🇳, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+static=LowRateKR 🇰🇷, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+static=AutoLowRate 🇰🇷, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+static=FallbackLowRate 🇰🇷, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+static=LowRateJP 🇯🇵, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+static=AutoLowRate 🇯🇵, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+static=FallbackLowRate 🇯🇵, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+static=LowRateSGP 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+static=AutoLowRate 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+static=FallbackLowRate 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+static=LowRateEU 🇪🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+static=AutoLowRate 🇪🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+static=FallbackLowRate 🇪🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+static=LowRateNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+static=AutoLowRate 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+static=FallbackLowRate 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 
 [server_remote]
 
