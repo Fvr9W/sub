@@ -136,6 +136,7 @@ server=192.168.123.1
 [policy]
 static=Premium, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/NyanCat.png
 static=Game, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=N3RO, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/N3RO.png
 static=Daily, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Daily.png
 static=Call of Duty, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=League of Legends(garena), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
