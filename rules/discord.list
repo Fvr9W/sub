@@ -11,3 +11,5 @@ DOMAIN-SUFFIX,discordcdn.com
 # 普拉斯影业
 DOMAIN-SUFFIX,emby.ytoo.li
 IP-CIDR,52.184.28.138/32,no-resolve
+# 图片
+DOMAIN-SUFFIX,imgur.com
