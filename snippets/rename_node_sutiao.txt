@@ -14,7 +14,7 @@
 中国-阿根廷 IPLC 布宜诺斯艾利斯 ((C|C )[0-9]{1,2})@布宜诺斯艾利斯 $1 #Premium #South America
 中国-韩国 IEPL（三） ([A-Z]{1,2})@IEPL 韩国 $1 #Premium #Asia
 中国-香港 IEPL HK8 ((C|C )[0-9]{1,2})@IEPL 深圳 - 香港 $1 #Premium #Asia
-中国-香港 IPLC HK2 ((C|C )[0-9]{1,2})@深圳 - 香港 $2 #Premium #Asia
+中国-香港 IPLC HK2 ((C|C )[0-9]{1,2})@深圳 - 香港 $1 #Game #Asia
 新加坡太平洋电信 ((C|C )[0-9]{1,2})@新加坡 $1 #Daily #Asia
 日本 ソフトバンク ((C|C )[0-9]{1,2})@日本 $1 #SB #Daily #Asia
 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 ((C|C )[0-9]{1,2})@IEPL 上海 - 香港 $1 #Premium #Asia
@@ -37,5 +37,17 @@
 (C|C )10@κ
 (C|C )11@λ
 (C|C )12@μ
+A@α
+B@β
+C@γ
+D@δ
+E@ε
+F@ζ
+G@η
+H@θ
+I@ι
+J@κ
+K@λ
+L@μ
 沪港 IEPL(α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 上海 - 香港 $1 #Premium #Asia
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
