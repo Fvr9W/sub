@@ -12,7 +12,7 @@
 中国-美国洛杉矶 IEPL ((C|C )[0-9]{1,2})@IEPL 上海 - 洛杉矶 $1 #Premium #North America
 中国-英国伦敦 IPLC ((C|C )[0-9]{1,2})@伦敦 $1 #Premium #Europe
 中国-阿根廷 IPLC 布宜诺斯艾利斯 ((C|C )[0-9]{1,2})@布宜诺斯艾利斯 $1 #Premium #South America
-中国-韩国 IEPL（三） ([A-Z]{1,2})@IEPL 韩国 $1 #Premium #Asia
+中国-韩国 IEPL（三）([A-Z]{1,2})@IEPL 韩国 $1 #Premium #Asia
 中国-香港 IEPL HK8 ((C|C )[0-9]{1,2})@IEPL 深圳 - 香港 $1 #Premium #Asia
 中国-香港 IPLC HK2 ((C|C )[0-9]{1,2})@深圳 - 香港 $1 #Game #Asia
 新加坡太平洋电信 ((C|C )[0-9]{1,2})@新加坡 $1 #Daily #Asia
