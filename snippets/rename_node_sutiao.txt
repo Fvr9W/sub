@@ -15,21 +15,21 @@
 中国-加拿大 IPLC (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@加拿大 $1 #Premium #Asia
 中国-印度 班加罗尔 एयरटेल IPLC (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@班加罗尔 $1 #Premium #Asia
 中国-台湾 VPDN 嘉义游戏专线 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@嘉义 $1 #Game #Asia
-中国-台湾彰化 IEPL HiNet固接 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 彰化 $1 #Daily #Asia
+中国-台湾彰化 IEPL HiNet固接 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 彰化 $1 #Premium #Asia
 中国-台湾桃园 IPLC 台湾固网 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@桃园 $1 #Premium #Asia
-中国-新加坡 IEPL (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@新加坡 $1 #Premium #Asia
+中国-新加坡 IEPL (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 新加坡 $1 #Premium #Asia
 中国-日本 多协议标签交换虚拟专用网（三） (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@日本 $1 #Daily #Asia
-中国-日本 沪日IEPL传输 Equinix-TY8 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 上海 - 日本 $1 #Daily #Asia
-中国-美国帕罗奥图 IEPL (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 上海 - 帕罗奥图 $1 #Daily #North America
-中国-美国洛杉矶 IEPL (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 上海 - 洛杉矶 $1 #Daily #North America
+中国-日本 沪日IEPL传输 Equinix-TY8 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 上海 - 日本 $1 #Premium #Asia
+中国-美国帕罗奥图 IEPL (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 上海 - 帕罗奥图 $1 #Premium #North America
+中国-美国洛杉矶 IEPL (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 上海 - 洛杉矶 $1 #Premium #North America
 中国-英国伦敦 IPLC (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@伦敦 $1 #Premium #Europe
 中国-阿根廷 IPLC 布宜诺斯艾利斯 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@布宜诺斯艾利斯 $1 #Premium #South America
-中国-韩国 IEPL（三） (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 韩国 $1 #Daily #Asia
-中国-香港 IEPL HK8 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 深圳 - 香港 $1 #HK8 #Daily #Asia
-中国-香港 IEPL HK2 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 深圳 - 香港 $2 #HK2 #Daily #Asia
+中国-韩国 IEPL（三） (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 韩国 $1 #Premium #Asia
+中国-香港 IEPL HK8 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 深圳 - 香港 $1 #HK8 #Premium #Asia
+中国-香港 IEPL HK2 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 深圳 - 香港 $2 #HK2 #Premium #Asia
 新加坡太平洋电信 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@新加坡 $1 #Daily #Asia
 日本 ソフトバンク (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@日本 $1 #Daily #Asia
-沪港 IEPL专线 港区TVB/HBO/Netflix解锁 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 上海 - 香港 $1 #Daily #Asia
+沪港 IEPL专线 港区TVB/HBO/Netflix解锁 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 上海 - 香港 $1 #Premium #Asia
 游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@深圳 - 香港 $1 #Game #Asia
 美国 圣塔克拉利塔 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@圣塔克拉利塔 $1 #Daily #North America
 美国 萨克拉门托 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@萨克拉门托 $1 #Daily #North America
