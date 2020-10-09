@@ -1,9 +1,9 @@
 Premium`fallback`^(?!.*?(Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`http://cp.cloudflare.com/generate_204`300
-Game`select`.*Game*$
+Game`select`.*Game.*$
 Daily`select`^(?!.*?(Premium|Game|IEPL|Pro)).*香港.*$`.*Daily.*$
-Call of Duty`select`[]Auto 🇰🇷`[]Auto 🇯🇵`[] 🇰🇷`[] 🇯🇵
+Call of Duty`select`[]Auto 🇰🇷`[]Auto 🇯🇵`[]KR 🇰🇷`[]JP 🇯🇵
 League of Legends(garena)`select`[]Auto 🇨🇳`[]Auto 🇸🇬`[]Auto 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]HK 🇭🇰
-GTA V or RDR2(Rockstar)`select`[]Auto 🇭🇰`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]NA 🇺🇲
+GTA V or RDR2(Rockstar)`select`[]Auto 🇭🇰`[]Auto 🇺🇲`[]HK 🇭🇰`[]NA 🇺🇲
 GranTurismo`select`[]Auto 🇭🇰`[]Auto 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵
 R6 Rainbow Six Siege(ubisoft)`select`[]Auto 🇭🇰`[]Auto 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵
 Sea of Thieves(XboxLive)`select`[]Auto 🇭🇰`[]Auto 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵
