@@ -7,7 +7,7 @@
 中国-台湾桃园 IPLC 台湾固网 ((C|C )[0-9]{1,2})@桃园 $1 #Premium #Asia
 中国-新加坡 IEPL ([A-Z]{1,2})@IEPL 新加坡 $1 #Premium #Asia
 中国-日本 多协议标签交换虚拟专用网（三） ([A-Z]{1,2})@日本 $1 #Daily #Asia
-中国-日本 沪日IEPL传输 Equinix-TY8 ((C|C )[0-9]{1,2})@IEPL 上海 - 日本 $1 #Premium #Asia
+中国-日本 沪日IEPL传输-TY8 ((C|C )[0-9]{1,2})@IEPL 上海 - 日本 $1 #Premium #Asia
 中国-美国帕罗奥图 IEPL ((C|C )[0-9]{1,2})@IEPL 上海 - 帕罗奥图 $1 #Premium #North America
 中国-美国洛杉矶 IEPL ((C|C )[0-9]{1,2})@IEPL 上海 - 洛杉矶 $1 #Premium #North America
 中国-英国伦敦 IPLC ((C|C )[0-9]{1,2})@伦敦 $1 #Premium #Europe
