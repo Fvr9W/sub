@@ -49,5 +49,7 @@
  J@ κ
  K@ λ
  L@ μ
+ιEPL@IEPL
+αmerica@America
 沪港 IEPL(α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@IEPL 上海 - 香港 $1 #Premium #Asia
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
