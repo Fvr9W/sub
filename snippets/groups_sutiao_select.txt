@@ -19,8 +19,8 @@ GlobalMedia`select`[]Premium`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪
 GlobalGameDownload`select`[]Fallback 🇭🇰`[]DIRECT`[]Daily
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$`.*限制中.*
-AutoHK 🇭🇰`url-test`^(?!.*?(Daily|Premium|IEPL)).*香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
-Fallback 🇭🇰`fallback`^(?!.*?(Daily|Premium)).*香港.*$`[]Premium`http://cp.cloudflare.com/generate_204`300
+AutoHK 🇭🇰`url-test`^(?!.*?(IPLC|Daily|Premium|IEPL)).*香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+Fallback 🇭🇰`fallback`.*Limited.*$`^(?!.*?(Daily|Premium)).*香港.*$`[]Premium`http://cp.cloudflare.com/generate_204`300
 TW 🇨🇳`select`.*(桃园|彰化|嘉义|台北|台湾).*$
 AutoTW 🇨🇳`fallback`^(?!.*?(Daily|Premium)).*(桃园|彰化|嘉义|台北|台湾).*$`[]Premium`http://cp.cloudflare.com/generate_204`300
 KR 🇰🇷`select`.*(韩国|首尔).*$
