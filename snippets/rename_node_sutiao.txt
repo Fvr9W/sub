@@ -14,11 +14,11 @@
 中国-阿根廷 IPLC 布宜诺斯艾利斯 ((C|C )[0-9]{1,2})@布宜诺斯艾利斯 $1 #Premium #South America
 中国-韩国 IEPL（三）([A-Z]{1,2})@IEPL 韩国 $1 #Premium #Asia
 中国-香港 IEPL HK8 ((C|C )[0-9]{1,2})@IEPL 深圳 - 香港 $1 #Premium #Asia
-中国-香港 IPLC HK2 ((C|C )[0-9]{1,2})@深圳 - 香港 $1 #Game #Asia
+中国-香港 IPLC HK2 ((C|C )[0-9]{1,2})@IPLC 深圳 - 香港 $1 #Game #Asia
 新加坡太平洋电信 ((C|C )[0-9]{1,2})@新加坡 $1 #Daily #Asia
 日本 ソフトバンク ((C|C )[0-9]{1,2})@日本 $1 #SB #Daily #Asia
 沪港 IEPL专线 港区TVB/HBO/Netflix解锁 ((C|C )[0-9]{1,2})@IEPL 上海 - 香港 $1 #Premium #Asia
-游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP ((C|C )[0-9]{1,2})@深圳 - 香港 $1 #Game #Asia
+游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP ((C|C )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
 美国 圣塔克拉利塔 ((C|C )[0-9]{1,2})@圣塔克拉利塔 $1 #Daily #North America
 美国 萨克拉门托 ((C|C )[0-9]{1,2})@萨克拉门托 $1 #Daily #North America
 韩国 전라북도 전주시 商宽 ((C|C )[0-9]{1,2})@首尔 $1 #Daily #Asia
