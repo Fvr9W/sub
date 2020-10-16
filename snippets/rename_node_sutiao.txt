@@ -1,3 +1,5 @@
+( 港区HBO| Bilibili| 爱奇艺| Spotify解锁| Netflix| TVB)@
+负载均衡爱好者 / 频繁批量http延迟测试爱好者 / 全节点故障转移爱好者 (([A-Z]|[A-Z] )[0-9]{1,2}) 0.3倍@限制中 $1 0.3x #Premium
 ( Netflix| 动画疯| （C）Netflix| 1000Mbps| 500Mbps| 100Mbps| 1倍| Netflix| Hulu| HBO| 沪美传输| 1Gbps| HBO| BBC| TVB| Equinix|专线 港区TVB/HBO/Netflix解锁 |（三）|\t| 多协议标签交换虚拟专用网)@
 IPV6 俄罗斯 (([A-Z]|[A-Z] )[0-9]{1,2})@俄罗斯 $1 #IPV6 #Premium #Europe
 IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
@@ -90,4 +92,3 @@ IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
 #IPζ@#IPV6
 沪港 IEPL(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω)@IEPL 上海 - 香港 $1 #Premium #Asia
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
-负载均衡爱好者 / 频繁批量http延迟测试爱好者 / 全节点故障转移爱好者 ((α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω)[0-9]{0,2}) 0.3x 港区HBO βilibili 爱奇艺 Spotify解锁@限制中 $1 0.3x #Premium
