@@ -1,4 +1,4 @@
-( 港区HBO| Bilibili| 爱奇艺| Spotify解锁| Netflix| TVB)@
+( 港区HBO| Bilibili| 爱奇艺| Spotify解锁| Netflix| TVB| HiNet固接)@
 负载均衡爱好者 / 频繁批量http延迟测试爱好者 / 全节点故障转移爱好者 (([A-Z]|[A-Z] )[0-9]{1,2}) 0.3倍@限制中 $1 0.3x #Premium
 ( Netflix| 动画疯| （C）Netflix| 1000Mbps| 500Mbps| 100Mbps| 1倍| Netflix| Hulu| HBO| 沪美传输| 1Gbps| HBO| BBC| TVB| Equinix|专线 港区TVB/HBO/Netflix解锁 |（三）|\t| 多协议标签交换虚拟专用网)@
 IPV6 俄罗斯 (([A-Z]|[A-Z] )[0-9]{1,2})@俄罗斯 $1 #IPV6 #Premium #Europe
@@ -9,23 +9,27 @@ IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
 中国-印度 马哈拉施特拉 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 马哈拉施特拉 $1 #Game #Asia
 中国-印度 班加罗尔 एयरटेल IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 班加罗尔 $1 #Premium #Asia
 中国-台湾 VPDN 嘉义游戏专线 (([A-Z]|[A-Z] )[0-9]{1,2})@VPDN 嘉义 $1 #Game #Asia
-中国-台湾IEPL Hinet固接 (( |)([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 彰化 $1 #Premium #Asia
-中国-台湾彰化 IEPL HiNet固接 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 彰化 $1 #Premium #Asia
+中国-台湾IEPL (( |)([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 彰化 $1 #Premium #Asia
+中国-台湾彰化 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 彰化 $1 #Premium #Asia
 中国-台湾宜兰 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 宜兰 $1 #Game #Asia
 中国-台湾桃园 IPLC 台湾固网 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 桃园 $1 #Game #Asia
 中国-新加坡 IEPL ([A-Z])@IEPL 新加坡 $1 #Premium #Asia
 中国-日本 ([A-Z])@日本 $1 #Daily #Asia
 中国-日本 沪日IEPL传输-TY8 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 日本 $1 #Premium #Asia
+中国-日本 沪日IPLC传输-TY8 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 上海 - 日本 $1 #Game #Asia
 中国-美国帕罗奥图 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 帕罗奥图 $1 #Premium #North America
 中国-美国洛杉矶 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 洛杉矶 $1 #Premium #North America
 中国-英国伦敦 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 伦敦 $1 #Game #Europe
 中国-英国伦敦电信 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 伦敦 $1 #Premium #Europe
 中国-阿根廷 IPLC 布宜诺斯艾利斯 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 布宜诺斯艾利斯 $1 #Game #South America
 中国-韩国 IEPL([A-Z])@IEPL 韩国 $1 #Premium #Asia
+中国-韩国 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 韩国 $1 #Premium #Asia
 中国-韩国 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 韩国 $1 #Game #Asia
 中国-香港 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 香港 $1 #Premium #Asia
 中国-香港 IEPL HK[0-9]{1,2} (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 深圳 - 香港 $1 #Premium #Asia
 中国-香港 IPLC HK[0-9]{1,2} (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 深圳 - 香港 $1 #Game #Asia
+中港专线 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 深圳 - 香港 $1 #Game #Asia
+澳门 Elastic Network Adapter 10 Gbps Anycast任播 (([A-Z]|[A-Z] )[0-9]{1,2})@Anycast 澳门 #Premium #Asia
 新加坡太平洋电信 (([A-Z]|[A-Z] )[0-9]{1,2})@新加坡 $1 #Daily #Asia
 日本 ソフトバンク (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #SB #Daily #Asia
 日本 まつやまし auひかり ホーム1ギガ (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #Au #Daily #Asia
@@ -39,6 +43,7 @@ IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
 香港 油尖旺御金·国峯 名氣通電訊 (([A-Z]|[A-Z] )[0-9]{1,2})@香港 $1 #TGT #Daily #Asia
 香港 油尖旺御金·国峯 環球全域電訊 (([A-Z]|[A-Z] )[0-9]{1,2})@香港 $1 #HGC #Daily #Asia
 香港 油尖旺御金·国峯 網上行寬頻 (([A-Z]|[A-Z] )[0-9]{1,2})@香港 $1 #NV #Daily #Asia
+香港 油尖旺御金·国峯 香港寬頻 (([A-Z]|[A-Z] )[0-9]{1,2})@香港 $1 #HKBN #Daily #Asia
 (α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(01|1) @α 
 (α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(02|2) @β 
 (α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(03|3) @γ 
