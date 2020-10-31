@@ -286,8 +286,7 @@ final, Final
 [rewrite_local]
 
 [mitm]
-hostname = www.zhihu.com
-hostname = api.m.jd.com
+hostname = www.zhihu.com,api.m.jd.com
 {% if exists("request.who") %}
 {% if request.who == "self" %}
 passphrase = FA1A9849
