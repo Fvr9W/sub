@@ -36,6 +36,7 @@ IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
 沪港 IEPL(( [A-Z]|[A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 香港 $1 #Premium #Asia
 游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
 游戏加速专用-限速[0-9]{1,2}Mbps (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
+游戏加速专用-限速50Mbps 阿里CEN BGP C08
 美国 圣塔克拉利塔 (([A-Z]|[A-Z] )[0-9]{1,2})@圣塔克拉利塔 $1 #Daily #North America
 美国 萨克拉门托 (([A-Z]|[A-Z] )[0-9]{1,2}) 沪美IEPL传输@IEPL 上海 - 萨克拉门托 $1 #Premium #North America
 美国 萨克拉门托 (([A-Z]|[A-Z] )[0-9]{1,2}) 沪美IPLC传输@IPLC 上海 - 萨克拉门托 $1 #Game #North America
@@ -98,3 +99,4 @@ IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
 #IPζ@#IPV6
 沪港 IEPL(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω)@IEPL 上海 - 香港 $1 #Premium #Asia
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
+#IPζ@#IPV6
