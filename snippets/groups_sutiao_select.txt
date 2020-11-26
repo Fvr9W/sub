@@ -8,10 +8,10 @@ GranTurismo`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯�
 R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵
 Sea of Thieves(XboxLive)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵
 Steam Community`select`[]Premium`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]DIRECT`[]REJECT
-Onetap`select`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲`[]Premium
-Skeet`select`[]AutoCA 🇨🇦`[]AutoHK 🇭🇰`[]Premium
+Onetap`select`[]Premium`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲
+Skeet`select`[]Premium`[]AutoCA 🇨🇦`[]AutoHK 🇭🇰
 TeamViewer`select`[]Premium`[]DIRECT
-Other Games`select`[]AutoHK 🇭🇰`[]Game`[]DIRECT
+Other Games`select`[]AutoHK 🇭🇰`[]Game`[]Premium`[]DIRECT
 B1gProxy`select`[]Premium`[]Game`[]Daily`[]DIRECT
 Telegram`select`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]DIRECT
 Netflix`select`[]AutoSGP 🇸🇬`[]AutoTW 🇨🇳`[]AutoNA 🇺🇲`[]SGP 🇸🇬`[]TW 🇨🇳`[]NA 🇺🇲`[]DIRECT
@@ -21,13 +21,13 @@ Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$`.*限制中.*
 AutoHK 🇭🇰`fallback`^(?!.*?(IPLC|Daily|Premium|IEPL)).*香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
 TW 🇨🇳`select`.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
-AutoTW 🇨🇳`fallback`^(?!.*?(Premium|Daily)).*(宜兰|桃园|彰化|嘉义|台北|台湾).*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
+AutoTW 🇨🇳`fallback`^(?!.*?(Daily|Premium)).*(宜兰|桃园|彰化|嘉义|台北|台湾).*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 KR 🇰🇷`select`.*(韩国|首尔).*$
 AutoKR 🇰🇷`fallback`^(?!.*?(Daily|Premium)).*(韩国|首尔).*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 JP 🇯🇵`select`.*(日本|东京|大阪).*$
-AutoJP 🇯🇵`fallback`^(?!.*?Daily).*(东京|大阪|日本).*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
+AutoJP 🇯🇵`fallback`^(?!.*?(Daily|Premium)).*(东京|大阪|日本).*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 SGP 🇸🇬`select`.*新加坡.*$
-AutoSGP 🇸🇬`fallback`^(?!.*?Daily).*新加坡.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
+AutoSGP 🇸🇬`fallback`^(?!.*?(Daily|Premium)).*新加坡.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 SEA 🌏`select`.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉).*$`select`.*新加坡.*$
 AutoSEA 🌏`fallback`.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉).*$`[]AutoSGP 🇸🇬`http://cp.cloudflare.com/generate_204`300
 AU 🇦🇺`select`.*(悉尼|澳大利亚).*$`[]SGP 🇸🇬
