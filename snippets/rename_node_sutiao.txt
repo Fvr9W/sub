@@ -1,4 +1,4 @@
-( 港区HBO| Bilibili| 爱奇艺| Spotify解锁| Netflix| TVB| HiNet固接|(-| )阿里CEN BGP)@
+( 港区HBO| Bilibili| 爱奇艺| Spotify解锁| Netflix| TVB| HiNet固接|(-| )阿里CEN BGP| 3Gbps| BGP| AI-Magic-transit)@
 负载均衡爱好者 / 频繁批量http延迟测试爱好者 / 全节点故障转移爱好者 (([A-Z]|[A-Z] )[0-9]{1,2}) 0.3倍@限制中 $1 0.3x #Premium
 ( Netflix| 动画疯| （C）Netflix| 1000Mbps| 500Mbps| 100Mbps| 1倍| Netflix| Hulu| HBO| 沪美传输| 1Gbps| HBO| BBC| TVB| Equinix|专线 港区TVB/HBO/Netflix解锁 |（三）|\t| 多协议标签交换虚拟专用网)@
 IPV6 俄罗斯 (([A-Z]|[A-Z] )[0-9]{1,2})@俄罗斯 $1 #IPV6 #Premium #Europe
@@ -17,6 +17,7 @@ IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
 中国-日本 ([A-Z])@日本 $1 #Daily #Asia
 中国-日本 沪日IEPL传输-TY8 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 日本 $1 #Premium #Asia
 中国-日本 沪日IPLC传输-TY8 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 上海 - 日本 $1 #Game #Asia
+游戏加速 限速 10Mbps Palo Alto® Networks 中国昆山-日本东京 Prisma Access (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 上海 - 东京 $1 #Game #North America
 中国-美国帕罗奥图 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 帕罗奥图 $1 #Premium #North America
 中国-美国洛杉矶 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 洛杉矶 $1 #Premium #North America
 中国-英国伦敦 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 伦敦 $1 #Game #Europe
@@ -24,7 +25,8 @@ IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
 中国-阿根廷 IPLC 布宜诺斯艾利斯 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 布宜诺斯艾利斯 $1 #Game #South America
 中国-韩国 IEPL([A-Z])@IEPL 韩国 $1 #Premium #Asia
 中国-韩国 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 韩国 $1 #Premium #Asia
-中国-韩国 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 韩国 $1 #Game #Asia
+中国-韩国 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 韩国 $1 #Premium #Asia
+游戏 中国-韩国 IEPL [0-9]{1,2}@IPLC 韩国 $1 #Game #Asia
 中国-香港 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 香港 $1 #Premium #Asia
 中国-香港 IEPL HK[0-9]{1,2} (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 深圳 - 香港 $1 #Premium #Asia
 中国-香港 IPLC HK[0-9]{1,2} (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 深圳 - 香港 $1 #Game #Asia
@@ -36,10 +38,11 @@ IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
 沪港 IEPL(( [A-Z]|[A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 香港 $1 #Premium #Asia
 游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
 游戏加速专用-限速[0-9]{1,2}Mbps (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
-游戏加速专用-限速50Mbps 阿里CEN BGP C08
 美国 圣塔克拉利塔 (([A-Z]|[A-Z] )[0-9]{1,2})@圣塔克拉利塔 $1 #Daily #North America
 美国 萨克拉门托 (([A-Z]|[A-Z] )[0-9]{1,2}) 沪美IEPL传输@IEPL 上海 - 萨克拉门托 $1 #Premium #North America
-美国 萨克拉门托 (([A-Z]|[A-Z] )[0-9]{1,2}) 沪美IPLC传输@IPLC 上海 - 萨克拉门托 $1 #Game #North America
+美国 萨克拉门托 (([A-Z]|[A-Z] )[0-9]{1,2}) 沪美IPLC传输@IPLC 上海 - 萨克拉门托 $1 #Premium #North America
+游戏加速 AIA 限速 美国地区 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 上海 - 美国 $1 #Game #North America
+游戏加速 AIA 限速 5Mbps LOL手游加速 新加坡地区 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 新加坡 $1 #Game #North America
 韩国 전라북도 전주시 商宽 (([A-Z]|[A-Z] )[0-9]{1,2})@首尔 $1 #Daily #Asia
 韩国 京畿道板桥 原生游戏解锁 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 首尔 $1 #Game #Asia
 香港 油尖旺御金·国峯 名氣通電訊 (([A-Z]|[A-Z] )[0-9]{1,2})@香港 $1 #TGT #Daily #Asia
