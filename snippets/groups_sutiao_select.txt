@@ -13,8 +13,8 @@ Skeet`select`[]Premium`[]AutoCA 🇨🇦`[]AutoHK 🇭🇰
 TeamViewer`select`[]Premium`[]DIRECT
 Other Games`select`[]AutoHK 🇭🇰`[]Game`[]Premium`[]DIRECT
 B1gProxy`select`[]Premium`[]Game`[]Daily`[]DIRECT
-Telegram`select`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]DIRECT
-Netflix`select`[]AutoSGP 🇸🇬`[]AutoTW 🇨🇳`[]AutoNA 🇺🇲`[]SGP 🇸🇬`[]TW 🇨🇳`[]NA 🇺🇲`[]DIRECT
+Telegram`select`[]Premium`[]SGP 🇸🇬`[]DIRECT
+Netflix`select`[]Premium`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalMedia`select`[]Premium`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalGameDownload`select`[]DIRECT`[]Daily
 Hijacking`select`[]REJECT`[]DIRECT
