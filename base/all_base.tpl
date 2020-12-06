@@ -90,11 +90,15 @@ dns_exclusion_list = *.cmpassport.com,  *.jegotrip.com.cn, *.icitymobile.mobi, i
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
 # 指定在某个 Wi-Fi 下暂停 Quantumult X
 {% if exists("request.who") %}
-{% if request.who == "self" %}
-running_mode_trigger=filter, filter, Cccccc:all_direct, zxcvawer:all_direct
-{% else %}
-;ssid_suspended_list=LINK_22E174, LINK_22E175
-{% endif %}
+  {% if request.who == "self" %}
+    running_mode_trigger=filter, filter, Cccccc:all_direct, zxcvawer:all_direct
+  {% else %}
+    {% if request.who == "lulu" %}
+      running_mode_trigger=filter, filter, Society-5G:all_direct, Society:all_direct
+    {% else %}
+      ;ssid_suspended_list=LINK_22E174, LINK_22E175
+    {% endif %}
+  {% endif %}
 {% endif %}
 
 [dns]
