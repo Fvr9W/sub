@@ -39,7 +39,7 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 新加坡 Singtel (([A-Z]|[A-Z] )[0-9]{1,2})@新加坡 $1 #ST #Daily #Asia
 中国-新加坡 IEPL ([A-Z])@IEPL 新加坡 $1 #Premium #Asia
 新加坡太平洋电信 (([A-Z]|[A-Z] )[0-9]{1,2})@新加坡 $1 #Daily #Asia
-游戏加速 AIA 限速 5Mbps LOL手游加速 新加坡地区 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 新加坡 $1 #Game #Asia
+游戏加速 AIA 限速 LOL手游加速 新加坡地区 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited AIA 新加坡 $1 #Game #Asia
 
 游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
 游戏加速专用-限速[0-9]{1,2}Mbps (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
@@ -126,3 +126,4 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 沪港 IEPL(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω)@IEPL 上海 - 香港 $1 #Premium #Asia
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 #IPζ @#IPV6 
+αIA @AIA
