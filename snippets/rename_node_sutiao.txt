@@ -1,6 +1,10 @@
-( 港区HBO| Bilibili| 爱奇艺| Spotify解锁| Netflix| TVB| HiNet固接|(-| )阿里CEN BGP| 3Gbps| BGP| AI-Magic-transit)@
+ 爱奇艺/QQ音乐/网易云VIP/腾讯视频@
+( 港区HBO| Bilibili| 爱奇艺| Spotify解锁| Netflix| TVB| HiNet固接| Hinet固接|(-| )阿里CEN BGP| 3Gbps| BGP| AI-Magic-transit)@
 负载均衡爱好者 / 频繁批量http延迟测试爱好者 / 全节点故障转移爱好者 (([A-Z]|[A-Z] )[0-9]{1,2}) 0.3倍@限制中 $1 0.3x #Premium
 ( 动画疯| （C）Netflix| 10Gbps| 1000Mbps| 500Mbps| 100Mbps| 5Mbps| 1倍| Hulu| HBO| 沪美传输| 1Gbps| HBO| BBC| TVB| Equinix|专线 港区TVB/HBO/Netflix解锁 |（三）|\t| 多协议标签交换虚拟专用网)@
+
+回国线路 无法翻墙 (([A-Z]|[A-Z] )[0-9]{1,2})@国内加速 $1 #Premium #China
+
 IPV6 俄罗斯 (([A-Z]|[A-Z] )[0-9]{1,2})@俄罗斯 $1 #IPV6 #Premium #Europe
 IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
 IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
@@ -42,7 +46,7 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 游戏加速 AIA 限速 LOL手游加速 新加坡地区 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited AIA 新加坡 $1 #Game #Asia
 新加坡 Legacy Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Legacy Magic 新加坡 $1 #Premium #Asia
 新加坡 Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Magic 新加坡 $1 #Premium #Asia
-新加坡高级 IEPL 中继 D01@IEPL 新加坡 $1 #Premium #Asia
+新加坡高级 IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 新加坡 $1 #Premium #Asia
 
 
 游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
@@ -71,8 +75,8 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 美国实验性 Anycast IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Magic IEPL - 美国 $1 #Beta #Premium #North America
 美国实验性 IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 美国 $1 #Beta #Premium #North America
 美国广域网加速虚拟引擎 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL cisco - 美国 $1 #Premium #North America
-美国标准 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 美国 $1 #Premium #North America
-美国高级 Magic Anycast (([A-Z]|[A-Z] )[0-9]{1,2})@Magic Anycast - 美国 $1 #Premium #North America
+美国标准 IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 美国 $1 #Premium #North America
+美国高级 Magic Anycast 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Magic Anycast - 美国 $1 #Premium #North America
 
 中国-澳大利亚 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 深圳 - 悉尼 #Premium #Asia
 中国-英国伦敦 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 伦敦 $1 #Game #Europe
