@@ -40,6 +40,10 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 中国-新加坡 IEPL ([A-Z])@IEPL 新加坡 $1 #Premium #Asia
 新加坡太平洋电信 (([A-Z]|[A-Z] )[0-9]{1,2})@新加坡 $1 #Daily #Asia
 游戏加速 AIA 限速 LOL手游加速 新加坡地区 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited AIA 新加坡 $1 #Game #Asia
+新加坡 Legacy Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Legacy Magic 新加坡 $1 #Premium #Asia
+新加坡 Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Magic 新加坡 $1 #Premium #Asia
+新加坡高级 IEPL 中继 D01@IEPL 新加坡 $1 #Premium #Asia
+
 
 游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
 游戏加速专用-限速[0-9]{1,2}Mbps (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
@@ -62,6 +66,13 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 美国 萨克拉门托 (([A-Z]|[A-Z] )[0-9]{1,2}) 沪美IEPL传输@IEPL 上海 - 萨克拉门托 $1 #Premium #North America
 美国 萨克拉门托 (([A-Z]|[A-Z] )[0-9]{1,2}) 沪美IPLC传输@IPLC 上海 - 萨克拉门托 $1 #Premium #North America
 游戏加速 AIA 限速 美国地区 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 上海 - 美国 $1 #Game #North America
+美国 Magic Anycast 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Magic Anycast - 美国 $1 #Premium #North America
+美国 Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Magic IEPL - 美国 $1 #Premium #North America
+美国实验性 Anycast IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Magic IEPL - 美国 $1 #Beta #Premium #North America
+美国实验性 IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 美国 $1 #Beta #Premium #North America
+美国广域网加速虚拟引擎 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL cisco - 美国 $1 #Premium #North America
+美国标准 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 美国 $1 #Premium #North America
+美国高级 Magic Anycast (([A-Z]|[A-Z] )[0-9]{1,2})@Magic Anycast - 美国 $1 #Premium #North America
 
 中国-澳大利亚 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 深圳 - 悉尼 #Premium #Asia
 中国-英国伦敦 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 伦敦 $1 #Game #Europe
