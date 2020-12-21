@@ -12,7 +12,7 @@ Onetap`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲
 Skeet`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoCA 🇨🇦
 TeamViewer`select`[]B1gProxy`[]DIRECT
 Other Games`select`[]AutoHK 🇭🇰`[]Game`[]Premium`[]DIRECT
-B1gProxy`select`[]B1gProxy`[]Game`[]Daily`[]DIRECT
+B1gProxy`select`[]Premium`[]Game`[]Daily`[]DIRECT
 Telegram`select`[]B1gProxy`[]SGP 🇸🇬`[]DIRECT
 Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalMedia`select`[]B1gProxy`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
