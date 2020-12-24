@@ -1,13 +1,53 @@
-!!GROUPID=0!!专线Light@LITE
-!!GROUPID=0!!专线@IPLC
-!!GROUPID=0!!中继Pro@BGPRO
-!!GROUPID=0!!中继@BGP
-!!GROUPID=0!! → @ - 
-!!GROUPID=0!!联通@
-!!GROUPID=0!!双线@
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 TCP:@TCP
 WS:@WS
+!!GROUPID=0!!专线 德国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[北京BGP]@IPLC 北京 - 德国 $1 #Premium #Europe #N3RO
+!!GROUPID=0!!专线 日本 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海BGP]@IPLC 上海 - 日本 $1 #Premium #Asia #N3RO
+!!GROUPID=0!!专线 韩国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海BGP]@IPLC 上海 - 韩国 $1 #Premium #Asia #N3RO
+!!GROUPID=0!!中继 冷门-俄罗斯 \[江苏三鲜]@BGP 江苏 - 俄罗斯 #Daily #Europe #N3RO
+!!GROUPID=0!!中继 冷门-印度 \[江苏三鲜]@BGP 江苏 - 印度 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 冷门-德国 \[江苏三鲜]@BGP 江苏 - 德国 #Daily #Europe #N3RO
+!!GROUPID=0!!中继 冷门-澳大利亚 \[江苏三鲜]@BGP 江苏 - 澳大利亚 #Oceania #Asia #N3RO
+!!GROUPID=0!!中继 冷门-英国 \[江苏三鲜]@BGP 江苏 - 英国 #Daily #Europe #N3RO
+!!GROUPID=0!!中继 台湾 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CT]@BGP 上海 - 台湾 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广东CM]@BGP 广东 - 新加坡 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CT]@BGP 上海 - 新加坡 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CU]@BGP 上海 - 新加坡 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 日本 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广东CM]@BGP 广东 - 日本 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 日本 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CT]@BGP 上海 - 日本 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 日本 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CU]@BGP 上海 - 日本 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 美国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广东CM]@BGP 广东 - 美国 $1 #Daily #North America #N3RO
+!!GROUPID=0!!中继 美国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CU]@BGP 上海 - 美国 $1 #Daily #North America #N3RO
+!!GROUPID=0!!中继 美国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CT]@BGP 上海 - 美国 $1 #Daily #North America #N3RO
+!!GROUPID=0!!中继 韩国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广东CM]@BGP 广东 - 韩国 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 韩国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CU]@BGP 上海 - 韩国 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 韩国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CT]@BGP 上海 - 韩国 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广东CM]@BGP 广东 - 香港 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CT]@BGP 上海 - 香港 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CU]@BGP 上海 - 香港 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继Pro 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海Azure]@BGP 上海 - 新加坡 $1 #DailyPro #Asia #N3RO
+!!GROUPID=0!!中继Pro 日本 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海Azure]@BGP 上海 - 日本 $1 #DailyPro #Asia #N3RO
+!!GROUPID=0!!中继Pro 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海Azure]@BGP 上海 - 香港 $1 #DailyPro #Asia #N3RO
+!!GROUPID=0!!专线 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[深圳BGP]@IPLC 深圳 - 新加坡 $1 #Premium #Asia #N3RO
+!!GROUPID=0!!专线 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海BGP]@IPLC 上海 - 新加坡 $1 #Premium #Asia #N3RO
+!!GROUPID=0!!专线 美国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[深圳BGP]@IPLC 深圳 - 美国 $1 #Premium #North America #N3RO
+!!GROUPID=0!!专线 美国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海BGP]@IPLC 上海 - 美国 $1 #Premium #North America #N3RO
+!!GROUPID=0!!专线 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[深圳BGP]@IPLC 深圳 - 香港 $1 #Premium #Asia #N3RO
+!!GROUPID=0!!专线 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海BGP]@IPLC 上海 - 香港 $1 #Premium #Asia #N3RO
+!!GROUPID=0!!专线 马来西亚 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[深圳BGP]@IPLC 深圳 - 马来西亚 $1 #Premium #Asia #N3RO
+!!GROUPID=0!!专线 马来西亚 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海BGP]@IPLC 上海 - 马来西亚 $1 #Premium #Asia #N3RO
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(01|1) @α 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(02|2) @β 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(03|3) @γ 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(04|4) @δ 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(05|5) @ϵ 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(06|6) @ζ 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(07|7) @η 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(08|8) @θ 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(09|9) @ι 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )10 @κ 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )11 @λ 
+!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )12 @μ 
 ( |-)(01|A)@ α
 ( |-)(02|B)@ β
 ( |-)(03|C)@ γ
@@ -19,19 +59,17 @@ WS:@WS
 ( |-)(09|I)@ ι
 ( |-)(10|J)@ κ
 ( |-)(11|K)@ λ
-( |-)(12|L)@ μ
-!!GROUPID=0!!HKT (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@ $1 #HKT
-!!GROUPID=0!!([A-Z]+) ([\u4e00-\u9fa5]+ - [\u4e00-\u9fa5]+)@$2 $1
-!!GROUPID=0!!([A-Z]+ )(α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ)@$2 $1
-!!GROUPID=0!!IPLC @#Premium
-!!GROUPID=0!!LITE @#Lite
-!!GROUPID=0!!BGPRO @#DailyPro
-!!GROUPID=0!!BGP @#Daily
-!!GROUPID=0!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (新加坡|香港|日本|韩国|台湾|印度) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Lite|DailyPro|Daily))@$1 #Asia #N3RO
-!!GROUPID=0!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (加拿大|美国|墨西哥) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Lite|DailyPro|Daily))@$1 #North America #N3RO
-!!GROUPID=0!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (英国|德国|法国|俄罗斯) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Lite|DailyPro|Daily))@$1 #Europe #N3RO
-!!GROUPID=0!!([\u4e00-\u9fa5][\u4e00-\u9fa5] - (澳大利亚|悉尼|墨尔本) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ) #(Premium|Lite|DailyPro|Daily))@$1 #Oceania #N3RO
+( |-)((12|L)@ μ
 !!GROUPID=0!!#Daily @0.2x #Daily 
 !!GROUPID=0!!#DailyPro @0.45x #DailyPro 
 !!GROUPID=0!!#Lite @0.6x #PremiumLite 
+!!GROUPID=3!!(美国 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #North America #V2Tun
+!!GROUPID=3!!((印度|狮城|日本|台湾|香港) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #Asia #V2Tun
+!!GROUPID=3!!#Daily @0.2x #Daily 
+North αmerica@North America
 ιEPL@IEPL
+αsia@Asia
+αIA@AIA
+ ηame@
+βηP@BGP
+ιPγ@IPLC
