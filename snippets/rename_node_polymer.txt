@@ -5,11 +5,11 @@ WS:@WS
 !!GROUPID=0!!专线 德国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[北京BGP]@IPLC 北京 - 德国 #Premium #Europe #N3RO
 !!GROUPID=0!!专线 日本 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海BGP]@IPLC 上海 - 日本 #Premium #Asia #N3RO
 !!GROUPID=0!!专线 韩国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海BGP]@IPLC 上海 - 韩国 #Premium #Asia #N3RO
-!!GROUPID=0!!中继 冷门-俄罗斯 [江苏三鲜]@BGP 江苏 - 俄罗斯 #Daily #Europe #N3RO
-!!GROUPID=0!!中继 冷门-印度 [江苏三鲜]@BGP 江苏 - 印度 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 冷门-德国 [江苏三鲜]@BGP 江苏 - 德国 #Daily #Europe #N3RO
-!!GROUPID=0!!中继 冷门-澳大利亚 [江苏三鲜]@BGP 江苏 - 澳大利亚 #Oceania #Asia #N3RO
-!!GROUPID=0!!中继 冷门-英国 [江苏三鲜]@BGP 江苏 - 英国 #Daily #Europe #N3RO
+!!GROUPID=0!!中继 冷门-俄罗斯 \[江苏三鲜]@BGP 江苏 - 俄罗斯 #Daily #Europe #N3RO
+!!GROUPID=0!!中继 冷门-印度 \[江苏三鲜]@BGP 江苏 - 印度 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 冷门-德国 \[江苏三鲜]@BGP 江苏 - 德国 #Daily #Europe #N3RO
+!!GROUPID=0!!中继 冷门-澳大利亚 \[江苏三鲜]@BGP 江苏 - 澳大利亚 #Oceania #Asia #N3RO
+!!GROUPID=0!!中继 冷门-英国 \[江苏三鲜]@BGP 江苏 - 英国 #Daily #Europe #N3RO
 !!GROUPID=0!!中继 台湾 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CT]@BGP 上海 - 台湾 #Daily #Asia #N3RO
 !!GROUPID=0!!中继 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广东CM]@BGP 广东 - 新加坡 #Daily #Asia #N3RO
 !!GROUPID=0!!中继 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海CT]@BGP 上海 - 新加坡 #Daily #Asia #N3RO
@@ -37,21 +37,23 @@ WS:@WS
 !!GROUPID=0!!专线 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海BGP]@IPLC 上海 - 香港 #Premium #Asia #N3RO
 !!GROUPID=0!!专线 马来西亚 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[深圳BGP]@@IPLC 深圳 - 马来西亚 #Premium #Asia #N3RO
 !!GROUPID=0!!专线 马来西亚 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海BGP]@IPLC 上海 - 马来西亚 #Premium #Asia #N3RO
+([A-Z] |[A-Z]| |-|)(01|A|1)@α
+([A-Z] |[A-Z]| |-|)(02|B|2)@β
+([A-Z] |[A-Z]| |-|)(03|C|3)@γ
+([A-Z] |[A-Z]| |-|)(04|D|4)@δ
+([A-Z] |[A-Z]| |-|)(05|E|5)@ϵ
+([A-Z] |[A-Z]| |-|)(06|F|6)@ζ
+([A-Z] |[A-Z]| |-|)(07|G|7)@η
+([A-Z] |[A-Z]| |-|)(08|H|8)@θ
+([A-Z] |[A-Z]| |-|)(09|I|9)@ι
+([A-Z] |[A-Z]| |-|)(10|J|@κ
+([A-Z] |[A-Z]| |-|)(11|K)@λ
+([A-Z] |[A-Z]| |-|)(12|L)@μ
 !!GROUPID=0!!#Daily @0.2x #Daily 
 !!GROUPID=0!!#DailyPro @0.45x #DailyPro 
 !!GROUPID=0!!#Lite @0.6x #PremiumLite 
-([A-Z] |[A-Z]| |-|)(01|1)@α
-([A-Z] |[A-Z]| |-|)(02|2)@β
-([A-Z] |[A-Z]| |-|)(03|3)@γ
-([A-Z] |[A-Z]| |-|)(04|4)@δ
-([A-Z] |[A-Z]| |-|)(05|5)@ϵ
-([A-Z] |[A-Z]| |-|)(06|6)@ζ
-([A-Z] |[A-Z]| |-|)(07|7)@η
-([A-Z] |[A-Z]| |-|)(08|8)@θ
-([A-Z] |[A-Z]| |-|)(09|9)@ι
-([A-Z] |[A-Z]| |-|)10@κ
-!!GROUPID=3!!(美国 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #North America #V2Tun
-!!GROUPID=3!!((印度|狮城|日本|台湾|香港) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #Asia #V2Tun
+!!GROUPID=3!!(美国(α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #North America #V2Tun
+!!GROUPID=3!!((印度|狮城|日本|台湾|香港)(α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #Asia #V2Tun
 !!GROUPID=3!!狮城@新加坡
 !!GROUPID=3!!#Daily @0.2x #Daily 
 North αmerica@North America
