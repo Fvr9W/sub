@@ -22,6 +22,7 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 中国-台湾桃园 IPLC 台湾固网 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 桃园 $1 #Premium #Asia
 中国-台湾 IEPL游戏专线 ([A-Z])@IEPL 台湾 $1 #Game #Asia
 中国-台湾 IPLC 台湾固网 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 台湾 $1 #Premium #Asia
+中国-台湾 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 台湾 $1 #Premium #Asia
 中国-台湾 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 台湾 $1 #Premium #Asia
 
 韩国 京畿道板桥 原生游戏解锁 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 首尔 $1 #Game #Asia
@@ -144,3 +145,4 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 #IPζ @#IPV6 
 αIA @AIA
+αnycast @Anycast
