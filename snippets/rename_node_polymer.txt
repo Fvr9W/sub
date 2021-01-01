@@ -11,7 +11,8 @@ WS:@WS
 !!GROUPID=0!!中继 冷门-德国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 江苏 - 德国 #Daily #Europe #N3RO
 !!GROUPID=0!!中继 冷门-澳大利亚 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 江苏 - 澳大利亚 #Oceania #Asia #N3RO
 !!GROUPID=0!!中继 冷门-英国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 江苏 - 英国 #Daily #Europe #N3RO
-!!GROUPID=0!!中继 台湾 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海联通]@BGP 上海 - 台湾 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 马来西亚 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 马来西亚 $1 #Daily #Asia #N3RO
+!!GROUPID=0!!中继 台湾 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 上海 - 台湾 $1 #Daily #Asia #N3RO
 !!GROUPID=0!!中继 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广东电信]@BGP 广东 - 新加坡 $1 #Daily #Asia #N3RO
 !!GROUPID=0!!中继 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海联通]@BGP 上海 - 新加坡 $1 #Daily #Asia #N3RO
 !!GROUPID=0!!中继 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海电信]@BGP 上海 - 新加坡 $1 #Daily #Asia #N3RO
