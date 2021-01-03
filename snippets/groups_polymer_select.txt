@@ -8,8 +8,8 @@ GTA V or RDR2(Rockstar)`select`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲`[]SelectHK �
 GranTurismo`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]SelectHK 🇭🇰`[]SelectJP 🇯🇵
 R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]SelectHK 🇭🇰`[]SelectJP 🇯🇵
 Sea of Thieves(XboxLive)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]SelectHK 🇭🇰`[]SelectJP 🇯🇵
-SteamChina`select`[]DIRECT`[]Premium`[]SelectEU 🇪🇺`[]SelectRU 🇷🇺`[]SelectSGP 🇸🇬`[]DIRECT`[]REJECT
-SteamGlobal`select`[]Premium`[]SelectEU 🇪🇺`[]SelectRU 🇷🇺`[]SelectSGP 🇸🇬`[]DIRECT`[]REJECT
+SteamChina`select`[]DIRECT`[]Premium`[]SelectEU 🇪🇺`[]SelectRU 🇷🇺`[]SelectSGP 🇸🇬`[]REJECT
+SteamGlobal`select`[]B1gProxy`[]SelectEU 🇪🇺`[]SelectRU 🇷🇺`[]SelectSGP 🇸🇬`[]DIRECT`[]REJECT
 Onetap`select`[]AutoHK 🇭🇰`[]SelectNA 🇺🇲
 Skeet`select`[]AutoHK 🇭🇰`[]AutoCA 🇨🇦`[]SelectNA 🇺🇲
 TeamViewer`select`[]FallbackLowRate 🇭🇰`[]Premium`[]DIRECT
