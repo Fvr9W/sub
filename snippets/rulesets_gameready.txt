@@ -1,7 +1,7 @@
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/UnbreakWindows.list
-Hijacking,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Advertising.list
+Hijacking,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 Hijacking,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Hijacking.list
-DIRECT,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Apple.list
+DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list
 GlobalGameDownload,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GlobalGameDownload.list
 Call of Duty,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/COD16.list
 League of Legends(garena),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/LOLTW.list
@@ -16,7 +16,7 @@ Skeet,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnCA.list
 TeamViewer,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeamViewer.list
 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Netflix.list
 GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-Telegram,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Telegram.list
+Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
 GlobalMedia,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Microsoft.list
 GlobalMedia,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/discord.list
 B1gProxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
