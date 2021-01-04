@@ -20,7 +20,7 @@ Netflix`select`[]FallbackLowRate 🇸🇬`[]AutoLowRate 🇸🇬`[]AutoLowRate �
 GlobalMedia`select`[]FallbackLowRate 🇭🇰`[]AutoLowRate 🇭🇰`[]AutoLowRate 🇺🇲`[]LowRateHK 🇭🇰`[]LowRateNA 🇺🇲`[]Premium
 GlobalGameDownload`select`[]FallbackLowRate 🇭🇰`[]DIRECT`[]Daily
 Hijacking`select`[]REJECT`[]DIRECT
-AutoHK 🇭🇰`fallback`^(?!.*?(Premium|Daily|TCP|WS)).*深圳 - 香港 2x.*$`全球优化 - 广州`^(?!.*?(Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`^(?!.*?(Premium|Daily|TCP|WS)).*深圳 - 香港.*$`^(?!.*?(Premium|Daily|TCP|WS)).*香港.*$`.*IEPL 华南 - 香港.*$`[]Premium`http://cp.cloudflare.com/generate_204`300
+AutoHK 🇭🇰`fallback`^(?!.*?(Premium|Daily|TCP|WS)).*深圳 - 香港 2x.*$`全球优化 - 广州`^(?!.*?(Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`^(?!.*?(Premium|Daily|TCP|WS)).*深圳 - 香港.*$`^(?!.*?(Premium|Daily|TCP|WS)).*香港.*$`.*IEPL 华南 - 香港.*$`[]B1gProxy`http://cp.cloudflare.com/generate_204`300
 SelectHK 🇭🇰`select`^(?!.*?(Daily|TCP|WS)).*(深圳|华南) - 香港.*$`^(?!.*?(Daily|TCP|WS)).*(上海|华东) - 香港.*$
 AutoTW 🇨🇳`fallback`^(?!.*?(Premium|Daily|TCP|WS)).*深圳 - 台北 2x.*$`全球优化 - 广州`^(?!.*?(Premium|Daily|TCP|WS)).*(台北|台湾).*$`^.*(台北|台湾).*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 SelectTW 🇨🇳`select`^(?!.*?(Premium|Daily|TCP|WS)).*(台北|台湾).*$`^.*(台北|台湾).*$`[]SelectHK 🇭🇰
