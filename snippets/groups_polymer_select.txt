@@ -8,12 +8,12 @@ GTA V or RDR2(Rockstar)`select`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲`[]SelectHK �
 GranTurismo`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]SelectHK 🇭🇰`[]SelectJP 🇯🇵
 R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]SelectHK 🇭🇰`[]SelectJP 🇯🇵
 Sea of Thieves(XboxLive)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]SelectHK 🇭🇰`[]SelectJP 🇯🇵
-SteamChina`select`[]DIRECT`[]Premium`[]SelectEU 🇪🇺`[]SelectRU 🇷🇺`[]SelectSGP 🇸🇬`[]REJECT
+SteamChina`select`[]DIRECT`[]B1gProxy`[]SelectEU 🇪🇺`[]SelectRU 🇷🇺`[]SelectSGP 🇸🇬`[]REJECT
 SteamGlobal`select`[]B1gProxy`[]SelectEU 🇪🇺`[]SelectRU 🇷🇺`[]SelectSGP 🇸🇬`[]DIRECT`[]REJECT
 Onetap`select`[]AutoHK 🇭🇰`[]SelectNA 🇺🇲
 Skeet`select`[]AutoHK 🇭🇰`[]AutoCA 🇨🇦`[]SelectNA 🇺🇲
-TeamViewer`select`[]FallbackLowRate 🇭🇰`[]Premium`[]DIRECT
-Other Games`select`[]N3RO`[]AutoHK 🇭🇰`[]Game`[]Daily`[]Premium`[]DIRECT
+TeamViewer`select`[]FallbackLowRate 🇭🇰`[]B1gProxy`[]DIRECT
+Other Games`select`[]N3RO`[]AutoHK 🇭🇰`[]Game`[]Daily`[]B1gProxy`[]DIRECT
 B1gProxy`select`[]N3RO`[]Premium`[]Daily`[]DIRECT
 Telegram`select`[]FallbackLowRate 🇸🇬`[]AutoLowRate 🇸🇬`[]LowRateSGP 🇸🇬`(新加坡 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*
 Netflix`select`[]FallbackLowRate 🇸🇬`[]AutoLowRate 🇸🇬`[]AutoLowRate 🇨🇳`[]AutoLowRate 🇺🇲`[]LowRateSGP 🇸🇬`[]LowRateTW 🇨🇳`[]LowRateNA 🇺🇲`(新加坡 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*
