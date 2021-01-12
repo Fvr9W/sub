@@ -25,3 +25,11 @@ DOMAIN-SUFFIX,ubistatic2-a.akamaihd.net
 # 存档
 DOMAIN-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com
 DOMAIN-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com
+# 漏网之鱼
+PROCESS-NAME,UbisoftConnect.exe
+PROCESS-NAME,UbisoftGameLauncher.exe
+PROCESS-NAME,UbisoftGameLauncher64.exe
+PROCESS-NAME,upc.exe
+PROCESS-NAME,UplayCrashReporter.exe
+PROCESS-NAME,UplayService.exe
+PROCESS-NAME,UplayWebCore.exe
