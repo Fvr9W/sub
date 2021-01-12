@@ -1,4 +1,5 @@
 # 内容：远程软件类
+# TeamViewer
 DOMAIN-SUFFIX,teamviewer.com
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,139.220.243.27/32,no-resolve
@@ -9,5 +10,8 @@ IP-CIDR6,2a0b:b580::/48,no-resolve
 IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
-PROCESS-NAME,parsecd.exe
 PROCESS-NAME,TeamViewer.exe
+# parsecd
+DOMAIN-SUFFIX,parsecgaming.com
+DOMAIN-SUFFIX,parsec.app
+PROCESS-NAME,parsecd.exe
