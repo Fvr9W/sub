@@ -1,3 +1,4 @@
 # Onetap
 DOMAIN-SUFFIX,onetap.su
 DOMAIN-SUFFIX,onetap.com
+PROCESS-NAME,onetap.exe
