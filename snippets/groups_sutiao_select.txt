@@ -20,7 +20,7 @@ GlobalMedia`select`[]B1gProxy`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU �
 GlobalGameDownload`select`[]DIRECT`[]Daily
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$`.*限制中.*
-AutoHK 🇭🇰`fallback`^(?!.*?(IPLC|Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`^(?!.*?(IPLC|Daily|Premium|IEPL)).*香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+AutoHK 🇭🇰`fallback`^(?!.*?(IPLC|Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`^(?!.*?(Daily|Premium)).*香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
 TW 🇨🇳`select`.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
 AutoTW 🇨🇳`fallback`^(?!.*?(Daily|Premium)).*(宜兰|桃园|彰化|嘉义|台北|台湾).*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 KR 🇰🇷`select`.*(韩国|首尔).*$
