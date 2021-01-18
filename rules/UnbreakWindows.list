@@ -54,3 +54,5 @@ DOMAIN-SUFFIX,clashcloud.net
 DOMAIN-SUFFIX,ntt-co-jp.club
 DOMAIN-SUFFIX,airport-gov-cn.com
 DOMAIN-SUFFIX,subcon.py6.pw
+# > 向日葵客户端
+PROCESS-NAME,SunloginClient.exe
