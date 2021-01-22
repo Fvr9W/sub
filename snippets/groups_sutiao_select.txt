@@ -1,4 +1,4 @@
-Premium`fallback`^(?!.*?(Game|Daily|TCP|WS)).*Legacy νagic 新加坡 (ε|ζ).*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+Premium`fallback`^(?!.*?(Game|Daily|TCP|WS)).*Legacy νagic 新加坡.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
 Game`select`Game
 Daily`select`^(?!.*?(Premium|Game|IEPL|Pro)).*香港.*$`.*Daily.*$
 Call of Duty`select`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]KR 🇰🇷`[]JP 🇯🇵
