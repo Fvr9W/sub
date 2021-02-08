@@ -9,14 +9,14 @@ R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK �
 Sea of Thieves(XboxLive)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵
 SteamChina`select`[]DIRECT`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]REJECT
 SteamGlobal`select`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]DIRECT`[]REJECT
-Onetap`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲
-Skeet`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoCA 🇨🇦
+Onetap`select`[]AutoNA 🇺🇲`[]B1gProxy`[]AutoHK 🇭🇰
+Skeet`select`[]AutoNA 🇺🇲`[]B1gProxy`[]AutoHK 🇭🇰
 TeamViewer`select`[]B1gProxy`[]DIRECT
 Other Games`select`[]AutoHK 🇭🇰`[]Game`[]Premium`[]DIRECT
 B1gProxy`select`[]Premium`[]Game`[]Daily`[]DIRECT
-Telegram`select`[]B1gProxy`[]SGP 🇸🇬`[]DIRECT
+Telegram`select`[]B1gProxy`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]DIRECT
 Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-GlobalMedia`select`[]B1gProxy`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
+GlobalMedia`select`[]B1gProxy`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalGameDownload`select`[]DIRECT`[]Daily
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$`.*限制中.*
