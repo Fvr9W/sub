@@ -2,3 +2,6 @@
 DOMAIN-SUFFIX,onetap.su
 DOMAIN-SUFFIX,onetap.com
 PROCESS-NAME,onetap.exe
+# neverlose
+DOMAIN-SUFFIX,neverlose.cc
+DOMAIN-SUFFIX,neverlose.com
