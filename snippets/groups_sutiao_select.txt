@@ -1,6 +1,6 @@
 Premium`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
 Game`select`Game
-Daily`select`^(?!.*?(Premium|Game|IEPL|Pro)).*香港.*$`.*Daily.*$
+Daily`select`^(?!.*?(Premium|Game|IEPL|Pro)).*香港.*$`.*Daily.*$`.*无限.*$
 Call of Duty`select`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]KR 🇰🇷`[]JP 🇯🇵
 League of Legends(garena)`select`[]AutoTW 🇨🇳`[]AutoSGP 🇸🇬`[]AutoHK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]HK 🇭🇰
 GTA V or RDR2(Rockstar)`select`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]NA 🇺🇲
