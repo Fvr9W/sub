@@ -56,3 +56,5 @@ DOMAIN-SUFFIX,airport-gov-cn.com
 DOMAIN-SUFFIX,subcon.py6.pw
 # > 向日葵客户端
 PROCESS-NAME,SunloginClient.exe
+# > 滴答清单
+DOMAIN-SUFFIX,dida365.com
