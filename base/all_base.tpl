@@ -117,6 +117,7 @@ server=/*.qq.com/119.28.28.28
 server=/*.tencent.com/119.28.28.28
 server=/*.weixin.com/119.28.28.28
 server=/*.bilibili.com/119.29.29.29
+server=/*.dida365.com/119.29.29.29
 server=/hdslb.com/119.29.29.29
 server=/*.163.com/119.29.29.29
 server=/*.126.com/119.29.29.29
