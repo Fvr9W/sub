@@ -210,13 +210,16 @@ static=FallbackLowRate 🇺🇲, img-url=https://raw.githubusercontent.com/Kools
 [filter_remote]
 
 [rewrite_remote]
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag = 去广告1, enabled = true
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf, tag = 去广告2, enabled = true
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikTok, enabled = true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Advertising/Advertising.conf, tag = 去广告1, enabled = true
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag = NobyDaJS, enabled = true
-https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Js.conf, tag = nzw9314, enabled = false
 https://subweb.oss-cn-hongkong.aliyuncs.com/Module/embyUnlocked.conf, tag = emby破解, enabled = false
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.qxrewrite, tag=开屏去广告, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.qxrewrite, tag=哔哩哔哩_去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.qxrewrite, tag=饿了么_获取Cookie, enabled = false
 https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = 获取Cookie, enabled = false
+
 [server_local]
 
 [task_local]
@@ -239,8 +242,8 @@ https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.c
 
 # 饿了么   (By @syzzzf)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
-3 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png,enabled=true
-3 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png,enabled=true
+10 00 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, enabled=true
+00 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js, tag=饿了么_领取会员任务, enabled=true
 
 # 中国联通
 #1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
@@ -287,6 +290,17 @@ ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
+# 知乎去广告
+# 将以下两条规则，必须置于filter_local中的最上方
+IP-CIDR,118.89.204.198/32,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+# 以下规则，位置越靠前越好
+HOST,118.89.204.198,REJECT
+HOST,mqtt.zhihu.com,reject
+HOST,sugar.zhihu.com,reject
+HOST,appcloud2.in.zhihu.com,REJECT
+USER-AGENT,AVOS*,REJECT
+# 分界线
 geoip, cn, direct
 final, Final
 
