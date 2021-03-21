@@ -213,8 +213,9 @@ static=FallbackLowRate 🇺🇲, img-url=https://raw.githubusercontent.com/Kools
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag = 去广告1, enabled = true
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf, tag = 去广告2, enabled = true
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikTok, enabled = true
-https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Js.conf, tag = nzw9314, enabled = true
-https://subweb.oss-cn-hongkong.aliyuncs.com/Module/embyUnlocked.conf, tag = emby破解, enabled = true
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag = NobyDaJS, enabled = true
+https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Js.conf, tag = nzw9314, enabled = false
+https://subweb.oss-cn-hongkong.aliyuncs.com/Module/embyUnlocked.conf, tag = emby破解, enabled = false
 https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = 获取Cookie, enabled = false
 [server_local]
 
