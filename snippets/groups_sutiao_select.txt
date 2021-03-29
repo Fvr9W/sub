@@ -17,7 +17,7 @@ B1gProxy`select`[]Premium`[]Game`[]Daily`[]DIRECT
 Telegram`select`[]B1gProxy`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]DIRECT
 Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalMedia`select`[]B1gProxy`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-GlobalGameDownload`select`[]DIRECT`[]Daily`.*无限.*$
+GlobalGameDownload`select`[]B1gProxy`[]DIRECT`[]Daily`.*无限.*$
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$`.*限制中.*
 AutoHK 🇭🇰`fallback`^(?!.*?(IPLC|Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`^(?!.*?(Daily|Premium)).*香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
