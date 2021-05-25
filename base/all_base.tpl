@@ -238,7 +238,7 @@ https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301_cookies.conf, tag 
 
 # 百度贴吧  (By @blackmatrix7)
 # 打开App,访问下右下角 `我的
-30 0 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js, tag=贴吧_每日签到, enabled=true, img-url=https://raw.githubusercontent.com/Orz-3/task/master/tieba.png,enabled=true
+30 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js, tag=贴吧_每日签到, enabled=true, img-url=https://raw.githubusercontent.com/Orz-3/task/master/tieba.png,enabled=true
 
 # 滴滴出行  (By @zZPiglet)
 # 进入"滴滴出行"，若弹出"首次写入滴滴出行 Token 成功"
