@@ -217,8 +217,6 @@ https://subweb.oss-cn-hongkong.aliyuncs.com/Module/embyUnlocked.conf, tag = emby
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.qxrewrite, tag=开屏去广告, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎助手_去广告及体验增强, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.qxrewrite, tag=哔哩哔哩_去广告, update-interval=86400, opt-parser=false, enabled=true
-https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301.boxjs.json, tag = boxjs, enabled = true
-https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301_gallery.json, tag = Task脚本, enabled = true
 https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301_cookies.conf, tag = cookie脚本, enabled = false
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.qxrewrite, tag=饿了么_获取Cookie, enabled = false
 https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = 获取Cookie, enabled = false
