@@ -1,43 +1,43 @@
-Premium`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+Premium`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ο|π).*$`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
 Game`select`Game
-Daily`select`^(?!.*?(Premium|Game|IEPL|Pro)).*香港.*$`.*Daily.*$
-Call of Duty`select`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]KR 🇰🇷`[]JP 🇯🇵
-League of Legends(garena)`select`[]AutoTW 🇨🇳`[]AutoSGP 🇸🇬`[]AutoHK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]HK 🇭🇰
-GTA V or RDR2(Rockstar)`select`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]NA 🇺🇲
-GranTurismo`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵
-R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵
-Sea of Thieves(XboxLive)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵
+Daily`select`.*
+Call of Duty`select`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]KR 🇰🇷`[]JP 🇯🇵`[]B1gProxy
+League of Legends(garena)`select`[]AutoTW 🇨🇳`[]AutoSGP 🇸🇬`[]AutoHK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]HK 🇭🇰`[]B1gProxy
+GTA V or RDR2(Rockstar)`select`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]NA 🇺🇲`[]B1gProxy
+GranTurismo`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]B1gProxy
+R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]B1gProxy
+Sea of Thieves(XboxLive)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]B1gProxy
 SteamChina`select`[]DIRECT`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]REJECT
-SteamGlobal`select`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]DIRECT`[]REJECT
-Onetap`select`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲`[]Premium
-Skeet`select`[]AutoCA 🇨🇦`[]AutoHK 🇭🇰`[]Premium
-TeamViewer`select`[]Premium`[]DIRECT
-Other Games`select`[]Premium`[]AutoHK 🇭🇰`[]Game`[]DIRECT
-B1gProxy`select`[]Premium`[]Game`[]Daily`[]DIRECT
-Telegram`select`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]DIRECT
-Netflix`select`[]AutoSGP 🇸🇬`[]AutoTW 🇨🇳`[]AutoNA 🇺🇲`[]SGP 🇸🇬`[]TW 🇨🇳`[]NA 🇺🇲`[]DIRECT
-GlobalMedia`select`[]Premium`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-GlobalGameDownload`select`[]DIRECT`[]Daily
+SteamGlobal`select`[]DIRECT`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]REJECT
+Onetap`select`[]AutoNA 🇺🇲`[]B1gProxy`[]NA 🇺🇲`[]AutoHK 🇭🇰
+Skeet`select`[]AutoNA 🇺🇲`[]B1gProxy`[]NA 🇺🇲`[]AutoHK 🇭🇰
+TeamViewer`select`[]B1gProxy`[]DIRECT
+Other Games`select`[]B1gProxy`[]Game`[]Daily`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+B1gProxy`select`[]Premium`[]Game`[]Daily`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Telegram`select`[]B1gProxy`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]DIRECT
+Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
+GlobalMedia`select`[]B1gProxy`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
+GlobalGameDownload`select`[]B1gProxy`[]Daily`[]DIRECT`.*无限.*$
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$`.*限制中.*
-AutoHK 🇭🇰`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+AutoHK 🇭🇰`fallback`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`^(?!.*?(Daily|Premium)).*香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
 TW 🇨🇳`select`.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
-AutoTW 🇨🇳`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+AutoTW 🇨🇳`fallback`^(?!.*?(Daily|α|δ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω)).*(宜兰|桃园|彰化|嘉义|台北|台湾).*$`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`http://cp.cloudflare.com/generate_204`300
 KR 🇰🇷`select`.*(韩国|首尔).*$
-AutoKR 🇰🇷`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+AutoKR 🇰🇷`fallback`^(?!.*?(Daily|α|δ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω)).*(韩国|首尔).*$`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`http://cp.cloudflare.com/generate_204`300
 JP 🇯🇵`select`.*(日本|东京|大阪).*$
-AutoJP 🇯🇵`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+AutoJP 🇯🇵`fallback`^(?!.*?(Daily|α|δ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω)).*(东京|大阪|日本).*$`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`http://cp.cloudflare.com/generate_204`300
 SGP 🇸🇬`select`.*新加坡.*$
-AutoSGP 🇸🇬`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+AutoSGP 🇸🇬`fallback`^(?!.*?(Daily|α|δ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω)).*新加坡.*$`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`http://cp.cloudflare.com/generate_204`300
 SEA 🌏`select`.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉).*$`select`.*新加坡.*$
-AutoSEA 🌏`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
-AU 🇦🇺`select`.*(悉尼|澳大利亚).*$`SGP 🇸🇬
-AutoAU 🇦🇺`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+AutoSEA 🌏`fallback`.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉).*$`^(?!.*?(Daily|α|δ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω)).*新加坡.*$`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`http://cp.cloudflare.com/generate_204`300
+AU 🇦🇺`select`.*(悉尼|澳大利亚).*$`[]SGP 🇸🇬
+AutoAU 🇦🇺`fallback`.*(悉尼|澳大利亚).*$`^(?!.*?(Daily|α|δ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω)).*新加坡.*$`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`http://cp.cloudflare.com/generate_204`300
 RU 🇷🇺`select`.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$
-AutoRU 🇷🇺`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+AutoRU 🇷🇺`fallback`^(?!.*?(Daily|Premium|IPV6)).*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`^.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`http://cp.cloudflare.com/generate_204`300
 EU 🇪🇺`select`.*Europe.*$
-AutoEU 🇪🇺`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
-CA 🇨🇦`select`.*(多伦多|加拿大).*$`NA 🇺🇲`http://cp.cloudflare.com/generate_204`300
-AutoCA 🇨🇦`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+AutoEU 🇪🇺`fallback`^(?!.*?(Daily|α|δ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|IPV6)).*(伦敦|巴黎|法兰克福|爱尔兰).*$`^(?!.*?(Daily|IPV6|俄罗斯)).*Europe.*$`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`http://cp.cloudflare.com/generate_204`300
+CA 🇨🇦`select`.*(多伦多|加拿大).*$`[]NA 🇺🇲`http://cp.cloudflare.com/generate_204`300
+AutoCA 🇨🇦`fallback`^(?!.*?(Daily|α|δ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|IPV6)).*(多伦多|加拿大|美国|硅谷|纽约).*$`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`http://cp.cloudflare.com/generate_204`300
 NA 🇺🇲`select`.*America.*$
-AutoNA 🇺🇲`fallback`^(?!.*?(Game|Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`.*(深圳 - 香港 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*`.*限制中.*`http://cp.cloudflare.com/generate_204`300
+AutoNA 🇺🇲`fallback`^(?!.*?(Daily|α|δ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|IPV6)).*(美国|硅谷|纽约).*$`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`http://cp.cloudflare.com/generate_204`300
