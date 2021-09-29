@@ -9,7 +9,7 @@ GTA V or RDR2(Rockstar),https://raw.githubusercontent.com/Fvr9W/sub/master/rules
 GranTurismo,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GranTurismo.list
 R6 Rainbow Six Siege(ubisoft),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/ubi.list
 Sea of Thieves(XboxLive),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/XboxLive.list
-PokerStars,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/PokerStars.list
+Trading,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Trading.list
 SteamChina,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 SteamGlobal,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 Onetap,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Onetap.list
