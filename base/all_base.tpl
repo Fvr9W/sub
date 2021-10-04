@@ -223,7 +223,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/100
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.qxrewrite,tag=万达_获取Cookie, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.qxrewrite, tag=美团买菜_获取Cookie, enabled=true
 https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = 获取Cookie_nzw9314, enabled = false
-https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301_cookies.conf, tag = 获取Cookie_lxk0301, enabled = false
 [server_local]
 
 [task_local]
