@@ -17,7 +17,6 @@ Skeet,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnCA.list
 TeamViewer,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TeamViewer.list
 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Netflix.list
 GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-GlobalMedia,https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list
 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
 GlobalMedia,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Microsoft.list
 GlobalMedia,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/discord.list
