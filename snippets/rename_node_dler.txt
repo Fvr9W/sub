@@ -1,1 +1,43 @@
-
+\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
+(AIA|TTK|AWS|BGP|CHT|HINET|Azure|GIA|NTT|Aliyun|HC|IEPL|5G|Gamer|KDDI|Cogent|ETPI|KT|HA|HKT|WTT) (\[[0-9]{1,2}\])@$2 $1
+( |-)\[01\]@ α
+( |-)\[02\]@ β
+( |-)\[03\]@ γ
+( |-)\[04\]@ δ
+( |-)\[05\]@ ε
+( |-)\[06\]@ ζ
+( |-)\[07\]@ η
+( |-)\[08\]@ θ
+( |-)\[09\]@ ι
+( |-)\[10\]@ λ
+( |-)\[11\]@ μ
+( |-)\[East\]@ #East
+( |-)\[North\]@ #North
+( |-)\[South\]@ #South
+( |-)AIA@ #AIA
+( |-)TTK@ #TTK
+( |-)AWS@ #AWS
+( |-)BGP@ #BGP
+( |-)CHT@ #CHT
+( |-)HINET@ #HINET
+( |-)Azure@ #Azure
+( |-)GIA@ #GIA
+( |-)NTT@ #NTT
+( |-)Aliyun@ #Aliyun
+( |-)HC@ #HC
+( |-)IEPL@ #IEPL
+( |-)5G@ #5G
+( |-)Gamer@ #Gamer
+( |-)KDDI@ #KDDI
+( |-)Cogent@ #Cogent
+( |-)ETPI@ #ETPI
+( |-)KT@ #KT
+( |-)HA@ #HA
+( |-)HKT@ #HKT
+( |-)WTT@ #WTT
+(新加坡|香港|日本|韩国|台湾|印度|菲律宾)@$1 #Asia
+(加拿大|美国|墨西哥)@$1 #North America
+(巴西|阿根廷)@$1 #South America
+(澳大利亚|新西兰)@$1 #Oceania
+(英国|德国|法国|俄罗斯)@$1 #Europe
+(澳大利亚|悉尼|墨尔本)@$1 #Oceania
