@@ -19,7 +19,7 @@ Telegram`select`[]B1gProxy`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]DIRECT
 Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalMedia`select`[]B1gProxy`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalGameDownload`select`[]B1gProxy`[]Daily`[]DIRECT`.*无限.*$
-PrivateTracker`[]DIRECT`[]B1gProxy`[]Daily
+PrivateTracker`select`[]DIRECT`[]B1gProxy`[]Daily
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$`.*限制中.*
 AutoHK 🇭🇰`fallback`^(?!.*?(Daily|Premium|IEPL)).*深圳 - 香港 (θ|η).*$`^(?!.*?(Daily|Premium)).*香港.*$`.*限制中.*`http://cp.cloudflare.com/generate_204`300
