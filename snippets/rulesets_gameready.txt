@@ -2,6 +2,7 @@ DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/UnbreakWindows.l
 Hijacking,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 Hijacking,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Hijacking.list
 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list
+PrivateTracker,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list
 GlobalGameDownload,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GlobalGameDownload.list
 Call of Duty,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/COD16.list
 League of Legends(garena),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/LOLTW.list
