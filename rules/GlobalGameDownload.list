@@ -8,9 +8,10 @@ DOMAIN-SUFFIX,blzddist1-a.akamaihd.net
 DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net
 # 暴雪战网下载 level3 CDN
 DOMAIN-SUFFIX,level3.blizzard.com
-# 暴雪战网下载 level3 CDN
 DOMAIN-SUFFIX,blizzard.nefficient.co.kr
-# sony playstation
+DOMAIN-SUFFIX,blizzard.gcdn.cloudn.co.kr
+DOMAIN-SUFFIX,kr.cdn.blizzard.com
+# Sony PlayStation
 DOMAIN-SUFFIX,gs2.sonycoment.loris-e.llnwd.net
 DOMAIN-SUFFIX,dl.playstation.net
 DOMAIN-SUFFIX,ps4.update.playstation.net
