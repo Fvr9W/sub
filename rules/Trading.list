@@ -15,6 +15,8 @@ IP-CIDR,144.76.59.84/32
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,tradingview.to
 DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,huobi.com
 # 博彩
 DOMAIN-SUFFIX,sportsbet.io
