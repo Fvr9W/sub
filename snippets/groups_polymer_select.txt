@@ -19,6 +19,7 @@ Telegram`select`[]FallbackLowRate 🇸🇬`[]AutoLowRate 🇸🇬`[]LowRateSGP �
 Netflix`select`[]FallbackLowRate 🇸🇬`[]AutoLowRate 🇸🇬`[]AutoLowRate 🇨🇳`[]AutoLowRate 🇺🇲`[]LowRateSGP 🇸🇬`[]LowRateTW 🇨🇳`[]LowRateNA 🇺🇲`(新加坡 (α|β|γ|δ|ε|ζ|η||θ|ι)( [0-9]+x | )#Premium).*
 GlobalMedia`select`[]FallbackLowRate 🇭🇰`[]AutoLowRate 🇭🇰`[]AutoLowRate 🇺🇲`[]LowRateHK 🇭🇰`[]LowRateNA 🇺🇲`[]Premium
 GlobalGameDownload`select`[]FallbackLowRate 🇭🇰`[]DIRECT`[]Daily
+PrivateTracker`select`[]DIRECT`[]Daily`[]SelectTW 🇨🇳
 Hijacking`select`[]REJECT`[]DIRECT
 AutoHK 🇭🇰`fallback`^(?!.*?(Premium|Daily|TCP|WS)).*深圳 - 香港 2x.*$`全球优化 - 广州`^(?!.*?(Daily|TCP|WS)).*深圳 - 香港 (ε|ζ).*$`^(?!.*?(Premium|Daily|TCP|WS)).*深圳 - 香港.*$`^(?!.*?(Premium|Daily|TCP|WS)).*香港.*$`.*IEPL 华南 - 香港.*$`[]B1gProxy`http://cp.cloudflare.com/generate_204`300
 SelectHK 🇭🇰`select`^(?!.*?(Daily|TCP|WS)).*(深圳|华南) - 香港.*$`^(?!.*?(Daily|TCP|WS)).*(上海|华东) - 香港.*$
