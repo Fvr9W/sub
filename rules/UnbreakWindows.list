@@ -45,7 +45,7 @@ DOMAIN-SUFFIX,impulse.one
 # > Office Tool Plus
 DOMAIN-SUFFIX,coolhub.top
 # > 52PC
-DOMAIN-SUFFIX,bbs.52pcgame.net
+DOMAIN-SUFFIX,52pcgame.net
 # > airport
 DOMAIN-SUFFIX,losadhwselfff2332dasd.xyz
 DOMAIN-SUFFIX,123royl.com
@@ -54,6 +54,7 @@ DOMAIN-SUFFIX,clashcloud.net
 DOMAIN-SUFFIX,ntt-co-jp.club
 DOMAIN-SUFFIX,airport-gov-cn.com
 DOMAIN-SUFFIX,subcon.py6.pw
+DOMAIN-SUFFIX,dler.cloud
 # > 向日葵客户端
 PROCESS-NAME,SunloginClient.exe
 # > 滴答清单
@@ -61,3 +62,10 @@ DOMAIN-SUFFIX,dida365.com
 # > 365
 DOMAIN-SUFFIX,3658801.com
 DOMAIN-SUFFIX,365-878.com
+# > Tesla
+DOMAIN-SUFFIX,tesla.cn
+DOMAIN-SUFFIX,tesla-cdn.thron.cn
+# > UUBooster
+PROCESS-NAME,UUBooster
+# > Xunlei
+DOMAIN-SUFFIX,xunlei.com
