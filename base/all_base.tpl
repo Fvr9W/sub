@@ -21,10 +21,11 @@ dns:
     - 'dns.msftncsi.com'
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
-    - '*.*.*.*.srv.nintendo.net'
-    - '*.*.*.stun.playstation.net'
+    - apps.apple.com
+    - '.srv.nintendo.net'
+    - '.stun.playstation.net'
     - 'xbox.*.microsoft.com'
-    - '*.*.*.xboxlive.com'
+    - '.xboxlive.com'
 {% endif %}
 {% if request.dns == "tun" %}
   listen: 0.0.0.0:53
