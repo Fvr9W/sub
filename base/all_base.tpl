@@ -7,6 +7,8 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
+experimental:
+  ignore-resolve-fail: true
 dns:
   enable: true
   ipv6: false
