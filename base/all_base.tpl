@@ -10,9 +10,16 @@ external-controller: 0.0.0.0:9090
 dns:
   enable: true
   ipv6: false
-{% if exists("request.dns") %}
-{% if request.dns == "fake" %}
   listen: 0.0.0.0:53
+{% if exists("request.dns") %}
+{% if request.dns == "tun" %}
+  enhanced-mode: redir-host
+  stack: system
+  hosts:
+    'ip.jb.tn': 127.0.0.1
+{% endif %}
+{% else %}
+{% if request.dns == "fake" %}
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -26,20 +33,6 @@ dns:
     - '.stun.playstation.net'
     - 'xbox.*.microsoft.com'
     - '.xboxlive.com'
-{% endif %}
-{% if request.dns == "tun" %}
-  listen: 0.0.0.0:53
-  enhanced-mode: redir-host
-  hosts:
-    'ip.jb.tn': 127.0.0.1
-    'p33-smtp.mail.icloud.com.cn': 17.56.8.137
-    'p33-imap.mail.icloud.com.cn': 17.56.9.15
-{% endif %}
-{% else %}
-  listen: 0.0.0.0:53
-  enhanced-mode: redir-host
-  hosts:
-    'ip.jb.tn': 127.0.0.1
 {% endif %}
   nameserver:
     - 1.2.4.8
