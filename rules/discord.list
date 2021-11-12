@@ -13,3 +13,9 @@ DOMAIN-SUFFIX,emby.ytoo.li
 IP-CIDR,52.184.28.138/32,no-resolve
 # 图片
 DOMAIN-SUFFIX,imgur.com
+# bitwarden
+DOMAIN-SUFFIX,bitwarden.com
+# notion
+DOMAIN-SUFFIX,notion.so
+# deepl
+DOMAIN-SUFFIX,deepl.com
