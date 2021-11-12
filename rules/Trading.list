@@ -19,6 +19,7 @@ PROCESS-NAME,Binance.exe
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.me
 DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.im
 DOMAIN-SUFFIX,huobi.com
 # 博彩
 DOMAIN-SUFFIX,sportsbet.io
