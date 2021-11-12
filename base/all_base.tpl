@@ -12,14 +12,13 @@ dns:
   ipv6: false
   listen: 0.0.0.0:53
 {% if exists("request.dns") %}
-{% if request.dns == "tun" %}
-  enhanced-mode: redir-host
-  stack: system
-  hosts:
-    'ip.jb.tn': 127.0.0.1
-{% endif %}
-{% else %}
-{% if request.dns == "fake" %}
+  {% if request.dns == "tun" %}
+    enhanced-mode: redir-host
+    stack: system
+    hosts:
+      'ip.jb.tn': 127.0.0.1
+  {% endif %}
+  {% else %}
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
