@@ -19,3 +19,5 @@ DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,notion.so
 # deepl
 DOMAIN-SUFFIX,deepl.com
+# youtube
+IP-CIDR,142.250.217.142/32,no-resolve
