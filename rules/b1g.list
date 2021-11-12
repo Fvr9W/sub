@@ -19,5 +19,7 @@ DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,notion.so
 # deepl
 DOMAIN-SUFFIX,deepl.com
-# youtube
+# youtube 的 连通性测试
 IP-CIDR,142.250.217.142/32,no-resolve
+# keepa
+DOMAIN-SUFFIX,keepa.com
