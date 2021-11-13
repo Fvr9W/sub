@@ -23,3 +23,5 @@ DOMAIN-SUFFIX,deepl.com
 IP-CIDR,142.250.217.142/32,no-resolve
 # keepa
 DOMAIN-SUFFIX,keepa.com
+# nexusmods
+DOMAIN-KEYWORD,nexusmods
