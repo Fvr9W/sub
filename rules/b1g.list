@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,bitwarden.com
 # notion
 DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
 # deepl
 DOMAIN-SUFFIX,deepl.com
 # youtube 的 连通性测试
