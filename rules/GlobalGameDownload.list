@@ -36,5 +36,6 @@ DOMAIN-SUFFIX,isrg.trustid.ocsp.identrust.com
 DOMAIN-SUFFIX,ocsp.int-x3.letsencrypt.org
 DOMAIN-SUFFIX,kjkpubsf.sfo2.digitaloceanspaces.com
 DOMAIN-SUFFIX,the.earth.li
+DOMAIN-SUFFIX,nexus-cdn.com
 # DMM 不需要多解释吧
 DOMAIN-SUFFIX,dmm.com
