@@ -21,6 +21,8 @@ DOMAIN-SUFFIX,binance.me
 DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binance.im
 DOMAIN-SUFFIX,huobi.com
+DOMAIN-KEYWORD,metamask
+DOMAIN-KEYWORD,tokenpocket
 # 博彩
 DOMAIN-SUFFIX,sportsbet.io
 DOMAIN-SUFFIX,bet365.com
