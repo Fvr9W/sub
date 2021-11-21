@@ -69,3 +69,5 @@ DOMAIN-SUFFIX,tesla-cdn.thron.cn
 PROCESS-NAME,UUBooster
 # > Xunlei
 DOMAIN-SUFFIX,xunlei.com
+# > steam零售商中国IP进才显示
+DOMAIN-SUFFIX,greenmangaming.com
