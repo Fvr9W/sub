@@ -230,12 +230,6 @@ https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.c
 # 打开App,访问下右下角 `我的
 30 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true
 
-# 滴滴出行  (By @zZPiglet)
-# 进入"滴滴出行"，若弹出"首次写入滴滴出行 Token 成功"
-0 1,20,21 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/task/master/didi.png,enabled=true
-40 8,20,9-19/2 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_drink.js, tag=滴滴出行喝水, img-url=https://raw.githubusercontent.com/Orz-3/task/master/didi.png,enabled=true
-1 6,22 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_sleep.js, tag=滴滴出行睡觉, img-url=https://raw.githubusercontent.com/Orz-3/task/master/didi.png,enabled=true
-
 # 饿了么   (By @blackmatrix7)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
 10 00 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, enabled=true
@@ -259,23 +253,9 @@ https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.c
 # `我的` > `签到任务` 等到提示获取 Cookie 成功即可
 13 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js, tag=多看, img-url=https://raw.githubusercontent.com/Orz-3/task/master/duokan.png,enabled=true
 
-# > 万达电影   (By @blackmatrix7)
-20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js, tag=wanda-签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/wanda.png,enabled=true
-
-# TestFlight公测监控 (By @syzzzf)
-0 0-23/1 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, tag=TestFlight公测监控, img-url=https://raw.githubusercontent.com/Orz-3/task/master/testflight.png,enabled=false
-
 # 飞客茶馆
 # 打开 APP, 访问下`个人中心`
 3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/flyertea.png,enabled=true
-
-# > 机场签到 (by evilbutcher & Neurogram )
-# 使用BoxJs配置订阅及密码
-58 23 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/airport.png,enabled=true
-
-# > 美团买菜   (By @blackmatrix7)
-# 打开美团App，选择“美团买菜” - “我的” - “天天领钱”
-30 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js, tag=美团买菜_每日签到, enabled=true
 
 [http_backend]
 https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js, tag=boxjs, path=^/, enabled=true
