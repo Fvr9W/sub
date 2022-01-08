@@ -5,3 +5,6 @@ PROCESS-NAME,onetap.exe
 # neverlose
 DOMAIN-SUFFIX,neverlose.cc
 DOMAIN-SUFFIX,neverlose.com
+# EO
+DOMAIN-SUFFIX,engineowning.com
+DOMAIN-SUFFIX,engineowning.to
