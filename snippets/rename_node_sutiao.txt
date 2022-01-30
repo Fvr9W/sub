@@ -49,6 +49,7 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 新加坡 Legacy Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Legacy Magic 新加坡 $1 #Netflix #Premium #Asia
 新加坡 Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Magic IEPL - 新加坡 $1 #Netflix #Premium #Asia
 新加坡高级 IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 新加坡 $1 #Premium #Asia
+新加坡 统一结算(([A-Z]|[A-Z] )[0-9]{1,2})@统一 新加坡 $1 #Premium #Asia
 中国-澳大利亚 IPLC 悉尼 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 悉尼 $1 #Premium #Asia
 
 游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
@@ -86,6 +87,7 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 中国-英国伦敦 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 伦敦 $1 #Game #Europe
 中国-英国伦敦电信 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 伦敦 $1 #Premium #Europe
 中国-英国 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 英国 $1 #Game #Europe
+中国-法国 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 法国 $1 #Game #Europe
 中国-德国 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 德国 $1 #Game #Europe
 中国-荷兰 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 荷兰 $1 #Game #Europe
 中国-阿根廷 IPLC 布宜诺斯艾利斯 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 布宜诺斯艾利斯 $1 #Premium #South America
