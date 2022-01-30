@@ -65,7 +65,7 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 香港 油尖旺御金·国峯 環球全域電訊 (([A-Z]|[A-Z] )[0-9]{1,2})@香港 $1 #HGC #Daily #Asia
 香港 油尖旺御金·国峯 網上行寬頻 (([A-Z]|[A-Z] )[0-9]{1,2})@香港 $1 #NV #Daily #Asia
 香港 油尖旺御金·国峯 香港寬頻 (([A-Z]|[A-Z] )[0-9]{1,2})@香港 $1 #HKBN #Daily #Asia
-香港新后端测试 @香港 #Test #Premium #Asia
+香港新后端测试@香港 #Test #Premium #Asia
 
 中国-美国帕罗奥图 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 帕罗奥图 $1 #Premium #North America
 美国([0-9]{1,2}) [A-Z] 沪美IEPL传输 帕罗奥图@IEPL 上海 - 帕罗奥图 $1 #Premium #North America
