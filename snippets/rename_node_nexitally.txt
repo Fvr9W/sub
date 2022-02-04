@@ -1,16 +1,20 @@
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 \[Premium\]@#Premium
-IPv4 Stream@#Stream
+IPv4 @
+Stream@#Stream
 
-Hong Kong@香港
-United States@美国
+Hong @香
+Kong@港
+United @
+States@美国
 Japan@日本
 Netherlands@新西兰
-Russia St.Peterburg@圣彼得堡
-Russia Moscow@莫斯科
+Russia @
+St.Peterburg@圣彼得堡
+Moscow@莫斯科
 Germany@德国
 France@法国
-United Kingdom@英国
+Kingdom@英国
 Sweden@瑞典
 Bulgaria@保加利亚
 Austria@奥地利
@@ -21,7 +25,8 @@ Hungary@匈牙利
 Korea@韩国
 Taiwan@台湾
 Canada@加拿大
-Australia Sydney@悉尼
+Australia @
+Sydney@悉尼
 India@印度
 Indonesia@印尼
 Brazil@巴西
