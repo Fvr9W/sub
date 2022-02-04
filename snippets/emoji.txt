@@ -27,7 +27,7 @@ EU,🇪🇺
 (KR|Korea|KOR|首尔|韩|韓),🇰🇷
 (MO|Macao|澳门|CTM),🇲🇴
 (MY|Malaysia|马来西亚|吉隆坡),🇲🇾
-(NL|Netherlands|荷兰|阿姆斯特丹),🇳🇱
+(NL|Netherlands|新西兰),🇳🇱
 (PH|Philippines|菲律宾),🇵🇭
 (RU|Russia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|俄罗斯|[^-]俄|哈巴罗夫斯克),🇷🇺
 (沙特|迪拜),🇸🇦
