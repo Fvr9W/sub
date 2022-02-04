@@ -31,7 +31,7 @@ EU,🇪🇺
 (PH|Philippines|菲律宾),🇵🇭
 (RU|Russia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|俄罗斯|[^-]俄|哈巴罗夫斯克),🇷🇺
 (沙特|迪拜),🇸🇦
-(SE|Sweden),🇸🇪
+(SE|Sweden|瑞典),🇸🇪
 (SG|Singapore|新加坡|狮城|[^-]新),🇸🇬
 (TH|Thailand|泰国|曼谷),🇹🇭
 (TR|Turkey|土耳其|伊斯坦布尔),🇹🇷
