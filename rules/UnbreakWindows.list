@@ -71,3 +71,5 @@ PROCESS-NAME,UUBooster
 DOMAIN-SUFFIX,xunlei.com
 # > steam零售商中国IP进才显示
 DOMAIN-SUFFIX,greenmangaming.com
+# > 给还在用 CFW 的兄弟用的
+PROCESS-NAME,csgo.exe
