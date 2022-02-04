@@ -1,0 +1,58 @@
+\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
+\[Premium\]@#Premium
+IPv4 Stream@#Premium #Stream
+
+(01|1)@α
+(02|2)@β
+(03|3)@γ
+(04|4)@δ
+(05|5)@ϵ
+(06|6)@ζ
+(07|7)@η
+(08|8)@θ
+(09|9)@ι
+10@κ
+11@λ
+12@μ
+13@ν
+14@ξ
+15@ο
+16@π
+17@ρ
+18@σ
+19@τ
+20@υ
+21@ϕ
+22@χ
+23@ψ
+24@ω
+
+Hong Kong@香港
+United States@美国
+Japan@日本
+Netherlands@新西兰
+Russia St.Peterburg@圣彼得堡
+Russia Moscow@莫斯科
+Germany@德国
+France@法国
+United Kingdom@英国
+Sweden@瑞典
+Bulgaria@保加利亚
+Austria@奥地利
+Ireland@爱尔兰
+Italy@意大利
+Hungary@匈牙利
+Korea@韩国
+Taiwan@台湾
+Canada@加拿大
+Australia Sydney@悉尼
+India@印度
+Indonesia@印尼
+Brazil@巴西
+Singapore@新加坡
+
+(.*(新加坡|香港|日本|韩国|台湾|印度|菲律宾|印尼).*$)@$1 #Asia
+(.*(加拿大|美国|墨西哥).*$)@$1 #North America
+(.*(巴西|阿根廷).*$)@$1 #South America
+(.*(英国|德国|法国|俄罗斯|圣彼得堡|莫斯科|瑞典|保加利亚|奥地利|爱尔兰|意大利|匈牙利).*$)@$1 #Europe
+(.*(澳大利亚|悉尼|墨尔本|新西兰).*$)@$1 #Oceania
