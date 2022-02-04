@@ -5,6 +5,7 @@ AC,🇦🇨
 (AU|Australia|Sydney|澳大利亚|悉尼|苏澳),🇦🇺
 BE,🇧🇪
 (BR|Brazil|巴西|圣保罗),🇧🇷
+(Bulgaria|保加利亚),🇧🇬
 (Canada|加拿大|蒙特利尔|温哥华|楓葉|枫叶|多伦多),🇨🇦
 (瑞士|苏黎世),🇨🇭
 (DE|Germany|法兰克福|德),🇩🇪
@@ -16,9 +17,11 @@ EU,🇪🇺
 (?i:UK|England|United.*?Kingdom|英国|[^-]英|伦敦),🇬🇧
 (?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|[^-]港),🇭🇰
 (Indonesia|印尼|印度尼西亚|雅加达),🇮🇩
+(Israel|以色列),🇮🇱
 (Ireland|爱尔兰|都柏林),🇮🇪
 (India|印度|孟买|苏印|班加罗尔|马哈拉施特拉)),🇮🇳
 (Italy|意大利|米兰),🇮🇹
+(Hungary|匈牙利),🇭🇺
 (JP|Japan|日本|[^-]日|东京),🇯🇵
 (KP|朝鲜),🇰🇵
 (KR|Korea|KOR|首尔|韩|韓),🇰🇷
