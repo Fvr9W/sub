@@ -13,11 +13,11 @@ SteamGlobal`select`[]DIRECT`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸�
 Onetap`select`[]AutoNA 🇺🇲`[]B1gProxy`[]NA 🇺🇲`[]AutoHK 🇭🇰
 Skeet`select`[]AutoCA 🇨🇦`[]B1gProxy`[]NA 🇺🇲`[]AutoHK 🇭🇰
 TeamViewer`select`[]B1gProxy`[]DIRECT
-Other Games`select`[]B1gProxy`[]Game`[]Daily`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-B1gProxy`select`[]Premium`[]Game`[]Daily`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Other Games`select`[]B1gProxy`[]Game`[]Daily`[]Netflix`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+B1gProxy`select`[]Premium`[]Game`[]Daily`[]Netflix`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Telegram`select`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]B1gProxy`[]DIRECT
 Netflix`select`[]B1gProxy`^.*Stream.*$`[]DIRECT
-GlobalGameDownload`select`[]B1gProxy`^.*Stream.*$`[]DIRECT
+GlobalGameDownload`select`[]B1gProxy`[]DIRECT
 PrivateTracker`select`[]DIRECT`[]Daily`[]TW 🇨🇳
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$
@@ -32,7 +32,7 @@ SGP 🇸🇬`select`.*新加坡.*$
 AutoSGP 🇸🇬`fallback`.*新加坡 (α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω) #Premium.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 SEA 🌏`select`.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$
 AutoSEA 🌏`fallback`^(?!.*?Gamer).*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$`[]AutoSGP 🇸🇬`http://cp.cloudflare.com/generate_204`300
-AU 🇦🇺`select`.*(悉尼|澳大利亚).*$`[]SGP 🇸🇬
+AU 🇦🇺`select`.*(悉尼|澳大利亚) (α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω) #Premium.*$`[]SGP 🇸🇬
 AutoAU 🇦🇺`fallback`^(?!.*?Gamer).*(悉尼|澳大利亚).*$`[]AutoSGP 🇸🇬`http://cp.cloudflare.com/generate_204`300
 RU 🇷🇺`select`.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$
 AutoRU 🇷🇺`fallback`.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]AutoEU 🇪🇺`http://cp.cloudflare.com/generate_204`300
