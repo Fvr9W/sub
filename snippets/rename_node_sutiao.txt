@@ -150,3 +150,4 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 #IPζ @#IPV6 
 αIA @AIA
 αnycast @Anycast
+  @ 
