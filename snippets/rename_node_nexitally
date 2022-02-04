@@ -1,6 +1,6 @@
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 \[Premium\]@#Premium
-IPv4 Stream@#Premium #Stream
+IPv4 Stream@#Stream
 
 (01|1)@α
 (02|2)@β
