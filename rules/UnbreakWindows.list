@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,ntt-co-jp.club
 DOMAIN-SUFFIX,airport-gov-cn.com
 DOMAIN-SUFFIX,subcon.py6.pw
 DOMAIN-SUFFIX,dler.cloud
+DOMAIN-SUFFIX,naixisubs.com
 # > 向日葵客户端
 PROCESS-NAME,SunloginClient.exe
 # > 滴答清单
