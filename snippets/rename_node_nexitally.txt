@@ -22,6 +22,9 @@ Canada@加拿大
 Australia Sydney@悉尼
 India@印度
 Indonesia@印尼
+Ireland@爱尔兰
+Israel@以色列
+Italy@意大利
 Brazil@巴西
 Singapore@新加坡
 
