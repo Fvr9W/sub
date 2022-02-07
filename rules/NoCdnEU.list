@@ -2,8 +2,8 @@
 # 大名鼎鼎的 speedrun
 DOMAIN-SUFFIX,speedrun.com
 # 毛子网(黑号交易市场)服务器在 法国
-DOMAIN-KEYWORD,lolzteam
-DOMAIN-KEYWORD,lolz.guru
+# DOMAIN-KEYWORD,lolzteam
+# DOMAIN-KEYWORD,lolz.guru
 # skeet欧洲社区服在 法国
 DOMAIN,eu.gamesense.pub
 # asmfreakz服务器在 荷兰
