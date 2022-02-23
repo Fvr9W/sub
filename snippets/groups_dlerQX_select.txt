@@ -1,4 +1,4 @@
-Premium`fallback`.*香港 #HA.*$`.*香港 (α|β|γ|δ|ε|ζ|η|θ|ι|λ|μ) #HC.*$``http://cp.cloudflare.com/generate_204`300
+Premium`fallback`.*香港 #HA.*$`.*香港 (α|β|γ|δ|ε|ζ|η|θ|ι|λ|μ) #HC.*$`.*新加坡 #H(A|C).*$`http://cp.cloudflare.com/generate_204`300
 Game`select`.*Gamer.*$
 Daily`select`.*
 Call of Duty`select`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]KR 🇰🇷`[]JP 🇯🇵`[]B1gProxy`[]Game`[]B1gProxy`[]DIRECT
