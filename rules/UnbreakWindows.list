@@ -22,6 +22,7 @@ IP-CIDR,255.255.255.255/32,no-resolve
 USER-AGENT,coffeecorp*
 USER-AGENT,restaurant-mobile*
 DOMAIN,app.adjust.com
+DOMAIN,router.asus.com
 # > Google
 DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN,dl.google.com
