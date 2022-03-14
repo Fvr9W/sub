@@ -8,8 +8,8 @@ GranTurismo`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯�
 R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]Game`[]B1gProxy`[]DIRECT
 Sea of Thieves(XboxLive)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]Game`[]B1gProxy`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-SteamChina`select`[]DIRECT`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
-SteamGlobal`select`[]DIRECT`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
+SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
+SteamGlobal`select`[]DIRECT`[]B1gProxy`[]Other Games`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
 Onetap`select`[]AutoNA 🇺🇲`[]B1gProxy`[]NA 🇺🇲`[]AutoHK 🇭🇰
 Skeet`select`[]AutoCA 🇨🇦`[]B1gProxy`[]NA 🇺🇲`[]AutoHK 🇭🇰
 TeamViewer`select`[]B1gProxy`[]DIRECT
