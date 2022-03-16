@@ -18,7 +18,7 @@ B1gProxy`select`[]Premium`[]Game`[]Daily`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]A
 Telegram`select`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]B1gProxy`[]DIRECT
 Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalMedia`select`[]B1gProxy`[]Daily`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-GlobalGameDownload`select`[]B1gProxy`[]Daily`[]DIRECT
+GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]Daily`[]DIRECT
 PrivateTracker`select`[]DIRECT`[]Daily`[]TW 🇨🇳
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$
