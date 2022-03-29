@@ -1,5 +1,5 @@
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
-(AIA|TTK|AWS|BGP|CHT|HINET|Azure|GIA|NTT|Aliyun|HC|IEPL|5G|Gamer|KDDI|Cogent|ETPI|KT|HA|HKT|WTT) (\[[0-9]{1,2}\])@$2 $1
+(AIA|TTK|AWS|BGP|CHT|HINET|Azure|GIA|NTT|Aliyun|HC|IEPL|5G|Gamer|KDDI|Cogent|ETPI|KT|HA|HKT|WTT|AC|CC) (\[[0-9]{1,2}\])@$2 $1
 ( |-)\[01\]@ α
 ( |-)\[02\]@ β
 ( |-)\[03\]@ γ
