@@ -9,7 +9,8 @@ ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC (([A-Z]|[A-Z] )[0-9]{1,2})@P
 IPV6 俄罗斯 (([A-Z]|[A-Z] )[0-9]{1,2})@俄罗斯 $1 #IPV6 #Premium #Europe
 IPV6 美国 (([A-Z]|[A-Z] )[0-9]{1,2})@美国 $1 #IPV6 #Premium #North America
 IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
-IPV6接入( |  )(.*)@$2 #IPV6 #Premium #Asia
+IPV6接入  (.*)@$1 #IPV6 #Asia
+IPV6接入 (.*)@$1 #IPV6 #Asia
 
 中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 俄罗斯 $1 #Premium #Europe
 中国-南非开普敦 IPLC Softbank网络承载@IPLC 开普敦 #Premium #Africa
@@ -131,11 +132,6 @@ IPV6接入( |  )(.*)@$2 #IPV6 #Premium #Asia
 (02|2)@β
 (01|1)@α
 
-ιEPL@IEPL
-αmerica@America
-#IPVζ @#IPV6 
+IPVζ@IPV6
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
-#IPζ @#IPV6 
-αIA @AIA
-αnycast @Anycast
   @ 
