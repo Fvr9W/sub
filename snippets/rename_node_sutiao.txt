@@ -22,8 +22,8 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 中国-台湾桃园 IPLC 台湾固网 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 桃园 $1 #Premium #Asia
 中国-台湾 IEPL游戏专线 ([A-Z])@IEPL 台湾 $1 #Game #Asia
 中国-台湾 IPLC 台湾固网 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 台湾 $1 #Premium #Asia
-中国-台湾 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 台湾 $1 #Netflix #Premium #Asia
-中国-台湾 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 台湾 $1 #Netflix #Premium #Asia
+中国-台湾 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 台湾 $1 #Stream #Premium #Asia
+中国-台湾 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 台湾 $1 #Stream #Premium #Asia
 
 韩国 京畿道板桥 原生游戏解锁 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 首尔 $1 #Game #Asia
 游戏 中国-韩国 IEPL ([0-9]{1,2})@IEPL 韩国 $1 #Premium #3Gbps #Asia
@@ -34,20 +34,20 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 韩国 SK 전라북도 전주시 商宽 (([A-Z]|[A-Z] )[0-9]{1,2})@首尔 $1 #SK #Daily #10Gbps #Asia
 
 中国-日本 ([A-Z])@日本 $1 #Daily #Asia
-中国-日本 沪日IEPL传输-TY8 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 日本 $1 #Netflix #Premium #Asia
-中国-日本 沪日IPLC传输-TY8 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 上海 - 日本 $1 #Netflix #Premium #Asia
+中国-日本 沪日IEPL传输-TY8 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 日本 $1 #Stream #Premium #Asia
+中国-日本 沪日IPLC传输-TY8 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 上海 - 日本 $1 #Stream #Premium #Asia
 游戏加速 限速 10Mbps Palo Alto® Networks 中国昆山-日本东京 Prisma Access (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 上海 - 东京 $1 #Game #Asia
 日本东京 落地结算 ([A-Z])@东京 $1 #Daily #Asia
 日本日本大阪 オプテージ (([A-Z]|[A-Z] )[0-9]{1,2})@大阪 $1 #Daily #Asia
-日本 ソフトバンク (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #SB #Netflix #Daily #Asia
+日本 ソフトバンク (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #SB #Stream #Daily #Asia
 日本 まつやまし auひかり ホーム1ギガ (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #Au #Daily #Asia
 
 新加坡 Singtel (([A-Z]|[A-Z] )[0-9]{1,2})@新加坡 $1 #ST #Daily #Asia
 中国-新加坡 IEPL ([A-Z])@IEPL 新加坡 $1 #Premium #Asia
 新加坡太平洋电信 (([A-Z]|[A-Z] )[0-9]{1,2})@新加坡 $1 #Daily #Asia
 游戏加速 AIA 限速 LOL手游加速 新加坡地区 (([A-Z]|[A-Z] )[0-9]{1,2})@Limited AIA 新加坡 $1 #Game #Asia
-新加坡 Legacy Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Legacy Magic 新加坡 $1 #Netflix #Premium #Asia
-新加坡 Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Magic IEPL - 新加坡 $1 #Netflix #Premium #Asia
+新加坡 Legacy Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Legacy Magic 新加坡 $1 #Stream #Premium #Asia
+新加坡 Magic IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@Magic IEPL - 新加坡 $1 #Stream #Premium #Asia
 新加坡高级 IEPL 中继 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 新加坡 $1 #Premium #Asia
 新加坡 统一结算[0-9]{1,2}@统一 新加坡 $1 #Premium #Asia
 中国-澳大利亚 IPLC 悉尼 (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 悉尼 $1 #Premium #Asia
@@ -55,8 +55,8 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
 游戏加速专用-限速[0-9]{1,2}Mbps (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
 游戏加速专用--限速[0-9]{1,2}Mbps (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
-沪港 IEPL([0-9]{1,2})@IEPL 上海 - 香港 $1 #Premium #Asia
-沪港 IEPL(( [A-Z]|[A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 香港 $1 #Premium #Asia
+沪港 IEPL([0-9]{1,2})@IEPL 上海 - 香港 $1 #Stream #Premium #Asia
+沪港 IEPL(( [A-Z]|[A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 香港 $1 #Stream #Premium #Asia
 中港专线 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 深圳 - 香港 $1 #Game #Asia
 澳门 Elastic Network Adapter 10 Gbps Anycast任播 (([A-Z]|[A-Z] )[0-9]{1,2})@Anycast 澳门 #Premium #Asia
 中国-香港 IEPL (([A-Z]|[A-Z] )[0-9]{1,2})@IEPL 香港 $1 #Premium #Asia
