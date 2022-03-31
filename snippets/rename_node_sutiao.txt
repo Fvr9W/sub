@@ -55,6 +55,7 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 游戏加速专用-限速5Mbps-国泰港龙航空广州白云国际机场W209B-独立裸纤传输 Super-BGP (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
 游戏加速专用-限速[0-9]{1,2}Mbps (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
 游戏加速专用--限速[0-9]{1,2}Mbps (([A-Z]|[A-Z] )[0-9]{1,2})@Limited 深圳 - 香港 $1 #Game #Asia
+沪港 IEPL([0-9]{1,2})@IEPL 上海 - 香港 $1 #Premium #Asia
 沪港 IEPL(( [A-Z]|[A-Z]|[A-Z] )[0-9]{1,2})@IEPL 上海 - 香港 $1 #Premium #Asia
 中港专线 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 深圳 - 香港 $1 #Game #Asia
 澳门 Elastic Network Adapter 10 Gbps Anycast任播 (([A-Z]|[A-Z] )[0-9]{1,2})@Anycast 澳门 #Premium #Asia
@@ -92,6 +93,7 @@ IPV6 日本 (([A-Z]|[A-Z] )[0-9]{1,2})@日本 $1 #IPV6 #Premium #Asia
 中国-德国 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 德国 $1 #Game #Europe
 中国-荷兰 IPLC (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 荷兰 $1 #Game #Europe
 中国-阿根廷 IPLC 布宜诺斯艾利斯 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 布宜诺斯艾利斯 $1 #Premium #South America
+俄罗斯 ([0-9]{1,2})@IEPL 俄罗斯 $1 #Premium #Europe
 中国-南非 IPLC Gauteng 約翰內斯堡大都會自治市 Sandton (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 南非 $1 #Premium #Africa
 中国-土耳其 IPLC专线承载 (([A-Z]|[A-Z] )[0-9]{1,2})@IPLC 土耳其 $1 #Premium #Asia
 (α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(01|1) @α 
