@@ -86,6 +86,7 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
     {% if request.who == "lulu" %}
       running_mode_trigger=filter, filter, Society-5G:all_direct, Society:all_direct
     {% else %}
+      running_mode_trigger=filter, filter, INFINITY-WORLD:all_direct, nana:all_direct
       ;ssid_suspended_list=LINK_22E174, LINK_22E175
     {% endif %}
   {% endif %}
