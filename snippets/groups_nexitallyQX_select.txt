@@ -1,4 +1,4 @@
-Premium`fallback`.*香港 (α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω) #Premium.*$`.*香港 (ζ|μ|ρ).*$`http://cp.cloudflare.com/generate_204`300
+Premium`fallback`.*香港 (ο|π|ζ|μ|ρ).*$`http://cp.cloudflare.com/generate_204`300
 Game`select`.*Gamer.*$
 Daily`select`.*
 Call of Duty`select`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]KR 🇰🇷`[]JP 🇯🇵`[]B1gProxy`[]Game`[]B1gProxy`[]DIRECT
@@ -33,8 +33,8 @@ SGP 🇸🇬`select`.*新加坡.*$
 AutoSGP 🇸🇬`fallback`.*新加坡 (α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω) #Premium.*$`.*新加坡 (η|θ).*`http://cp.cloudflare.com/generate_204`300
 SEA 🌏`select`.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$
 AutoSEA 🌏`fallback`^(?!.*?Gamer).*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$`http://cp.cloudflare.com/generate_204`300
-AU 🇦🇺`select`.*(悉尼|澳大利亚) (α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω) #Premium.*$`[]SGP 🇸🇬
-AutoAU 🇦🇺`fallback`^(?!.*?Gamer).*(悉尼|澳大利亚).*`http://cp.cloudflare.com/generate_204`300
+AU 🇦🇺`select`.*(悉尼|澳大利亚|新西兰).*$`[]SGP 🇸🇬
+AutoAU 🇦🇺`fallback`^(?!.*?Gamer).*(悉尼|澳大利亚).*$`http://cp.cloudflare.com/generate_204`300
 RU 🇷🇺`select`.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$
 AutoRU 🇷🇺`fallback`.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*`http://cp.cloudflare.com/generate_204`300
 EU 🇪🇺`select`.*Europe.*$
