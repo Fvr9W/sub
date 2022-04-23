@@ -262,7 +262,6 @@ https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.c
 3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/flyertea.png,enabled=true
 
 [http_backend]
-https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js, tag=boxjs, path=^/, enabled=true
 
 [filter_local]
 ip-cidr, 10.0.0.0/8, direct
@@ -270,31 +269,13 @@ ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
-# 知乎去广告，以下规则请放置在 filter_local 最顶部
-IP-CIDR,118.89.204.198/32,REJECT
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
-HOST,118.89.204.198,REJECT
-# 知乎去广告，以下规则的位置越前方越好
-HOST,appcloud2.in.zhihu.com,REJECT
-HOST,mqtt.zhihu.com,reject
-HOST,sugar.zhihu.com,reject
-USER-AGENT,AVOS*,REJECT
-# 贴吧屏蔽域名 dns 查询
-IP-CIDR,180.76.76.200/32,REJECT
-# 贴吧屏蔽 ws (副作用：消息通知功能失效，需手动进入查看), 强制帖子接口走 http
-HOST,im.tieba.baidu.com,REJECT
 # 分界线
 geoip, cn, direct
 final, Final
 
 [rewrite_local]
-# APP
-^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
-# MiniApp
-^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
 
 [mitm]
-hostname = www.zhihu.com,api.m.jd.com
 {% if exists("request.who") %}
 {% if request.who == "self" %}
 passphrase = FA1A9849
