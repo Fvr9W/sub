@@ -205,16 +205,14 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikTok, enabled = true
 https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=Emby破解, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf, tag = A1去广告, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf,tag=贴吧_去广告, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=知乎网页版不跳转, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信助手, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag = NobyDaJS, enabled = false
+https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=知乎网页版不跳转, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信助手, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/DualSubs/DualSubs/blob/main/qxrewrite/DualSubs.qxrewrite?raw=true, tag=DualSubs, update-interval=86400, opt-parser=false, enabled=false
 https://github.com/DualSubs/DualSubs/blob/main/qxrewrite/DualSubs.YouTube.qxrewrite?raw=true, tag=DualSubsYouTube, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/VirgilClyne/iRingo/blob/main/qxrewrite/Weather.qxrewrite?raw=true, tag=iRingoWeather, update-interval=86400, opt-parser=false, enabled=true
-https://github.com/VirgilClyne/iRingo/blob/main/qxrewrite/Geo_Services.qxrewrite?raw=true, tag=iRingoGeo, update-interval=86400, opt-parser=false, enabled=false
-https://github.com/VirgilClyne/iRingo/blob/main/qxrewrite/Siri.qxrewrite?raw=true, tag=iRingoSiri, update-interval=86400, opt-parser=false, enabled=false
-https://github.com/VirgilClyne/iRingo/blob/main/qxrewrite/Apple_Maps_CN.qxrewrite?raw=true, tag=iRingoMapsCN, update-interval=86400, opt-parser=false, enabled=false
+https://github.com/VirgilClyne/iRingo/blob/main/qxrewrite/Geo_Services.qxrewrite?raw=true, tag=iRingoGeo, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/VirgilClyne/iRingo/blob/main/qxrewrite/Siri.qxrewrite?raw=true, tag=iRingoSiri, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/VirgilClyne/iRingo/blob/main/qxrewrite/Apple_Maps_CN.qxrewrite?raw=true, tag=iRingoMapsCN, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.qxrewrite, tag=贴吧_获取Cookie, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.qxrewrite, tag=什么值得买_获取Cookie, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.qxrewrite, tag=饿了么_获取Cookie, update-interval=86400, opt-parser=false, enabled=true
