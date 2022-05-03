@@ -8,9 +8,11 @@ DOMAIN,tw.ledge.leagueoflegends.com
 DOMAIN,twledge.leagueoflegends.com
 DOMAIN,tw.statstones.leagueoflegends.com
 DOMAIN,ekg.riotgames.com
+DOMAIN,garena.auth.riotgames.com
 DOMAIN,garena.edge.rms.si.riotgames.com
 DOMAIN,playerpreferences.riotgames.com
 DOMAIN,tw1.chat.si.riotgames.com
+DOMAIN,ledge-tw.api.riotgames.com
 DOMAIN-SUFFIX,garena.com
 DOMAIN-SUFFIX,garena.tw
 DOMAIN-SUFFIX,garenanow.com
