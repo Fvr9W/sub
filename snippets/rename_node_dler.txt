@@ -16,6 +16,7 @@
 ( |-)\[East\]@ #East
 ( |-)\[North\]@ #North
 ( |-)\[South\]@ #South
+( |-)\[Premium\]@ #Premium
 ( |-)AIA@ #AIA
 ( |-)TTK@ #TTK
 ( |-)AWS@ #AWS
@@ -46,7 +47,6 @@
 ( |-)Edge@ #Edge
 ( |-)Lite@ #Lite
 ( |-)DMIT@ #DMIT
-[Premium]@ #Premium
 
 (.*(新加坡|香港|日本|韩国|台湾|印度|菲律宾).*$)@$1 #Asia
 (.*(加拿大|美国|墨西哥).*$)@$1 #North America
