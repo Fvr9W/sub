@@ -1,6 +1,5 @@
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/UnbreakWindows.list
 Hijacking,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.list
-Hijacking,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_Domain.list
 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list
 PrivateTracker,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrivateTracker/PrivateTracker.list
 GlobalGameDownload,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GlobalGameDownload.list
