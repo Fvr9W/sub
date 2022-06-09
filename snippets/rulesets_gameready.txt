@@ -1,8 +1,7 @@
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/UnbreakWindows.list
-Hijacking,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-Hijacking,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Hijacking.list
+Hijacking,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list
-PrivateTracker,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list
+PrivateTracker,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.yaml
 GlobalGameDownload,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GlobalGameDownload.list
 Call of Duty,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/COD16.list
 League of Legends(garena),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/LOLTW.list
@@ -11,14 +10,14 @@ GranTurismo,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GranTurismo
 R6 Rainbow Six Siege(ubisoft),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/ubi.list
 Sea of Thieves(XboxLive),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/XboxLive.list
 Trading,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Trading.list
-SteamChina,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
-SteamGlobal,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+SteamChina,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml
+SteamGlobal,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml
 Onetap,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Onetap.list
 Skeet,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnCA.list
 TeamViewer,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TeamViewer.list
-Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Netflix.list
-GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
+Netflix,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+GlobalMedia,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
+Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
 GlobalMedia,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Microsoft.list
 AutoEU 🇪🇺,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnRU.list
 AutoEU 🇪🇺,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnEU.list
@@ -27,8 +26,7 @@ AutoNA 🇺🇲,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnUS
 AutoSGP 🇸🇬,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnSGP.list
 B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Android.list
 B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/b1g.list
-B1gProxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-DIRECT,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/China.list
-DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+B1gProxy,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy_Classical.yaml
+DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.yaml
 DIRECT,[]GEOIP,CN
 Other Games,[]FINAL
