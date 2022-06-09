@@ -212,14 +212,12 @@ https://raw.githubusercontent.com/DualSubs/DualSubs/main/qxrewrite/DualSubs.YouT
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Weather.qxrewrite, tag=iRingoWeather, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Siri.qxrewrite, tag=iRingoSiri, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite, tag=iRingoLocation, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/GetCookie/GetCookie.conf, tag=获取Cookie, enabled=true
-https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = 获取Cookie_nzw9314, enabled = false
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/GetCookie/GetCookie.conf, update-interval=86400, opt-parser=false, tag=获取Cookie, enabled=true
+https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = 获取Cookie_nzw9314, update-interval=86400, opt-parser=false, enabled = false
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf, tag=GetCookie, update-interval=86400, opt-parser=false, enabled=false
 [server_local]
 
 [task_local]
-# 52破解
-# 浏览器访问https://www.52pojie.cn/home.php?mod=space 即可
-2 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=52破解, img-url=https://raw.githubusercontent.com/Orz-3/task/master/52pj.png,enabled=true
 
 # bilibili
 # 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
@@ -256,6 +254,12 @@ https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.c
 # 打开 APP, 访问下`个人中心`
 3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/flyertea.png,enabled=true
 
+# 滴滴
+1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/didi.png, enabled=false
+59 23 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/didi.png, enabled=false
+
+# 美团
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/meituan.png, enabled=false
 [http_backend]
 
 [filter_local]
