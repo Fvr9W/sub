@@ -24,7 +24,6 @@ AutoEU 🇪🇺,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnEU
 AutoCA 🇨🇦,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnCA.list
 AutoNA 🇺🇲,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnUS.list
 AutoSGP 🇸🇬,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnSGP.list
-B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Android.list
 B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/b1g.list
 B1gProxy,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list
 DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list
