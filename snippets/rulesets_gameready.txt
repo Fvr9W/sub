@@ -1,5 +1,5 @@
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/UnbreakWindows.list
-Hijacking,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_Resolve.list
+Hijacking,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.list
 Hijacking,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_Domain.list
 DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list
 PrivateTracker,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrivateTracker/PrivateTracker.list
@@ -27,8 +27,7 @@ AutoNA 🇺🇲,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnUS
 AutoSGP 🇸🇬,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnSGP.list
 B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Android.list
 B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/b1g.list
-B1gProxy,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_Resolve.list
-B1gProxy,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_Domain.list
+B1gProxy,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list
 DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list
 DIRECT,[]GEOIP,CN
 Other Games,[]FINAL
