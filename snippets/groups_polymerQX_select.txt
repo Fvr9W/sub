@@ -10,8 +10,7 @@ R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]Selec
 Sea of Thieves(XboxLive)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]SelectHK 🇭🇰`[]SelectJP 🇯🇵
 SteamChina`select`[]DIRECT`[]Premium`[]SelectEU 🇪🇺`[]SelectRU 🇷🇺`[]SelectSGP 🇸🇬`[]DIRECT`[]REJECT
 SteamGlobal`select`[]Premium`[]SelectEU 🇪🇺`[]SelectRU 🇷🇺`[]SelectSGP 🇸🇬`[]DIRECT`[]REJECT
-Onetap`select`[]AutoHK 🇭🇰`[]SelectNA 🇺🇲
-Skeet`select`[]AutoCA 🇨🇦`[]AutoHK 🇭🇰`[]SelectNA 🇺🇲
+Hax`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Daily
 TeamViewer`select`[]FallbackLowRate 🇭🇰`[]Premium`[]DIRECT
 Other Games`select`[]N3RO`[]AutoHK 🇭🇰`[]Game`[]Daily`[]DIRECT
 B1gProxy`select`[]N3RO`[]Premium`[]Daily`[]DIRECT
