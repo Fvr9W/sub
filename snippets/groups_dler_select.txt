@@ -21,15 +21,15 @@ GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]Daily`[]DIRECT
 PrivateTracker`select`[]DIRECT`[]Daily`[]TW 🇨🇳
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$
-AutoHK 🇭🇰`url-test`.*香港(| α| β) #AC.*$`http://cp.cloudflare.com/generate_204`300
+AutoHK 🇭🇰`url-test`.*香港 (α|β) #AC.*$`http://cp.cloudflare.com/generate_204`300
 TW 🇨🇳`select`.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
-AutoTW 🇨🇳`fallback`.*台湾(| α| β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
+AutoTW 🇨🇳`fallback`.*台湾 (α|β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 KR 🇰🇷`select`.*(韩国|首尔).*$
-AutoKR 🇰🇷`fallback`.*韩国(| α| β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
+AutoKR 🇰🇷`fallback`.*韩国 (α|β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 JP 🇯🇵`select`.*(日本|东京|大阪).*$
-AutoJP 🇯🇵`fallback`.*日本(| α| β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
+AutoJP 🇯🇵`fallback`.*日本 #HA.*$`.*日本 #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 SGP 🇸🇬`select`.*新加坡.*$
-AutoSGP 🇸🇬`fallback`.*新加坡(| α| β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
+AutoSGP 🇸🇬`fallback`.*新加坡 (α|β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 SEA 🌏`select`.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$
 AutoSEA 🌏`fallback`^(?!.*?Gamer).*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$`[]AutoSGP 🇸🇬`http://cp.cloudflare.com/generate_204`300
 AU 🇦🇺`select`.*(悉尼|澳大利亚).*$`[]SGP 🇸🇬
@@ -37,8 +37,8 @@ AutoAU 🇦🇺`fallback`^(?!.*?Gamer).*(悉尼|澳大利亚).*$`[]AutoSGP 🇸�
 RU 🇷🇺`select`.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$
 AutoRU 🇷🇺`fallback`.*俄罗斯.*$`[]AutoEU 🇪🇺`http://cp.cloudflare.com/generate_204`300
 EU 🇪🇺`select`.*Europe.*$
-AutoEU 🇪🇺`fallback`.*德国(| α| β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
+AutoEU 🇪🇺`fallback`.*德国 (α|β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
 CA 🇨🇦`select`.*(多伦多|加拿大).*$`[]NA 🇺🇲`http://cp.cloudflare.com/generate_204`300
 AutoCA 🇨🇦`fallback`^(?!.*?Gamer).*(多伦多|加拿大).*$`[]AutoNA 🇺🇲`http://cp.cloudflare.com/generate_204`300
 NA 🇺🇲`select`.*America.*$
-AutoNA 🇺🇲`fallback`.*美国(| α| β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
+AutoNA 🇺🇲`fallback`.*美国 (α|β) #AC.*$`[]AutoHK 🇭🇰`http://cp.cloudflare.com/generate_204`300
