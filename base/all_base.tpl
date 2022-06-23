@@ -192,12 +192,15 @@ https://raw.githubusercontent.com/DualSubs/DualSubs/main/qxrewrite/DualSubs.YouT
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Weather.qxrewrite, tag=iRingoWeather, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Siri.qxrewrite, tag=iRingoSiri, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite, tag=iRingoLocation, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/GetCookie/GetCookie.conf, update-interval=86400, opt-parser=false, tag=获取Cookie, enabled=true
-https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = 获取Cookie_nzw9314, update-interval=86400, opt-parser=false, enabled = false
-https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf, tag=GetCookie, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/GetCookie/GetCookie.conf, update-interval=86400, opt-parser=false, tag=GetCookie_bm7, enabled=true
+https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = GetCookie_n9, update-interval=86400, opt-parser=false, enabled = false
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf, tag=GetCookie_O3, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Cookie.conf, tag=GetCookie_ND, update-interval=86400, opt-parser=false, enabled=false
 [server_local]
 
 [task_local]
+# 吾爱签到 手动登录 https://www.52pojie.cn/home.php
+0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=52pojie, enabled=true
 
 # bilibili
 # 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
