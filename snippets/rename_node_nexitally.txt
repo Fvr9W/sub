@@ -5,6 +5,7 @@ Stream@#Stream
 
 Hong Kong@香港
 United States@美国
+USA Seattle@西雅图
 Japan@日本
 Netherlands@新西兰
 Russia St.Peterburg@圣彼得堡
@@ -55,7 +56,7 @@ Singapore@新加坡
  (01|1)@ α
 
 (.*(新加坡|香港|日本|韩国|台湾|印度|菲律宾|印尼|以色列|土耳其).*$)@$1 #Asia
-(.*(加拿大|美国|墨西哥).*$)@$1 #North America
+(.*(加拿大|美国|西雅图|墨西哥).*$)@$1 #North America
 (.*(巴西|阿根廷).*$)@$1 #South America
 (.*(英国|德国|法国|俄罗斯|圣彼得堡|莫斯科|瑞典|保加利亚|奥地利|爱尔兰|意大利|匈牙利).*$)@$1 #Europe
 (.*(澳大利亚|悉尼|墨尔本|新西兰).*$)@$1 #Oceania
