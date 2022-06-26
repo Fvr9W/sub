@@ -41,4 +41,4 @@ AutoEU 🇪🇺`fallback`.*德国.*$`http://cp.cloudflare.com/generate_204`300
 CA 🇨🇦`select`.*(多伦多|加拿大).*$`[]NA 🇺🇲`http://cp.cloudflare.com/generate_204`300
 AutoCA 🇨🇦`fallback`^(?!.*?Gamer).*(多伦多|加拿大).*$`http://cp.cloudflare.com/generate_204`300
 NA 🇺🇲`select`.*America.*$
-AutoNA 🇺🇲`fallback`.*美国 β.*$`.*美国 θ.*$`http://cp.cloudflare.com/generate_204`300
+AutoNA 🇺🇲`fallback`.*(美国|西雅图) β.*$`.*(美国|西雅图) θ.*$`http://cp.cloudflare.com/generate_204`300
