@@ -4,31 +4,39 @@ IPv4 @
 Stream@#Stream
 
 Hong Kong@香港
+Korea@韩国
+Taiwan@台湾
+Japan@日本
+Singapore@新加坡
+India@印度
+Indonesia@印尼
+Australia Sydney@悉尼
+Netherlands@新西兰
+
 United States@美国
 USA Seattle@西雅图
-Japan@日本
-Netherlands@新西兰
+USA San Jose@硅谷
+Brazil@巴西
+Chile@智利
+
 Russia St.Peterburg@圣彼得堡
 Russia Moscow@莫斯科
 Germany@德国
 France@法国
 United Kingdom@英国
+UK London@伦敦
+UK Coventry@考文垂
 Sweden@瑞典
+Switzerland@瑞士
 Bulgaria@保加利亚
 Austria@奥地利
 Hungary@匈牙利
-Korea@韩国
-Taiwan@台湾
+Italy@意大利
 Turkey@土耳其
 Canada@加拿大
-Australia Sydney@悉尼
-India@印度
-Indonesia@印尼
 Ireland@爱尔兰
 Israel@以色列
 Italy@意大利
-Brazil@巴西
-Singapore@新加坡
 
  24@ ω
  23@ ψ
@@ -56,8 +64,8 @@ Singapore@新加坡
  (01|1)@ α
 
 (.*(新加坡|香港|日本|韩国|台湾|印度|菲律宾|印尼|以色列|土耳其).*$)@$1 #Asia
-(.*(加拿大|美国|西雅图|墨西哥).*$)@$1 #North America
-(.*(巴西|阿根廷).*$)@$1 #South America
-(.*(英国|德国|法国|俄罗斯|圣彼得堡|莫斯科|瑞典|保加利亚|奥地利|爱尔兰|意大利|匈牙利).*$)@$1 #Europe
+(.*(加拿大|美国|西雅图|硅谷|墨西哥).*$)@$1 #North America
+(.*(巴西|阿根廷|智利).*$)@$1 #South America
+(.*(英国|德国|法国|俄罗斯|圣彼得堡|莫斯科|瑞典|瑞士|保加利亚|奥地利|爱尔兰|意大利|匈牙利|伦敦|考文垂).*$)@$1 #Europe
 (.*(澳大利亚|悉尼|墨尔本|新西兰).*$)@$1 #Oceania
   @ 
