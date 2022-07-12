@@ -29,7 +29,7 @@ AutoKR 🇰🇷`fallback`.*韩国 (α|β) #AC.*$`[]AutoHK 🇭🇰`http://www.gs
 JP 🇯🇵`select`.*(日本|东京|大阪).*$
 AutoJP 🇯🇵`fallback`.*日本 #HA.*$`.*日本 #AC.*$`[]AutoHK 🇭🇰`http://www.gstatic.com/generate_204`300
 SGP 🇸🇬`select`.*新加坡.*$
-AutoSGP 🇸🇬`fallback`.*新加坡 (α|β) #AC.*$`.*新加坡 #AC.*$`新加坡 η #IEPL #Premium`[]AutoHK 🇭🇰`http://www.gstatic.com/generate_204`300
+AutoSGP 🇸🇬`fallback`.*新加坡 (α|β) #AC.*$`.*新加坡 #AC.*$`新加坡 (α|β) #IEPL #Premium`[]AutoHK 🇭🇰`http://www.gstatic.com/generate_204`300
 SEA 🌏`select`.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$
 AutoSEA 🌏`fallback`^(?!.*?Gamer).*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$`[]AutoSGP 🇸🇬`http://www.gstatic.com/generate_204`300
 AU 🇦🇺`select`.*(悉尼|澳大利亚).*$`[]SGP 🇸🇬
