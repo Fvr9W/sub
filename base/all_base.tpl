@@ -14,7 +14,7 @@ dns:
   ipv6: false
   listen: 0.0.0.0:53
 {% if exists("request.dns") %}
-  {% if request.dns == "tun" %}
+  {% if request.dns == "1" %}
     enhanced-mode: redir-host
     stack: system
     hosts:
