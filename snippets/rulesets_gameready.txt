@@ -1,4 +1,5 @@
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/UnbreakWindows.list
+Hijacking,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/banAD.list
 Hijacking,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 Hijacking,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list
 DIRECT,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Apple.list
