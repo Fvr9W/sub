@@ -218,10 +218,10 @@ static=AutoNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/m
 [rewrite_remote]
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag = boxjs, enabled = true
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikTok, enabled = true
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=Emby破解, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=贴吧去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf, tag = A1去广告, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=知乎网页版不跳转, update-interval=86400, opt-parser=false, enabled=true
+ttps://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=知乎网页版不跳转, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信助手, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DualSubs/DualSubs/main/qxrewrite/DualSubs.qxrewrite, tag=DualSubs, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/DualSubs/DualSubs/main/qxrewrite/DualSubs.YouTube.qxrewrite, tag=DualSubsYouTube, update-interval=86400, opt-parser=false, enabled=true
@@ -232,7 +232,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Qu
 https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = GetCookie_n9, update-interval=86400, opt-parser=false, enabled = false
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf, tag=GetCookie_O3, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Cookie.conf, tag=GetCookie_ND, update-interval=86400, opt-parser=false, enabled=false
-
+https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=贴吧去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=YouTube去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf, tag = A1去广告, update-interval=86400, opt-parser=false, enabled=true
+h
 [server_local]
 socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=0penclash
 
