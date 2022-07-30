@@ -196,7 +196,19 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Qu
 https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = GetCookie_n9, update-interval=86400, opt-parser=false, enabled = false
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf, tag=GetCookie_O3, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Cookie.conf, tag=GetCookie_ND, update-interval=86400, opt-parser=false, enabled=false
+
 [server_local]
+{% if exists("request.who") %}
+  {% if request.who == "self" %}
+    socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=openclash
+  {% else %}
+    {% if request.who == "lulu" %}
+      socks5=192.168.5.1:7891,fast-open=false, udp-relay=false, tag=openclash
+    {% else %}
+      socks5=192.168.1.1:7891,fast-open=false, udp-relay=false, tag=openclash
+    {% endif %}
+  {% endif %}
+{% endif %}
 
 [task_local]
 # 吾爱签到 手动登录 https://www.52pojie.cn/home.php
