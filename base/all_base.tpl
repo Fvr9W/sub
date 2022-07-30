@@ -81,7 +81,7 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 # 指定在某个 Wi-Fi 下暂停 Quantumult X
 {% if exists("request.who") %}
   {% if request.who == "self" %}
-    running_mode_trigger=filter, filter, Cccccc:all_direct, zxcvawer:all_direct
+    running_mode_trigger=filter, filter, Cccccc:all_proxy, zxcvawer:all_direct
   {% else %}
     {% if request.who == "lulu" %}
       running_mode_trigger=filter, filter, Society-5G:all_direct, Society:all_direct
@@ -200,12 +200,12 @@ https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Coo
 [server_local]
 {% if exists("request.who") %}
   {% if request.who == "self" %}
-    socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=openclash
+    socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=0penclash
   {% else %}
     {% if request.who == "lulu" %}
-      socks5=192.168.5.1:7891,fast-open=false, udp-relay=false, tag=openclash
+      socks5=192.168.5.1:7891,fast-open=false, udp-relay=false, tag=0penclash
     {% else %}
-      socks5=192.168.1.1:7891,fast-open=false, udp-relay=false, tag=openclash
+      socks5=192.168.1.1:7891,fast-open=false, udp-relay=false, tag=0penclash
     {% endif %}
   {% endif %}
 {% endif %}
