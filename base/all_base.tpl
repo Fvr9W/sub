@@ -254,6 +254,16 @@ ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
+# 知乎去广告，以下规则请放置在filter_local最顶部
+IP-CIDR,118.89.204.198/32,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+# 知乎去广告，以下规则的位置越前方越好
+HOST,appcloud2.in.zhihu.com,REJECT
+HOST,mqtt.zhihu.com,reject
+HOST,sugar.zhihu.com,reject
+USER-AGENT,AVOS*,REJECT
+# 百度去广告
+IP-CIDR,180.76.76.200/32,REJECT
 # 分界线
 geoip, cn, direct
 final, Final
