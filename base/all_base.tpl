@@ -1,61 +1,17 @@
 {% if request.target == "clash" or request.target == "clashr" %}
 
-port: 7890
-socks-port: 7891
-redir-port: 7892
-allow-lan: true
+port: {{ default(global.clash.http_port, "7890") }}
+socks-port: {{ default(global.clash.socks_port, "7891") }}
+allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: Rule
-log-level: info
-external-controller: 0.0.0.0:9090
-experimental:
-  ignore-resolve-fail: true
+log-level: {{ default(global.clash.log_level, "info") }}
+external-controller: :9090
+{% if default(request.clash.dns, "") == "1" %}
 dns:
   enable: true
-  ipv6: false
-  listen: 0.0.0.0:53
-{% if exists("request.dns") %}
-  {% if request.dns == "1" %}
-    enhanced-mode: redir-host
-    stack: system
-    hosts:
-      'ip.jb.tn': 127.0.0.1
-  {% endif %}
-  {% else %}
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - '*.lan'
-    - 'localhost.ptlogin2.qq.com'
-    - 'dns.msftncsi.com'
-    - 'www.msftncsi.com'
-    - 'www.msftconnecttest.com'
-    - apps.apple.com
-    - '.srv.nintendo.net'
-    - '.stun.playstation.net'
-    - 'xbox.*.microsoft.com'
-    - '.xboxlive.com'
+  listen: :1053
 {% endif %}
-  nameserver:
-    - 1.2.4.8
-    - 119.29.29.29
-    - https://dns.alidns.com/dns-query
-  fallback:
-    - https://dns.google/dns-query
-    - tls://1.1.1.1:853
-    - https://1.1.1.1/dns-query
-    - tls://8.8.8.8:853
-  fallback-filter:
-    geoip: true
-    ipcidr:
-      - 240.0.0.0/4
-{% if exists("request.interface") %}
-{% if request.interface == "none" %}
-{% endif %}
-{% if request.interface == "wlan" %}
-{% endif %}
-{% else %}
-{% endif %}
-{% if request.new_name == "true" %}
+{% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
 rules: ~
@@ -64,7 +20,7 @@ Proxy: ~
 Proxy Group: ~
 Rule: ~
 {% endif %}
-{% endif %}
+
 
 {# 
 Target : Quantumult X
