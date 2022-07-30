@@ -1,0 +1,10 @@
+# 不知道 filter_local 为什么失效，所以弄个这个
+# 知乎去广告
+IP-CIDR,118.89.204.198/32
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+HOST,appcloud2.in.zhihu.com
+HOST,mqtt.zhihu.com
+HOST,sugar.zhihu.com
+USER-AGENT,AVOS*
+# 百度去广告
+IP-CIDR,180.76.76.200/32
