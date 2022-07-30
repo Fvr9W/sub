@@ -1,6 +1,7 @@
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/UnbreakWindows.list
 Hijacking,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 Hijacking,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list
+Hijacking,https://raw.githubusercontent.com/app2smile/rules/master/rule/tieba-ad-qx.list
 DIRECT,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Apple.list
 PrivateTracker,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrivateTracker/PrivateTracker.list
 GlobalGameDownload,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GlobalGameDownload.list
@@ -16,7 +17,7 @@ SteamGlobal,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rules
 Hax,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Hax.list
 TeamViewer,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TeamViewer.list
 Netflix,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Netflix.list
-GlobalMedia,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia.list
+GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list
 GlobalMedia,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Microsoft.list
 AutoEU 🇪🇺,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnRU.list
