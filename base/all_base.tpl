@@ -6,10 +6,159 @@ allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: Rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
+experimental:
+  ignore-resolve-fail: true
+clash-for-android:
+  ui-subtitle-pattern: '[一-龥]{2,4}'
 {% if default(request.clash.dns, "") == "1" %}
 dns:
   enable: true
-  listen: :1053
+  enhanced-mode: fake-ip
+  listen: 1053
+  default-nameserver:
+    - 114.114.114.114
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://dns.cloudflare.com/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - https://jp.tiar.app/dns-query
+    - https://jp.tiarap.org/dns-query
+    - tls://dot.tiar.app
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    domain:
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.githubusercontent.com"
+      - "+.googlevideo.com"
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
+      - msftconnecttest.com
+      - msftncsi.com
+  fake-ip-filter:
+    - ".lan"
+    - ".localdomain"
+    - ".example"
+    - ".invalid"
+    - ".localhost"
+    - ".test"
+    - ".local"
+    - "*.home.arpa"
+    - "time.*.com"
+    - "time.*.gov"
+    - "time.*.edu.cn"
+    - "time.*.apple.com"
+    - "time-ios.apple.com"
+    - "time1.*.com"
+    - "time2.*.com"
+    - "time3.*.com"
+    - "time4.*.com"
+    - "time5.*.com"
+    - "time6.*.com"
+    - "time7.*.com"
+    - "ntp.*.com"
+    - "ntp1.*.com"
+    - "ntp2.*.com"
+    - "ntp3.*.com"
+    - "ntp4.*.com"
+    - "ntp5.*.com"
+    - "ntp6.*.com"
+    - "ntp7.*.com"
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - "+.pool.ntp.org"
+    - "time1.cloud.tencent.com"
+    - "music.163.com"
+    - "*.music.163.com"
+    - "*.126.net"
+    - "musicapi.taihe.com"
+    - "music.taihe.com"
+    - "songsearch.kugou.com"
+    - "trackercdn.kugou.com"
+    - "*.kuwo.cn"
+    - "api-jooxtt.sanook.com"
+    - "api.joox.com"
+    - "joox.com"
+    - "y.qq.com"
+    - "*.y.qq.com"
+    - "streamoc.music.tc.qq.com"
+    - "mobileoc.music.tc.qq.com"
+    - "isure.stream.qqmusic.qq.com"
+    - "dl.stream.qqmusic.qq.com"
+    - "aqqmusic.tc.qq.com"
+    - "amobile.music.tc.qq.com"
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - "music.migu.cn"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "msftconnecttest.com"
+    - "msftncsi.com"
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    - "+.srv.nintendo.net"
+    - "*.n.n.srv.nintendo.net"
+    - "+.stun.playstation.net"
+    - "xbox.*.*.microsoft.com"
+    - "*.*.xboxlive.com"
+    - "xbox.*.microsoft.com"
+    - "xnotify.xboxlive.com"
+    - "+.battlenet.com.cn"
+    - "+.wotgame.cn"
+    - "+.wggames.cn"
+    - "+.wowsgame.cn"
+    - "+.wargaming.net"
+    - "proxy.golang.org"
+    - "stun.*.*"
+    - "stun.*.*.*"
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+    - "+.stun.*.*.*.*"
+    - "+.stun.*.*.*.*.*"
+    - "heartbeat.belkin.com"
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - "mesu.apple.com"
+    - "swscan.apple.com"
+    - "swquery.apple.com"
+    - "swdownload.apple.com"
+    - "swcdn.apple.com"
+    - "swdist.apple.com"
+    - "lens.l.google.com"
+    - "stun.l.google.com"
+    - "+.nflxvideo.net"
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.ff14.sdo.com"
+    - "ff.dorado.sdo.com"
+    - "*.mcdn.bilivideo.cn"
+    - "+.media.dssott.com"
+    - "shark007.net"
+    - "Mijia Cloud"
 {% endif %}
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
