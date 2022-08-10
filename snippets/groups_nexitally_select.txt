@@ -6,12 +6,12 @@ League of Legends(garena)`select`[]AutoTW 🇨🇳`[]AutoSGP 🇸🇬`[]AutoHK �
 GTA V or RDR2(Rockstar)`select`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]NA 🇺🇲`[]B1gProxy`[]Game`[]B1gProxy`[]DIRECT
 GranTurismo`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]B1gProxy`[]Game`[]B1gProxy`[]DIRECT
 R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]Game`[]B1gProxy`[]DIRECT
-Sea of Thieves(XboxLive)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]Game`[]B1gProxy`[]DIRECT
+XboxLive`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]Game`[]B1gProxy`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 SteamChina`select`[]DIRECT`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
 SteamGlobal`select`[]DIRECT`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
-Hax`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Daily
-TeamViewer`select`[]B1gProxy`[]DIRECT
+Hax`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games
+SougouInput`select`[]REJECT`[]DIRECT
 Other Games`select`[]B1gProxy`[]Game`[]Daily`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 B1gProxy`select`[]Premium`[]Game`[]Daily`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Telegram`select`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]B1gProxy`[]DIRECT
