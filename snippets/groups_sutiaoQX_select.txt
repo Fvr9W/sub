@@ -8,8 +8,8 @@ GranTurismo`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯�
 R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]B1gProxy
 XboxLive`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]B1gProxy
 Trading`select`[]B1gProxy`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-SteamChina`select`[]DIRECT`[]B1gProxy`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]REJECT
-SteamGlobal`select`[]B1gProxy`[]DIRECT`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]REJECT
+SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
+SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
 Hax`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games
 SougouInput`select`[]REJECT`[]DIRECT
 Other Games`select`[]B1gProxy`[]Game`[]Daily`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
