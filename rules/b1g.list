@@ -1,14 +1,19 @@
 # Discord
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,dl.discordapp.net
 DOMAIN-SUFFIX,gateway.discord.gg
+DOMAIN-SUFFIX,status.discord.com
 DOMAIN-SUFFIX,status.discordapp.com
+DOMAIN-SUFFIX,cdn.discord.com
 DOMAIN-SUFFIX,cdn.discordapp.com
+DOMAIN-SUFFIX,dl.discordapp.net
 DOMAIN-SUFFIX,media.discordapp.net
-DOMAIN-SUFFIX,images-ext-2.discordapp.net
 DOMAIN-SUFFIX,images-ext-1.discordapp.net
-DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-SUFFIX,images-ext-2.discordapp.net
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordcdn.com
 # 普拉斯影业
 DOMAIN-SUFFIX,emby.ytoo.li
 IP-CIDR,52.184.28.138/32,no-resolve
