@@ -27,8 +27,8 @@ AutoNA 🇺🇲,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnUS
 AutoSGP 🇸🇬,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnSGP.list
 AutoJP 🇯🇵,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnJP.list
 B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/b1g.list
-B1gProxy,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Proxy.list
-DIRECT,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Domestic.list
-DIRECT,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Domestic%20IPs.list
+B1gProxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 DIRECT,[]GEOIP,CN
 Other Games,[]FINAL
