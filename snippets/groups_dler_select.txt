@@ -1,24 +1,24 @@
 Premium`fallback`.*香港 #HA.*$`.*香港 (α|β|γ|δ|ε|ζ|η|θ|ι|λ|μ) #AC.*$`.*香港 (α|β|γ|δ|ε|ζ|η|θ|ι|λ|μ) #AC.*$`香港 η #IEPL #Premium`http://www.gstatic.com/generate_204`300
 Game`select`.*Gamer.*$
 Daily`select`.*
-Call of Duty`select`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]KR 🇰🇷`[]JP 🇯🇵`[]B1gProxy`[]Other Games`[]Daily`[]DIRECT
-League of Legends(garena)`select`[]AutoTW 🇨🇳`[]AutoSGP 🇸🇬`[]AutoHK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]HK 🇭🇰`[]B1gProxy`[]Other Games`[]Daily`[]DIRECT
-GTA V or RDR2(Rockstar)`select`[]AutoHK 🇭🇰`[]AutoNA 🇺🇲`[]HK 🇭🇰`[]NA 🇺🇲`[]B1gProxy`[]Other Games`[]Daily`[]DIRECT
-GranTurismo`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]B1gProxy`[]Other Games`[]Daily`[]DIRECT
-R6 Rainbow Six Siege(ubisoft)`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]B1gProxy`[]Other Games`[]Daily`[]DIRECT
-XboxLive`select`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]HK 🇭🇰`[]JP 🇯🇵`[]B1gProxy`[]Other Games`[]Daily`[]DIRECT
-Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Blizzard`select`[]Other Games`[]Daily`[]DIRECT
+Garena`select`[]Other Games`[]Daily`[]DIRECT
+PlayStation`select`[]Other Games`[]Daily`[]DIRECT
+Rockstar`select`[]Other Games`[]Daily`[]DIRECT
 SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
 SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
-Hax`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games
-SougouInput`select`[]REJECT`[]DIRECT
+Ubisoft`select`[]Other Games`[]Daily`[]DIRECT
+XboxLive`select`[]Other Games`[]Daily`[]DIRECT
+Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]Daily`[]DIRECT
 Other Games`select`[]B1gProxy`[]Game`[]Daily`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 B1gProxy`select`[]Premium`[]Game`[]Daily`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-Telegram`select`[]AutoSGP 🇸🇬`[]SGP 🇸🇬`[]B1gProxy`[]DIRECT
-Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
+Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Telegram`select`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
+Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]NA 🇺🇲
 GlobalMedia`select`[]B1gProxy`[]Daily`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]Daily`[]DIRECT
 PrivateTracker`select`[]DIRECT`[]Daily`[]TW 🇨🇳`[]Other Games
+SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$
 AutoHK 🇭🇰`url-test`.*香港 (α|β) #AC.*$`http://www.gstatic.com/generate_204`300
