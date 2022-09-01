@@ -2,20 +2,20 @@ DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unbreak.list
 Hijacking,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/banAD.list
 Hijacking,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 Hijacking,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list
+SougouInput,https://ruleset.skk.moe/List/non_ip/sogouinput.conf
 DIRECT,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt
 PrivateTracker,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrivateTracker/PrivateTracker.list
 GlobalGameDownload,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GlobalGameDownload.list
-Call of Duty,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/COD16.list
-League of Legends(garena),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/LOLTW.list
-GTA V or RDR2(Rockstar),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Rockstar.list
-GranTurismo,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GranTurismo.list
-R6 Rainbow Six Siege(ubisoft),https://raw.githubusercontent.com/Fvr9W/sub/master/rules/ubi.list
-XboxLive,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/XboxLive.list
-Trading,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Trading.list
+Blizzard,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/COD16.list
+Garena,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/LOLTW.list
+PlayStation,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GranTurismo.list
+Rockstar,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Rockstar.list
 SteamChina,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 SteamGlobal,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+Ubisoft,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/ubi.list
+Xboxlive,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/XboxLive.list
 Hax,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Hax.list
-SougouInput,https://ruleset.skk.moe/List/non_ip/sogouinput.conf
+Trading,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Trading.list
 Netflix,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Netflix.list
 GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 Telegram,https://ruleset.skk.moe/List/non_ip/telegram.conf
@@ -30,5 +30,5 @@ AutoJP 🇯🇵,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnJP
 B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/b1g.list
 B1gProxy,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 DIRECT,https://ruleset.skk.moe/List/non_ip/domestic.conf
-DIRECT,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
+DIRECT,[]GEOIP,CN
 Other Games,[]FINAL
