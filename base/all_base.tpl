@@ -319,23 +319,24 @@ static=Premium, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/Ic
 static=Game, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=N3RO, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/N3RO.png
 static=Daily, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Daily.png
-static=Call of Duty, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=League of Legends(garena), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/League_of_Legends.png
-static=GTA V or RDR2(Rockstar), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=GranTurismo, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=R6 Rainbow Six Siege(ubisoft), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=Sea of Thieves(XboxLive), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Blizzard, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Garena, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=PlayStation, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Rockstar, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=SteamChina, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=SteamGlobal, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Ubisoft, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Xboxlive, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=Hax, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=TeamViewer, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=Other Games, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=B1gProxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
+static=Trading, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
 static=Telegram, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
 static=Netflix, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 static=GlobalMedia, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
 static=GlobalGameDownload, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
 static=PrivateTracker, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
+static=SougouInput, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hijacking.png
 static=Hijacking, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hijacking.png
 static=HK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 static=AutoHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
