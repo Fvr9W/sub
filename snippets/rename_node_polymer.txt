@@ -2,7 +2,6 @@
 !!GROUPID=0!!\[Premium\]@#Premium
 !!GROUPID=0!!IPv4 @
 !!GROUPID=0!!Stream@#Stream
-!!GROUPID=0!!
 !!GROUPID=0!!Hong Kong@香港
 !!GROUPID=0!!Korea@韩国
 !!GROUPID=0!!Taiwan@台湾
@@ -12,14 +11,12 @@
 !!GROUPID=0!!Indonesia@印尼
 !!GROUPID=0!!Australia Sydney@悉尼
 !!GROUPID=0!!Netherlands@新西兰
-!!GROUPID=0!!
 !!GROUPID=0!!United States@美国
 !!GROUPID=0!!USA Seattle@西雅图
 !!GROUPID=0!!USA San Jose@硅谷
 !!GROUPID=0!!Brazil@巴西
 !!GROUPID=0!!Chile@智利
 !!GROUPID=0!!Argentina@阿根廷
-!!GROUPID=0!!
 !!GROUPID=0!!Russia (St.Peterburg|St. Petersburg)@圣彼得堡
 !!GROUPID=0!!Russia Moscow@莫斯科
 !!GROUPID=0!!Germany@德国
@@ -38,42 +35,13 @@
 !!GROUPID=0!!Ireland@爱尔兰
 !!GROUPID=0!!Israel@以色列
 !!GROUPID=0!!Italy@意大利
-!!GROUPID=0!!
-!!GROUPID=0!! 24@ ω
-!!GROUPID=0!! 23@ ψ
-!!GROUPID=0!! 22@ χ
-!!GROUPID=0!! 21@ ϕ
-!!GROUPID=0!! 20@ υ
-!!GROUPID=0!! 19@ τ
-!!GROUPID=0!! 18@ σ
-!!GROUPID=0!! 17@ ρ
-!!GROUPID=0!! 16@ π
-!!GROUPID=0!! 15@ ο
-!!GROUPID=0!! 14@ ξ
-!!GROUPID=0!! 13@ ν
-!!GROUPID=0!! 12@ μ
-!!GROUPID=0!! 11@ λ
-!!GROUPID=0!! 10@ κ
-!!GROUPID=0!! (09|9)@ ι
-!!GROUPID=0!! (08|8)@ θ
-!!GROUPID=0!! (07|7)@ η
-!!GROUPID=0!! (06|6)@ ζ
-!!GROUPID=0!! (05|5)@ ϵ
-!!GROUPID=0!! (04|4)@ δ
-!!GROUPID=0!! (03|3)@ γ
-!!GROUPID=0!! (02|2)@ β
-!!GROUPID=0!! (01|1)@ α
-!!GROUPID=0!!
 !!GROUPID=0!!(.*(新加坡|香港|日本|韩国|台湾|印度|菲律宾|印尼|以色列|土耳其).*$)@$1 #Asia
 !!GROUPID=0!!(.*(加拿大|美国|西雅图|硅谷|墨西哥).*$)@$1 #North America
 !!GROUPID=0!!(.*(巴西|阿根廷|智利).*$)@$1 #South America
 !!GROUPID=0!!(.*(英国|德国|法国|俄罗斯|圣彼得堡|莫斯科|瑞典|瑞士|保加利亚|奥地利|爱尔兰|意大利|匈牙利|伦敦|考文垂).*$)@$1 #Europe
 !!GROUPID=0!!(.*(澳大利亚|悉尼|墨尔本|新西兰).*$)@$1 #Oceania
-!!GROUPID=0!!  @ 
-!!GROUPID=0!!\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 
 !!GROUPID=1!!IPV6(接入  |接入 )(.*)@$2 #IPV6
-!!GROUPID=1!!
 !!GROUPID=1!!香港 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #Jinx #Asia
 !!GROUPID=1!!香港 油尖旺御金·国峯 名氣通電訊 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #TGT #Asia
 !!GROUPID=1!!香港 油尖旺御金·国峯 環球全域電訊 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #HGC #Asia
@@ -82,63 +50,54 @@
 !!GROUPID=1!!中国-香港 IEPL Equinix HK2 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #IEPL #Asia
 !!GROUPID=1!!中港专线 IPLC ([A-Z]|[A-Z] )([0-9]{1,2}) 1000Mbps@香港 $2 #$1 #IPLC #Asia
 !!GROUPID=1!!沪港 IEPL专线 港区TVB/HBO/Netflix解锁 ([0-9]{1,2})@上海 - 香港 $1 #IPLC #Asia
-!!GROUPID=1!!
 !!GROUPID=1!!台湾 ([A-Z]|[A-Z] )([0-9]{1,2})@台湾 $2 #$1 #ChT #Asia
 !!GROUPID=1!!中国-台湾 IEPL HiNet固接 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix 动画疯@台湾 $2 #$1 #IEPL #Asia
 !!GROUPID=1!!中国-台湾 IPLC HiNet固接 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix 动画疯@台湾 $2 #$1 #IPLC #Asia
 !!GROUPID=1!!中国-台湾宜兰 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@宜兰 $2 #$1 #IPLC #Asia
-!!GROUPID=1!!
 !!GROUPID=1!!中国-韩国 IEPL ([A-Z]|[A-Z] )([0-9]{1,2})@韩国 $2 #$1 #IEPL #Asia
 !!GROUPID=1!!韩国 전라북도 전주시 商宽 ([A-Z]|[A-Z] )([0-9]{1,2})@韩国 $2 #$1 #Asia
-!!GROUPID=1!!
 !!GROUPID=1!!中国-日本 沪日IEPL传输 Equinix-TY8 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@日本 $2 #$1 #IEPL #Asia
 !!GROUPID=1!!中国-日本 沪日IPLC传输 Equinix-TY8 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@日本 $2 #$1 #IPLC #Asia
 !!GROUPID=1!!日本 ソフトバンク ([A-Z]|[A-Z] )([0-9]{1,2}) 500Mbps 1倍 Netflix@日本 $2 #$1 #SB #Asia
 !!GROUPID=1!!日本 まつやまし auひかり ホーム1ギガ ([A-Z]|[A-Z] )([0-9]{1,2})@日本 $2 #$1 #AU #Asia
-!!GROUPID=1!!
 !!GROUPID=1!!新加坡 Legacy Magic IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@新加坡 $2 #$1 #Legacy #Asia
 !!GROUPID=1!!新加坡 Magic IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@新加坡 $2 #$1 #IEPL #Asia
-!!GROUPID=1!!
 !!GROUPID=1!!中国-印度 马哈拉施特拉 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@马哈拉施特拉 $2 #$1 #IPLC #Asia
 !!GROUPID=1!!中国-印度 班加罗尔 एयरटेल IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@班加罗尔 $2 #$1 #IPLC #Asia
-!!GROUPID=1!!
 !!GROUPID=1!!中国-澳大利亚 IPLC 悉尼 ([A-Z]|[A-Z] )([0-9]{1,2})@悉尼 $2 #$1 #IPLC #Oceania
-!!GROUPID=1!!
 !!GROUPID=1!!中国-法国 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@法国 $2 #$1 #IPLC #Europe
 !!GROUPID=1!!中国-爱尔兰 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@爱尔兰 $2 #$1 #IPLC #Europe
 !!GROUPID=1!!中国-英国伦敦电信 IEPL ([A-Z]|[A-Z] )([0-9]{1,2})@伦敦 $2 #$1 #IEPL #Europe
 !!GROUPID=1!!俄罗斯 ([0-9]{1,2}).*@俄罗斯 $1 #Europe
 !!GROUPID=1!!德国 ([A-Z]|[A-Z] )([0-9]{1,2})@德国 $2 #$1 #Europe
-!!GROUPID=1!!
 !!GROUPID=1!!美国实验性 IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2})@美国 $2 #$1 #IPLC #America
 !!GROUPID=1!!美国高级 IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2})@美国 $2 #$1 #IEPL #America
 !!GROUPID=1!!中国-加拿大 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@加拿大 $2 #$1 #IPLC #America
-!!GROUPID=1!!
-!!GROUPID=1!!24@ω
-!!GROUPID=1!!23@ψ
-!!GROUPID=1!!22@χ
-!!GROUPID=1!!21@ϕ
-!!GROUPID=1!!20@υ
-!!GROUPID=1!!19@τ
-!!GROUPID=1!!18@σ
-!!GROUPID=1!!17@ρ
-!!GROUPID=1!!16@π
-!!GROUPID=1!!15@ο
-!!GROUPID=1!!14@ξ
-!!GROUPID=1!!13@ν
-!!GROUPID=1!!12@μ
-!!GROUPID=1!!11@λ
-!!GROUPID=1!!10@κ
-!!GROUPID=1!!(09|9)@ι
-!!GROUPID=1!!(08|8)@θ
-!!GROUPID=1!!(07|7)@η
-!!GROUPID=1!!(06|6)@ζ
-!!GROUPID=1!!(05|5)@ϵ
-!!GROUPID=1!!(04|4)@δ
-!!GROUPID=1!!(03|3)@γ
-!!GROUPID=1!!(02|2)@β
-!!GROUPID=1!!(01|1)@α
-!!GROUPID=1!!
-!!GROUPID=1!!IPVζ@IPV6
-!!GROUPID=1!!  @ 
-!!GROUPID=1!!\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
+24@ω
+23@ψ
+22@χ
+21@ϕ
+20@υ
+19@τ
+18@σ
+17@ρ
+16@π
+15@ο
+14@ξ
+13@ν
+12@μ
+11@λ
+10@κ
+(09|9)@ι
+(08|8)@θ
+(07|7)@η
+(06|6)@ζ
+(05|5)@ϵ
+(04|4)@δ
+(03|3)@γ
+(02|2)@β
+(01|1)@α
+IPVζ@IPV6
+IPVδ@IPV4
+  @ 
+\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
