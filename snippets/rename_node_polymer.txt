@@ -35,44 +35,40 @@
 !!GROUPID=0!!Ireland@爱尔兰
 !!GROUPID=0!!Israel@以色列
 !!GROUPID=0!!Italy@意大利
-!!GROUPID=0!!(.*(新加坡|香港|日本|韩国|台湾|印度|菲律宾|印尼|以色列|土耳其|马哈拉施特拉|班加罗尔).*$)@$1 #Asia
-!!GROUPID=0!!(.*(加拿大|美国|西雅图|硅谷|墨西哥).*$)@$1 #North America
-!!GROUPID=0!!(.*(巴西|阿根廷|智利).*$)@$1 #South America
-!!GROUPID=0!!(.*(英国|德国|法国|俄罗斯|圣彼得堡|莫斯科|瑞典|瑞士|保加利亚|奥地利|爱尔兰|意大利|匈牙利|伦敦|考文垂).*$)@$1 #Europe
-!!GROUPID=0!!(.*(澳大利亚|悉尼|墨尔本|新西兰).*$)@$1 #Oceania
 
 !!GROUPID=1!!IPV6(接入  |接入 )(.*)@$2 #IPV6
-!!GROUPID=1!!香港 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #Jinx #Asia
-!!GROUPID=1!!香港 油尖旺御金·国峯 名氣通電訊 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #TGT #Asia
-!!GROUPID=1!!香港 油尖旺御金·国峯 環球全域電訊 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #HGC #Asia
-!!GROUPID=1!!香港 油尖旺御金·国峯 網上行寬頻 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #NV #Asia
-!!GROUPID=1!!香港 油尖旺御金·国峯 香港寬頻 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #HKBN #Asia
-!!GROUPID=1!!中国-香港 IEPL Equinix HK2 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #IEPL #Asia
-!!GROUPID=1!!中港专线 IPLC ([A-Z]|[A-Z] )([0-9]{1,2}) 1000Mbps@香港 $2 #$1 #IPLC #Asia
-!!GROUPID=1!!沪港 IEPL专线 港区TVB/HBO/Netflix解锁 ([0-9]{1,2})@上海 - 香港 $1 #IPLC #Asia
-!!GROUPID=1!!台湾 ([A-Z]|[A-Z] )([0-9]{1,2})@台湾 $2 #$1 #ChT #Asia
-!!GROUPID=1!!中国-台湾 IEPL HiNet固接 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix 动画疯@台湾 $2 #$1 #IEPL #Asia
-!!GROUPID=1!!中国-台湾 IPLC HiNet固接 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix 动画疯@台湾 $2 #$1 #IPLC #Asia
-!!GROUPID=1!!中国-台湾宜兰 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@宜兰 $2 #$1 #IPLC #Asia
-!!GROUPID=1!!中国-韩国 IEPL ([A-Z]|[A-Z] )([0-9]{1,2})@韩国 $2 #$1 #IEPL #Asia
-!!GROUPID=1!!韩国 전라북도 전주시 商宽 ([A-Z]|[A-Z] )([0-9]{1,2})@韩国 $2 #$1 #Asia
-!!GROUPID=1!!中国-日本 沪日IEPL传输 Equinix-TY8 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@日本 $2 #$1 #IEPL #Asia
-!!GROUPID=1!!中国-日本 沪日IPLC传输 Equinix-TY8 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@日本 $2 #$1 #IPLC #Asia
-!!GROUPID=1!!日本 ソフトバンク ([A-Z]|[A-Z] )([0-9]{1,2}) 500Mbps 1倍 Netflix@日本 $2 #$1 #SB #Asia
-!!GROUPID=1!!日本 まつやまし auひかり ホーム1ギガ ([A-Z]|[A-Z] )([0-9]{1,2})@日本 $2 #$1 #AU #Asia
-!!GROUPID=1!!新加坡 Legacy Magic IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@新加坡 $2 #$1 #Legacy #Asia
-!!GROUPID=1!!新加坡 Magic IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@新加坡 $2 #$1 #IEPL #Asia
-!!GROUPID=1!!中国-印度 马哈拉施特拉 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@马哈拉施特拉 $2 #$1 #IPLC #Asia
-!!GROUPID=1!!中国-印度 班加罗尔 एयरटेल IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@班加罗尔 $2 #$1 #IPLC #Asia
-!!GROUPID=1!!中国-澳大利亚 IPLC 悉尼 ([A-Z]|[A-Z] )([0-9]{1,2})@悉尼 $2 #$1 #IPLC #Oceania
-!!GROUPID=1!!中国-法国 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@法国 $2 #$1 #IPLC #Europe
-!!GROUPID=1!!中国-爱尔兰 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@爱尔兰 $2 #$1 #IPLC #Europe
-!!GROUPID=1!!中国-英国伦敦电信 IEPL ([A-Z]|[A-Z] )([0-9]{1,2})@伦敦 $2 #$1 #IEPL #Europe
-!!GROUPID=1!!俄罗斯 ([0-9]{1,2}).*@俄罗斯 $1 #Europe
-!!GROUPID=1!!德国 ([A-Z]|[A-Z] )([0-9]{1,2})@德国 $2 #$1 #Europe
-!!GROUPID=1!!美国实验性 IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2})@美国 $2 #$1 #IPLC #America
-!!GROUPID=1!!美国高级 IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2})@美国 $2 #$1 #IEPL #America
-!!GROUPID=1!!中国-加拿大 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@加拿大 $2 #$1 #IPLC #America
+!!GROUPID=1!!香港 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #Jinx
+!!GROUPID=1!!香港 油尖旺御金·国峯 名氣通電訊 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #TGT
+!!GROUPID=1!!香港 油尖旺御金·国峯 環球全域電訊 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #HGC
+!!GROUPID=1!!香港 油尖旺御金·国峯 網上行寬頻 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #NV
+!!GROUPID=1!!香港 油尖旺御金·国峯 香港寬頻 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #HKBN
+!!GROUPID=1!!中国-香港 IEPL Equinix HK2 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #IEPL
+!!GROUPID=1!!中港专线 IPLC ([A-Z]|[A-Z] )([0-9]{1,2}) 1000Mbps@香港 $2 #$1 #IPLC
+!!GROUPID=1!!沪港 IEPL专线 港区TVB/HBO/Netflix解锁 ([0-9]{1,2})@上海 - 香港 $1 #IPLC
+!!GROUPID=1!!台湾 ([A-Z]|[A-Z] )([0-9]{1,2})@台湾 $2 #$1 #ChT
+!!GROUPID=1!!中国-台湾 IEPL HiNet固接 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix 动画疯@台湾 $2 #$1 #IEPL
+!!GROUPID=1!!中国-台湾 IPLC HiNet固接 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix 动画疯@台湾 $2 #$1 #IPLC
+!!GROUPID=1!!中国-台湾宜兰 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@宜兰 $2 #$1 #IPLC
+!!GROUPID=1!!中国-韩国 IEPL ([A-Z]|[A-Z] )([0-9]{1,2})@韩国 $2 #$1 #IEPL
+!!GROUPID=1!!韩国 전라북도 전주시 商宽 ([A-Z]|[A-Z] )([0-9]{1,2})@韩国 $2 #$1
+!!GROUPID=1!!中国-日本 沪日IEPL传输 Equinix-TY8 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@日本 $2 #$1 #IEPL
+!!GROUPID=1!!中国-日本 沪日IPLC传输 Equinix-TY8 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@日本 $2 #$1 #IPLC
+!!GROUPID=1!!日本 ソフトバンク ([A-Z]|[A-Z] )([0-9]{1,2}) 500Mbps 1倍 Netflix@日本 $2 #$1 #SB
+!!GROUPID=1!!日本 まつやまし auひかり ホーム1ギガ ([A-Z]|[A-Z] )([0-9]{1,2})@日本 $2 #$1 #AU
+!!GROUPID=1!!新加坡 Legacy Magic IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@新加坡 $2 #$1 #Legacy
+!!GROUPID=1!!新加坡 Magic IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@新加坡 $2 #$1 #IEPL
+!!GROUPID=1!!中国-印度 马哈拉施特拉 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@马哈拉施特拉 $2 #$1 #IPLC
+!!GROUPID=1!!中国-印度 班加罗尔 एयरटेल IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@班加罗尔 $2 #$1 #IPLC
+!!GROUPID=1!!中国-澳大利亚 IPLC 悉尼 ([A-Z]|[A-Z] )([0-9]{1,2})@悉尼 $2 #$1 #IPLC
+!!GROUPID=1!!中国-法国 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@法国 $2 #$1 #IPLC
+!!GROUPID=1!!中国-爱尔兰 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@爱尔兰 $2 #$1 #IPLC
+!!GROUPID=1!!中国-英国伦敦电信 IEPL ([A-Z]|[A-Z] )([0-9]{1,2})@伦敦 $2 #$1 #IEPL
+!!GROUPID=1!!俄罗斯 ([0-9]{1,2}).*@俄罗斯 $1
+!!GROUPID=1!!德国 ([A-Z]|[A-Z] )([0-9]{1,2})@德国 $2 #$1
+!!GROUPID=1!!美国实验性 IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2})@美国 $2 #$1 #IPLC
+!!GROUPID=1!!美国高级 IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2})@美国 $2 #$1 #IEPL
+!!GROUPID=1!!中国-加拿大 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@加拿大 $2 #$1 #IPLC
+
 24@ω
 23@ψ
 22@χ
@@ -97,6 +93,13 @@
 (03|3)@γ
 (02|2)@β
 (01|1)@α
+
+(.*(新加坡|香港|日本|韩国|台湾|印度|菲律宾|印尼|以色列|土耳其|马哈拉施特拉|班加罗尔).*$)@$1 #Asia
+(.*(加拿大|美国|西雅图|硅谷|墨西哥).*$)@$1 #North America
+(.*(巴西|阿根廷|智利).*$)@$1 #South America
+(.*(英国|德国|法国|俄罗斯|圣彼得堡|莫斯科|瑞典|瑞士|保加利亚|奥地利|爱尔兰|意大利|匈牙利|伦敦|考文垂).*$)@$1 #Europe
+(.*(澳大利亚|悉尼|墨尔本|新西兰).*$)@$1 #Oceania
+
 IPVζ@IPV6
 IPVδ@IPV4
   @ 
