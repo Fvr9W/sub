@@ -1,6 +1,6 @@
-Premium`fallback`^(?!.*?Sut).*香港 γ.*$`^(?!.*?Sut).*香港 (λ|ι).*$`^(?!.*?Nax).*香港 (θ|κ|σ) #[A-Z] #IPLC.*$`https://www.gstatic.com/generate_204`300
-Game`select`^(?!.*?Sut).*Gamer.*$
-Daily`select`^(?!.*?Sut).*
+Premium`fallback`!!GROUPID=0!!.*香港 γ.*$`!!GROUPID=0!!.*香港 (λ|ι).*$`!!GROUPID=1!!.*香港 (θ|κ|σ) #[A-Z] #IPLC.*$`https://www.gstatic.com/generate_204`300
+Game`select`!!GROUPID=0!!.*Gamer.*$
+Daily`select`!!GROUPID=0!!.*
 Blizzard`select`[]Other Games`[]Daily`[]DIRECT
 Garena`select`[]Other Games`[]Daily`[]DIRECT
 PlayStation`select`[]Other Games`[]Daily`[]DIRECT
@@ -20,25 +20,25 @@ GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]Daily`[]DIRECT
 PrivateTracker`select`[]DIRECT`[]Daily`[]TW 🇨🇳`[]Other Games
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
-HK 🇭🇰`select`^(?!.*?Sut).*香港.*$
-AutoHK 🇭🇰`url-test`^(?!.*?Sut).*香港 γ.*$`^(?!.*?Sut).*香港 (λ|ι).*$`^(?!.*?Nax).*香港 (θ|κ|σ) #[A-Z] #IPLC.*$`https://www.gstatic.com/generate_204`300
-TW 🇨🇳`select`^(?!.*?Sut).*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
-AutoTW 🇨🇳`fallback`^(?!.*?Sut).*台湾 (β|γ).*$`^(?!.*?Nax).*台湾 (β|γ|σ) #[A-Z] #ChT.*$`https://www.gstatic.com/generate_204`300
-KR 🇰🇷`select`^(?!.*?Sut).*(韩国|首尔).*$
-AutoKR 🇰🇷`fallback`^(?!.*?Sut).*韩国 (β|δ).*$`^(?!.*?Nax).*韩国 δ.*$`https://www.gstatic.com/generate_204`300
-JP 🇯🇵`select`^(?!.*?Sut).*(日本|东京|大阪).*$
-AutoJP 🇯🇵`fallback`^(?!.*?Sut).*日本 λ.*$`^(?!.*?Sut).*日本 (ζ|ϵ).*$`^(?!.*?Nax).*日本 δ.*$`https://www.gstatic.com/generate_204`300
-SGP 🇸🇬`select`^(?!.*?Sut).*新加坡.*$
-AutoSGP 🇸🇬`fallback`^(?!.*?Sut).*新加坡 μ.*$`^(?!.*?Sut).*新加坡 (ζ|δ).*$`^(?!.*?Nax).*新加坡 β.*$`https://www.gstatic.com/generate_204`300
-SEA 🌏`select`^(?!.*?Sut).*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$
-AutoSEA 🌏`fallback`^(?!.*?Sut).*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$`^(?!.*?Nax).*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉) (α|δ).*$`[]AutoSGP 🇸🇬`https://www.gstatic.com/generate_204`300
-AU 🇦🇺`select`^(?!.*?Sut).*(悉尼|澳大利亚|新西兰).*$`[]SGP 🇸🇬
-AutoAU 🇦🇺`fallback`^(?!.*?Sut).*(悉尼|澳大利亚).*$`^(?!.*?Nax).*(悉尼|澳大利亚).*$`[]AutoSGP 🇸🇬`https://www.gstatic.com/generate_204`300
-RU 🇷🇺`select`^(?!.*?Sut).*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$
-AutoRU 🇷🇺`fallback`^(?!.*?Sut).*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`^(?!.*?Nax).*俄罗斯 (β|γ|σ).*$`[]AutoEU 🇪🇺`https://www.gstatic.com/generate_204`300
-EU 🇪🇺`select`^(?!.*?Sut).*Europe.*$
-AutoEU 🇪🇺`fallback`^(?!.*?Sut).*德国.*$`^(?!.*?Nax).*德国 (β|γ|σ) #[A-Z].*$`[]AutoHK 🇭🇰`https://www.gstatic.com/generate_204`300
-CA 🇨🇦`select`^(?!.*?Sut).*(多伦多|加拿大).*$`[]NA 🇺🇲`https://www.gstatic.com/generate_204`300
-AutoCA 🇨🇦`fallback`^(?!.*?Sut).*(多伦多|加拿大).*$`^(?!.*?Nax).*(多伦多|加拿大) (β|γ|σ).*$`[]AutoNA 🇺🇲`https://www.gstatic.com/generate_204`300
-NA 🇺🇲`select`^(?!.*?Sut).*America.*$
-AutoNA 🇺🇲`fallback`^(?!.*?Sut).*(硅谷|西雅图) β.*$`^(?!.*?Sut).*(硅谷|西雅图) θ.*$`^(?!.*?Nax).*美国 β.*$`https://www.gstatic.com/generate_204`300
+HK 🇭🇰`select`!!GROUPID=0!!.*香港.*$
+AutoHK 🇭🇰`url-test`!!GROUPID=0!!.*香港 γ.*$`!!GROUPID=0!!.*香港 (λ|ι).*$`!!GROUPID=1!!.*香港 (θ|κ|σ) #[A-Z] #IPLC.*$`https://www.gstatic.com/generate_204`300
+TW 🇨🇳`select`!!GROUPID=0!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
+AutoTW 🇨🇳`fallback`!!GROUPID=0!!.*台湾 (β|γ).*$`!!GROUPID=1!!.*台湾 (β|γ|σ) #[A-Z] #ChT.*$`https://www.gstatic.com/generate_204`300
+KR 🇰🇷`select`!!GROUPID=0!!.*(韩国|首尔).*$
+AutoKR 🇰🇷`fallback`!!GROUPID=0!!.*韩国 (β|δ).*$`!!GROUPID=1!!.*韩国 δ.*$`https://www.gstatic.com/generate_204`300
+JP 🇯🇵`select`!!GROUPID=0!!.*(日本|东京|大阪).*$
+AutoJP 🇯🇵`fallback`!!GROUPID=0!!.*日本 λ.*$`!!GROUPID=0!!.*日本 (ζ|ϵ).*$`!!GROUPID=1!!.*日本 δ.*$`https://www.gstatic.com/generate_204`300
+SGP 🇸🇬`select`!!GROUPID=0!!.*新加坡.*$
+AutoSGP 🇸🇬`fallback`!!GROUPID=0!!.*新加坡 μ.*$`!!GROUPID=0!!.*新加坡 (ζ|δ).*$`!!GROUPID=1!!.*新加坡 β.*$`https://www.gstatic.com/generate_204`300
+SEA 🌏`select`!!GROUPID=0!!.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$
+AutoSEA 🌏`fallback`!!GROUPID=0!!.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$`!!GROUPID=1!!.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉) (α|δ).*$`[]AutoSGP 🇸🇬`https://www.gstatic.com/generate_204`300
+AU 🇦🇺`select`!!GROUPID=0!!.*(悉尼|澳大利亚|新西兰).*$`[]SGP 🇸🇬
+AutoAU 🇦🇺`fallback`!!GROUPID=0!!.*(悉尼|澳大利亚).*$`!!GROUPID=1!!.*(悉尼|澳大利亚).*$`[]AutoSGP 🇸🇬`https://www.gstatic.com/generate_204`300
+RU 🇷🇺`select`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$
+AutoRU 🇷🇺`fallback`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`!!GROUPID=1!!.*俄罗斯 (β|γ|σ).*$`[]AutoEU 🇪🇺`https://www.gstatic.com/generate_204`300
+EU 🇪🇺`select`!!GROUPID=0!!.*Europe.*$
+AutoEU 🇪🇺`fallback`!!GROUPID=0!!.*德国.*$`!!GROUPID=1!!.*德国 (β|γ|σ) #[A-Z].*$`[]AutoHK 🇭🇰`https://www.gstatic.com/generate_204`300
+CA 🇨🇦`select`!!GROUPID=0!!.*(多伦多|加拿大).*$`[]NA 🇺🇲`https://www.gstatic.com/generate_204`300
+AutoCA 🇨🇦`fallback`!!GROUPID=0!!.*(多伦多|加拿大).*$`!!GROUPID=1!!.*(多伦多|加拿大) (β|γ|σ).*$`[]AutoNA 🇺🇲`https://www.gstatic.com/generate_204`300
+NA 🇺🇲`select`!!GROUPID=0!!.*America.*$
+AutoNA 🇺🇲`fallback`!!GROUPID=0!!.*(硅谷|西雅图) β.*$`!!GROUPID=0!!.*(硅谷|西雅图) θ.*$`!!GROUPID=1!!.*美国 β.*$`https://www.gstatic.com/generate_204`300
