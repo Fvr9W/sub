@@ -1,73 +1,140 @@
-# 0是N3RO,1是nyancat的SS订阅，2是nyancat的VMESS订阅，3是V2TUN的订阅
+# 0 是奶昔 1 是薯条
+!!GROUPID=0!!\[Premium\]@#Premium
+!!GROUPID=0!!IPv4 @
+!!GROUPID=0!!Stream@#Stream
+!!GROUPID=0!!
+!!GROUPID=0!!Hong Kong@香港
+!!GROUPID=0!!Korea@韩国
+!!GROUPID=0!!Taiwan@台湾
+!!GROUPID=0!!Japan@日本
+!!GROUPID=0!!Singapore@新加坡
+!!GROUPID=0!!India@印度
+!!GROUPID=0!!Indonesia@印尼
+!!GROUPID=0!!Australia Sydney@悉尼
+!!GROUPID=0!!Netherlands@新西兰
+!!GROUPID=0!!
+!!GROUPID=0!!United States@美国
+!!GROUPID=0!!USA Seattle@西雅图
+!!GROUPID=0!!USA San Jose@硅谷
+!!GROUPID=0!!Brazil@巴西
+!!GROUPID=0!!Chile@智利
+!!GROUPID=0!!
+!!GROUPID=0!!Russia St.Peterburg@圣彼得堡
+!!GROUPID=0!!Russia Moscow@莫斯科
+!!GROUPID=0!!Germany@德国
+!!GROUPID=0!!France@法国
+!!GROUPID=0!!United Kingdom@英国
+!!GROUPID=0!!UK London@伦敦
+!!GROUPID=0!!UK Coventry@考文垂
+!!GROUPID=0!!Sweden@瑞典
+!!GROUPID=0!!Switzerland@瑞士
+!!GROUPID=0!!Bulgaria@保加利亚
+!!GROUPID=0!!Austria@奥地利
+!!GROUPID=0!!Hungary@匈牙利
+!!GROUPID=0!!Italy@意大利
+!!GROUPID=0!!Turkey@土耳其
+!!GROUPID=0!!Canada@加拿大
+!!GROUPID=0!!Ireland@爱尔兰
+!!GROUPID=0!!Israel@以色列
+!!GROUPID=0!!Italy@意大利
+!!GROUPID=0!!
+!!GROUPID=0!! 24@ ω
+!!GROUPID=0!! 23@ ψ
+!!GROUPID=0!! 22@ χ
+!!GROUPID=0!! 21@ ϕ
+!!GROUPID=0!! 20@ υ
+!!GROUPID=0!! 19@ τ
+!!GROUPID=0!! 18@ σ
+!!GROUPID=0!! 17@ ρ
+!!GROUPID=0!! 16@ π
+!!GROUPID=0!! 15@ ο
+!!GROUPID=0!! 14@ ξ
+!!GROUPID=0!! 13@ ν
+!!GROUPID=0!! 12@ μ
+!!GROUPID=0!! 11@ λ
+!!GROUPID=0!! 10@ κ
+!!GROUPID=0!! (09|9)@ ι
+!!GROUPID=0!! (08|8)@ θ
+!!GROUPID=0!! (07|7)@ η
+!!GROUPID=0!! (06|6)@ ζ
+!!GROUPID=0!! (05|5)@ ϵ
+!!GROUPID=0!! (04|4)@ δ
+!!GROUPID=0!! (03|3)@ γ
+!!GROUPID=0!! (02|2)@ β
+!!GROUPID=0!! (01|1)@ α
+!!GROUPID=0!!
+!!GROUPID=0!!(.*(新加坡|香港|日本|韩国|台湾|印度|菲律宾|印尼|以色列|土耳其).*$)@$1 #Asia
+!!GROUPID=0!!(.*(加拿大|美国|西雅图|硅谷|墨西哥).*$)@$1 #North America
+!!GROUPID=0!!(.*(巴西|阿根廷|智利).*$)@$1 #South America
+!!GROUPID=0!!(.*(英国|德国|法国|俄罗斯|圣彼得堡|莫斯科|瑞典|瑞士|保加利亚|奥地利|爱尔兰|意大利|匈牙利|伦敦|考文垂).*$)@$1 #Europe
+!!GROUPID=0!!(.*(澳大利亚|悉尼|墨尔本|新西兰).*$)@$1 #Oceania
+!!GROUPID=1!!IPV6(接入  |接入 )(.*)@$2 #IPV6
+!!GROUPID=1!!
+!!GROUPID=1!!香港 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #Jinx #Asia
+!!GROUPID=1!!香港 油尖旺御金·国峯 名氣通電訊 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #TGT #Asia
+!!GROUPID=1!!香港 油尖旺御金·国峯 環球全域電訊 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #HGC #Asia
+!!GROUPID=1!!香港 油尖旺御金·国峯 網上行寬頻 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #NV #Asia
+!!GROUPID=1!!香港 油尖旺御金·国峯 香港寬頻 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #HKBN #Asia
+!!GROUPID=1!!中国-香港 IEPL Equinix HK2 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #IEPL #Asia
+!!GROUPID=1!!中港专线 IPLC ([A-Z]|[A-Z] )([0-9]{1,2}) 1000Mbps@香港 $2 #$1 #IPLC #Asia
+!!GROUPID=1!!沪港 IEPL专线 港区TVB/HBO/Netflix解锁 ([0-9]{1,2})@上海 - 香港 $1 #IPLC #Asia
+!!GROUPID=1!!
+!!GROUPID=1!!台湾 ([A-Z]|[A-Z] )([0-9]{1,2})@台湾 $2 #$1 #ChT #Asia
+!!GROUPID=1!!中国-台湾 IEPL HiNet固接 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix 动画疯@台湾 $2 #$1 #IEPL #Asia
+!!GROUPID=1!!中国-台湾 IPLC HiNet固接 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix 动画疯@台湾 $2 #$1 #IPLC #Asia
+!!GROUPID=1!!中国-台湾宜兰 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@宜兰 $2 #$1 #IPLC #Asia
+!!GROUPID=1!!
+!!GROUPID=1!!中国-韩国 IEPL ([A-Z]|[A-Z] )([0-9]{1,2})@韩国 $2 #$1 #IEPL #Asia
+!!GROUPID=1!!韩国 전라북도 전주시 商宽 ([A-Z]|[A-Z] )([0-9]{1,2})@韩国 $2 #$1 #Asia
+!!GROUPID=1!!
+!!GROUPID=1!!中国-日本 沪日IEPL传输 Equinix-TY8 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@日本 $2 #$1 #IEPL #Asia
+!!GROUPID=1!!中国-日本 沪日IPLC传输 Equinix-TY8 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@日本 $2 #$1 #IPLC #Asia
+!!GROUPID=1!!日本 ソフトバンク ([A-Z]|[A-Z] )([0-9]{1,2}) 500Mbps 1倍 Netflix@日本 $2 #$1 #SB #Asia
+!!GROUPID=1!!日本 まつやまし auひかり ホーム1ギガ ([A-Z]|[A-Z] )([0-9]{1,2})@日本 $2 #$1 #AU #Asia
+!!GROUPID=1!!
+!!GROUPID=1!!新加坡 Legacy Magic IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@新加坡 $2 #$1 #Legacy #Asia
+!!GROUPID=1!!新加坡 Magic IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@新加坡 $2 #$1 #IEPL #Asia
+!!GROUPID=1!!
+!!GROUPID=1!!中国-印度 马哈拉施特拉 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@马哈拉施特拉 $2 #$1 #IPLC #Asia
+!!GROUPID=1!!中国-印度 班加罗尔 एयरटेल IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@班加罗尔 $2 #$1 #IPLC #Asia
+!!GROUPID=1!!
+!!GROUPID=1!!中国-澳大利亚 IPLC 悉尼 ([A-Z]|[A-Z] )([0-9]{1,2})@悉尼 $2 #$1 #IPLC #Oceania
+!!GROUPID=1!!
+!!GROUPID=1!!中国-法国 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@法国 $2 #$1 #IPLC #Europe
+!!GROUPID=1!!中国-爱尔兰 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@爱尔兰 $2 #$1 #IPLC #Europe
+!!GROUPID=1!!中国-英国伦敦电信 IEPL ([A-Z]|[A-Z] )([0-9]{1,2})@伦敦 $2 #$1 #IEPL #Europe
+!!GROUPID=1!!俄罗斯 ([0-9]{1,2}).*@俄罗斯 $1 #Europe
+!!GROUPID=1!!德国 ([A-Z]|[A-Z] )([0-9]{1,2})@德国 $2 #$1 #Europe
+!!GROUPID=1!!
+!!GROUPID=1!!美国实验性 IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2})@美国 $2 #$1 #IPLC #America
+!!GROUPID=1!!美国高级 IEPL 中继 ([A-Z]|[A-Z] )([0-9]{1,2})@美国 $2 #$1 #IEPL #America
+!!GROUPID=1!!中国-加拿大 IPLC ([A-Z]|[A-Z] )([0-9]{1,2})@加拿大 $2 #$1 #IPLC #America
+!!GROUPID=1!!
+!!GROUPID=1!!24@ω
+!!GROUPID=1!!23@ψ
+!!GROUPID=1!!22@χ
+!!GROUPID=1!!21@ϕ
+!!GROUPID=1!!20@υ
+!!GROUPID=1!!19@τ
+!!GROUPID=1!!18@σ
+!!GROUPID=1!!17@ρ
+!!GROUPID=1!!16@π
+!!GROUPID=1!!15@ο
+!!GROUPID=1!!14@ξ
+!!GROUPID=1!!13@ν
+!!GROUPID=1!!12@μ
+!!GROUPID=1!!11@λ
+!!GROUPID=1!!10@κ
+!!GROUPID=1!!(09|9)@ι
+!!GROUPID=1!!(08|8)@θ
+!!GROUPID=1!!(07|7)@η
+!!GROUPID=1!!(06|6)@ζ
+!!GROUPID=1!!(05|5)@ϵ
+!!GROUPID=1!!(04|4)@δ
+!!GROUPID=1!!(03|3)@γ
+!!GROUPID=1!!(02|2)@β
+!!GROUPID=1!!(01|1)@α
+!!GROUPID=1!!
+!!GROUPID=1!!IPVζ@IPV6
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
-TCP:@TCP
-WS:@WS
-!!GROUPID=0!!回国 上海 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@回国 - 上海 $1 #Premium #Asia #N3RO
-!!GROUPID=0!!专线 德国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[北京.*]@IPLC 北京 - 德国 $1 #Premium #Europe #N3RO
-!!GROUPID=0!!专线 日本 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@IPLC 上海 - 日本 $1 #Premium #Asia #N3RO
-!!GROUPID=0!!专线 韩国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@IPLC 上海 - 韩国 $1 #Premium #Europe #N3RO
-!!GROUPID=0!!中继 冷门-俄罗斯 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 江苏 - 俄罗斯 #Daily #Europe #N3RO
-!!GROUPID=0!!中继 冷门-印度 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 江苏 - 印度 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 冷门-德国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 江苏 - 德国 #Daily #Europe #N3RO
-!!GROUPID=0!!中继 冷门-澳大利亚 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 江苏 - 澳大利亚 #Oceania #Asia #N3RO
-!!GROUPID=0!!中继 冷门-英国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 江苏 - 英国 #Daily #Europe #N3RO
-!!GROUPID=0!!中继 马来西亚 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 马来西亚 $1 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 台湾 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 上海 - 台湾 $1 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广.*]@BGP 广东 - 新加坡 $1 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@BGP 上海 - 新加坡 $1 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 日本 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广.*]@BGP 广东 - 日本 $1 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 日本 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@BGP 上海 - 日本 $1 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 美国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广.*]@BGP 广东 - 美国 $1 #Daily #North America #N3RO
-!!GROUPID=0!!中继 美国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@BGP 上海 - 美国 $1 #Daily #North America #N3RO
-!!GROUPID=0!!中继 韩国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广.*]@BGP 广东 - 韩国 $1 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 韩国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@BGP 上海 - 韩国 $1 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[广.*]@BGP 广东 - 香港 $1 #Daily #Asia #N3RO
-!!GROUPID=0!!中继 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@BGP 上海 - 香港 $1 #Daily #Asia #N3RO
-!!GROUPID=0!!中继Pro 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 上海 - 新加坡 $1 #DailyPro #Asia #N3RO
-!!GROUPID=0!!中继Pro 日本 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 上海 - 日本 $1 #DailyPro #Asia #N3RO
-!!GROUPID=0!!中继Pro 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[.*]@BGP 上海 - 香港 $1 #DailyPro #Asia #N3RO
-!!GROUPID=0!!专线 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[深圳.*]@IPLC 深圳 - 新加坡 $1 #Premium #Asia #N3RO
-!!GROUPID=0!!专线 新加坡 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@IPLC 上海 - 新加坡 $1 #Premium #Asia #N3RO
-!!GROUPID=0!!专线 美国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[深圳.*]@IPLC 深圳 - 美国 $1 #Premium #North America #N3RO
-!!GROUPID=0!!专线 美国 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@IPLC 上海 - 美国 $1 #Premium #North America #N3RO
-!!GROUPID=0!!专线 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[深圳.*]@IPLC 深圳 - 香港 $1 #Premium #Asia #N3RO
-!!GROUPID=0!!专线 香港 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@IPLC 上海 - 香港 $1 #Premium #Asia #N3RO
-!!GROUPID=0!!专线 马来西亚 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[深圳.*]@IPLC 深圳 - 马来西亚 $1 #Premium #Asia #N3RO
-!!GROUPID=0!!专线 马来西亚 (([A-Z]|[A-Z] |)[0-9]{1,2}) \[上海.*]@IPLC 上海 - 马来西亚 $1 #Premium #Asia #N3RO
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(01|1) @α 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(02|2) @β 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(03|3) @γ 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(04|4) @δ 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(05|5) @ϵ 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(06|6) @ζ 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(07|7) @η 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(08|8) @θ 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )(09|9) @ι 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )10 @κ 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )11 @λ 
-!!GROUPID=0!!(α|β|γ|δ|ϵ|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|τ|υ|ϕ|χ|ψ|ω|[A-Z]|[A-Z] )12 @μ 
-( |-)(01|A)@ α
-( |-)(02|B)@ β
-( |-)(03|C)@ γ
-( |-)(04|D)@ δ
-( |-)(05|E)@ ε
-( |-)(06|F)@ ζ
-( |-)(07|G)@ η
-( |-)(08|H)@ θ
-( |-)(09|I)@ ι
-( |-)(10|J)@ κ
-( |-)(11|K)@ λ
-( |-)((12|L)@ μ
-!!GROUPID=0!!#Daily @0.2x #Daily 
-!!GROUPID=0!!#DailyPro @0.45x #DailyPro 
-!!GROUPID=0!!#Lite @0.6x #PremiumLite 
-!!GROUPID=3!!(美国 (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #North America #V2Tun
-!!GROUPID=3!!((印度|狮城|日本|台湾|香港) (α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ))@$1 #Daily #Asia #V2Tun
-!!GROUPID=3!!#Daily @0.2x #Daily 
-North αmerica@North America
-ιEPL@IEPL
-αsia@Asia
-αIA@AIA
- ηame@
-βηP@BGP
-ιPγ@IPLC
+  @ 
