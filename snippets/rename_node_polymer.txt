@@ -71,7 +71,6 @@
 !!GROUPID=0!!(.*(澳大利亚|悉尼|墨尔本|新西兰).*$)@$1 #Oceania
 !!GROUPID=0!!  @ 
 !!GROUPID=0!!\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
-!!GROUPID=0!!(.*)@$1 #Nax
 
 !!GROUPID=1!!IPV6(接入  |接入 )(.*)@$2 #IPV6
 !!GROUPID=1!!
@@ -143,4 +142,3 @@
 !!GROUPID=1!!IPVζ@IPV6
 !!GROUPID=1!!  @ 
 !!GROUPID=1!!\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
-!!GROUPID=1!!(.*)@$1 #Sut
