@@ -18,8 +18,9 @@
 !!GROUPID=0!!USA San Jose@硅谷
 !!GROUPID=0!!Brazil@巴西
 !!GROUPID=0!!Chile@智利
+!!GROUPID=0!!Argentina@阿根廷
 !!GROUPID=0!!
-!!GROUPID=0!!Russia St.Peterburg@圣彼得堡
+!!GROUPID=0!!Russia (St.Peterburg|St. Petersburg)@圣彼得堡
 !!GROUPID=0!!Russia Moscow@莫斯科
 !!GROUPID=0!!Germany@德国
 !!GROUPID=0!!France@法国
@@ -68,6 +69,9 @@
 !!GROUPID=0!!(.*(巴西|阿根廷|智利).*$)@$1 #South America
 !!GROUPID=0!!(.*(英国|德国|法国|俄罗斯|圣彼得堡|莫斯科|瑞典|瑞士|保加利亚|奥地利|爱尔兰|意大利|匈牙利|伦敦|考文垂).*$)@$1 #Europe
 !!GROUPID=0!!(.*(澳大利亚|悉尼|墨尔本|新西兰).*$)@$1 #Oceania
+!!GROUPID=0!!  @ 
+!!GROUPID=0!!\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
+
 !!GROUPID=1!!IPV6(接入  |接入 )(.*)@$2 #IPV6
 !!GROUPID=1!!
 !!GROUPID=1!!香港 ([A-Z]|[A-Z] )([0-9]{1,2})@香港 $2 #$1 #Jinx #Asia
@@ -136,5 +140,6 @@
 !!GROUPID=1!!(01|1)@α
 !!GROUPID=1!!
 !!GROUPID=1!!IPVζ@IPV6
-\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
-  @ 
+!!GROUPID=1!!  @ 
+!!GROUPID=1!!\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
+!!GROUPID=1!!(.*)@$1 #St
