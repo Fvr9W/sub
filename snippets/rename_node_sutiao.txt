@@ -17,6 +17,7 @@ IPV6(接入  |接入 )(.*)@$2 #IPV6
 韩国 전라북도 전주시 商宽 ([A-Z]|[A-Z] )([0-9]{1,2})@韩国 $2 #$1 #Asia
 
 中国-日本 沪日IEPL传输 Equinix-TY8 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@日本 $2 #$1 #IEPL #Asia
+中国-日本 沪日IPLC传输 Equinix-TY8 ([A-Z]|[A-Z] )([0-9]{1,2}) Netflix@日本 $2 #$1 #IPLC #Asia
 日本 ソフトバンク ([A-Z]|[A-Z] )([0-9]{1,2}) 500Mbps 1倍 Netflix@日本 $2 #$1 #SB #Asia
 日本 まつやまし auひかり ホーム1ギガ ([A-Z]|[A-Z] )([0-9]{1,2})@日本 $2 #$1 #AU #Asia
 
