@@ -142,4 +142,4 @@
 !!GROUPID=1!!IPVζ@IPV6
 !!GROUPID=1!!  @ 
 !!GROUPID=1!!\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
-!!GROUPID=1!!(.*)@$1 #St
+!!GROUPID=1!!(.*)@$1 #Sut
