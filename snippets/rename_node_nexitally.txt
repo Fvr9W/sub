@@ -18,8 +18,9 @@ USA Seattle@西雅图
 USA San Jose@硅谷
 Brazil@巴西
 Chile@智利
+Argentina@阿根廷
 
-Russia St.Peterburg@圣彼得堡
+Russia (St.Peterburg|St. Petersburg)@圣彼得堡
 Russia Moscow@莫斯科
 Germany@德国
 France@法国
