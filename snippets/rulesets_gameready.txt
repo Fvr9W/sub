@@ -29,5 +29,5 @@ AutoJP 🇯🇵,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnJP
 B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/b1g.list
 B1gProxy,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 DIRECT,https://ruleset.skk.moe/List/non_ip/domestic.conf
-DIRECT,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
+DIRECT,GEOIP,CN
 Other Games,[]FINAL
