@@ -22,9 +22,13 @@ DOMAIN-SUFFIX,dmx.upc.ubisoft.com
 DOMAIN-SUFFIX,a.upc.ubisoft.com
 DOMAIN-SUFFIX,public.prod.orwell.fleet.ubi.com
 DOMAIN-SUFFIX,ubistatic2-a.akamaihd.net
+## > UBI
+DOMAIN-SUFFIX,ubi.com
+DOMAIN-SUFFIX,ubisoft.com
 # 存档
 DOMAIN-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com
 DOMAIN-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com
+DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
 # 漏网之鱼
 PROCESS-NAME,UbisoftConnect.exe
 PROCESS-NAME,UbisoftGameLauncher.exe
