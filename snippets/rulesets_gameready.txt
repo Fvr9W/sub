@@ -29,5 +29,6 @@ DIRECT,https://ruleset.skk.moe/List/non_ip/direct.conf
 B1gProxy,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
 B1gProxy,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
 DIRECT,https://ruleset.skk.moe/List/ip/domestic.conf
+DIRECT,https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/DirectFix.list
 Other Games,[]FINAL
