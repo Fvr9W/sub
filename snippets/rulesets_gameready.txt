@@ -17,8 +17,7 @@ Xboxlive,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/XboxLive.list
 Hax,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Hax.list
 Trading,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Trading.list
 Netflix,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Netflix.list
-GlobalMedia,https://ruleset.skk.moe/List/non_ip/stream.conf
-GlobalMedia,https://ruleset.skk.moe/List/ip/stream.conf
+GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 Telegram,https://ruleset.skk.moe/List/non_ip/telegram.conf
 Telegram,https://ruleset.skk.moe/List/ip/telegram.conf
 GlobalMedia,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Discord/Discord.list
