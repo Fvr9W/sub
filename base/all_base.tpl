@@ -742,7 +742,6 @@ doh-server = /*.taipei/https://dns.twnic.tw/dns-query
 # > 🇺🇸 US
 # Hurricane Electric
 doh-server = /*.he.net/https://ordns.he.net/dns-query
-{% endif %}
 
 [policy]
 static=Premium, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/NyanCat.png
