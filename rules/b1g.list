@@ -1,19 +1,32 @@
 # Discord
-DOMAIN-SUFFIX,gateway.discord.gg
-DOMAIN-SUFFIX,status.discord.com
-DOMAIN-SUFFIX,status.discordapp.com
-DOMAIN-SUFFIX,cdn.discord.com
-DOMAIN-SUFFIX,cdn.discordapp.com
-DOMAIN-SUFFIX,dl.discordapp.net
-DOMAIN-SUFFIX,media.discordapp.net
-DOMAIN-SUFFIX,images-ext-1.discordapp.net
-DOMAIN-SUFFIX,images-ext-2.discordapp.net
-DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,airhorn.solutions
+DOMAIN-SUFFIX,airhornbot.com
+DOMAIN-SUFFIX,bigbeans.solutions
+DOMAIN-SUFFIX,dis.gd
+DOMAIN-SUFFIX,discord-activities.com
+DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.design
+DOMAIN-SUFFIX,discord.dev
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.gift
+DOMAIN-SUFFIX,discord.gifts
 DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discord.new
+DOMAIN-SUFFIX,discord.store
+DOMAIN-SUFFIX,discord.tools
+DOMAIN-SUFFIX,discordactivities.com
 DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.io
 DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordapp.page.link
 DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-SUFFIX,discordmerch.com
+DOMAIN-SUFFIX,discordpartygames.com
+DOMAIN-SUFFIX,discordsays.com
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
+DOMAIN-SUFFIX,watchanimeattheoffice.com
 # 普拉斯影业
 DOMAIN-SUFFIX,emby.ytoo.li
 IP-CIDR,52.184.28.138/32,no-resolve
@@ -32,9 +45,12 @@ IP-CIDR,142.250.217.142/32,no-resolve
 DOMAIN-SUFFIX,keepa.com
 # nexusmods
 DOMAIN-KEYWORD,nexusmods
+# pixiv.cat
 DOMAIN-SUFFIX,pixiv.cat
 # 键盘侠
 DOMAIN-KEYWORD,pincong
 # clubhouse
 DOMAIN-KEYWORD,clubhouse
 DOMAIN-SUFFIX,clubhouse.pubnubapi.com
+# azure tts
+DOMAIN-SUFFIX,eastasia.tts.speech.microsoft.com
