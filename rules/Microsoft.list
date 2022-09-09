@@ -1,4 +1,7 @@
+# 微软加速，虽然能直连但是很慢
 # OneDirve
 DOMAIN-SUFFIX,bn1301.storage.live.com
 # Microsoft Store Images
 DOMAIN-SUFFIX,store-images.s-microsoft.com
+# Azure TTS
+DOMAIN-SUFFIX,tts.speech.microsoft.com
