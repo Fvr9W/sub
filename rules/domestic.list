@@ -50,12 +50,6 @@ DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,hdslb.com
 
-# >> Blizzard
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,blizzard.com
-
-DOMAIN,blzddist1-a.akamaihd.net
-
 # >> ByteDance
 DOMAIN-SUFFIX,bytecdn.cn
 DOMAIN-SUFFIX,feiliao.com
@@ -144,8 +138,10 @@ DOMAIN-SUFFIX,sharepoint.com
 # DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,outlook.office.com
+DOMAIN-SUFFIX,outlook.office365.com
 
-# Rainway
+# >> Rainway
 DOMAIN-SUFFIX,cya.gg
 DOMAIN-SUFFIX,ipv4.rainway.com
 DOMAIN-SUFFIX,ipv6.rainway.com
