@@ -52,5 +52,3 @@ DOMAIN-KEYWORD,pincong
 # clubhouse
 DOMAIN-KEYWORD,clubhouse
 DOMAIN-SUFFIX,clubhouse.pubnubapi.com
-# azure tts
-DOMAIN-SUFFIX,eastasia.tts.speech.microsoft.com
