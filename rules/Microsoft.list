@@ -5,3 +5,5 @@ DOMAIN-SUFFIX,bn1301.storage.live.com
 DOMAIN-SUFFIX,store-images.s-microsoft.com
 # Azure TTS
 DOMAIN-SUFFIX,tts.speech.microsoft.com
+# dotnet
+DOMAIN-SUFFIX,dotnetcli.blob.core.windows.net
