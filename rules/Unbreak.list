@@ -97,3 +97,8 @@ DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,greenmangaming.com
 # > 给还在用 CFW 的兄弟用的
 PROCESS-NAME,csgo.exe
+# > 小说网站，虽然在境外但是不用中国IP不让进
+DOMAIN-SUFFIX,kenshuzw.com
+# > dns
+DOMAIN-SUFFIX,dns.alidns.com
+DOMAIN-SUFFIX,doh.pub
