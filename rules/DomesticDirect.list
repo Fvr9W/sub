@@ -207,7 +207,12 @@ DOMAIN-SUFFIX,52tesla.com
 DOMAIN-SUFFIX,xiaote.net
 USER-AGENT,TeslaMap
 
+# >> 小红书
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xiaohongshu.com
+
 # >> YYeTs
+
 DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,zimuzu.io
 DOMAIN-SUFFIX,zimuzu.tv
