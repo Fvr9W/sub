@@ -821,10 +821,11 @@ socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=0penclash
 
 [task_local]
 # 10000
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, enabled=true
+# 打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, enabled=true, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png,enabled=true
 
 # 10010
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, enabled=true
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, enabled=true, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png,enabled=true
 
 # 吾爱签到 手动登录 https://www.52pojie.cn/home.php
 0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=52pojie, enabled=true
@@ -845,10 +846,6 @@ socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=0penclash
 #1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
 #2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
 20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png,enabled=true
-
-# 电信营业厅
-# 打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=电信营业厅, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png,enabled=true
 
 # 什么值得买   (By @blackmatrix7)
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
