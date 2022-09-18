@@ -820,6 +820,12 @@ https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Coo
 socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=0penclash
 
 [task_local]
+# 10000
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, enabled=true
+
+# 10010
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, enabled=true
+
 # 吾爱签到 手动登录 https://www.52pojie.cn/home.php
 0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=52pojie, enabled=true
 
@@ -829,12 +835,11 @@ socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=0penclash
 
 # 百度贴吧  (By @blackmatrix7)
 # 打开App,访问下右下角 `我的
-30 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true
+30 10 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true
 
 # 饿了么   (By @blackmatrix7)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
-10 00 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, enabled=true
-00 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js, tag=饿了么_领取会员任务, enabled=true
+05 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, enabled=true
 
 # 中国联通   (By @blackmatrix7)
 #1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
@@ -847,8 +852,7 @@ socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=0penclash
 
 # 什么值得买   (By @blackmatrix7)
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
-5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js, tag=sm每日签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm.png, enabled=true
-20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_mission.js, tag=sm每日任务, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm.png, enabled=true
+5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=sm签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm.png, enabled=true
 
 # 多看阅读
 # `我的` > `签到任务` 等到提示获取 Cookie 成功即可
