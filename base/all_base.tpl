@@ -831,11 +831,11 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = G
 2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=bilibili, img-url=https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png,enabled=true
 
 # 百度贴吧  (By @blackmatrix7)
-# 打开App,访问下右下角 `我的
+# 打开App,访问下右下角 我的
 30 10 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true
 
 # 饿了么   (By @blackmatrix7)
-# 打开 APP, 访问下`我的`>`签到领红包`(左上角)
+# 打开 APP, 访问下右下角 我的 - 赚吃货豆。
 05 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, enabled=true
 
 # 什么值得买   (By @blackmatrix7)
