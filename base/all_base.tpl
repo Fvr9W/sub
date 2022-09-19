@@ -821,6 +821,9 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = G
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png,enabled=true
 
 # 10010  (By @chavyleung)
+# 打开 APP , 进入签到页面, 系统提示: 获取刷新链接: 成功
+# 然后手动签到 1 次, 系统提示: 获取Cookie: 成功 (每日签到)
+# 首页>天天抽奖, 系统提示 2 次: 获取Cookie: 成功 (登录抽奖) 和 获取Cookie: 成功 (抽奖次数)
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png,enabled=true
 
 # bilibili  (By @chavyleung)
