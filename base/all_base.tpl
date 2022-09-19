@@ -816,20 +816,20 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = G
 [server_local]
 
 [task_local]
-# 10000
+# 10000  (By @chavyleung)
 # 打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png,enabled=true
 
-# 10010
+# 10010  (By @chavyleung)
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png,enabled=true
 
-# bilibili
+# bilibili  (By @chavyleung)
 # 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
 2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=bilibili, img-url=https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png,enabled=true
 
-# 百度贴吧  (By @blackmatrix7)
+# 百度贴吧  (By @chavyleung)
 # 打开App,访问下右下角 `我的
-30 10 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true
+30 10 * * *  https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true
 
 # 饿了么   (By @blackmatrix7)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
@@ -839,15 +839,15 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = G
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
 5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=sm签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm.png, enabled=true
 
-# 多看阅读
+# 多看阅读  (By @chavyleung)
 # `我的` > `签到任务` 等到提示获取 Cookie 成功即可
 13 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js, tag=多看, img-url=https://raw.githubusercontent.com/Orz-3/task/master/duokan.png,enabled=true
 
-# 飞客茶馆
+# 飞客茶馆  (By @chavyleung)
 # 打开 APP, 访问下`个人中心`
 3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/flyertea.png,enabled=true
 
-# 美团
+# 美团  (By @chavyleung)
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/meituan.png, enabled=false
 
 [http_backend]
