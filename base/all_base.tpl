@@ -827,9 +827,9 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = G
 # 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
 2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=bilibili, img-url=https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png,enabled=true
 
-# 百度贴吧  (By @chavyleung)
+# 百度贴吧  (By @blackmatrix7)
 # 打开App,访问下右下角 `我的
-30 10 * * *  https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true
+30 10 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true
 
 # 饿了么   (By @blackmatrix7)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
