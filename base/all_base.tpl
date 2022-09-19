@@ -812,23 +812,16 @@ https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, t
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=YouTube去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=去广告联盟, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf, tag = A1去广告, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/GetCookie/GetCookie.conf, tag=GetCookie_bm7, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Get_Cookie_Remote.conf, tag = GetCookie_n9, update-interval=86400, opt-parser=false, enabled = false
-https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf, tag=GetCookie_O3, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Cookie.conf, tag=GetCookie_ND, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = GetCookie, update-interval=86400, opt-parser=false, enabled = false
 [server_local]
-socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=0penclash
 
 [task_local]
 # 10000
 # 打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, enabled=true, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png,enabled=true
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png,enabled=true
 
 # 10010
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, enabled=true, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png,enabled=true
-
-# 吾爱签到 手动登录 https://www.52pojie.cn/home.php
-0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=52pojie, enabled=true
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png,enabled=true
 
 # bilibili
 # 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
@@ -842,11 +835,6 @@ socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=0penclash
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
 05 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, enabled=true
 
-# 中国联通   (By @blackmatrix7)
-#1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
-#2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
-20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png,enabled=true
-
 # 什么值得买   (By @blackmatrix7)
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
 5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=sm签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm.png, enabled=true
@@ -859,12 +847,9 @@ socks5=192.168.123.1:7891,fast-open=false, udp-relay=false, tag=0penclash
 # 打开 APP, 访问下`个人中心`
 3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/flyertea.png,enabled=true
 
-# 滴滴
-1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/didi.png, enabled=false
-59 23 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/didi.png, enabled=false
-
 # 美团
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/meituan.png, enabled=false
+
 [http_backend]
 
 [filter_local]
