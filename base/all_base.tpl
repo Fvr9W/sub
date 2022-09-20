@@ -744,18 +744,17 @@ doh-server = /*.taipei/https://dns.twnic.tw/dns-query
 doh-server = /*.he.net/https://ordns.he.net/dns-query
 
 [policy]
-static=Premium, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/NyanCat.png
-static=Game, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=N3RO, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/N3RO.png
+static=Premium, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Nex.png
+static=Game, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Game.png
 static=Daily, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Daily.png
 static=Blizzard, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=Garena, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=PlayStation, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=PlayStation, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/PSN.png
 static=Rockstar, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=SteamChina, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=SteamGlobal, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=SteamChina, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png
+static=SteamGlobal, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/steam.png
 static=Ubisoft, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=Xboxlive, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Xboxlive, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
 static=Hax, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=Other Games, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=B1gProxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
@@ -818,7 +817,7 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = G
 [task_local]
 # 10000  (By @chavyleung)
 # 打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png,enabled=true
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png,enabled=true
 
 # 10010  (By @chavyleung)
 # 打开 APP , 进入签到页面, 系统提示: 获取刷新链接: 成功
