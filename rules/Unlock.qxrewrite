@@ -1,0 +1,80 @@
+hosname = api.calm.com,www.calm.com,media.deezer.com,ios-api-2.duolingo.cn, www.qobuz.com, api.tidal.com, subscription.grammarly.com, auth.grammarly.com, cn.pornhubpremium.com, photos.adobe.io, lcs-mobile-cops.adobe.io, vsco.co, api.revenuecat.com, dxy.com, gateway.caixin.com, account.wps.cn,*account.wps.com, vira.llsapp.com, ap*.intsig.net, api.polarisoffice.com, mobwsa.ximalaya.com, m.ximalaya.com, hybrid.ximalaya.com, adse.ximalaya.com
+
+# > Clam解锁VIP
+# 仓库地址 https://github.com/langkhach270389
+^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
+^https:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
+
+# > Deezer解锁Hi-Fi订阅
+^https?:\/\/media\.deezer\.com\/v1\/get_url$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DeezerHiFiProCrack.js
+
+# > 多邻国解锁Plus
+^https?:\/\/ios-api-2\.duolingo\.cn\/2017-06-30\/login$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DuolingoPlusCrack.js
+
+# > Qobuz解锁Hi-Res订阅
+^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/user\/login$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzHiResProCrack.js
+
+# > Qobuz解锁设备限制测试
+^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/file\/url url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzTest.js
+
+# > TIDAL解锁HiFi Plus
+^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
+^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ url script-analyze-echo-response https://raw.githubusercontent.com/yqc007/QuantumultX/master/TidalHiFiPlusCrack.js
+
+# > Grammarly解锁高级订阅(2022.02.15)
+^https?:\/\/(subscription|auth)\.grammarly\.com(\/api)?\/v\d\/(subscription|user\/oranonymous) url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/Grammarly.js
+
+# > PornHub Unlock Premium By Hausd0rff
+^https?:\/\/cn\.pornhubpremium\.com\/ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js
+
+# > Photoshop Express
+^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/photoshop.js
+
+# > VSCO 解锁高级特权
+#^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/vsco.js
+
+# > 爱企查vip
+^https:\//aiqicha.baidu.com\/usercenter\/getvipinfoajax url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/aiqicha.js
+
+# > 丁香医生VIP
+^https:\//dxy.com\/app\/i\/user\/ask\/account\?ac url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/dxys.js
+
+# > 财新会员 解锁财新文章阅读与音频限制 @Functional_Store_Hub
+^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) url script-request-header https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/CaiXin.js
+
+# > WPS解锁本地会员,支持大陆版以及非大陆版(2022.07.10)
+^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
+
+# > 解锁流利说·阅读会员、解锁阅读权限、解锁音频权限等
+^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/LiuLiShuoYueDu/Script/LiuLiShuoYueDu.js
+
+# > CamScanner 解锁部分高级特权
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
+
+# > Polaris Office解锁订阅
+^https?:\/\/api\.polarisoffice\.com\/api\/1\/account\/userinfo$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PolarisOfficeProCrack.js
+
+# > 喜马拉雅VIP
+#^https:\//mobwsa.ximalaya.com\/mobile-user\/v1\/homePage url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/homepage.js
+#^https:\//m.ximalaya.com\/business-vip-presale-core-web\/product\/info url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/vip.js
+#^http:\//m.ximalaya.com\/vip\/check\/user url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/vipcheck.js
+#^http:\//mwsa.ximalaya.com\/vip\/check\/user url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/vipcheck.js
+#^https:\//mobwsa.ximalaya.com\/vip\/v1\/recommand\/ts url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/ts.js
+#^https:\//m.ximalaya.com\/business-vip-level-h5-web\/api\/profile url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/profile.js
+#^http:\//hybrid.ximalaya.com\/web-activity\/task\/taskRecords url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/task.js
+#^http:\//hybrid.ximalaya.com\/hybrid\/api\/newUserWelfare\/participateInfo url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/part.js
+^https:\/\/adse.+.com\/[a-z]{4}\/loading\?appid= url reject
+^https:\/\/adse.ximalaya.com\/ting\/feed\?appid= url reject
+^https:\/\/adse.ximalaya.com\/ting\/loading\?appid= url reject
+^https:\/\/adse.ximalaya.com\/ting\?appid= url reject
+^https:\/\/fdfs.xmcdn.com\/group21\/M03\/E7\/3F\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group21\/M0A\/95\/3B\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group22\/M00\/92\/FF\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group22\/M05\/66\/67\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group22\/M07\/76\/54\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group23\/M01\/63\/F1\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group23\/M04\/E5\/F6\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group23\/M07\/81\/F6\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group23\/M0A\/75\/AA\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group24\/M03\/E6\/09\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group24\/M07\/C4\/3D\/ url reject
