@@ -797,28 +797,8 @@ static=AutoNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/m
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag = boxjs, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikTok, update-interval=172800, opt-parser=false, enabled=true
 # VIP解锁
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Calm.qxrewrite, tag=CalmVIP, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/yqc007/QuantumultX/master/DeezerHiFiProCrack.js, tag = DeezerHiFi, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/yqc007/QuantumultX/master/DuolingoPlusCrack.js, tag = DuolingoPlus, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=UnlockVIP, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=EmbyVIP, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzHiResProCrack.js, tag = QobuzHi-Res, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzTest.js, tag = QobuzUnlimited, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js, tag = TidalUSHiFiPlus, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/Grammarly.js, tag = GrammarPremium, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js, tag = PornHubPremium, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/vsco.js, tag = VscoVIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/aiqicha.js, tag = 爱企查VIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/dxys.js, tag = 丁香医生VIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/DiDaQingDan.js, tag = 滴答清单VIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/ydybj.js, tag = 有道云笔记VIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/NanFangZhouMo.js, tag = 南方周末VIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/QuantumultX.snippet, tag = 财新VIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXinWeekly/QuantumultX.snippet, tag = 财新周刊VIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/QuantumultX.snippet, tag = WPSVIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/LiuLiShuoYueDu/LiuLiShuoYueDu.QuantumultX.snippet, tag = 流利说阅读VIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js, tag = 扫描全能王Pro, update-interval=172800, opt-parser=false, enabled=true
-# 泼辣修图 解锁高级特权 (需恢复购买)
-https://raw.githubusercontent.com/yqc007/QuantumultX/master/PolarisOfficeProCrack.js, tag = 泼辣修图VIP, update-interval=172800, opt-parser=false, enabled=true
 
 #功能增强
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=172800, opt-parser=false, enabled=true
