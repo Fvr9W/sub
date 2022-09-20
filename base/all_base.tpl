@@ -818,45 +818,45 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = G
 [task_local]
 # 10000  (By @chavyleung)
 # 打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png,enabled=true
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png,enabled=true
 
 # 10010  (By @chavyleung)
 # 打开 APP , 进入签到页面, 系统提示: 获取刷新链接: 成功
 # 然后手动签到 1 次, 系统提示: 获取Cookie: 成功 (每日签到)
 # 首页>天天抽奖, 系统提示 2 次: 获取Cookie: 成功 (登录抽奖) 和 获取Cookie: 成功 (抽奖次数)
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png,enabled=true
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png,enabled=true
 
 # bilibili  (By @chavyleung)
 # 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
-2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=bilibili, img-url=https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png,enabled=true
+2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=bilibili, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png,enabled=true
 
 # 百度贴吧  (By @chavyleung)
 # 浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
-10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true
+10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tieba.png, enabled=true
 
 # 饿了么   (By @blackmatrix7)
 # 打开 APP, 访问下右下角 我的 - 赚吃货豆。
-05 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, enabled=true
+05 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=ele_领取吃货豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true
 
 # 什么值得买   (By @blackmatrix7)
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
-5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=sm签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm.png, enabled=true
+5 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=sm签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/smzdm.png, enabled=true
 
 # 多看阅读  (By @chavyleung)
 # `我的` > `签到任务` 等到提示获取 Cookie 成功即可
-13 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js, tag=多看, img-url=https://raw.githubusercontent.com/Orz-3/task/master/duokan.png,enabled=true
+13 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js, tag=多看, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/duokan.png,enabled=true
 
 # 飞客茶馆  (By @chavyleung)
 # 打开 APP, 访问下`个人中心`
-3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/flyertea.png,enabled=true
+3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/flyertea.png,enabled=true
 
 # 美团  (By @chavyleung)
 # 打开 APP , 然后手动签到 1 次, 系统提示: 获取Cookie: 成功 (首页 > 红包签到)
-1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/meituan.png, enabled=true
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true
 
 # 京东到家  (By @chavyleung)
 #打开 APP 手动签到一次: `首页` > `签到` 或者 手机浏览器打开`https://daojia.jd.com/html/index.html` 点击签到
-11 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js, tag=京东到家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jddj.png, enabled=true
+11 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js, tag=京东到家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true
 
 [http_backend]
 
