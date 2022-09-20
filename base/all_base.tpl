@@ -794,25 +794,53 @@ static=AutoNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/m
 [filter_remote]
 
 [rewrite_remote]
-https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag = boxjs, enabled = true
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikTok, enabled = true
-https://raw.githubusercontent.com/Zhuliyer/ADGai-nai/master/Quantumult%20X/AD_Gai_JS.conf, tag = unlockVIP, enabled = false
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag = boxjs, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikTok, update-interval=172800, opt-parser=false, enabled=true
+# VIP解锁
+https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Calm.qxrewrite, tag=CalmVIP, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/DeezerHiFiProCrack.js, tag = DeezerHiFi, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/DuolingoPlusCrack.js, tag = DuolingoPlus, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=EmbyVIP, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzHiResProCrack.js, tag = QobuzHi-Res, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzTest.js, tag = QobuzUnlimited, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js, tag = TidalUSHiFiPlus, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/Grammarly.js, tag = GrammarPremium, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js, tag = PornHubPremium, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/vsco.js, tag = VscoVIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/aiqicha.js, tag = 爱企查VIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/dxys.js, tag = 丁香医生VIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/DiDaQingDan.js, tag = 滴答清单VIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/ydybj.js, tag = 有道云笔记VIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/NanFangZhouMo.js, tag = 南方周末VIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/QuantumultX.snippet, tag = 财新VIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXinWeekly/QuantumultX.snippet, tag = 财新周刊VIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/QuantumultX.snippet, tag = WPSVIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/LiuLiShuoYueDu/LiuLiShuoYueDu.QuantumultX.snippet, tag = 流利说阅读VIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js, tag = 扫描全能王Pro, update-interval=172800, opt-parser=false, enabled=true
+# 泼辣修图 解锁高级特权 (需恢复购买)
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/PolarisOfficeProCrack.js, tag = 泼辣修图VIP, update-interval=172800, opt-parser=false, enabled=true
+
+#功能增强
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=Emby破解, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=知乎网页版不跳转, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=知乎不跳转, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎助手, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信助手, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DualSubs/DualSubs/main/qxrewrite/DualSubs.qxrewrite, tag=DualSubs, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/DualSubs/DualSubs/main/qxrewrite/DualSubs.YouTube.qxrewrite, tag=DualSubsYouTube, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Weather.qxrewrite, tag=iRingoWeather, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Siri.qxrewrite, tag=iRingoSiri, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite, tag=iRingoLocation, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/bilibili-qx.conf, tag=Bilibili去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=Tieba去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=YouTube去广告, update-interval=172800, opt-parser=false, enabled=true
+#去广告
+https://raw.githubusercontent.com/app2smile/rules/master/module/bilibili-qx.conf, tag=批站去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=贴吧去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf, tag=起点去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=油管去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/vgtime.conf, tag=vgTime去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=去广告联盟, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf, tag = A1去广告, update-interval=86400, opt-parser=false, enabled=true
+#Cookie
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = GetCookie, update-interval=86400, opt-parser=false, enabled = false
+
 [server_local]
 
 [task_local]
