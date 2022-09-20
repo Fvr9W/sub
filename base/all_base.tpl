@@ -796,6 +796,7 @@ static=AutoNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/m
 [rewrite_remote]
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag = boxjs, enabled = true
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikTok, enabled = true
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag = unlockVIP, enabled = true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=Emby破解, update-interval=86400, opt-parser=false, enabled=true
