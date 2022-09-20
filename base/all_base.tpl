@@ -745,7 +745,7 @@ doh-server = /*.he.net/https://ordns.he.net/dns-query
 
 [policy]
 static=Premium, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
-static=Game, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/GAME.png
+static=Game, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/game.png
 static=Daily, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Daily.png
 static=Blizzard, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=Garena, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
@@ -764,8 +764,8 @@ static=Netflix, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alph
 static=GlobalMedia, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Streaming.png
 static=GlobalGameDownload, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
 static=PrivateTracker, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
-static=SougouInput, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Adblock.png
-static=Hijacking, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Adblock.png
+static=SougouInput, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
+static=Hijacking, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
 static=HK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 static=AutoHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 static=TW 🇨🇳, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
