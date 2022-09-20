@@ -1,0 +1,6 @@
+# calm 解锁会员
+# 仓库地址 https://github.com/langkhach270389
+
+hostname = api.calm.com,www.calm.com
+^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
+^https:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
