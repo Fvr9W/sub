@@ -17,8 +17,8 @@ hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, 
 ^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/file\/url url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzTest.js
 
 # > TIDAL 解锁：Hi-Fi Plus
-^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
-^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ url script-analyze-echo-response https://raw.githubusercontent.com/yqc007/QuantumultX/master/TidalHiFiPlusCrack.js
+# ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
+# ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ url script-analyze-echo-response https://raw.githubusercontent.com/yqc007/QuantumultX/master/TidalHiFiPlusCrack.js
 
 # > Grammarly 解锁：高级订阅
 ^https?:\/\/(subscription|auth)\.grammarly\.com(\/api)?\/v\d\/(subscription|user\/oranonymous) url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/Grammarly.js
