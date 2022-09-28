@@ -18,6 +18,7 @@ Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]NA 🇺�
 GlobalMedia`select`[]B1gProxy`[]Nexitally`[]Sutiao`[]AutoHK 🇭🇰`[]SuTiaoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]Nexitally`[]Sutiao`[]DIRECT
 PrivateTracker`select`[]DIRECT`[]Nexitally`[]Sutiao`[]TW 🇨🇳`[]Other Games
+SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=0!!.*香港.*$
 AutoHK 🇭🇰`fallback`!!GROUPID=0!!.*香港 γ.*$`!!GROUPID=0!!.*香港 (λ|ι).*$`https://www.gstatic.com/generate_204`300
