@@ -24,7 +24,7 @@ HK 🇭🇰`select`!!GROUPID=0!!.*香港.*$
 AutoHK 🇭🇰`fallback`!!GROUPID=0!!.*香港 γ.*$`!!GROUPID=0!!.*香港 (λ|ι).*$`https://www.gstatic.com/generate_204`300
 SuTiaoHK 🇭🇰`fallback`!!GROUPID=1!!.*香港 (θ|κ|σ) #[A-Z] #IPLC.*$`https://www.gstatic.com/generate_204`300
 TW 🇨🇳`select`!!GROUPID=0!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
-AutoTW 🇨🇳`fallback`!!GROUPID=0!!.*台湾 (β|γ).*$`!!GROUPID=1!!.*台湾 (β|γ|σ) #[A-Z] #ChT.*$`https://www.gstatic.com/generate_204`300
+AutoTW 🇨🇳`fallback`!!GROUPID=0!!.*台湾 (β|γ).*$`!!GROUPID=1!!.*(宜兰|嘉义) (β|γ).*$`https://www.gstatic.com/generate_204`300
 KR 🇰🇷`select`!!GROUPID=0!!.*(韩国|首尔).*$
 AutoKR 🇰🇷`fallback`!!GROUPID=0!!.*韩国 (β|δ).*$`!!GROUPID=1!!.*韩国 δ.*$`https://www.gstatic.com/generate_204`300
 JP 🇯🇵`select`!!GROUPID=0!!.*(日本|东京|大阪).*$
@@ -34,7 +34,7 @@ AutoSGP 🇸🇬`fallback`!!GROUPID=0!!.*新加坡 μ.*$`!!GROUPID=0!!.*新加�
 SEA 🌏`select`!!GROUPID=0!!.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$
 AutoSEA 🌏`fallback`!!GROUPID=0!!.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉|菲律宾).*$`!!GROUPID=1!!.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉) (α|δ).*$`https://www.gstatic.com/generate_204`300
 AU 🇦🇺`select`!!GROUPID=0!!.*(悉尼|澳大利亚|新西兰).*$`[]SGP 🇸🇬
-AutoAU 🇦🇺`fallback`!!GROUPID=0!!.*(悉尼|澳大利亚).*$`!!GROUPID=1!!.*(悉尼|澳大利亚).*$`https://www.gstatic.com/generate_204`300
+AutoAU 🇦🇺`fallback`!!GROUPID=0!!.*(悉尼|澳大利亚).*$`!!GROUPID=1!!.*(悉尼|澳大利亚) (α|δ).*$`https://www.gstatic.com/generate_204`300
 RU 🇷🇺`select`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$
 AutoRU 🇷🇺`fallback`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`!!GROUPID=1!!.*俄罗斯 (β|γ|σ).*$`https://www.gstatic.com/generate_204`300
 EU 🇪🇺`select`!!GROUPID=0!!.*Europe.*$
