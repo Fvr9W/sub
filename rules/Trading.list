@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,starscrm.rationalcdn.com
 DOMAIN-SUFFIX,thehub.rationalcdn.com
 DOMAIN-SUFFIX,pokerstarscashier.com
 DOMAIN-SUFFIX,cashier.rationalcdn.com
+DOMAIN-SUFFIX,telemetry.ps.im
 # pokerstars websitte Isle of Man
 IP-CIDR,210.209.84.14/32
 IP-CIDR,77.87.181.63/32
