@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,telemetry.ps.im
 # pokerstars websitte Isle of Man
 IP-CIDR,210.209.84.14/32
 IP-CIDR,77.87.181.63/32
+IP-CIDR,91.211.97.141/32
 # Manx Telecom Isle of Man
 IP-CIDR,80.65.255.2/32
 IP-CIDR,104.244.46.71/32
