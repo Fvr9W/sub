@@ -11,12 +11,16 @@ DOMAIN-SUFFIX,pokerstarscashier.com
 DOMAIN-SUFFIX,cashier.rationalcdn.com
 # pokerstars websitte Isle of Man
 IP-CIDR,210.209.84.14/32
+IP-CIDR,77.87.181.63/32
 # Manx Telecom Isle of Man
 IP-CIDR,80.65.255.2/32
+IP-CIDR,104.244.46.71/32
 # US East Coast
 IP-CIDR,115.126.100.160/32
+IP-CIDR,192.5.5.241/32
 # London England
 IP-CIDR,128.242.240.85/32
+IP-CIDR,138.40.77.152/32
 
 # Trading
 PROCESS-NAME,TradingView.exe
