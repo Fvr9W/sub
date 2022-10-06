@@ -9,14 +9,14 @@ DOMAIN-SUFFIX,starscrm.rationalcdn.com
 DOMAIN-SUFFIX,thehub.rationalcdn.com
 DOMAIN-SUFFIX,pokerstarscashier.com
 DOMAIN-SUFFIX,cashier.rationalcdn.com
-IP-CIDR,77.87.181.63/32
+# pokerstars websitte Isle of Man
+IP-CIDR,210.209.84.14/32
+# Manx Telecom Isle of Man
 IP-CIDR,80.65.255.2/32
-IP-CIDR,164.67.183.186/32
-IP-CIDR,192.5.5.241/32
-IP-CIDR,138.40.77.152/32
-IP-CIDR,61.8.2.205/32
-IP-CIDR,144.76.59.84/32
-IP-CIDR,91.211.97.138/32
+# US East Coast
+IP-CIDR,115.126.100.160/32
+# London England
+IP-CIDR,128.242.240.85/32
 
 # Trading
 PROCESS-NAME,TradingView.exe
