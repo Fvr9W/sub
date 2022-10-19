@@ -335,18 +335,35 @@ server = /orbilogin.com/system
 server = /www.LinksysSmartWiFi.com/system
 server = /LinksysSmartWiFi.com/system
 server = /myrouter.local/system
-# Xiaomi Mi WiFi Router
+# Aurba Router
+server = /instant.arubanetworks.com/system
+server = /setmeup.arubanetworks.com/system
+# 小米 Mi WiFi Router
 server = /www.miwifi.com/system
 server = /miwifi.com/system
-# Huawei Router
+# 华为 Huawei Router
 server = /mediarouter.home/system
 # TP-Link Router
 server = /tplogin.cn/system
 server = /tplinklogin.net/system
-# MERCURY Router
+server = /tplinkwifi.net/system
+# 水星 MERCURY Router
 server = /melogin.cn/system
-# FAST Router
+# 迅捷 FAST Router
 server = /falogin.cn/system
+# 腾达 Tenda Router
+server = /tendawifi.com/system
+# 磊科 Netcore Router
+server = /leike.cc/system
+# 中兴 ZTE Router
+server = /zte.home/system
+# 斐讯 PHICOMM Router
+server = /p.to/system
+server = /phicomm.me/system
+# 极路由 HiWiFi Router
+server = /hiwifi.com/system
+# 迅雷路由
+server = /peiluyou.com/system
 
 # > Apple
 doh-server = /networking.apple/https://doh.dns.apple.com/dns-query
@@ -799,12 +816,10 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikT
 # VIP解锁
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=UnlockVIP, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=EmbyVIP, update-interval=86400, opt-parser=false, enabled=true
-
 #功能增强
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=知乎不跳转, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎助手, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信助手, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DualSubs/DualSubs/main/qxrewrite/DualSubs.qxrewrite, tag=DualSubs, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/DualSubs/DualSubs/main/qxrewrite/DualSubs.YouTube.qxrewrite, tag=DualSubsYouTube, update-interval=86400, opt-parser=false, enabled=true
@@ -814,10 +829,16 @@ https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxr
 https://raw.githubusercontent.com/app2smile/rules/master/module/bilibili-qx.conf, tag=批站去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=贴吧去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf, tag=起点去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=油管去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=油管去广告1, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/youtube-qx.conf, tag=油管去广告2, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/vgtime.conf, tag=vgTime去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/zhihu.conf, tag=知乎去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Applet.conf, tag=微信小程序去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo.conf, tag=微博国内版去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/WeiboLite.conf, tag=微博国际版去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Ximalaya.conf, tag=喜马拉雅去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=去广告联盟, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf, tag = A1去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf, tag = A1去广告, update-interval=86400, opt-parser=false, enabled=false
 #Cookie
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = GetCookie, update-interval=86400, opt-parser=false, enabled = false
 
