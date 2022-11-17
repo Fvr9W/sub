@@ -6,7 +6,7 @@ Hijacking,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/P
 SougouInput,https://ruleset.skk.moe/List/non_ip/sogouinput.conf
 PrivateTracker,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrivateTracker/PrivateTracker.list
 GlobalGameDownload,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GlobalGameDownload.list
-Blizzard,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/COD16.list
+Blizzard,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/battle.list
 Garena,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/LOLTW.list
 PlayStation,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GranTurismo.list
 Rockstar,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Rockstar.list
