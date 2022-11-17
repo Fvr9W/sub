@@ -1,4 +1,4 @@
-# COD 16
+# COD
 DOMAIN-SUFFIX,iw8-bnet-auth3.prod.demonware.net
 DOMAIN-SUFFIX,iw8-bnet-loginqueue.prod.demonware.net
 DOMAIN-SUFFIX,prod.umbrella.demonware.net
@@ -24,3 +24,8 @@ DOMAIN-SUFFIX,alert-us.battle.net
 DOMAIN-SUFFIX,us.api.blizzard.com
 DOMAIN-KEYWORD,callofduty
 DOMAIN-SUFFIX,cod-assets.cdn.blizzard.com
+# Battle
+DOMAIN-SUFFIX,oauth.battle.net
+DOMAIN-SUFFIX,telemetry-in.battle.net
+DOMAIN-SUFFIX,content-ui.battle.net
+DOMAIN-SUFFIX,prod.depot.battle.net
