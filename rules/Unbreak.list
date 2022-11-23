@@ -102,3 +102,6 @@ DOMAIN-SUFFIX,kenshuzw.com
 # > dns
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
+# > bet365
+DOMAIN-SUFFIX,365365094.com
+DOMAIN-SUFFIX,365-010.com
