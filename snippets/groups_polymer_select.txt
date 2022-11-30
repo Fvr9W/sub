@@ -1,5 +1,5 @@
 Premium`fallback`!!GROUPID=0!!.*香港 γ.*$`!!GROUPID=0!!.*香港 (λ|ι).*$`!!GROUPID=1!!.*香港 (κ|σ) #[A-Z] #IPLC.*$`!!GROUPID=1!!.*香港 δ #H #Jinx.*$`https://www.gstatic.com/generate_204`300
-Sutiao`select`!!GROUPID=1!!(?!.*?(IPV6|二手倒卖|重大漏洞)).*$
+Sutiao`select`!!GROUPID=1!!^(?!.*?(IPV6|二手倒卖|重大漏洞)).*
 Nexitally`select`!!GROUPID=0!!.*
 Blizzard`select`[]Other Games`[]Nexitally`[]Sutiao`[]DIRECT
 Garena`select`[]Other Games`[]Nexitally`[]Sutiao`[]DIRECT
