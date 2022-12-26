@@ -104,3 +104,6 @@ DOMAIN-SUFFIX,365365094.com
 DOMAIN-SUFFIX,365-010.com
 # openAI IP 限制就会报错，直接直连算了
 DOMAIN-SUFFIX,openai.com
+# 无限小说网
+DOMAIN-SUFFIX,xqb5.org
+DOMAIN-SUFFIX,555x.org
