@@ -83,9 +83,6 @@ DOMAIN-SUFFIX,52pcgame.net
 PROCESS-NAME,SunloginClient.exe
 # > 滴答清单
 DOMAIN-SUFFIX,dida365.com
-# > 365
-DOMAIN-SUFFIX,3658801.com
-DOMAIN-SUFFIX,365-878.com
 # > Tesla
 DOMAIN-SUFFIX,tesla.cn
 DOMAIN-SUFFIX,tesla-cdn.thron.cn
@@ -105,3 +102,5 @@ DOMAIN-SUFFIX,doh.pub
 # > bet365
 DOMAIN-SUFFIX,365365094.com
 DOMAIN-SUFFIX,365-010.com
+# openAI IP 限制就会报错，直接直连算了
+DOMAIN-SUFFIX,openai.com
