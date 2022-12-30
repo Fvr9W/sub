@@ -10,9 +10,38 @@ experimental:
   ignore-resolve-fail: true
 clash-for-android:
   ui-subtitle-pattern: '[一-龥]{2,4}'
-{% if default(request.clash.dns, "") == "1" %}
+
+{% if exists("request.tun") %}
+{% if request.dns == "windows" %}
+tun:
+  enable: true
+  stack: gvisor # or system
+  dns-hijack:
+    - 198.18.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
+  auto-route: true # auto set global route for Windows
+  # It is recommended to use `interface-name`
+  auto-detect-interface: true # auto detect interface, conflict with `interface-name`
+{% endif %}
+{% if request.dns == "linux" %}
+tun:
+  enable: true
+  stack: system # or gvisor
+  # dns-hijack:
+  #   - 8.8.8.8:53
+  #   - tcp://8.8.8.8:53
+  #   - any:53
+  #   - tcp://any:53
+  auto-route: true # auto set global route
+  auto-detect-interface: true # conflict with interface-name
+{% endif %}
+{% else %}
+{% endif %}
+
+{% if exists("request.dns") %}
+{% if request.dns == "fake" %}
 dns:
   enable: true
+  ipv6: false
   enhanced-mode: fake-ip
   listen: 1053
   default-nameserver:
@@ -169,6 +198,26 @@ dns:
     - "*.cmbchina.com"
     - "*.abchina.com"
 {% endif %}
+{% if request.dns == "host" %}
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 1053
+  nameserver:
+    - 114.114.114.114
+    - 119.29.29.29
+  fallback:
+    - tls://1.1.1.1:853
+    - tcp://1.1.1.1:53
+    - tcp://208.67.222.222:443
+    - tls://dns.google
+  hosts:
+    'ip.jb.tn': 127.0.0.1
+{% endif %}
+{% else %}
+{% endif %}
+
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
