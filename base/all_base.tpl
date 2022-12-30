@@ -12,7 +12,7 @@ clash-for-android:
   ui-subtitle-pattern: '[一-龥]{2,4}'
 
 {% if exists("request.tun") %}
-{% if request.dns == "windows" %}
+    {% if request.dns == "windows" %}
 tun:
   enable: true
   stack: gvisor # or system
@@ -21,8 +21,7 @@ tun:
   auto-route: true # auto set global route for Windows
   # It is recommended to use `interface-name`
   auto-detect-interface: true # auto detect interface, conflict with `interface-name`
-{% endif %}
-{% if request.dns == "linux" %}
+    {% if request.dns == "linux" %}
 tun:
   enable: true
   stack: system # or gvisor
@@ -33,12 +32,13 @@ tun:
   #   - tcp://any:53
   auto-route: true # auto set global route
   auto-detect-interface: true # conflict with interface-name
-{% endif %}
-{% else %}
+    {% else %}
+    {% endif %}
+  {% endif %}
 {% endif %}
 
 {% if exists("request.dns") %}
-{% if request.dns == "fake" %}
+  {% if request.dns == "fake" %}
 dns:
   enable: true
   ipv6: false
@@ -197,8 +197,7 @@ dns:
     - "*.pingan.com.cn"
     - "*.cmbchina.com"
     - "*.abchina.com"
-{% endif %}
-{% if request.dns == "host" %}
+    {% if request.dns == "host" %}
 dns:
   enable: true
   ipv6: false
@@ -214,8 +213,9 @@ dns:
     - tls://dns.google
   hosts:
     'ip.jb.tn': 127.0.0.1
-{% endif %}
-{% else %}
+    {% else %}
+    {% endif %}
+  {% endif %}
 {% endif %}
 
 {% if local.clash.new_field_name == "true" %}
