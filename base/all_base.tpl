@@ -12,7 +12,7 @@ clash-for-android:
   ui-subtitle-pattern: '[一-龥]{2,4}'
 
 {% if exists("request.tun") %}
-    {% if request.dns == "windows" %}
+  {% if request.dns == "windows" %}
 tun:
   enable: true
   stack: gvisor # or system
