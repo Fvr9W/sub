@@ -14,3 +14,5 @@ DOMAIN-SUFFIX,bgx.gg
 DOMAIN-SUFFIX,gamesense.pub
 # interwebz
 DOMAIN-KEYWORD,interwebz
+# openAI 限地区
+# DOMAIN-SUFFIX,openai.com
