@@ -323,7 +323,7 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 # 指定在某个 Wi-Fi 下暂停 Quantumult X
 {% if exists("request.who") %}
   {% if request.who == "self" %}
-    running_mode_trigger=filter, filter, Cccccc:all_proxy, zxcvawer:all_direct
+    running_mode_trigger=filter, filter, Cccccc:all_direct, zxcvawer:all_direct
   {% else %}
     {% if request.who == "lulu" %}
       running_mode_trigger=filter, filter, Society-5G:all_direct, Society:all_direct
