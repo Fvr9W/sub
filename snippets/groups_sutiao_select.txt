@@ -1,4 +1,4 @@
-Premium`fallback`.*香港 (θ|κ|σ) #[A-Z] #IPLC.*$`.*香港 γ #H #Jinx.*$`.*限制中.*`https://www.gstatic.com/generate_204`300
+Premium`fallback`.*香港 κ #[A-Z] #IPLC.*$`.*香港 (θ|σ) #[A-Z] #IPLC.*$`.*香港 γ #H #Jinx.*$`.*限制中.*`https://www.gstatic.com/generate_204`300
 Game`select`.*限制中.*
 Daily`select`.*
 Blizzard`select`[]Other Games`[]Daily`[]DIRECT
