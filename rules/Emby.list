@@ -8,9 +8,9 @@ DOMAIN-SUFFIX,blueseacdn.com
 DOMAIN-SUFFIX,blueseamusics.com
 # misakaf
 DOMAIN-SUFFIX,misakaf.org
-# 鱼宝
-DOMAIN-SUFFIX,catfishemby.club
-DOMAIN-SUFFIX,catnet.cc
+# 鱼宝 无法直连
+# DOMAIN-SUFFIX,catfishemby.club
+# DOMAIN-SUFFIX,catnet.cc
 # loser
 DOMAIN-SUFFIX,loseremby.org
 DOMAIN-SUFFIX,emby.ml
