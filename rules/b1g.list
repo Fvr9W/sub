@@ -27,9 +27,9 @@ DOMAIN-SUFFIX,discordsays.com
 DOMAIN-SUFFIX,discordstatus.com
 DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
 DOMAIN-SUFFIX,watchanimeattheoffice.com
-# 普拉斯影业
-DOMAIN-SUFFIX,emby.ytoo.li
-IP-CIDR,52.184.28.138/32,no-resolve
+# 鱼宝 无法直连
+DOMAIN-SUFFIX,catfishemby.club
+DOMAIN-SUFFIX,catnet.cc
 # 图片
 DOMAIN-SUFFIX,imgur.com
 # bitwarden
