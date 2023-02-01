@@ -14,7 +14,7 @@ Other Games`select`[]B1gProxy`[]Nexitally`[]Sutiao`[]AutoHK 🇭🇰`[]SuTiaoHK 
 B1gProxy`select`[]Premium`[]Nexitally`[]Sutiao`[]AutoHK 🇭🇰`[]SuTiaoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]SuTiaoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Telegram`select`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
-Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
+Netflix`select`[]B1gProxy`[]Sutiao`[]AutoHK 🇭🇰`[]SuTiaoHK 🇭🇰`[]HK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalMedia`select`[]B1gProxy`[]Nexitally`[]Sutiao`[]AutoHK 🇭🇰`[]SuTiaoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]Nexitally`[]Sutiao`[]DIRECT
 PrivateTracker`select`[]DIRECT`[]Nexitally`[]Sutiao`[]TW 🇨🇳`[]Other Games
