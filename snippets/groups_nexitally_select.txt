@@ -2,8 +2,8 @@ Premium`fallback`.*香港 γ.*$`.*香港 (λ|ι).*$`http://cp.cloudflare.com/gen
 Game`select`.*Gamer.*$
 Daily`select`.*
 Blizzard`select`[]Other Games`[]Daily`[]DIRECT
-Garena`select`[]Other Games`[]Daily`[]DIRECT
 PlayStation`select`[]Other Games`[]Daily`[]DIRECT
+Riot`select`[]Other Games`[]Daily`[]DIRECT
 Rockstar`select`[]Other Games`[]Daily`[]DIRECT
 SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
 SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
