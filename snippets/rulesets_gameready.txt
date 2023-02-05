@@ -7,8 +7,8 @@ SougouInput,https://ruleset.skk.moe/List/non_ip/sogouinput.conf
 PrivateTracker,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrivateTracker/PrivateTracker.list
 GlobalGameDownload,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GlobalGameDownload.list
 Blizzard,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/battle.list
-Garena,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/LOLTW.list
 PlayStation,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GranTurismo.list
+Riot,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Riot.list
 Rockstar,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Rockstar.list
 SteamChina,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 SteamGlobal,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
