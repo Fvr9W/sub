@@ -2,8 +2,8 @@ Premium`url-test`.*香港 α #[A-Z] #IEPL.*$`.*香港 β #[A-Z] #HGC.*$`.*香港
 Game`select`.*限制中.*
 Daily`select`.*
 Blizzard`select`[]Other Games`[]Daily`[]DIRECT
-Garena`select`[]Other Games`[]Daily`[]DIRECT
 PlayStation`select`[]Other Games`[]Daily`[]DIRECT
+Riot`select`[]Other Games`[]Daily`[]DIRECT
 Rockstar`select`[]Other Games`[]Daily`[]DIRECT
 SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
 SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]REJECT
