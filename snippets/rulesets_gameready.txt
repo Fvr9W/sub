@@ -24,7 +24,6 @@ AutoEU 🇪🇺,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnEU
 AutoNA 🇺🇲,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnUS.list
 AutoJP 🇯🇵,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/NoCdnJP.list
 B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/b1g.list
-B1gProxy,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Microsoft.list
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/DomesticDirect.list
 B1gProxy,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
 B1gProxy,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
