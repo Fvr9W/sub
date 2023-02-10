@@ -13,7 +13,7 @@ Rockstar,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Rockstar.list
 SteamChina,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 SteamGlobal,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 Ubisoft,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/ubi.list
-Xboxlive,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/XboxLive.list
+Microsoft,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Microsoft.list
 Hax,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Hax.list
 Trading,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Trading.list
 Netflix,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Emby.list
