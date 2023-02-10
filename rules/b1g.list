@@ -27,9 +27,6 @@ DOMAIN-SUFFIX,discordsays.com
 DOMAIN-SUFFIX,discordstatus.com
 DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
 DOMAIN-SUFFIX,watchanimeattheoffice.com
-# 鱼宝 无法直连
-DOMAIN-SUFFIX,catfishemby.club
-DOMAIN-SUFFIX,catnet.cc
 # 图片
 DOMAIN-SUFFIX,imgur.com
 # bitwarden
