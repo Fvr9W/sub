@@ -15,23 +15,19 @@ clash-for-android:
   {% if request.dns == "windows" %}
 tun:
   enable: true
-  stack: gvisor # or system
+  stack: gvisor
   dns-hijack:
-    - 198.18.0.2:53 # when `fake-ip-range` is 198.18.0.1/16, should hijack 198.18.0.2:53
-  auto-route: true # auto set global route for Windows
-  # It is recommended to use `interface-name`
-  auto-detect-interface: true # auto detect interface, conflict with `interface-name`
+    - any:53
+  auto-route: true
+  auto-detect-interface: true
     {% if request.dns == "linux" %}
 tun:
   enable: true
-  stack: system # or gvisor
-  # dns-hijack:
-  #   - 8.8.8.8:53
-  #   - tcp://8.8.8.8:53
-  #   - any:53
-  #   - tcp://any:53
-  auto-route: true # auto set global route
-  auto-detect-interface: true # conflict with interface-name
+  stack: system
+  dns-hijack:
+    - any:53
+  auto-redir: true
+  auto-route: true
     {% else %}
     {% endif %}
   {% endif %}
@@ -44,18 +40,11 @@ dns:
   ipv6: false
   enhanced-mode: fake-ip
   listen: 1053
-  default-nameserver:
-    - 114.114.114.114
-    - 119.29.29.29
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-  fallback:
-    - https://dns.cloudflare.com/dns-query
-    - https://public.dns.iij.jp/dns-query
-    - https://jp.tiar.app/dns-query
-    - https://jp.tiarap.org/dns-query
-    - tls://dot.tiar.app
+    - 114.114.114.114
+    - 223.5.5.5
+    - 8.8.8.8
+  fallback: []
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -197,6 +186,9 @@ dns:
     - "*.pingan.com.cn"
     - "*.cmbchina.com"
     - "*.abchina.com"
+  nameserver-policy:
+    'www.baidu.com': '114.114.114.114'
+    'raw.githubusercontent.com': '8.8.8.8'
     {% if request.dns == "host" %}
 dns:
   enable: true
@@ -211,6 +203,9 @@ dns:
     - tcp://1.1.1.1:53
     - tcp://208.67.222.222:443
     - tls://dns.google
+  nameserver-policy:
+    'www.baidu.com': '114.114.114.114'
+    'raw.githubusercontent.com': '8.8.8.8'
   hosts:
     'ip.jb.tn': 127.0.0.1
     {% else %}
