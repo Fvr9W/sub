@@ -190,6 +190,7 @@ dns:
   nameserver-policy:
     'www.baidu.com': '114.114.114.114'
     'raw.githubusercontent.com': '8.8.8.8'
+  {% else %}
     {% if request.dns == "host" %}
 dns:
   enable: true
