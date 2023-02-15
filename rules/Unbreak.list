@@ -87,13 +87,13 @@ DOMAIN-SUFFIX,dida365.com
 DOMAIN-SUFFIX,tesla.cn
 DOMAIN-SUFFIX,tesla-cdn.thron.cn
 # > UUBooster
+PROCESS-NAME,uu.exe
 PROCESS-NAME,UUBooster.exe
+PROCESS-NAME,uu_netbar.exe
 # > Xunlei
 DOMAIN-SUFFIX,xunlei.com
 # > steam 零售商中国IP进才显示
 DOMAIN-SUFFIX,greenmangaming.com
-# > 给还在用 CFW 的兄弟用的
-PROCESS-NAME,csgo.exe
 # > 小说网站，虽然在境外但是不用中国IP不让进
 DOMAIN-SUFFIX,kenshuzw.com
 # > dns
@@ -102,8 +102,6 @@ DOMAIN-SUFFIX,doh.pub
 # > bet365
 DOMAIN-SUFFIX,365365094.com
 DOMAIN-SUFFIX,365-010.com
-# openAI IP 限制就会报错，直接直连算了，直连也IP限制，垃圾东西。
-# DOMAIN-SUFFIX,openai.com
 # > 无限小说网
 DOMAIN-SUFFIX,xqb5.org
 DOMAIN-SUFFIX,555x.org
