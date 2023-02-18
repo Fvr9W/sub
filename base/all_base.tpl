@@ -42,6 +42,7 @@ dns:
   enhanced-mode: fake-ip
   listen: 1053
   nameserver:
+    - 114.114.114.114
     - 223.5.5.5
     - 8.8.8.8
   fallback: []
@@ -187,6 +188,7 @@ dns:
     - "*.cmbchina.com"
     - "*.abchina.com"
     - "*.abchina.com"
+    - "WORKGROUP"
   nameserver-policy:
     'talk.google.com': '108.177.125.188'
     'mtalk.google.com': '108.177.125.188'
@@ -420,7 +422,8 @@ dns:
   listen: 1053
   nameserver:
     - 114.114.114.114
-    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
   fallback:
     - tls://1.1.1.1:853
     - tcp://1.1.1.1:53
