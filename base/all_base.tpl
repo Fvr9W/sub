@@ -170,10 +170,11 @@ dns:
     - 'streamoc.music.tc.qq.com'
     - 'dl.stream.qqmusic.qq.com'
     - 'isure.stream.qqmusic.qq.com'
-    ## 网易云音乐
+    ## 网易
     - 'music.163.com'
     - '*.music.163.com'
     - '*.126.net'
+    - '*.uu.163.com'
     ## 虾米音乐
     - '*.xiami.com'
     # === Other ===
@@ -184,11 +185,17 @@ dns:
     - "*.cmpassport.com" 
     - "*.jegotrip.com.cn"
     - "*.icitymobile.mobi"
+    ## 银行
     - "*.pingan.com.cn"
     - "*.cmbchina.com"
+    - "*.cmbimg.com"
     - "*.abchina.com"
     - "*.abchina.com"
-    - "ie.uu.163.com"
+    ## 拳头
+    - "*.riotgames.com"
+    - "*.pvp.net"
+    ## 外挂
+    - "*.bgx.gg"
     - "WORKGROUP"
   nameserver-policy:
     'talk.google.com': '108.177.125.188'
