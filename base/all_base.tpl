@@ -21,14 +21,14 @@ tun:
   auto-route: true
   auto-detect-interface: true
   {% else %}
-    {% if request.tun == "linux" %}
+    {% if request.tun == "open" %}
 tun:
   enable: true
   stack: system
   dns-hijack:
-    - any:53
-  auto-redir: true
-  auto-route: true
+    - tcp://any:53
+  auto-route: false
+  auto-detect-interface: false
     {% else %}
     {% endif %}
   {% endif %}
