@@ -89,6 +89,10 @@ dns:
     # === Apple Software Update Service ===
     - 'mesu.apple.com'
     - 'swscan.apple.com'
+    - 'swquery.apple.com'
+    - 'swdownload.apple.com'
+    - 'swcdn.apple.com'
+    - 'swdist.apple.com'
     # === ASUS Router ===
     - '*.router.asus.com'
     # === Google ===
@@ -129,25 +133,6 @@ dns:
     - '*.ntp.org.cn'
     - '+.pool.ntp.org'
     - 'time1.cloud.tencent.com'
-    # === Game Service ===
-    ## Microsoft Xbox
-    - 'speedtest.cros.wr.pvp.net'
-    - '*.*.xboxlive.com'
-    - 'xbox.*.*.microsoft.com'
-    - 'xbox.*.microsoft.com'
-    - 'xnotify.xboxlive.com'
-    ## Nintendo Switch
-    - '*.*.*.srv.nintendo.net'
-    - '+.srv.nintendo.net'
-    ## Sony PlayStation
-    - '*.*.stun.playstation.net'
-    - '+.stun.playstation.net'
-    ## STUN Server
-    - '+.stun.*.*.*.*'
-    - '+.stun.*.*.*'
-    - '+.stun.*.*'
-    - 'stun.*.*.*'
-    - 'stun.*.*'
     # === Music Service ===
     ## 咪咕音乐
     - '*.music.migu.cn'
@@ -177,30 +162,74 @@ dns:
     - '*.uu.163.com'
     ## 虾米音乐
     - '*.xiami.com'
+    ## JOOX音乐
+    - 'api-jooxtt.sanook.com'
+    - 'api.joox.com'
+    - 'joox.com'
+    # === Vedio service ===
+    ## Netflix
+    - '+.nflxvideo.net'
+    ## Bilibili
+    - '*.mcdn.bilivideo.cn'
+    ## Disney Plus
+    - '+.media.dssott.com'
+    ## shark007 Codecs 
+    - 'shark007.net'
+    # === Game Service ===
+    ## Microsoft Xbox
+    - 'speedtest.cros.wr.pvp.net'
+    - '*.*.xboxlive.com'
+    - 'xbox.*.*.microsoft.com'
+    - 'xbox.*.microsoft.com'
+    - 'xnotify.xboxlive.com'
+    ## Nintendo Switch
+    - '*.*.*.srv.nintendo.net'
+    - '+.srv.nintendo.net'
+    ## Sony PlayStation
+    - '*.*.stun.playstation.net'
+    - '+.stun.playstation.net'
+    ## STUN Server
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*'
+    - 'stun.*.*.*'
+    - 'stun.*.*'
+    ## Wotgame
+    - '+.battlenet.com.cn'
+    - '+.wotgame.cn'
+    - '+.wggames.cn'
+    - '+.wowsgame.cn'
+    - '+.wargaming.net'
+    ## 拳头
+    - '+.riotgames.com'
+    - '+.pvp.net'
+    ## 动视暴雪
+    - '+.demonware.net'
+    - '+.battle.net'
+    - '+.blizzard.com'
+    ## FinalFantasy XIV Worldwide Server & CN Server
+    - '*.square-enix.com'
+    - '*.finalfantasyxiv.com'
+    - '*.ffxiv.com'
+    - '*.ff14.sdo.com'
+    - 'ff.dorado.sdo.com'
     # === Other ===
     ## QQ Quick Login
     - 'localhost.ptlogin2.qq.com'
     - 'localhost.sec.qq.com'
-    - "Mijia Cloud"
-    - "*.cmpassport.com" 
-    - "*.jegotrip.com.cn"
-    - "*.icitymobile.mobi"
+    - 'Mijia Cloud'
+    - '*.cmpassport.com' 
+    - '*.jegotrip.com.cn'
+    - '*.icitymobile.mobi'
     ## 银行
-    - "+.pingan.com.cn"
-    - "+.cmbchina.com"
-    - "+.cmbimg.com"
-    - "+.abchina.com"
-    - "+.abchina.com"
-    ## 拳头
-    - "+.riotgames.com"
-    - "+.pvp.net"
-    ## 动视暴雪
-    - "+.demonware.net"
-    - "+.battle.net"
-    - "+.blizzard.com"
+    - '+.pingan.com.cn'
+    - '+.cmbchina.com'
+    - '+.cmbimg.com'
+    - '+.abchina.com'
+    - '+.abchina.com'
     ## 外挂
-    - "+.bgx.gg"
-    - "+.interwebz-cheats.com"
+    - '+.bgx.gg'
+    - '+.interwebz-cheats.com'
   nameserver-policy:
     'talk.google.com': '108.177.125.188'
     'mtalk.google.com': '108.177.125.188'
