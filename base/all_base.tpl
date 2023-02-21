@@ -86,7 +86,20 @@ dns:
     - '*.localdomain'
     - '*.localhost'
     - '*.test'
+    ## Firefox / Some linux system depends on the DNS resolution result to determine the network availability.
+    - 'network-test.debian.org'
+    - 'detectportal.firefox.com'
+    - 'resolver1.opendns.com'
+    ## Twilio's Global Network Traversal Service, reliable STUN and TURN capabilities for WebRTC
+    - 'global.turn.twilio.com'
+    - 'global.stun.twilio.com'
+    ## Firebase Crashlytics
+    - 'e.crashlytics.com'
     # === Apple Software Update Service ===
+    ## Apple Web Authentication Modern 跨设备验证 本地连接
+    - 'cable.auth.com'
+    ## Apple 针对使用强制门户的网络进行互联网连接验证
+    - 'captive.apple.com'
     - 'mesu.apple.com'
     - 'swscan.apple.com'
     - 'swquery.apple.com'
@@ -140,13 +153,15 @@ dns:
     ## 太和音乐
     - 'music.taihe.com'
     - 'musicapi.taihe.com'
-    ## 腾讯音乐
+    ## 酷狗音乐
     - 'songsearch.kugou.com'
     - 'trackercdn.kugou.com'
     - '*.kuwo.cn'
+    ## joox音乐
     - 'api-jooxtt.sanook.com'
     - 'api.joox.com'
     - 'joox.com'
+    ## 腾讯音乐
     - 'y.qq.com'
     - '*.y.qq.com'
     - 'amobile.music.tc.qq.com'
@@ -155,17 +170,13 @@ dns:
     - 'streamoc.music.tc.qq.com'
     - 'dl.stream.qqmusic.qq.com'
     - 'isure.stream.qqmusic.qq.com'
-    ## 网易
+    ## 网易音乐
     - 'music.163.com'
-    - '*.music.163.com'
+    - '+.music.163.com'
     - '*.126.net'
-    - '*.uu.163.com'
+    - '+.uu.163.com'
     ## 虾米音乐
     - '*.xiami.com'
-    ## JOOX音乐
-    - 'api-jooxtt.sanook.com'
-    - 'api.joox.com'
-    - 'joox.com'
     # === Vedio service ===
     ## Netflix
     - '+.nflxvideo.net'
@@ -204,6 +215,8 @@ dns:
     - '+.riotgames.com'
     - '+.pvp.net'
     ## 动视暴雪
+    - '*.logon.battlenet.com.cn'
+    - '*.blzstatic.cn'
     - '+.demonware.net'
     - '+.battle.net'
     - '+.blizzard.com'
@@ -214,18 +227,31 @@ dns:
     - '*.ff14.sdo.com'
     - 'ff.dorado.sdo.com'
     # === Other ===
+    ## AD DS
+    - 'PDC._msDCS.*.*'
+    - 'DC._msDCS.*.*'
+    - 'GC._msDCS.*.*'
     ## QQ Quick Login
     - 'localhost.ptlogin2.qq.com'
     - 'localhost.sec.qq.com'
     - 'Mijia Cloud'
+    ## 移动认证登录
     - '*.cmpassport.com' 
+    ## 电信天翼账号免密登录
+    - 'id6.me'
+    - 'open.e.189.cn'
+    ## 联通沃账号一键登录
+    - 'mdn.open.wo.cn'
+    - 'opencloud.wostore.cn'
+    - 'auth.wosms.cn'
+    ## 无忧行
     - '*.jegotrip.com.cn'
+    ## 誉隆信息
     - '*.icitymobile.mobi'
     ## 银行
     - '+.pingan.com.cn'
     - '+.cmbchina.com'
     - '+.cmbimg.com'
-    - '+.abchina.com'
     - '+.abchina.com'
     ## 外挂
     - '+.bgx.gg'
