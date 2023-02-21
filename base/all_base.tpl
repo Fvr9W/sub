@@ -186,17 +186,21 @@ dns:
     - "*.jegotrip.com.cn"
     - "*.icitymobile.mobi"
     ## 银行
-    - "*.pingan.com.cn"
-    - "*.cmbchina.com"
-    - "*.cmbimg.com"
-    - "*.abchina.com"
-    - "*.abchina.com"
+    - "+.pingan.com.cn"
+    - "+.cmbchina.com"
+    - "+.cmbimg.com"
+    - "+.abchina.com"
+    - "+.abchina.com"
     ## 拳头
-    - "*.riotgames.com"
-    - "*.pvp.net"
+    - "+.riotgames.com"
+    - "+.pvp.net"
+    ## 动视暴雪
+    - "+.demonware.net"
+    - "+.battle.net"
+    - "+.blizzard.com"
     ## 外挂
-    - "*.bgx.gg"
-    - "WORKGROUP"
+    - "+.bgx.gg"
+    - "+.interwebz-cheats.com"
   nameserver-policy:
     'talk.google.com': '108.177.125.188'
     'mtalk.google.com': '108.177.125.188'
