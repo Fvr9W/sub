@@ -17,7 +17,7 @@ Telegram`select`[]SuTiaoHK 🇭🇰`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]B1gPr
 Netflix`select`[]SuTiaoHK 🇭🇰`[]B1gProxy`[]Nexitally`[]Sutiao`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalMedia`select`[]SuTiaoHK 🇭🇰`[]B1gProxy`[]Nexitally`[]Sutiao`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
 GlobalGameDownload`select`[]DIRECT`[]Nexitally`[]Sutiao`[]TW 🇨🇳`[]Other Games
-PrivateTracker`select`[]DIRECT`[]Nexitally`[]Sutiao`[]TW 🇨🇳[]Other Games
+PrivateTracker`select`[]DIRECT`[]Nexitally`[]Sutiao`[]TW 🇨🇳`[]Other Games
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=0!!.*香港.*$
