@@ -622,8 +622,6 @@ dns:
     '*.taipei': 'https://dns.twnic.tw/dns-query'
     '*.he.net': 'https://ordns.he.net/dns-query'
     'raw.githubusercontent.com': '8.8.8.8'
-  hosts:
-    'ip.jb.tn': 127.0.0.1
     {% else %}
     {% endif %}
   {% endif %}
