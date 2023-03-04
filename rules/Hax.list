@@ -24,5 +24,6 @@ DOMAIN-SUFFIX,legendsen.se
 DOMAIN-SUFFIX,memesense.gg
 # midnight
 DOMAIN-SUFFIX,midnight.im
+IP-CIDR,135.125.188.145/32,no-resolve
 # primordial
 DOMAIN-SUFFIX,primordial.gay
