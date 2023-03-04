@@ -90,6 +90,13 @@ DOMAIN-SUFFIX,tesla-cdn.thron.cn
 PROCESS-NAME,uu.exe
 PROCESS-NAME,UUBooster.exe
 PROCESS-NAME,uu_netbar.exe
+# > kkBooster
+PROCESS-NAME,kkproxy.exe
+PROCESS-NAME,kkacceler.exe
+PROCESS-NAME,kkacchelper.exe
+PROCESS-NAME,ss_privoxy.exe
+PROCESS-NAME,kkredirector.exe
+PROCESS-NAME,newkkredirector.exe
 # > Xunlei
 DOMAIN-SUFFIX,xunlei.com
 # > steam 零售商中国IP进才显示
