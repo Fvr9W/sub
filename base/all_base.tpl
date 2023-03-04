@@ -267,7 +267,7 @@ dns:
     ## gamesense
     - '+.gamesense.pub'
     ## interwebz
-    - 'interwebz-cheats.com'
+    - '+.interwebz-cheats.com'
     ## aimware
     - '+.aimware.net'
     ## fatality
