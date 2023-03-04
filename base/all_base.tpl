@@ -441,6 +441,9 @@ dns:
     '*.taipei': 'https://dns.twnic.tw/dns-query'
     '*.he.net': 'https://ordns.he.net/dns-query'
     'raw.githubusercontent.com': '8.8.8.8'
+    'meiquankongjian.com': '8.8.8.8'
+    'getxlx.com': '8.8.8.8'
+    'nachoneko.shop': '8.8.8.8'
   {% else %}
     {% if request.dns == "host" %}
 dns:
