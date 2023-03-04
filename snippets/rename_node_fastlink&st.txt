@@ -92,7 +92,7 @@ IPVδ@IPV4
 !!GROUPID=0!!α.ϵx@1.5x
 !!GROUPID=0!!γx@3x
 !!GROUPID=0!!0.αx@0.1x
-
+!!GROUPID=0!!0.θx@0.8x
 
   @ 
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
