@@ -16,7 +16,7 @@ Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]Au
 Telegram`select`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]Fastlink`[]Sutiao`[]B1gProxy
 Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]AutoNA 🇺🇲`[]Fastlink`[]Sutiao`[]DIRECT
 GlobalMedia`select`[]B1gProxy`[]Fastlink`[]Sutiao`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
+GlobalGameDownload`select`!!GROUPID=0!!.*下载`[]B1gProxy`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
 PrivateTracker`select`[]DIRECT`[]Fastlink`[]Sutiao`[]TW 🇨🇳`[]Other Games
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
