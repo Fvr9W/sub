@@ -10,6 +10,7 @@
 !!GROUPID=0!!iplc\|(.*)-原生([0-9]{2,2}).*@1.5x - $1 $2 #IPLC #Native
 !!GROUPID=0!!iplc\|(.*)([0-9]{2,2}).*@1.5x - $1 $2 #IPLC #Native
 !!GROUPID=0!!福利\|(.*)([0-9]{2,2})\|.*@0.1x - $1 $2 #10Mbps #Daily
+!!GROUPID=0!!福利\|(.*)\|.*@0.1x - $1 #10Mbps #Daily
 
 !!GROUPID=1!!IPV6(接入  |接入 )(.*).*$@$2 #IPV6
 !!GROUPID=1!!ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC ([A-Z]|[A-Z] )([0-9]{1,2}).*$@香港 $2 #$1 #PVCC
