@@ -253,9 +253,33 @@ dns:
     - '+.cmbchina.com'
     - '+.cmbimg.com'
     - '+.abchina.com'
-    ## 外挂
+    ## onetap
+    - '+.onetap.su'
+    - '+.onetap.com'
+    ## neverlose
+    - '+.neverlose.cc'
+    - '+.neverlose.com'
+    ## EO
+    - '+.engineowning.com'
+    - '+.engineowning.to'
+    ## bgx
     - '+.bgx.gg'
-    - '+.interwebz-cheats.com'
+    ## gamesense
+    - '+.gamesense.pub'
+    ## interwebz
+    - 'interwebz-cheats.com'
+    ## aimware
+    - '+.aimware.net'
+    ## fatality
+    - '+.fatality.win'
+    ## legendsen
+    - '+.legendsen.se'
+    ## memesense
+    - '+.memesense.gg'
+    ## midnight
+    - '+.midnight.im'
+    ## primordial
+    - '+.primordial.gay'
   nameserver-policy:
     'talk.google.com': '108.177.125.188'
     'mtalk.google.com': '108.177.125.188'
