@@ -1,12 +1,15 @@
 # 0 是fastlink 1 是薯条
-!!GROUPID=0!!中转\|香港-原生([0-9]{1,2}).*@香港 $1 #Transfer #Native #Daily
-!!GROUPID=0!!中转\|香港([0-9]{1,2}).*@香港 $1 #Transfer #Daily
-!!GROUPID=0!!Anycast|香港.*([0-9]{1,2}).*@香港 $1 #Anycast #Daily
-!!GROUPID=0!!动态BGP\+IPLC\|香港([0-9]{1,2})\(原生\).*@香港 $1 #IPLC #Native
-!!GROUPID=0!!动态BGP\+IPLC\|香港([0-9]{1,2}).*@香港 $1 #IPLC #Native
-!!GROUPID=0!!游戏专线\|香港([0-9]{1,2})\(原生\).*@香港 $1 #Game #Native
-!!GROUPID=0!!游戏专线\|香港([0-9]{1,2}).*@香港 $1 #Game #Native
-!!GROUPID=0!!福利\|香港([0-9]{1,2}).*@0.1x - 香港 $1 #10Mbps #Daily
+!!GROUPID=0!! 2@
+!!GROUPID=0!!Anycast\|(.*).*@$1 #Anycast #Daily
+!!GROUPID=0!!中转\|(.*)-原生([0-9]{2,2}).*@$1 $2 #Transfer #Native #Daily
+!!GROUPID=0!!中转\|(.*)([0-9]{2,2}).*@$1 $2 #Transfer #Daily
+!!GROUPID=0!!动态BGP\+IPLC\|(.*)([0-9]{2,2})\(原生\).*@BGP - $1 $2 #IPLC #Native
+!!GROUPID=0!!动态BGP\+IPLC\|(.*)([0-9]{2,2}).*@BGP - $1 $2 #IPLC
+!!GROUPID=0!!游戏专线\|(.*)([0-9]{2,2})\(原生\).*@$1 $2 #Game #Native
+!!GROUPID=0!!游戏专线\|(.*)([0-9]{2,2}).*@$1 $2 #Game #Native
+!!GROUPID=0!!iplc\|(.*)-原生([0-9]{2,2}).*@$1 $2 #IPLC #Native
+!!GROUPID=0!!iplc\|(.*)([0-9]{2,2}).*@$1 $2 #IPLC #Native
+!!GROUPID=0!!福利\|(.*)([0-9]{2,2})\|.*@0.1x - $1 $2 #10Mbps #Daily
 
 !!GROUPID=1!!IPV6(接入  |接入 )(.*).*$@$2 #IPV6
 !!GROUPID=1!!ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC ([A-Z]|[A-Z] )([0-9]{1,2}).*$@香港 $2 #$1 #PVCC
