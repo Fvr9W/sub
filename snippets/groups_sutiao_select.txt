@@ -1,6 +1,6 @@
 Premium`fallback`.*香港 α #[A-Z] #(PVCC|IEPL|HGC|IPLC).*$`.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
 Game`select`.*限制中.*
-Daily`select`.*
+Daily`select`^(?!.*?(暂时|渠道|接入)).*
 Blizzard`select`[]Other Games`[]Daily`[]DIRECT
 PlayStation`select`[]Other Games`[]Daily`[]DIRECT
 Riot`select`[]Other Games`[]Daily`[]DIRECT
