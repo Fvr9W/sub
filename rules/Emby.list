@@ -9,16 +9,18 @@ DOMAIN-SUFFIX,blueseacdn.com
 # misakaf
 DOMAIN-SUFFIX,misakaf.org
 # 鱼宝 无法直连
-# DOMAIN-SUFFIX,catfishemby.club
-# DOMAIN-SUFFIX,catnet.cc
+DOMAIN-SUFFIX,catfishemby.club
+DOMAIN-SUFFIX,catnet.cc
 # loser
 DOMAIN-SUFFIX,loseremby.org
-DOMAIN-SUFFIX,emby.ml
+DOMAIN-SUFFIX,cf.emby.ml
 # lsingularity
 DOMAIN-SUFFIX,lsingularity.deja-vu.beauty
 # hxd
 DOMAIN-SUFFIX,222921.xyz
+DOMAIN-SUFFIX,bili.bili.rip
 # nebula
 DOMAIN-SUFFIX,nebula-emby.com
 # Nme
-DOMAIN-SUFFIX,nmg.llc
+DOMAIN-SUFFIX,film.goodisp.org
+DOMAIN-SUFFIX,film.chinaisp.org
