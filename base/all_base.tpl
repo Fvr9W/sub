@@ -35,6 +35,7 @@ tun:
 {% endif %}
 
 {% if exists("request.dns") %}
+  {% if request.dns == "fake" %}
 dns:
   enable: true
   ipv6: false
@@ -75,7 +76,6 @@ dns:
       - "+.msftncsi.com"
       - msftconnecttest.com
       - msftncsi.com
-  {% if request.dns == "fake" %}
   fake-ip-filter:
     # === LAN ===
     - '*.example'
@@ -280,12 +280,6 @@ dns:
     - '+.midnight.im'
     ## primordial
     - '+.primordial.gay'
-  {% else %}
-    {% if request.dns == "host" %}
-    - '+.*'
-    {% else %}
-    {% endif %}
-  {% endif %}
   nameserver-policy:
     'talk.google.com': '108.177.125.188'
     'mtalk.google.com': '108.177.125.188'
@@ -453,7 +447,222 @@ dns:
     '+.ptrecord.com': '8.8.8.8'
     '+.bing.cn': '8.8.8.8'
     '+.bing.com': '8.8.8.8'
+  {% else %}
+    {% if request.dns == "host" %}
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  listen: 1053
+  nameserver:
+    - 114.114.114.114
+    - 223.5.5.5
+    - 8.8.8.8
+  fallback: []
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    domain:
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.githubusercontent.com"
+      - "+.googlevideo.com"
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
+      - msftconnecttest.com
+      - msftncsi.com
+  fake-ip-filter:
+    - '+.*'
+  nameserver-policy:
+    'talk.google.com': '108.177.125.188'
+    'mtalk.google.com': '108.177.125.188'
+    'alt1-mtalk.google.com': '3.3.3.3'
+    'alt2-mtalk.google.com': '3.3.3.3'
+    'alt3-mtalk.google.com': '74.125.200.188'
+    'alt4-mtalk.google.com': '74.125.200.188'
+    'alt5-mtalk.google.com': '3.3.3.3'
+    'alt6-mtalk.google.com': '3.3.3.3'
+    'alt7-mtalk.google.com': '74.125.200.188'
+    'alt8-mtalk.google.com': '3.3.3.3'
+    'blog.google': '119.29.29.29'
+    'googletraveladservices.com': '119.29.29.29'
+    'dl.google.com': '119.29.29.29'
+    'dl.l.google.com': '119.29.29.29'
+    'clientservices.googleapis.com': '119.29.29.29'
+    'update.googleapis.com': '119.29.29.29'
+    'translate.googleapis.com': '119.29.29.29'
+    'fonts.googleapis.com': '119.29.29.29'
+    'fonts.gstatic.com': '119.29.29.29'
+    'networking.apple': 'https://doh.dns.apple.com/dns-query'
+    '+.icloud.com': 'https://doh.dns.apple.com/dns-query'
+    '+.google': '8.8.8.8'
+    '+.google.com': '8.8.8.8'
+    '+.google.com.??': '8.8.8.8'
+    '+.gstatic.com': '8.8.8.8'
+    '+.ggpht.com': '8.8.8.8'
+    '+.googleusercontent.com': '8.8.8.8'
+    '+.1e100.net': '8.8.8.8'
+    '+.youtube': '8.8.8.8'
+    '+.youtube.com': '8.8.8.8'
+    '+.ytimg.com': '8.8.8.8'
+    '+.googlevideo.com': '8.8.8.8'
+    '+.gvt?.com': '8.8.8.8'
+    '+.recaptcha.net': '8.8.8.8'
+    '+.gmail.com': '8.8.8.8'
+    '+.googlesource.com': '8.8.8.8'
+    '+.googleadservices.com': '8.8.8.8'
+    '+.doubleclick.net': '8.8.8.8'
+    '+.adsense.com': '8.8.8.8'
+    '+.adsensecustomsearchads.com': '8.8.8.8'
+    '+.adsenseformobileapps.com': '8.8.8.8'
+    '+.gle': '8.8.8.8'
+    'goo.gl': '8.8.8.8'
+    '+.cloudflare.com': '1.1.1.1'
+    '+.cloudflarestream.com': '1.1.1.1'
+    '+.cloudflareclient.com': '1.1.1.1'
+    '+.cloudflareinsights.com': '1.1.1.1'
+    '+.every1dns.net': '1.1.1.1'
+    '+.cloudflare-dns.com': '1.1.1.1'
+    '+.workers.dev': '1.1.1.1'
+    '+.alibaba.cn': '223.5.5.5'
+    '+.alibaba.com.cn': '223.5.5.5'
+    '+.china.alibaba.com': '223.5.5.5'
+    '+.1688.com': '223.5.5.5'
+    '+.taobao.com': '223.5.5.5'
+    '+.tbcache.com': '223.5.5.5'
+    '+.tmall.com': '223.5.5.5'
+    '+.alicdn.com': '223.5.5.5'
+    '+.aliyundrive.com': '223.5.5.5'
+    '+.aliyun.+': '223.5.5.5'
+    '+.aliyuncdn.+': '223.5.5.5'
+    '+.aliyunddos????.com': '223.5.5.5'
+    '+.aliyuncs.com': '223.5.5.5'
+    '+.aliyundunwaf.com': '223.5.5.5'
+    '+.aliapp.com': '223.5.5.5'
+    '+.aliapp.org': '223.5.5.5'
+    '+.alibabausercontent.com': '223.5.5.5'
+    '+.mmstat.com': '223.5.5.5'
+    'tb.cn': '223.5.5.5'
+    '+.alipay.com': '223.5.5.5'
+    '+.alipay.com.cn': '223.5.5.5'
+    '+.alipaydns.com': '223.5.5.5'
+    '+.alipayeshop.com': '223.5.5.5'
+    '+.alipaylog.com': '223.5.5.5'
+    '+.alipayobjects.com': '223.5.5.5'
+    '+.alipay-eco.com': '223.5.5.5'
+    '+.tencent.com': '119.29.29.29'
+    '+.qcloud.com': '119.29.29.29'
+    '+.qcloudcdn.cn': '119.29.29.29'
+    '+.qcloudcdn.com': '119.29.29.29'
+    '+.qcloudcos.com': '119.29.29.29'
+    '+.qcloudimg.com': '119.29.29.29'
+    '+.qcloudcjgj.com': '119.29.29.29'
+    '+.qcloudwzgj.com': '119.29.29.29'
+    '+.qcloudzygj.com': '119.29.29.29'
+    '+.myqcloud.com': '119.29.29.29'
+    '+.tencent-cloud.net': '119.29.29.29'
+    '+.tencentcloud-aiot.com': '119.29.29.29'
+    '+.tencentcloudapi.com': '119.29.29.29'
+    '+.tencentcloudcr.com': '119.29.29.29'
+    '+.tencentcloudmarket.com': '119.29.29.29'
+    '+.qq.com': '119.29.29.29'
+    '+.qlogo.cn': '119.29.29.29'
+    '+.qpic.cn': '119.29.29.29'
+    '+.weixin.qq.com': '119.29.29.29'
+    '+.wx.qq.com': '119.29.29.29'
+    '+.weixin.com': '119.29.29.29'
+    '+.weixinbridge.com': '119.29.29.29'
+    '+.wechat.com': '119.29.29.29'
+    '+.servicewechat.com': '119.29.29.29'
+    '+.weiyun.com': '119.29.29.29'
+    '+.gtimg.cn': '119.29.29.29'
+    '+.idqqimg.com': '119.29.29.29'
+    '+.cdn-go.cn': '119.29.29.29'
+    '+.smtcdns.com': '119.29.29.29'
+    '+.smtcdns.net': '119.29.29.29'
+    'url.cn': '119.29.29.29'
+    '+.baidu': '180.76.76.76'
+    '+.baidu.com': '180.76.76.76'
+    '+.bdimg.com': '180.76.76.76'
+    '+.bdstatic.com': '180.76.76.76'
+    '+.baidupcs.+': '180.76.76.76'
+    '+.baiduyuncdn.+': '180.76.76.76'
+    '+.baiduyundns.+': '180.76.76.76'
+    '+.bdydns.+': '180.76.76.76'
+    '+.bdycdn.+': '180.76.76.76'
+    '+.bdysite.com': '180.76.76.76'
+    '+.bdysites.com': '180.76.76.76'
+    '+.baidubce.+': '180.76.76.76'
+    '+.bcedns.+': '180.76.76.76'
+    '+.bcebos.com': '180.76.76.76'
+    '+.bcevod.com': '180.76.76.76'
+    '+.bceimg.com': '180.76.76.76'
+    '+.bcehost.com': '180.76.76.76'
+    '+.bcehosts.com': '180.76.76.76'
+    'dwz.cn': '180.76.76.76'
+    '+.360.cn': 'https://doh.360.cn/dns-query'
+    '+.360safe.com': 'https://doh.360.cn/dns-query'
+    '+.360kuai.com': 'https://doh.360.cn/dns-query'
+    '+.so.com': 'https://doh.360.cn/dns-query'
+    '+.360webcache.com': 'https://doh.360.cn/dns-query'
+    '+.qihuapi.com': 'https://doh.360.cn/dns-query'
+    '+.qhimg.com': 'https://doh.360.cn/dns-query'
+    '+.qhimgs.com': 'https://doh.360.cn/dns-query'
+    '+.qhimgs?.com': 'https://doh.360.cn/dns-query'
+    '+.qhmsg.com': 'https://doh.360.cn/dns-query'
+    '+.qhres.com': 'https://doh.360.cn/dns-query'
+    '+.qhres?.com': 'https://doh.360.cn/dns-query'
+    '+.dhrest.com': 'https://doh.360.cn/dns-query'
+    '+.qhupdate.com': 'https://doh.360.cn/dns-query'
+    '+.yunpan.cn': 'https://doh.360.cn/dns-query'
+    '+.yunpan.com.cn': 'https://doh.360.cn/dns-query'
+    '+.yunpan.com': 'https://doh.360.cn/dns-query'
+    'urlqh.cn': 'https://doh.360.cn/dns-query'
+    'upos-sz-mirrorali.bilivideo.com': '223.5.5.5'
+    'upos-sz-mirrorali?.bilivideo.com': '223.5.5.5'
+    'upos-sz-mirrorali??.bilivideo.com': '223.5.5.5'
+    'upos-sz-mirrorbos.bilivideo.com': '180.76.76.76'
+    'upos-sz-mirrorcos.bilivideo.com': '119.29.29.29'
+    'upos-sz-mirrorcos?.bilivideo.com': '119.29.29.29'
+    'upos-sz-mirrorcos??.bilivideo.com': '119.29.29.29'
+    'upos-sz-upcdnbd??.bilivideo.com': '180.76.76.76'
+    'upos-sz-upcdntx.bilivideo.com': '119.29.29.29'
+    '+.cht.com.tw': 'https://dns.hinet.net/dns-query'
+    '+.hinet.net': 'https://dns.hinet.net/dns-query'
+    '+.emome.net': 'https://dns.hinet.net/dns-query'
+    '+.tw': 'https://dns.twnic.tw/dns-query'
+    '+.taipei': 'https://dns.twnic.tw/dns-query'
+    '+.he.net': 'https://ordns.he.net/dns-query'
+    'raw.githubusercontent.com': '8.8.8.8'
+    '+.meiquankongjian.com': '8.8.8.8'
+    '+.getxlx.com': '8.8.8.8'
+    '+.nachoneko.shop': '8.8.8.8'
+    '+.ptrecord.com': '8.8.8.8'
+    '+.bing.cn': '8.8.8.8'
+    '+.bing.com': '8.8.8.8'
+    {% else %}
+    {% endif %}
+  {% endif %}
 {% endif %}
+
 
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
@@ -1103,6 +1312,7 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikT
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=UnlockVIP, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=EmbyVIP, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/MeiYanXiangJi.conf, tag=MyxjVIP, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Bilibili.conf, tag=BiliVIP, update-interval=172800, opt-parser=false, enabled=true
 #功能增强
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分, update-interval=172800, opt-parser=false, enabled=true
@@ -1113,18 +1323,25 @@ https://raw.githubusercontent.com/DualSubs/DualSubs/main/qxrewrite/DualSubs.YouT
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Siri.qxrewrite, tag=iRingoSiri, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite, tag=iRingoLocation, update-interval=86400, opt-parser=false, enabled=true
 #去广告
-https://raw.githubusercontent.com/app2smile/rules/master/module/bilibili-qx.conf, tag=批站去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=贴吧去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf, tag=起点去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.conf, tag=油管去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Html/WebAdBlock.conf, tag=一些网页去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/vgtime.conf, tag=vgTime去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/zhihu.conf, tag=知乎去广告, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=微信小程序去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf, tag=起点去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Cainiao.conf, tag=菜鸟裹裹去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Netease.conf, tag=网易云去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Amap.conf, tag=高德地图去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo.conf, tag=微博国内版去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf, tag=微博国际版去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Amap.conf, tag=高德地图去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/KeepStyle.conf, tag=KEEP去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/XiaoHongShu.conf, tag=小红书去广告, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf, tag=喜马拉雅去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=去广告联盟, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=贴吧去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet, tag=知乎去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/WeChat.conf, tag=公众号去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conff, tag=开屏去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=微信小程序去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.conf, tag=油管去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=去广告联盟, update-interval=172800, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf, tag = A1去广告, update-interval=86400, opt-parser=false, enabled=false
 #Cookie
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = GetCookie, update-interval=86400, opt-parser=false, enabled = false
