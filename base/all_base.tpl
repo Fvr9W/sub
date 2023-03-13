@@ -35,7 +35,6 @@ tun:
 {% endif %}
 
 {% if exists("request.dns") %}
-  {% if request.dns == "fake" %}
 dns:
   enable: true
   ipv6: false
@@ -76,6 +75,7 @@ dns:
       - "+.msftncsi.com"
       - msftconnecttest.com
       - msftncsi.com
+  {% if request.dns == "fake" %}
   fake-ip-filter:
     # === LAN ===
     - '*.example'
@@ -280,6 +280,12 @@ dns:
     - '+.midnight.im'
     ## primordial
     - '+.primordial.gay'
+  {% else %}
+    {% if request.dns == "host" %}
+    - '+.*'
+    {% else %}
+    {% endif %}
+  {% endif %}
   nameserver-policy:
     'talk.google.com': '108.177.125.188'
     'mtalk.google.com': '108.177.125.188'
@@ -447,214 +453,6 @@ dns:
     '+.ptrecord.com': '8.8.8.8'
     '+.bing.cn': '8.8.8.8'
     '+.bing.com': '8.8.8.8'
-  {% else %}
-    {% if request.dns == "host" %}
-dns:
-  enable: true
-  ipv6: false
-  enhanced-mode: fake-ip
-  listen: 1053
-  nameserver:
-    - 114.114.114.114
-    - 223.5.5.5
-    - 8.8.8.8
-  fallback: []
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 0.0.0.0/8
-      - 10.0.0.0/8
-      - 100.64.0.0/10
-      - 127.0.0.0/8
-      - 169.254.0.0/16
-      - 172.16.0.0/12
-      - 192.0.0.0/24
-      - 192.0.2.0/24
-      - 192.88.99.0/24
-      - 192.168.0.0/16
-      - 198.18.0.0/15
-      - 198.51.100.0/24
-      - 203.0.113.0/24
-      - 224.0.0.0/4
-      - 240.0.0.0/4
-      - 255.255.255.255/32
-    domain:
-      - "+.google.com"
-      - "+.facebook.com"
-      - "+.youtube.com"
-      - "+.githubusercontent.com"
-      - "+.googlevideo.com"
-      - "+.msftconnecttest.com"
-      - "+.msftncsi.com"
-      - msftconnecttest.com
-      - msftncsi.com
-  fake-ip-filter:
-    - '+.*'
-  nameserver-policy:
-    'talk.google.com': '108.177.125.188'
-    'mtalk.google.com': '108.177.125.188'
-    'alt1-mtalk.google.com': '3.3.3.3'
-    'alt2-mtalk.google.com': '3.3.3.3'
-    'alt3-mtalk.google.com': '74.125.200.188'
-    'alt4-mtalk.google.com': '74.125.200.188'
-    'alt5-mtalk.google.com': '3.3.3.3'
-    'alt6-mtalk.google.com': '3.3.3.3'
-    'alt7-mtalk.google.com': '74.125.200.188'
-    'alt8-mtalk.google.com': '3.3.3.3'
-    'blog.google': '119.29.29.29'
-    'googletraveladservices.com': '119.29.29.29'
-    'dl.google.com': '119.29.29.29'
-    'dl.l.google.com': '119.29.29.29'
-    'clientservices.googleapis.com': '119.29.29.29'
-    'update.googleapis.com': '119.29.29.29'
-    'translate.googleapis.com': '119.29.29.29'
-    'fonts.googleapis.com': '119.29.29.29'
-    'fonts.gstatic.com': '119.29.29.29'
-    'networking.apple': 'https://doh.dns.apple.com/dns-query'
-    '*.icloud.com': 'https://doh.dns.apple.com/dns-query'
-    '*.google': '8.8.8.8'
-    '*.google.com': '8.8.8.8'
-    '*.google.com.??': '8.8.8.8'
-    '*.gstatic.com': '8.8.8.8'
-    '*.ggpht.com': '8.8.8.8'
-    '*.googleusercontent.com': '8.8.8.8'
-    '*.1e100.net': '8.8.8.8'
-    '*.youtube': '8.8.8.8'
-    '*.youtube.com': '8.8.8.8'
-    '*.ytimg.com': '8.8.8.8'
-    '*.googlevideo.com': '8.8.8.8'
-    '*.gvt?.com': '8.8.8.8'
-    '*.recaptcha.net': '8.8.8.8'
-    '*.gmail.com': '8.8.8.8'
-    '*.googlesource.com': '8.8.8.8'
-    '*.googleadservices.com': '8.8.8.8'
-    '*.doubleclick.net': '8.8.8.8'
-    '*.adsense.com': '8.8.8.8'
-    '*.adsensecustomsearchads.com': '8.8.8.8'
-    '*.adsenseformobileapps.com': '8.8.8.8'
-    '*.gle': '8.8.8.8'
-    'goo.gl': '8.8.8.8'
-    '*.cloudflare.com': '1.1.1.1'
-    '*.cloudflarestream.com': '1.1.1.1'
-    '*.cloudflareclient.com': '1.1.1.1'
-    '*.cloudflareinsights.com': '1.1.1.1'
-    '*.every1dns.net': '1.1.1.1'
-    '*.cloudflare-dns.com': '1.1.1.1'
-    '*.workers.dev': '1.1.1.1'
-    '*.alibaba.cn': '223.5.5.5'
-    '*.alibaba.com.cn': '223.5.5.5'
-    '*.china.alibaba.com': '223.5.5.5'
-    '*.1688.com': '223.5.5.5'
-    '*.taobao.com': '223.5.5.5'
-    '*.tbcache.com': '223.5.5.5'
-    '*.tmall.com': '223.5.5.5'
-    '*.alicdn.com': '223.5.5.5'
-    '*.aliyundrive.com': '223.5.5.5'
-    '*.aliyun.*': '223.5.5.5'
-    '*.aliyuncdn.*': '223.5.5.5'
-    '*.aliyunddos????.com': '223.5.5.5'
-    '*.aliyuncs.com': '223.5.5.5'
-    '*.aliyundunwaf.com': '223.5.5.5'
-    '*.aliapp.com': '223.5.5.5'
-    '*.aliapp.org': '223.5.5.5'
-    '*.alibabausercontent.com': '223.5.5.5'
-    '*.mmstat.com': '223.5.5.5'
-    'tb.cn': '223.5.5.5'
-    '*.alipay.com': '223.5.5.5'
-    '*.alipay.com.cn': '223.5.5.5'
-    '*.alipaydns.com': '223.5.5.5'
-    '*.alipayeshop.com': '223.5.5.5'
-    '*.alipaylog.com': '223.5.5.5'
-    '*.alipayobjects.com': '223.5.5.5'
-    '*.alipay-eco.com': '223.5.5.5'
-    '*.tencent.com': '119.29.29.29'
-    '*.qcloud.com': '119.29.29.29'
-    '*.qcloudcdn.cn': '119.29.29.29'
-    '*.qcloudcdn.com': '119.29.29.29'
-    '*.qcloudcos.com': '119.29.29.29'
-    '*.qcloudimg.com': '119.29.29.29'
-    '*.qcloudcjgj.com': '119.29.29.29'
-    '*.qcloudwzgj.com': '119.29.29.29'
-    '*.qcloudzygj.com': '119.29.29.29'
-    '*.myqcloud.com': '119.29.29.29'
-    '*.tencent-cloud.net': '119.29.29.29'
-    '*.tencentcloud-aiot.com': '119.29.29.29'
-    '*.tencentcloudapi.com': '119.29.29.29'
-    '*.tencentcloudcr.com': '119.29.29.29'
-    '*.tencentcloudmarket.com': '119.29.29.29'
-    '*.qq.com': '119.29.29.29'
-    '*.qlogo.cn': '119.29.29.29'
-    '*.qpic.cn': '119.29.29.29'
-    '*.weixin.qq.com': '119.29.29.29'
-    '*.wx.qq.com': '119.29.29.29'
-    '*.weixin.com': '119.29.29.29'
-    '*.weixinbridge.com': '119.29.29.29'
-    '*.wechat.com': '119.29.29.29'
-    '*.servicewechat.com': '119.29.29.29'
-    '*.weiyun.com': '119.29.29.29'
-    '*.gtimg.cn': '119.29.29.29'
-    '*.idqqimg.com': '119.29.29.29'
-    '*.cdn-go.cn': '119.29.29.29'
-    '*.smtcdns.com': '119.29.29.29'
-    '*.smtcdns.net': '119.29.29.29'
-    'url.cn': '119.29.29.29'
-    '*.baidu': '180.76.76.76'
-    '*.baidu.com': '180.76.76.76'
-    '*.bdimg.com': '180.76.76.76'
-    '*.bdstatic.com': '180.76.76.76'
-    '*.baidupcs.*': '180.76.76.76'
-    '*.baiduyuncdn.*': '180.76.76.76'
-    '*.baiduyundns.*': '180.76.76.76'
-    '*.bdydns.*': '180.76.76.76'
-    '*.bdycdn.*': '180.76.76.76'
-    '*.bdysite.com': '180.76.76.76'
-    '*.bdysites.com': '180.76.76.76'
-    '*.baidubce.*': '180.76.76.76'
-    '*.bcedns.*': '180.76.76.76'
-    '*.bcebos.com': '180.76.76.76'
-    '*.bcevod.com': '180.76.76.76'
-    '*.bceimg.com': '180.76.76.76'
-    '*.bcehost.com': '180.76.76.76'
-    '*.bcehosts.com': '180.76.76.76'
-    'dwz.cn': '180.76.76.76'
-    '*.360.cn': 'https://doh.360.cn/dns-query'
-    '*.360safe.com': 'https://doh.360.cn/dns-query'
-    '*.360kuai.com': 'https://doh.360.cn/dns-query'
-    '*.so.com': 'https://doh.360.cn/dns-query'
-    '*.360webcache.com': 'https://doh.360.cn/dns-query'
-    '*.qihuapi.com': 'https://doh.360.cn/dns-query'
-    '*.qhimg.com': 'https://doh.360.cn/dns-query'
-    '*.qhimgs.com': 'https://doh.360.cn/dns-query'
-    '*.qhimgs?.com': 'https://doh.360.cn/dns-query'
-    '*.qhmsg.com': 'https://doh.360.cn/dns-query'
-    '*.qhres.com': 'https://doh.360.cn/dns-query'
-    '*.qhres?.com': 'https://doh.360.cn/dns-query'
-    '*.dhrest.com': 'https://doh.360.cn/dns-query'
-    '*.qhupdate.com': 'https://doh.360.cn/dns-query'
-    '*.yunpan.cn': 'https://doh.360.cn/dns-query'
-    '*.yunpan.com.cn': 'https://doh.360.cn/dns-query'
-    '*.yunpan.com': 'https://doh.360.cn/dns-query'
-    'urlqh.cn': 'https://doh.360.cn/dns-query'
-    'upos-sz-mirrorali.bilivideo.com': '223.5.5.5'
-    'upos-sz-mirrorali?.bilivideo.com': '223.5.5.5'
-    'upos-sz-mirrorali??.bilivideo.com': '223.5.5.5'
-    'upos-sz-mirrorbos.bilivideo.com': '180.76.76.76'
-    'upos-sz-mirrorcos.bilivideo.com': '119.29.29.29'
-    'upos-sz-mirrorcos?.bilivideo.com': '119.29.29.29'
-    'upos-sz-mirrorcos??.bilivideo.com': '119.29.29.29'
-    'upos-sz-upcdnbd??.bilivideo.com': '180.76.76.76'
-    'upos-sz-upcdntx.bilivideo.com': '119.29.29.29'
-    '*.cht.com.tw': 'https://dns.hinet.net/dns-query'
-    '*.hinet.net': 'https://dns.hinet.net/dns-query'
-    '*.emome.net': 'https://dns.hinet.net/dns-query'
-    '*.tw': 'https://dns.twnic.tw/dns-query'
-    '*.taipei': 'https://dns.twnic.tw/dns-query'
-    '*.he.net': 'https://ordns.he.net/dns-query'
-    'raw.githubusercontent.com': '8.8.8.8'
-    {% else %}
-    {% endif %}
-  {% endif %}
 {% endif %}
 
 {% if local.clash.new_field_name == "true" %}
