@@ -280,6 +280,8 @@ dns:
     - '+.midnight.im'
     ## primordial
     - '+.primordial.gay'
+    ## pokerstars
+    - '+.ps.im'
   nameserver-policy:
     'talk.google.com': '108.177.125.188'
     'mtalk.google.com': '108.177.125.188'
