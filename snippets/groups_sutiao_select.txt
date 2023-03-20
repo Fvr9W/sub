@@ -23,7 +23,7 @@ Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`.*香港.*$`.*限制中.*
 AutoHK 🇭🇰`url-test`.*香港 α #[A-Z] #(PVCC|IEPL|HGC|IPLC).*$`.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
 TW 🇨🇳`select`.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
-AutoTW 🇨🇳`url-test`.*(彰化|嘉义) (α|β).*$`https://www.gstatic.com/generate_204`300
+AutoTW 🇨🇳`url-test`.*(彰化|嘉义) (α|β).*$`.*台湾 (α|β) #D.*$`https://www.gstatic.com/generate_204`300
 KR 🇰🇷`select`.*(韩国|首尔).*$
 AutoKR 🇰🇷`url-test`.*韩国 δ.*$`https://www.gstatic.com/generate_204`300
 JP 🇯🇵`select`.*(日本|东京|大阪).*$
