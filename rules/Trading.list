@@ -24,6 +24,10 @@ IP-CIDR,192.5.5.241/32
 IP-CIDR,128.242.240.85/32
 IP-CIDR,138.40.77.152/32
 
+# GGpoker 
+DOMAIN-SUFFIX,evpuke.com
+DOMAIN-SUFFIX,ggpoker.com
+
 # Trading
 PROCESS-NAME,TradingView.exe
 DOMAIN-SUFFIX,tradingview.com
