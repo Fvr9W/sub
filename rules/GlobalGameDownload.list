@@ -63,3 +63,5 @@ DOMAIN,gog-cdn-lumen.secure2.footprint.net
 DOMAIN,download.cdp.bethesda.net 
 DOMAIN,download.hikarifield.co.jp
 DOMAIN,client.hikarifield.co.jp
+# ggpoker
+DOMAIN,download-1.ggdlcdn.com
