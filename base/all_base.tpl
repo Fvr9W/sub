@@ -447,8 +447,8 @@ dns:
     '+.getxlx.com': '8.8.8.8'
     '+.nachoneko.shop': '8.8.8.8'
     '+.ptrecord.com': '8.8.8.8'
-    '+.bing.cn': '8.8.8.8'
-    '+.bing.com': '8.8.8.8'
+    '+.bing.cn': '1.1.1.1'
+    '+.bing.com': '1.1.1.1'
   {% else %}
     {% if request.dns == "host" %}
 dns:
