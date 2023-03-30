@@ -2,7 +2,7 @@ Premium`fallback`!!GROUPID=1!!.*香港 α #[A-Z] #(PVCC|IEPL|HGC|IPLC).*$`!!GROU
 Other Games`select`[]B1gProxy`[]Fastlink`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 B1gProxy`select`[]Premium`[]Fastlink`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Hax`select`[]FaliNA 🇺🇲`[]AutoNA 🇺🇲`[]FaliHK 🇭🇰`[]AutoHK 🇭🇰`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
-Trading`select`[]B1gProxy`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
+Trading`select`[]B1gProxy`[]Other Games`[]FaliNA 🇺🇲`[]AutoNA 🇺🇲`[]FaliHK 🇭🇰`[]AutoJP 🇯🇵`[]Fastlink`[]Sutiao`[]DIRECT
 Telegram`select`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]Fastlink`[]Sutiao`[]B1gProxy
 Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]AutoNA 🇺🇲`[]Fastlink`[]Sutiao`[]DIRECT
 GlobalMedia`select`[]B1gProxy`[]Fastlink`[]Sutiao`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
