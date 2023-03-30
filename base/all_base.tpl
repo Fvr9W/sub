@@ -45,6 +45,7 @@ dns:
     - 114.114.114.114
     - 223.5.5.5
     - 8.8.8.8
+    - 1.1.1.1
   fallback: []
   fallback-filter:
     geoip: true
