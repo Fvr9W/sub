@@ -1270,6 +1270,8 @@ static=SteamChina, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/A
 static=SteamGlobal, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/steam.png
 static=Ubisoft, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=Xboxlive, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
+static=Microsoft, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
+static=Riot, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/League_of_Legends.png
 static=Hax, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=Other Games, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=B1gProxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
