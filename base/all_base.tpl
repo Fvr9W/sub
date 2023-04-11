@@ -239,7 +239,6 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
     {% endif %}
   {% endif %}
 {% endif %}
-udp_drop_list=443
 
 [dns]
 prefer-doh3
@@ -832,7 +831,7 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = G
 
 # 饿了么   (By @blackmatrix7)
 # 打开 APP, 访问下右下角 我的 - 赚吃货豆。
-05 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=ele_领取吃货豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true
+# 05 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=ele_领取吃货豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true
 
 # 什么值得买   (By @blackmatrix7)
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
