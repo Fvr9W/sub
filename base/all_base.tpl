@@ -257,6 +257,14 @@ server=192.168.50.1, included_ssids=INFINITY-WORLD
   {% endif %}
 {% endif %}
 
+server=/raw.githubusercontent.com/8.8.8.8, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
+server=/+.meiquankongjian.com/8.8.8.8, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
+server=/+.getxlx.com/8.8.8.8, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
+server=/+.nachoneko.shop/8.8.8.8, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
+server=/+.ptrecord.com/8.8.8.8, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
+server=/+.bing.cn/1.1.1.1, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
+server=/+.bing.com/1.1.1.1, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
+
 [policy]
 static=Premium, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
 static=Game, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/game.png
