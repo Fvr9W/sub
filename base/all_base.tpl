@@ -55,12 +55,6 @@ dns:
     - '+.local'
     - localhost.ptlogin2.qq.com
     - '+.nip.io'
-    - '+.jegotrip.com.cn'
-    - '+.icitymobile.mobi'
-    - '+.pingan.com.cn'
-    - '+.cmbchina.com'
-    - '+.cmbimg.com'
-    - '+.abchina.com'
     ## onetap
     - '+.onetap.su'
     - '+.onetap.com'
@@ -230,18 +224,18 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 network_check_url=http://captive.apple.com/generate_204
 server_check_url=http://cp.cloudflare.com/generate_204
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
-dns_exclusion_list = *.lan, cable.auth.com, *.msftconnecttest.com, *.msftncsi.com, network-test.debian.org, detectportal.firefox.com, resolver1.opendns.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, stun.*, global.turn.twilio.com, global.stun.twilio.com, localhost.*.qq.com, *.logon.battlenet.com.cn, *.logon.battle.net, *.blzstatic.cn, music.163.com, *.music.163.com, *.126.net, musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, *.kuwo.cn, api-jooxtt.sanook.com, api.joox.com, joox.com, y.qq.com, *.y.qq.com, streamoc.music.tc.qq.com, mobileoc.music.tc.qq.com, isure.stream.qqmusic.qq.com, dl.stream.qqmusic.qq.com, aqqmusic.tc.qq.com, amobile.music.tc.qq.com, *.xiami.com, *.music.migu.cn, music.migu.cn, proxy.golang.org, *.mcdn.bilivideo.cn, *.cmpassport.com, id6.me, open.e.189.cn, mdn.open.wo.cn, opencloud.wostore.cn, auth.wosms.cn, *.jegotrip.com.cn, *.icitymobile.mobi, *.pingan.com.cn, *.cmbchina.com, pool.ntp.org, *.pool.ntp.org, ntp.*.com, time.*.com, ntp?.*.com, time?.*.com, time.*.gov, time.*.edu.cn, *.ntp.org.cn, PDC._msDCS.*.*, DC._msDCS.*.*, GC._msDCS.*.*
+dns_exclusion_list = +.lan, +.local, localhost.ptlogin2.qq.com, +.nip.io
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
 # 指定在某个 Wi-Fi 下暂停 Quantumult X
 {% if exists("request.who") %}
   {% if request.who == "self" %}
-    running_mode_trigger=filter, filter, Cccccc:all_direct, zxcvawer:all_direct, Cccccc_5G:all_direct
+running_mode_trigger=filter, filter, Cccccc:all_direct, zxcvawer:all_direct, Cccccc_5G:all_direct
   {% else %}
     {% if request.who == "lulu" %}
-      running_mode_trigger=filter, filter, Society-5G:all_direct, Society:all_direct
+running_mode_trigger=filter, filter, Society-5G:all_direct, Society:all_direct
     {% else %}
-      running_mode_trigger=filter, filter, INFINITY-WORLD:all_direct, nana:all_direct
-      ;ssid_suspended_list=LINK_22E174, LINK_22E175
+running_mode_trigger=filter, filter, INFINITY-WORLD:all_direct, nana:all_direct
+;ssid_suspended_list=LINK_22E174, LINK_22E175
     {% endif %}
   {% endif %}
 {% endif %}
