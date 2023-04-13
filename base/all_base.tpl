@@ -55,6 +55,12 @@ dns:
     - '+.local'
     - localhost.ptlogin2.qq.com
     - '+.nip.io'
+    - '+.jegotrip.com.cn'
+    - '+.icitymobile.mobi'
+    - '+.pingan.com.cn'
+    - '+.cmbchina.com'
+    - '+.cmbimg.com'
+    - '+.abchina.com'
     ## onetap
     - '+.onetap.su'
     - '+.onetap.com'
@@ -241,29 +247,9 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 {% endif %}
 
 [dns]
-no-system
 no-ipv6
 server=223.5.5.5
 server=119.29.29.29
-{% if exists("request.who") %}
-  {% if request.who == "self" %}
-server=192.168.123.1, included_ssids=Cccccc_5G
-  {% else %}
-    {% if request.who == "lulu" %}
-server=192.168.5.1, included_ssids=Society-5G
-    {% else %}
-server=192.168.50.1, included_ssids=INFINITY-WORLD
-    {% endif %}
-  {% endif %}
-{% endif %}
-
-server=/raw.githubusercontent.com/8.8.8.8, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
-server=/+.meiquankongjian.com/8.8.8.8, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
-server=/+.getxlx.com/8.8.8.8, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
-server=/+.nachoneko.shop/8.8.8.8, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
-server=/+.ptrecord.com/8.8.8.8, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
-server=/+.bing.cn/1.1.1.1, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
-server=/+.bing.com/1.1.1.1, excluded_ssids=Cccccc_5G, Society-5G, INFINITY-WORLD
 
 [policy]
 static=Premium, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
