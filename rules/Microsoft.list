@@ -1,6 +1,7 @@
 # 微软加速，虽然能直连但是很慢
 # new bing
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.cn
 # OneDirve
 DOMAIN-SUFFIX,bn1301.storage.live.com
 # Microsoft Store Images
