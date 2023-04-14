@@ -1,0 +1,38 @@
+# ======= 各种各样 ======= #
+# 2023-4-14 12:39:59
+
+# 来电 #微信小程序
+^https:\/\/mobile-api\.imlaidian\.com\/api\/args url reject-dict
+
+# 搜电充电 #微信小程序
+^https:\\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad url reject-dict
+
+# 街电  #微信小程序
+^https:\/\/s\.jiediankeji\.com\/adv url reject-dict
+
+# 小电充电 #微信小程序
+^https:\/\/smarket\.dian\.so url reject-dict
+^https:\/\/file\.dian\.so\/c\/leto url reject-dict
+
+# 怪兽充电 #微信小程序
+^https:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin url reject
+
+# 完美世界电竞 # 开屏广告 @豆豆
+^https:\/\/api\.wmpvp\.com\/api\/v1\/config\/promote url reject
+
+# 同花顺至尊版 @All in 梭哈
+^https:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=adm_kaiping_368840&pic_id=0&ts=168015 url reject-dict
+
+# 同程旅行 #开屏广告 @豆豆
+^https:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(screen|banner|converge)))$ url reject
+
+# 雪球开屏 #开屏广告 @Runestoner
+^https:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json\? url reject
+
+# 得物 #开屏广告 @Runestoner
+^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement url reject
+
+# 顺丰速运小程序 #弹窗广告 #其他乱七八糟的广告
+^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list url reject-200
+
+hostname = mobile-api.imlaidian.com, wxs-weixin.sd.zhumanggroup.com, s.jiediankeji.com, smarket.dian.so, file.dian.so, aag.enmonster.com, api.wmpvp.com, stat.10jqka.com.cn, wx.17u.cn, 101.201.175.228, app.dewu.com, ucmp.sf-express.com
