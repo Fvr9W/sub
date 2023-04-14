@@ -33,4 +33,9 @@ IP-CIDR,52.241.142.45/32,no-resolve
 DOMAIN-SUFFIX,xblcxplatqos-ause-9-18-2-0.cloudapp.net
 DOMAIN-SUFFIX,pfmsqosprod.westus.cloudapp.azure.com
 # openAI
+DOMAIN,cdn.auth0.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,openai.com
