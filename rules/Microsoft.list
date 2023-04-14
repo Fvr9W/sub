@@ -1,5 +1,6 @@
 # 微软加速，虽然能直连但是很慢
 # new bing
+DOMAIN-KEYWORD,www.bing.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.cn
 # OneDirve
