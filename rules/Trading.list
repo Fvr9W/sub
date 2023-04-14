@@ -29,14 +29,15 @@ DOMAIN-SUFFIX,evpuke.com
 DOMAIN-SUFFIX,ggpoker.com
 DOMAIN-SUFFIX,good-game-network.com
 DOMAIN-SUFFIX,ggn.live
+DOMAIN-SUFFIX,ggnsys.com
 DOMAIN-SUFFIX,csmtsyg.com
 DOMAIN-SUFFIX,ggtechdev.com
 DOMAIN-SUFFIX,cashier-evpk.com
 DOMAIN-SUFFIX,pokercraft.com
-DOMAIN-SUFFIX,dlportal.good-system-network.com
-DOMAIN-SUFFIX,eghsuc4vt3.execute-api.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,wix-visual-data.appspot.com
-DOMAIN-SUFFIX,contents.ggnetwork-contents.com
+DOMAIN,dlportal.good-system-network.com
+DOMAIN,eghsuc4vt3.execute-api.us-east-1.amazonaws.com
+DOMAIN,wix-visual-data.appspot.com
+DOMAIN,contents.ggnetwork-contents.com
 
 # Trading
 PROCESS-NAME,TradingView.exe
