@@ -16,8 +16,7 @@
 
 # 怪兽充电 #微信小程序
 ^https:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin url reject
-^https:\/\/aag\.enmonster\.com\/apa\/advert\/multi\/positions url reject
-^https:\/\/aag\.enmonster\.com\/apa\/advert\/demand\/home\/poster url reject
+^https:\/\/aag\.enmonster\.com\/apa\/advert\/(multi\/positions|demand\/home\/poster) url reject
 
 # 完美世界电竞 # 开屏广告 @豆豆
 ^https:\/\/api\.wmpvp\.com\/api\/v1\/config\/promote url reject
@@ -42,10 +41,8 @@
 ^https:\/\/app\.chinahxzq\.com\.cn\/starway\/adShow url reject-dict
 
 # 货拉拉 微信小程序净化
-^https:\/\/qapi\.huolala\.cn\/ads url reject-dict
 ^https:\/\/appuser-static\.huolala\.cn\/imgs url reject-dict
-^https:\/\/qapi\.huolala\.cn\/home_new_user url reject-dict
-^https:\/\/qapi\.huolala\.cn\/get_service_list url reject-dict
+^https:\/\/qapi\.huolala\.cn\/(ads|home_new_user|get_service_list) url reject-dict
 
 # 哈啰 微信小程序首页弹窗屏蔽
 ^https:\/\/api\.hellobike\.com\/api\?adx url reject-dict
@@ -60,12 +57,10 @@
 ^https:\/\/minicap\.caocaokeji\.cn\/advert-bss\/pullAdvert url reject-dict
 
 # 闪送 微信小程序净化
-^https:\/\/miniprogram\.ishansong\.com\/cms\/faq\/query url reject-dict
-^https:\/\/ads\.ishansong\.com\/advert url reject-dict
+^https:\/\/(ads|miniprogram)\.ishansong\.com\/(advert|cms\/faq\/query) url reject-dict
 
 # 神州租车 微信小程序净化
-^https:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/marketing url reject-dict
-^https:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/page\/advertising url reject-dict
+^https:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/(marketing|page\/advertising) reject-dict
 
 # 微快递 微信小程序净化
 ^https:\/\/api\.kuaidihelp\.com\/g_order_core\/v2\/mina\/User\/getBannerList url reject-dict
@@ -92,10 +87,7 @@
 ^https:\/\/api\.ulife\.group\/auth\/account\/entrance url reject-dict
 ^https:\/\/api\.ulife\.group\/market\/homeIconDetail\/list\/v7 url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/yx.js
 
-# 中通  微信小程序净化
-^https:\/\/hdgateway\.zto\.com\/getApolloConfig url reject-dict
-^https:\/\/hdgateway\.zto\.com\/track url reject-dict
-^https:\/\/hdgateway\.zto\.com\/getAdInfo url reject-dict
-^https:\/\/hdgateway\.zto\.com\/listJumperShow url reject-dict
+# 中通 微信小程序净化
+^https:\/\/hdgateway\.zto\.com\/(getApolloConfig|track|getAdInfo|listJumperShow) url reject-dict
 
 hostname = mobile-api.imlaidian.com, wxs-weixin.sd.zhumanggroup.com, s.jiediankeji.com, smarket.dian.so, file.dian.so, aag.enmonster.com, api.wmpvp.com, stat.10jqka.com.cn, wx.17u.cn, 101.201.175.228, app.dewu.com, ucmp.sf-express.com, app.chinahxzq.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, api.hellobike.coming, ump.ems.com.cn, applets.jtexpress.com.cn, minicap.caocaokeji.cn, miniprogram.ishansong.com, ads.ishansong.com, apiproxy.zuche.com, api.kuaidihelp.com, webchatapp.fcbox.com, dsp.fcbox.com, supplier-api.imdada.cn, customer-app.sto.cn, sto-customer-app.oss-cn-shanghai.aliyuncs.com, common.diditaxi.com.cn, api.ulife.group, hdgateway.zto.com
