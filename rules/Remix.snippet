@@ -1,5 +1,5 @@
 # ======= 各种各样 ======= #
-# 2023-4-14 12:39:59
+# 2023-4-18 21:30:18
 
 # 来电 #微信小程序
 ^https:\/\/mobile-api\.imlaidian\.com\/api\/args url reject-dict
@@ -99,7 +99,7 @@
 ^https?:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do url reject
 
 # 大众点评 APP 开屏广告
-^https?:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg)
+^https?:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) url reject-200
 
 #T3出行 微信小程序净化
 ^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/T3.js
