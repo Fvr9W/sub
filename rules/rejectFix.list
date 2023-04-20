@@ -1,21 +1,9 @@
-# 不知道 filter_local 为什么失效，所以弄个这个
-# 知乎去广告
-IP-CIDR,118.89.204.198/32
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
-DOMAIN,appcloud2.in.zhihu.com
-DOMAIN,mqtt.zhihu.com
-DOMAIN,sugar.zhihu.com
-USER-AGENT,AVOS*
-# 百度去广告
-IP-CIDR,180.76.76.200/32
-# h2下会请求这个,但请求会很慢发出
-HOST,grpc.biliapi.net
-
 #!name=🍟 Fries: 🚫 Block HTTPDNS
 #!desc=阻止常见的 HTTPDNS 服务器
 #!author=VirgilClyne
 #!homepage=https://github.com/VirgilClyne/GetSomeFries/wiki/🚫-HTTPDNS
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
+#!time=2023-4-20 17:23:19
 
 # Alibaba
 DOMAIN,httpdns.alicdn.com
@@ -29,6 +17,7 @@ DOMAIN,httpdns.baidu.com
 # BaiduBCE
 DOMAIN,httpdns.baidubce.com
 IP-CIDR,186.76.76.200/32
+DOMAIN,grpc.biliapi.net
 # Bilibili
 DOMAIN,httpdns.bilivideo.com
 # Huawei
@@ -64,5 +53,9 @@ IP-CIDR,123.151.54.50/32
 IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128
 IP-CIDR6,240e:928:1400:10::25/128
 # Zhihu
+DOMAIN,appcloud2.in.zhihu.com
+DOMAIN,mqtt.zhihu.com
+DOMAIN,sugar.zhihu.com
 IP-CIDR,118.89.204.198/23
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+USER-AGENT,AVOS*
