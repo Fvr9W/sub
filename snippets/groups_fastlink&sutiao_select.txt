@@ -1,6 +1,6 @@
 Premium`fallback`!!GROUPID=1!!.*香港 α #[A-Z] #(PVCC|IEPL|HGC|IPLC).*$`!!GROUPID=1!!.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
-Other Games`select`[]B1gProxy`[]Fastlink`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-B1gProxy`select`[]Premium`[]Fastlink`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Other Games`select`[]B1gProxy`[]Fastlink`[]FreeBanPing`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+B1gProxy`select`[]Premium`[]Fastlink`[]FreeBanPing`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Hax`select`[]FaliNA 🇺🇲`[]AutoNA 🇺🇲`[]FaliHK 🇭🇰`[]AutoHK 🇭🇰`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]FaliNA 🇺🇲`[]AutoNA 🇺🇲`[]FaliHK 🇭🇰`[]AutoJP 🇯🇵`[]Fastlink`[]Sutiao`[]DIRECT
 Telegram`select`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]Fastlink`[]Sutiao`[]B1gProxy
@@ -14,8 +14,8 @@ PlayStation`select`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
 Riot`select`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
 Rockstar`select`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
 Ubisoft`select`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
-GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT`!!GROUPID=0!!.*下载
-PrivateTracker`select`[]DIRECT`[]Fastlink`[]Sutiao`[]TW 🇨🇳`[]Other Games
+GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]FreeBanPing`[]Fastlink`[]Sutiao`[]DIRECT`!!GROUPID=0!!.*下载
+PrivateTracker`select`[]DIRECT`[]Fastlink`[]Sutiao`[]FreeBanPing`[]TW 🇨🇳`[]Other Games
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=1!!.*香港.*$`!!GROUPID=0!!.*3x - 香港.*$
