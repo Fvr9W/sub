@@ -1,4 +1,4 @@
-# 0 是fastlink 1 是薯条
+# 0 是 fastlink 1 是薯条 2 是 SCP
 !!GROUPID=0!! 2@
 !!GROUPID=0!!Anycast\|(.*).*@$1 #Anycast #Daily
 !!GROUPID=0!!中转\|(.*)-原生([0-9]{2,2}).*@$1 $2 #Transfer #Native #Daily
@@ -54,6 +54,14 @@
 !!GROUPID=1!!美国实验性 (IEPL|IPLC) 中继 ([A-Z]|[A-Z] )([0-9]{1,2}).*$@实验 - 美国 $3 #$2 #$1
 !!GROUPID=1!!美国高级 (IEPL|IPLC) 中继 ([A-Z]|[A-Z] )([0-9]{1,2}).*$@高级 - 美国 $3 #$2 #$1
 !!GROUPID=1!!中国-加拿大 (IEPL|IPLC) ([A-Z]|[A-Z] )([0-9]{1,2}).*$@加拿大 $3 #$2 #$1
+
+!!GROUPID=2!!NL@荷兰
+!!GROUPID=2!!HK@香港
+!!GROUPID=2!!SG@新加坡
+!!GROUPID=2!!JP@日本
+!!GROUPID=2!!CA@加拿大
+!!GROUPID=2!!US@美国
+!!GROUPID=2!!「SCP」(.*)-(.*)@免费 - $1 #$2
 
 24@ω
 23@ψ
