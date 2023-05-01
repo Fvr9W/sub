@@ -61,6 +61,8 @@
 !!GROUPID=2!!JP@日本
 !!GROUPID=2!!CA@加拿大
 !!GROUPID=2!!US@美国
+!!GROUPID=2!!UK@英国
+!!GROUPID=2!!「SCP」(.*)-(.*)-(.*)@免费 - $1 #$2 #$3
 !!GROUPID=2!!「SCP」(.*)-(.*)@免费 - $1 #$2
 
 24@ω
