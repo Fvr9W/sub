@@ -1,4 +1,4 @@
-Premium`fallback`!!GROUPID=1!!.*香港 α #[A-Z] #(PVCC|IEPL|HGC|IPLC).*$`!!GROUPID=1!!.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
+Premium`fallback`!!GROUPID=1!!.*香港 α #[A-Z] #(PVCC|IEPL|HGC|IPLC|NV|HKBN).*$`!!GROUPID=1!!.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
 Other Games`select`[]B1gProxy`[]Fastlink`[]FreeBanPing`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 B1gProxy`select`[]Premium`[]Fastlink`[]FreeBanPing`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Hax`select`[]FaliNA 🇺🇲`[]AutoNA 🇺🇲`[]FaliHK 🇭🇰`[]AutoHK 🇭🇰`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
@@ -22,7 +22,7 @@ HK 🇭🇰`select`!!GROUPID=1!!.*香港.*$`!!GROUPID=0!!.*3x - 香港.*$
 AutoHK 🇭🇰`url-test`!!GROUPID=1!!.*香港 α #[A-Z] #(PVCC|IEPL|HGC|IPLC).*$`!!GROUPID=1!!.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
 FaliHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Game`https://www.gstatic.com/generate_204`300
 TW 🇨🇳`select`!!GROUPID=1!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$`!!GROUPID=0!!.*3x - 台湾.*$
-AutoTW 🇨🇳`url-test`!!GROUPID=1!!.*(彰化|嘉义) (α|β).*$`https://www.gstatic.com/generate_204`300
+AutoTW 🇨🇳`url-test`!!GROUPID=1!!.*(彰化|嘉义) (α|β).*$`!!GROUPID=1!!.*台湾 (α|β) #(D|E)`https://www.gstatic.com/generate_204`300
 KR 🇰🇷`select`!!GROUPID=1!!.*(韩国|首尔).*$`!!GROUPID=0!!.*3x - 韩国.*$
 AutoKR 🇰🇷`url-test`!!GROUPID=1!!.*韩国 δ.*$`https://www.gstatic.com/generate_204`300
 JP 🇯🇵`select`!!GROUPID=1!!.*(日本|东京|大阪).*$`!!GROUPID=0!!.*3x - 日本.*$
