@@ -63,6 +63,7 @@
 !!GROUPID=2!!US@美国
 !!GROUPID=2!!UK@英国
 !!GROUPID=2!!DE@德国
+!!GROUPID=2!!FR@法国
 !!GROUPID=2!!「SCP」(.*)-([a-zA-Z]{1,9})([1-9])-(.*)@免费 - $1 $3 #$2 #$4
 !!GROUPID=2!!「SCP」(.*)-([a-zA-Z]{1,9})-(.*)@免费 - $1 #$2 #$3
 !!GROUPID=2!!「SCP」(.*)-(.*)@免费 - $1 #$2
