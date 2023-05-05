@@ -69,5 +69,7 @@ DOMAIN,download-2.ggdlcdn.com
 DOMAIN,download.uweitui.com
 DOMAIN,download.ggtechdev.com
 DOMAIN,download.gg-cdn.com
-#calibre
+# calibre
 DOMAIN,download.calibre-ebook.com
+# 微软
+DOMAIN-SUFFIX,msecdn.net
