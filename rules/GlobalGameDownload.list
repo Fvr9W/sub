@@ -72,4 +72,4 @@ DOMAIN,download.gg-cdn.com
 # calibre
 DOMAIN,download.calibre-ebook.com
 # 微软
-DOMAIN-SUFFIX,msecdn.net
+DOMAIN-SUFFIX,msecnd.net
