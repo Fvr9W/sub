@@ -88,7 +88,7 @@
 !!GROUPID=1!!美国高级 (IEPL|IPLC) 中继 ([A-Z]|[A-Z] )([0-9]{1,2}).*$@高级 - 美国 $3 #$2 #$1
 !!GROUPID=1!!中国-加拿大 (IEPL|IPLC) ([A-Z]|[A-Z] )([0-9]{1,2}).*$@加拿大 $3 #$2 #$1
 
-!!GROUPID=2!!\|赞助商 @KinhChannel@
+!!GROUPID=2!!\|赞助商.*@
 !!GROUPID=2!!NL@荷兰
 !!GROUPID=2!!HK@香港
 !!GROUPID=2!!SG@新加坡
