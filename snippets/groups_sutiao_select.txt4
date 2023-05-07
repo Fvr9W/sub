@@ -18,7 +18,7 @@ GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]Sutiao`[]Free(80_443)`[]DIR
 PrivateTracker`select`[]DIRECT`[]Sutiao`[]Free(80_443)`[]TW 🇨🇳`[]Other Games
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
-HK 🇭🇰`select`!!GROUPID=0!!.*香港.*$`!!GROUPID=0!!.*限制中.*
+HK 🇭🇰`select`!!GROUPID=0!!.*港.*$`!!GROUPID=0!!.*限制中.*
 AutoHK 🇭🇰`url-test`!!GROUPID=0!!.*香港 α #[A-Z] #(PVCC|IEPL|HGC|IPLC|NV|HKBN).*$`!!GROUPID=0!!.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
 TW 🇨🇳`select`!!GROUPID=0!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾 α.*$`https://www.gstatic.com/generate_204`300
