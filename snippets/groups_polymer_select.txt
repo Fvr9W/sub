@@ -43,3 +43,5 @@ NA 🇺🇲`select`!!GROUPID=0!!.*America.*$
 AutoNA 🇺🇲`fallback`!!GROUPID=0!!.*(硅谷|西雅图) (β|θ).*$`!!GROUPID=1!!.*美国 (α|γ)`https://www.gstatic.com/generate_204`300
 Nexitally`select`!!GROUPID=0!!.*(Asia|America|Europe|Oceania).*$
 Sutiao`select`!!GROUPID=1!!.*(Asia|America|Europe|Oceania).*$
+TAG`select`!!GROUPID=3!!.*
+Free`select`!!GROUPID=2!!.*
