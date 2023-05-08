@@ -28,7 +28,7 @@ AutoKR 🇰🇷`url-test`!!GROUPID=1!!.*韩国 δ.*$`https://www.gstatic.com/gen
 JP 🇯🇵`select`!!GROUPID=1!!.*(日本|东京|大阪).*$`!!GROUPID=0!!.*3x - 日本.*$
 AutoJP 🇯🇵`url-test`!!GROUPID=1!!.*日本 α.*$`https://www.gstatic.com/generate_204`300
 SGP 🇸🇬`select`!!GROUPID=1!!.*新加坡.*$`!!GROUPID=0!!.*3x - 新加坡.*$
-AutoSGP 🇸🇬`url-test`!!GROUPID=1!!.*Magic - 新加坡.*$`https://www.gstatic.com/generate_204`300
+AutoSGP 🇸🇬`url-test`!!GROUPID=1!!.*Legacy - 新加坡.*$`https://www.gstatic.com/generate_204`300
 SEA 🌏`select`!!GROUPID=1!!.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉).*$`[]SGP 🇸🇬
 AutoSEA 🌏`url-test`!!GROUPID=1!!.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉) (α|η).*$`https://www.gstatic.com/generate_204`300
 AU 🇦🇺`select`!!GROUPID=1!!.*(悉尼|澳大利亚).*$`[]SGP 🇸🇬
