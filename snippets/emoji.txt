@@ -4,7 +4,7 @@
 (?i:\bSG[P]?\b|Singapore|新加坡|狮城|[^-]新),🇸🇬
 (?i:\bJP[N]?\b|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|[^-]日),🇯🇵
 (?i:\bK[O]?R\b|Korea|首尔|韩|韓),🇰🇷
-(?i:\bUS[A]?\b|United.*?States|美国|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|纽约|关岛|丹佛|夏威夷|底特律|费城),🇺🇸
+(?i:\bUS[A]?\b|United.*?States|美国|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|纽约|关岛|丹佛|夏威夷|底特律|费城|奥格登|密尔沃基|斯波坎|亚特兰大),🇺🇸
 (Ascension|阿森松),🇦🇨
 (?i:\bUAE\b|Dubai|阿联酋|迪拜),🇦🇪
 (阿尔巴尼亚|Albania),🇦🇱
@@ -37,9 +37,9 @@
 (格鲁吉亚|Georgia),🇬🇪
 (克罗地亚|Croatia),🇭🇷
 (Hungary|匈牙利),🇭🇺
-(Indonesia|Jakarta|印尼|印度尼西亚|雅加达),🇮🇩
+(Indonesia|Jakarta|印尼|印度尼西亚|雅加达|帕西格),🇮🇩
 (Ireland|Dublin|爱尔兰|都柏林),🇮🇪
-(Israel|以色列),🇮🇱
+(Israel|以色列|佩塔提克瓦|特拉维夫),🇮🇱
 (马恩岛|Mann),🇮🇲
 (?i:\bIN[D]?\b|India|Mumbai|印度|孟买|加尔各答|贾坎德|泰米尔纳德|班加罗尔|马哈拉施特拉),🇮🇳
 (伊朗|Iran),🇮🇷
@@ -64,7 +64,7 @@
 (尼日利亚|Nigeria),🇳🇬
 (?i:\bNL[D]?\b|Netherlands|荷兰|阿姆斯特丹),🇳🇱
 (挪威|Norway),🇳🇴
-(新西兰|纽西兰|New Zealand),🇳🇿
+(新西兰|纽西兰|New Zealand|北岛|奥克兰|柯汶纳|North Island|Auckland|Kawana),),🇳🇿
 (Philippines|菲律宾|马尼拉|克拉克),🇵🇭
 (Pakistan|巴基斯坦),🇵🇰
 (?i:\bP[O]?L\b|Poland|波兰),🇵🇱
@@ -73,7 +73,7 @@
 (葡萄牙|Portugal),🇵🇹
 (Romania|罗马尼亚),🇷🇴
 (塞尔维亚|Serbia),🇷🇸
-(?i:\bRU[S]?\b|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|[^-]俄),🇷🇺
+(?i:\bRU[S]?\b|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|[^-]俄|叶卡捷琳堡),🇷🇺
 (Arabia|沙特),🇸🇦
 (Sweden|瑞典),🇸🇪
 (斯洛文尼亚|Slovenia),🇸🇮
@@ -94,5 +94,19 @@
 (Nepal|尼泊尔),🇳🇵
 (Bengal|孟加拉),🇧🇩
 (Europe|欧洲),🇪🇺
+(Guatemala|危地马拉),🇬🇹
+(马来西亚|棉兰|Malaysia|Malacca),🇲🇾
+(南非|约翰内斯堡|South Africa|Johannesburg),🇿🇦
+(卢旺达|基加利|维涅杜|Rwanda|Kigali|Vinedu),🇷🇼
+(萨尔瓦多|Salvador),🇸🇻
+(荷属库拉索|Curaçao),🇨🇼
+(斐济|富吉拉|Fiji|Suva),🇫🇯
+(阿拉伯联合酋长国|阿布扎比|United Arab Emirates|Abu Dhabi),🇦🇪
+(阿曼|马斯喀特|Oman|Muscat),🇴🇲
+(伊拉克|巴格达|Iraq|Baghdad),🇮🇶
+(叙利亚|大马士革|Syria|Damascus),🇸🇾
+(斯里兰卡|科伦坡|Sri Lanka|Colombo),🇱🇰
+(老挝|Vientiane),🇱🇦
+(黎巴嫩|贝鲁特|Lebanon|Beirut),🇱🇧
 
 (?i:\bC[H]?N\b|China|back|回国|中国[^-]|江苏[^-]|北京[^-]|上海[^-]|广州[^-]|深圳[^-]|杭州[^-]|常州[^-]|徐州[^-]|青岛[^-]|宁波[^-]|镇江[^-]|成都[^-]|河北[^-]|山西[^-]|辽宁[^-]|吉林[^-]|黑龙江[^-]|江苏[^-]|浙江[^-]|安徽[^-]|福建[^-]|江西[^-]|山东[^-]|河南[^-]|湖北[^-]|湖南[^-]|广东[^-]|海南[^-]|四川[^-]|贵州[^-]|云南[^-]|陕西[^-]|甘肃[^-]|青海[^-]|内蒙古[^-]|广西[^-]|西藏[^-]|宁夏[^-]|新疆[^-]),🇨🇳
