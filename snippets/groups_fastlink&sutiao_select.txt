@@ -1,4 +1,4 @@
-Premium`fallback`!!GROUPID=1!!.*香港 α #[A-Z] #(PVCC|IEPL|HGC|IPLC|NV|HKBN).*$`!!GROUPID=1!!.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
+Premium`fallback`!!GROUPID=1!!.*香港 α #[A-Z] #(PVCC|IEPL|HGC|TGT|IPLC|NV|HKBN).*$`!!GROUPID=1!!.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
 Other Games`select`[]B1gProxy`[]Fastlink`[]Free(80_443)`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 B1gProxy`select`[]Premium`[]Fastlink`[]Free(80_443)`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Hax`select`[]FaliNA 🇺🇲`[]AutoNA 🇺🇲`[]FaliHK 🇭🇰`[]AutoHK 🇭🇰`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
@@ -19,14 +19,14 @@ PrivateTracker`select`[]Free(80_443)`[]DIRECT`[]TW 🇨🇳`[]Other Games`[]Fast
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=1!!.*香港.*$`!!GROUPID=0!!.*3x - 香港.*$
-AutoHK 🇭🇰`url-test`!!GROUPID=1!!.*香港 α #[A-Z] #(PVCC|IEPL|HGC|IPLC).*$`!!GROUPID=1!!.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
+AutoHK 🇭🇰`url-test`!!GROUPID=1!!.*香港 α.*$`https://www.gstatic.com/generate_204`300
 FaliHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Game`https://www.gstatic.com/generate_204`300
 TW 🇨🇳`select`!!GROUPID=1!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$`!!GROUPID=0!!.*3x - 台湾.*$
-AutoTW 🇨🇳`url-test`!!GROUPID=1!!.*(彰化|嘉义) (α|β).*$`!!GROUPID=1!!.*台湾 (α|β) #(D|E)`https://www.gstatic.com/generate_204`300
+AutoTW 🇨🇳`url-test`!!GROUPID=1!!.*台湾 α.*$`!!GROUPID=1!!.*台湾 (α|β) #(D|E)`https://www.gstatic.com/generate_204`300
 KR 🇰🇷`select`!!GROUPID=1!!.*(韩国|首尔).*$`!!GROUPID=0!!.*3x - 韩国.*$
 AutoKR 🇰🇷`url-test`!!GROUPID=1!!.*韩国 δ.*$`https://www.gstatic.com/generate_204`300
 JP 🇯🇵`select`!!GROUPID=1!!.*(日本|东京|大阪).*$`!!GROUPID=0!!.*3x - 日本.*$
-AutoJP 🇯🇵`url-test`!!GROUPID=1!!.*日.*#IEPL.*$`https://www.gstatic.com/generate_204`300
+AutoJP 🇯🇵`url-test`!!GROUPID=1!!.*日本 α.*$`https://www.gstatic.com/generate_204`300
 SGP 🇸🇬`select`!!GROUPID=1!!.*新加坡.*$`!!GROUPID=0!!.*3x - 新加坡.*$
 AutoSGP 🇸🇬`url-test`!!GROUPID=1!!.*Magic - 新加坡.*$`https://www.gstatic.com/generate_204`300
 SEA 🌏`select`!!GROUPID=1!!.*(胡志明市|曼谷|孟买|印度|班加罗尔|马哈拉施特拉).*$`[]SGP 🇸🇬
@@ -36,7 +36,7 @@ AutoAU 🇦🇺`url-test`!!GROUPID=1!!.*(悉尼|澳大利亚) (α|β).*$`https:/
 RU 🇷🇺`select`!!GROUPID=1!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]AutoEU 🇪🇺
 AutoRU 🇷🇺`url-test`!!GROUPID=1!!.*俄罗斯 (α|β).*$`https://www.gstatic.com/generate_204`300
 EU 🇪🇺`select`!!GROUPID=1!!.*Europe.*$`!!GROUPID=0!!.*3x.*Europe.*$
-AutoEU 🇪🇺`url-test`!!GROUPID=1!!.*(法国|伦敦|德国) α.*$`https://www.gstatic.com/generate_204`300
+AutoEU 🇪🇺`url-test`!!GROUPID=1!!.*(法国|英国|德国) α.*$`https://www.gstatic.com/generate_204`300
 CA 🇨🇦`select`!!GROUPID=1!!.*(多伦多|加拿大).*$`[]NA 🇺🇲`https://www.gstatic.com/generate_204`300
 AutoCA 🇨🇦`url-test`!!GROUPID=1!!.*(多伦多|加拿大) (α|β).*$`https://www.gstatic.com/generate_204`300
 NA 🇺🇲`select`!!GROUPID=1!!.*America.*$`!!GROUPID=0!!.*3x.*America.*$
@@ -44,4 +44,4 @@ AutoNA 🇺🇲`url-test`!!GROUPID=1!!^(?!.*?α).*高级 - 美国.*$`https://www
 FaliNA 🇺🇲`url-test`!!GROUPID=0!!^.*美国.*Native.*$`https://www.gstatic.com/generate_204`300
 Fastlink`select`!!GROUPID=0!!.*3x.*`!!GROUPID=0!!.*
 Sutiao`select`!!GROUPID=1!!^(?!.*?(过期|暂时|渠道|接入)).*
-Free(80_443)`select`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入)).*
+Free(80_443)`url-test`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入)).*`https://www.gstatic.com/generate_204`300
