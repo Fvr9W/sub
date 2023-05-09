@@ -37,7 +37,7 @@
 (芬兰|赫尔辛基|Finland|Helsinki),🇫🇮
 (斐济|富吉拉|Fiji|Suva),🇫🇯
 (?i:\bFR[A]?\b|France|Paris|法国|巴黎),🇫🇷
-(?i:\bUK\b|\bGB[R]?\b|England|United.*?Kingdom|London|英国|[^-]英|伦敦),🇬🇧
+(?i:\bUK\b|\bGB[R]?\b|England|United.*?Kingdom|London|英国|[^-]英|伦敦|考文垂|Coventry),🇬🇧
 (格鲁吉亚|第比利斯|Georgia|Tbilisi),🇬🇪
 (希腊|雅典|Greece|Athens),🇬🇷
 (危地马拉|危地马拉城|Guatemala|Guatemala.*?City),🇬🇹
@@ -95,7 +95,7 @@
 (卢旺达|基加利|维涅杜|Rwanda|Kigali|Vinedu),🇷🇼
 (沙特阿拉伯|利雅得|Arabia|Riyadh),🇸🇦
 (塞舌尔|塞兴岛|Seychelles),🇸🇨
-(瑞典|斯德哥尔摩|Sweden|Stockholm)🇸🇪
+(瑞典|斯德哥尔摩|Sweden|Stockholm),🇸🇪
 (斯洛文尼亚|Slovenia),🇸🇮
 (斯洛伐克|Slovensko),🇸🇰
 (萨尔瓦多|Salvador),🇸🇻
@@ -111,6 +111,6 @@
 (越南|河内|Vietnam|Hanoi),🇻🇳
 (南非|约翰内斯堡|开普敦|Cape.*?Town|South.*?Africa|Johannesburg),🇿🇦
 
-(Europe|欧洲),🇪🇺
+(欧洲|Europe),🇪🇺
 
 (?i:\bC[H]?N\b|China|back|回国|中国[^-]|江苏[^-]|北京[^-]|上海[^-]|广州[^-]|深圳[^-]|杭州[^-]|常州[^-]|徐州[^-]|青岛[^-]|宁波[^-]|镇江[^-]|成都[^-]|河北[^-]|山西[^-]|辽宁[^-]|吉林[^-]|黑龙江[^-]|江苏[^-]|浙江[^-]|安徽[^-]|福建[^-]|江西[^-]|山东[^-]|河南[^-]|湖北[^-]|湖南[^-]|广东[^-]|海南[^-]|四川[^-]|贵州[^-]|云南[^-]|陕西[^-]|甘肃[^-]|青海[^-]|内蒙古[^-]|广西[^-]|西藏[^-]|宁夏[^-]|新疆[^-]),🇨🇳
