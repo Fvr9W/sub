@@ -1,4 +1,4 @@
-Premium`fallback`!!GROUPID=1!!.*香港 α #[A-Z] #(PVCC|IEPL|HGC|TGT|IPLC|NV|HKBN).*$`!!GROUPID=1!!.*香港 β #[A-Z] #HGC.*$`https://www.gstatic.com/generate_204`300
+Premium`fallback`!!GROUPID=1!!^(?!.*?#E).*.*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://www.gstatic.com/generate_204`300
 Other Games`select`[]B1gProxy`[]Fastlink`[]Free(80_443)`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 B1gProxy`select`[]Premium`[]Fastlink`[]Free(80_443)`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Hax`select`[]FaliNA 🇺🇲`[]AutoNA 🇺🇲`[]FaliHK 🇭🇰`[]AutoHK 🇭🇰`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
@@ -19,7 +19,7 @@ PrivateTracker`select`[]Free(80_443)`[]DIRECT`[]TW 🇨🇳`[]Other Games`[]Fast
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=1!!.*香港.*$`!!GROUPID=0!!.*3x - 香港.*$
-AutoHK 🇭🇰`url-test`!!GROUPID=1!!.*香港 α.*$`https://www.gstatic.com/generate_204`300
+AutoHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*.*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://www.gstatic.com/generate_204`300
 FaliHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Game`https://www.gstatic.com/generate_204`300
 TW 🇨🇳`select`!!GROUPID=1!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$`!!GROUPID=0!!.*3x - 台湾.*$
 AutoTW 🇨🇳`url-test`!!GROUPID=1!!.*台湾 α.*$`!!GROUPID=1!!.*台湾 (α|β) #(D|E)`https://www.gstatic.com/generate_204`300
