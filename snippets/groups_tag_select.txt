@@ -1,4 +1,4 @@
-Premium`fallback`!!GROUPID=0!!^(?!.*?家宽).*香港.*$`!!GROUPID=1!!^(?!.*?#E).*.*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://www.gstatic.com/generate_204`300
+Premium`fallback`!!GROUPID=0!!^(?!.*?家宽).*香港.*$`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://www.gstatic.com/generate_204`300
 Other Games`select`[]B1gProxy`[]TAG`[]Sutiao`[]Free`[]AutoHK 🇭🇰`[]SuTiaoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT`!!GROUPID=0!!.*游戏.*$
 B1gProxy`select`[]Premium`[]TAG`[]Sutiao`[]Free`[]AutoHK 🇭🇰`[]SuTiaoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]TAG`[]Sutiao`[]AutoHK 🇭🇰`[]SuTiaoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
