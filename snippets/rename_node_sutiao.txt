@@ -23,6 +23,7 @@
 !!GROUPID=0!!auひかり@AU
 !!GROUPID=0!!オプテージ@Optage
 !!GROUPID=0!!沪日@上海
+!!GROUPID=0!!中港@广州 - 香港
 
 !!GROUPID=1!!\|赞助商.*@
 !!GROUPID=1!!NL@荷兰
