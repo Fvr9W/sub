@@ -264,6 +264,7 @@ static=Other Games, img-url=https://raw.githubusercontent.com/Koolson/Qure/maste
 static=B1gProxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
 static=Trading, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
 static=Telegram, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Telegram.png
+static=GlobalMedia, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Emby.png
 static=Netflix, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Netflix.png
 static=GlobalMedia, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Streaming.png
 static=GlobalGameDownload, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
@@ -271,6 +272,8 @@ static=PrivateTracker, img-url=https://raw.githubusercontent.com/Koolson/Qure/ma
 static=SougouInput, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
 static=Hijacking, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
 static=HK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+static=FaliHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+static=SutiaoHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 static=AutoHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 static=TW 🇨🇳, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
 static=AutoTW 🇨🇳, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
@@ -292,7 +295,15 @@ static=CA 🇨🇦, img-url=https://raw.githubusercontent.com/Koolson/Qure/maste
 static=AutoCA 🇨🇦, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
 static=NA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 static=AutoNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+static=FaliNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+static=SutiaoNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 
+static=Nexitally, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
+static=TAG, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TAG.png
+static=Sutiao, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/CNIX.png
+static=Fastlink, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Fastlink.png
+static=Free, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Team.png
+static=Free(80_443), img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Team.png
 [server_remote]
 
 [filter_remote]
@@ -316,28 +327,29 @@ https://raw.githubusercontent.com/DualSubs/DualSubs-YouTube/main/qxrewrite/DualS
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Siri.qxrewrite, tag=iRingoSiri, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite, tag=iRingoLocation, update-interval=86400, opt-parser=false, enabled=true
 #去广告
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Remix.snippet, tag=Remix去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/WebPage.conf, tag=一些网页去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/vgtime.conf, tag=vgTime去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf, tag=起点去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet, tag=高德地图去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=微信小程序去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Cainiao.conf, tag=菜鸟裹裹去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cloudmusic.snippet, tag=网易云去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet, tag=高德地图去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/weibo.snippet, tag=微博国内版去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf, tag=微博国际版去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/KeepStyle.conf, tag=KEEP去广告, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet, tag=小红书去广告, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf, tag=喜马拉雅去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=贴吧去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet, tag=知乎去广告, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/WeChat.conf, tag=公众号去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/KeepStyle.conf, tag=KEEP去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf, tag=起点去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Remix.snippet, tag=Remix去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf, tag=开屏去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=微信小程序去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=贴吧去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/vgtime.conf, tag=vgTime去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/WebPage.conf, tag=一些网页去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/WeChat.conf, tag=公众号去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf, tag=微博国际版去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/weibo.snippet, tag=微博国内版去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet, tag=小红书去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf, tag=喜马拉雅去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet, tag=油管去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet, tag=知乎去广告, update-interval=172800, opt-parser=false, enabled=true
+# 去广告收尾
 https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=去广告联盟, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向, update-interval=86400, opt-parser=false, enabled=true
 #Cookie
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = GetCookie, update-interval=86400, opt-parser=false, enabled = false
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet, tag = GetCookie, update-interval=86400, opt-parser=false, enabled = false
 
 [server_local]
 
