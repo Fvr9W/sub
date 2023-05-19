@@ -301,7 +301,7 @@ static=NEX, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Ne
 static=TAG, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TAG.png
 static=CNIX, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/CNIX.png
 static=FastL, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Fastlink.png
-static=Free, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Team.png
+static=FREE, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Team.png
 
 [server_remote]
 
