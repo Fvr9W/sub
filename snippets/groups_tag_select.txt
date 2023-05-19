@@ -1,26 +1,26 @@
 Premium`fallback`!!GROUPID=0!!^(?!.*?家宽).*香港.*$`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://www.gstatic.com/generate_204`300
-Other Games`select`[]B1gProxy`[]TAG`[]CNIX`[]FREE`[]AutoHK 🇭🇰`[]CNIXHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT`!!GROUPID=0!!.*游戏.*$
-B1gProxy`select`[]Premium`[]TAG`[]CNIX`[]FREE`[]AutoHK 🇭🇰`[]CNIXHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]TAG`[]CNIX`[]AutoHK 🇭🇰`[]CNIXHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-Telegram`select`[]CNIXHK 🇭🇰`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
-Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CNIXHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-Netflix`select`[]CNIXHK 🇭🇰`[]B1gProxy`[]TAG`[]CNIX`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-GlobalMedia`select`[]CNIXHK 🇭🇰`[]B1gProxy`[]TAG`[]CNIX`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-Microsoft`select`[]AutoNA 🇺🇲`[]Other Games`[]TAG`[]CNIX`[]AutoHK 🇭🇰`[]CNIXHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
+Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT`!!GROUPID=0!!.*游戏.*$
+B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+Telegram`select`[]CnixHK 🇭🇰`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
+Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+Netflix`select`[]CnixHK 🇭🇰`[]B1gProxy`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+GlobalMedia`select`[]CnixHK 🇭🇰`[]B1gProxy`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
+Microsoft`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]TAG`[]CNIX`[]FREE`[]DIRECT
 SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]REJECT`!!GROUPID=0!!.*(土耳其|阿根廷).*$
 SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]REJECT`!!GROUPID=0!!.*(土耳其|阿根廷).*$
-Blizzard`select`[]Other Games`[]TAG`[]CNIX`[]AutoHK 🇭🇰`[]CNIXHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-PlayStation`select`[]Other Games`[]TAG`[]CNIX`[]AutoHK 🇭🇰`[]CNIXHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-Riot`select`[]Other Games`[]TAG`[]CNIX`[]AutoHK 🇭🇰`[]CNIXHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-Rockstar`select`[]Other Games`[]TAG`[]CNIX`[]AutoHK 🇭🇰`[]CNIXHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-Ubisoft`select`[]Other Games`[]TAG`[]CNIX`[]AutoHK 🇭🇰`[]CNIXHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-GlobalGameDownload`select`[]CNIXHK 🇭🇰`[]DIRECT`[]CNIX`[]TW 🇨🇳`[]Other Games
-PrivateTracker`select`[]DIRECT`[]CNIX`[]TW 🇨🇳`[]Other Games
+Blizzard`select`[]Other Games`[]B1gProxy`[]DIRECT
+PlayStation`select`[]Other Games`[]B1gProxy`[]DIRECT
+Riot`select`[]Other Games`[]B1gProxy`[]DIRECT
+Rockstar`select`[]Other Games`[]B1gProxy`[]DIRECT
+Ubisoft`select`[]Other Games`[]B1gProxy`[]DIRECT
+GlobalGameDownload`select`[]CnixHK 🇭🇰`[]TW 🇨🇳`[]Other Games`[]TAG`[]CNIX`[]FREE`[]DIRECT
+PrivateTracker`select`[]DIRECT`[]TW 🇨🇳`[]Other Games`[]TAG`[]CNIX`[]FREE
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=0!!.*香港.*$
 AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?家宽).*香港.*$`https://www.gstatic.com/generate_204`300
-CNIXHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://www.gstatic.com/generate_204`300
+CnixHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://www.gstatic.com/generate_204`300
 TW 🇨🇳`select`!!GROUPID=0!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
 AutoTW 🇨🇳`fallback`!!GROUPID=0!!^(?!.*?家宽).*台湾.*$`!!GROUPID=1!!.*台湾 α.*$`https://www.gstatic.com/generate_204`300
 KR 🇰🇷`select`!!GROUPID=0!!.*(韩国|首尔).*$
