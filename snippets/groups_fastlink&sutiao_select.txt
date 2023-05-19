@@ -1,26 +1,26 @@
 Premium`fallback`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://www.gstatic.com/generate_204`300
-Other Games`select`[]B1gProxy`[]Fastlink`[]Free(80_443)`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-B1gProxy`select`[]Premium`[]Fastlink`[]Free(80_443)`[]Sutiao`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-Hax`select`[]FaliNA 🇺🇲`[]AutoNA 🇺🇲`[]FaliHK 🇭🇰`[]AutoHK 🇭🇰`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
-Trading`select`[]B1gProxy`[]Other Games`[]FaliNA 🇺🇲`[]AutoNA 🇺🇲`[]FaliHK 🇭🇰`[]AutoJP 🇯🇵`[]Fastlink`[]Sutiao`[]DIRECT
-Telegram`select`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]Fastlink`[]Sutiao`[]B1gProxy
-Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]AutoNA 🇺🇲`[]Fastlink`[]Sutiao`[]DIRECT
-GlobalMedia`select`[]B1gProxy`[]Fastlink`[]Sutiao`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
-Microsoft`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]FaliHK 🇭🇰`[]FaliNA 🇺🇲`[]Fastlink`[]Sutiao`[]DIRECT
-SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]Fastlink`[]Sutiao`[]REJECT`.*(土耳其|阿根廷).*$
-SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]Fastlink`[]Sutiao`[]REJECT`.*(土耳其|阿根廷).*$
-Blizzard`select`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
-PlayStation`select`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
-Riot`select`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
-Rockstar`select`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
-Ubisoft`select`[]Other Games`[]Fastlink`[]Sutiao`[]DIRECT
-GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]Fastlink`[]Sutiao`[]Free(80_443)`[]DIRECT`!!GROUPID=0!!.*下载
-PrivateTracker`select`[]Free(80_443)`[]DIRECT`[]TW 🇨🇳`[]Other Games`[]Fastlink`[]Sutiao
+Other Games`select`[]B1gProxy`[]FastL`[]FREE`[]CNIX`[]AutoHK 🇭🇰`[]FastLHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+B1gProxy`select`[]Premium`[]FastL`[]FREE`[]CNIX`[]AutoHK 🇭🇰`[]FastLHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Hax`select`[]FastLNA 🇺🇲`[]AutoNA 🇺🇲`[]FastLHK 🇭🇰`[]AutoHK 🇭🇰`[]Other Games`[]FastL`[]CNIX`[]DIRECT
+Trading`select`[]B1gProxy`[]Other Games`[]FastLNA 🇺🇲`[]AutoNA 🇺🇲`[]FastLHK 🇭🇰`[]AutoJP 🇯🇵`[]FastL`[]CNIX`[]DIRECT
+Telegram`select`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]FastL`[]CNIX`[]B1gProxy
+Netflix`select`[]B1gProxy`[]HK 🇭🇰`[]TW 🇨🇳`[]SGP 🇸🇬`[]AutoNA 🇺🇲`[]FastL`[]CNIX`[]DIRECT
+GlobalMedia`select`[]B1gProxy`[]FastL`[]CNIX`[]AutoHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]EU 🇪🇺`[]RU 🇷🇺`[]SGP 🇸🇬`[]NA 🇺🇲`[]DIRECT
+Microsoft`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]FastLHK 🇭🇰`[]FastLNA 🇺🇲`[]FastL`[]CNIX`[]DIRECT
+SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]FastL`[]CNIX`[]REJECT`.*(土耳其|阿根廷).*$
+SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]FastL`[]CNIX`[]REJECT`.*(土耳其|阿根廷).*$
+Blizzard`select`[]Other Games`[]FastL`[]CNIX`[]DIRECT
+PlayStation`select`[]Other Games`[]FastL`[]CNIX`[]DIRECT
+Riot`select`[]Other Games`[]FastL`[]CNIX`[]DIRECT
+Rockstar`select`[]Other Games`[]FastL`[]CNIX`[]DIRECT
+Ubisoft`select`[]Other Games`[]FastL`[]CNIX`[]DIRECT
+GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]FastL`[]CNIX`[]FREE`[]DIRECT`!!GROUPID=0!!.*下载
+PrivateTracker`select`[]FREE`[]DIRECT`[]TW 🇨🇳`[]Other Games`[]FastL`[]CNIX
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=1!!.*香港.*$`!!GROUPID=0!!.*3x - 香港.*$
 AutoHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://www.gstatic.com/generate_204`300
-FaliHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Game`https://www.gstatic.com/generate_204`300
+FastLHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Game`https://www.gstatic.com/generate_204`300
 TW 🇨🇳`select`!!GROUPID=1!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$`!!GROUPID=0!!.*3x - 台湾.*$
 AutoTW 🇨🇳`url-test`!!GROUPID=1!!.*台湾 α.*$`!!GROUPID=1!!.*台湾 (α|β) #(D|E)`https://www.gstatic.com/generate_204`300
 KR 🇰🇷`select`!!GROUPID=1!!.*(韩国|首尔).*$`!!GROUPID=0!!.*3x - 韩国.*$
@@ -41,7 +41,7 @@ CA 🇨🇦`select`!!GROUPID=1!!.*(多伦多|加拿大).*$`[]NA 🇺🇲`https:/
 AutoCA 🇨🇦`url-test`!!GROUPID=1!!.*(多伦多|加拿大) (α|β).*$`https://www.gstatic.com/generate_204`300
 NA 🇺🇲`select`!!GROUPID=1!!.*America.*$`!!GROUPID=0!!.*3x.*America.*$
 AutoNA 🇺🇲`url-test`!!GROUPID=1!!^(?!.*?α).*高级 - 美国.*$`https://www.gstatic.com/generate_204`300
-FaliNA 🇺🇲`url-test`!!GROUPID=0!!^.*美国.*Native.*$`https://www.gstatic.com/generate_204`300
-Fastlink`select`!!GROUPID=0!!.*3x.*`!!GROUPID=0!!.*
-Sutiao`select`!!GROUPID=1!!^(?!.*?(过期|暂时|渠道|接入)).*
-Free(80_443)`url-test`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入)).*`https://www.gstatic.com/generate_204`300
+FastLNA 🇺🇲`url-test`!!GROUPID=0!!^.*美国.*Native.*$`https://www.gstatic.com/generate_204`300
+FastL`select`!!GROUPID=0!!.*3x.*`!!GROUPID=0!!.*
+CNIX`select`!!GROUPID=1!!^(?!.*?(过期|暂时|渠道|接入)).*
+FREE`select`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入)).*
