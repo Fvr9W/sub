@@ -14,8 +14,8 @@ PlayStation`select`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]HK 🇭�
 Riot`select`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]SGP 🇸🇬`[]EU 🇪🇺`[]NA 🇺🇲`[]NEX`[]CNIX`[]DIRECT
 Rockstar`select`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]SGP 🇸🇬`[]EU 🇪🇺`[]NA 🇺🇲`[]NEX`[]CNIX`[]DIRECT
 Ubisoft`select`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]HK 🇭🇰`[]JP 🇯🇵`[]TW 🇨🇳`[]SGP 🇸🇬`[]EU 🇪🇺`[]NA 🇺🇲`[]NEX`[]CNIX`[]DIRECT
-GlobalGameDownload`select`[]CnixHK 🇭🇰`[]Other Games`[]DIRECT`[]NEX`[]CNIX
-PrivateTracker`select`[]DIRECT`[]FREE`[]Other Games`[]NEX`[]CNIX
+GlobalGameDownload`select`[]CnixHK 🇭🇰`[]Other Games`[]NEX`[]CNIX`[]TAG`[]FREE`[]DIRECT
+PrivateTracker`select`[]DIRECT`[]Other Games`[]NEX`[]CNIX`[]TAG`[]FREE`[]DIRECT
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=0!!.*香港.*$
