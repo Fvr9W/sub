@@ -321,14 +321,15 @@ https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=知乎不跳转, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信助手, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DualSubs/DualSubs/main/qxrewrite/DualSubs.qxrewrite, tag=DualSubs, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/DualSubs/DualSubs-YouTube/main/qxrewrite/DualSubs.YouTube.feat.ADs.qxrewrite, tag=DualSubsYouTube, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DualSubs/Universal/main/qxrewrite/DualSubs.qxrewrite, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/DualSubs/YouTube/main/qxrewrite/DualSubs.YouTube.feat.ADs.qxrewrite, tag=DualSubsYouTube, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Siri.qxrewrite, tag=iRingoSiri, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite, tag=iRingoLocation, update-interval=86400, opt-parser=false, enabled=true
 #去广告
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet, tag=高德地图去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=微信小程序去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Cainiao.conf, tag=菜鸟裹裹去广告, update-interval=172800, opt-parser=false, enabled=true
+https://gist.githubusercontent.com/ddgksf2013/beec132ca0c3570ffa0cf331bce8f82a/raw/baidumap.adblock.conf, tag=百度地图地图去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cainiao.snippet, tag=菜鸟裹裹去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cloudmusic.snippet, tag=网易云去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/KeepStyle.conf, tag=KEEP去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf, tag=起点去广告, update-interval=172800, opt-parser=false, enabled=true
@@ -336,6 +337,7 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Remix.snippet, tag=Remi
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf, tag=开屏去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=贴吧去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/vgtime.conf, tag=vgTime去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/kuwo.snippet, tag=酷我去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/WebPage.conf, tag=一些网页去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/WeChat.conf, tag=公众号去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf, tag=微博国际版去广告, update-interval=172800, opt-parser=false, enabled=true
@@ -353,6 +355,10 @@ https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/c
 [server_local]
 
 [task_local]
+# UI 交互检测
+event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体 - 解锁查询, img-url=checkmark.seal.system, enabled=true
+event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Script/NodeLinkCheck.js, tag=Env代理链路检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png, enabled=true
+
 # 10000  (By @chavyleung)
 # 打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png,enabled=true
