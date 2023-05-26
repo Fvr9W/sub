@@ -309,6 +309,7 @@ static=FREE, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/T
 
 [rewrite_remote]
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag = boxjs, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/QX.snippet, tag = boxjs, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/snippet/HTTPDNS.Block.snippet, tag = HTTPDNS, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikTok, update-interval=172800, opt-parser=false, enabled=true
 # VIP解锁
@@ -378,8 +379,8 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tieba.png, enabled=true
 
 # 饿了么   (By @blackmatrix7)
-# 打开 APP, 访问下右下角 我的 - 赚吃货豆。
-# 05 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=ele_领取吃货豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true
+# 打开 APP, 访问下`我的`>`签到领红包`(左上角)
+1 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true
 
 # 什么值得买   (By @blackmatrix7)
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
@@ -400,6 +401,36 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 # 京东到家  (By @chavyleung)
 #打开 APP 手动签到一次: `首页` > `签到` 或者 手机浏览器打开`https://daojia.jd.com/html/index.html` 点击签到
 11 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js, tag=京东到家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true
+
+# 智行火车
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js, tag=智行火车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/zxhc.png, enabled=true
+
+# 携程旅行
+0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip/ctrip.js, tag=携程旅行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/ctrip.png, enabled=true
+
+# 携程小程序
+0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip_wx/ct_sign.js, tag=携程小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/ctrip.png, enabled=true
+
+# 艺龙酒店
+0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/elong/elong_draw.js, tag=艺龙酒店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elong.png, enabled=true
+
+# 飞常准
+0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/fcz/fcz_sign.js, tag=飞常准, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/fcz.png, enabled=true
+
+# 工银e生活
+0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/icbc/icbc_sign.js, tag=工银e生活, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/icbc.png, enabled=true
+
+# 同程小程序
+0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_sign.js, tag=同程小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tongc.png, enabled=true
+
+# 同程小程序
+1 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_info.js, tag=同程小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tongc.png, enabled=true
+
+# 云闪付
+0 9 * * * https://gitee.com/passerby-b/javascript/raw/master/unipay.js, tag=云闪付, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/unipay.png, enabled=true
+
+# 途虎养车
+10 0 8 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.js, tag=途虎养车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tuhu.png, enabled=true
 
 [http_backend]
 
