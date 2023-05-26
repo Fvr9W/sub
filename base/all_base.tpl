@@ -406,24 +406,30 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js, tag=智行火车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/zxhc.png, enabled=true
 
 # 携程旅行
+# 登录携程旅行，然后点击我的，我的积分进入即可即可获取cookie
 0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip/ctrip.js, tag=携程旅行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/ctrip.png, enabled=true
 
 # 携程小程序
+# 登录携程微信小程序，然后点击，签到进行一次签到即可即可获取cookie
 0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip_wx/ct_sign.js, tag=携程小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/ctrip.png, enabled=true
 
 # 艺龙酒店
+# 登录艺龙旅行，然后点击签到，幸运抽大奖进入即可即可获取cookie
 0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/elong/elong_draw.js, tag=艺龙酒店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elong.png, enabled=true
 
-# 飞常准
-0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/fcz/fcz_sign.js, tag=飞常准, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/fcz.png, enabled=true
+# 飞常准 pro
+# 登录非常准pro的个人页面，然后点击签到，进入即可即可获取cookie
+0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/fcz/fcz_sign.js, tag=飞常准pro, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/fcz.png, enabled=true
 
 # 工银e生活
+# 需要工商银行的银行卡是签到的基础
+# 在工银e生活app主页，欢趣签到内手动签到一次即可获取cookie成功
 0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/icbc/icbc_sign.js, tag=工银e生活, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/icbc.png, enabled=true
 
 # 同程小程序
+# 同需要实名认证，这是是签到的基础
+# 在同程艺龙微信小程序主页，我的->连续签到`即可获取cookie成功
 0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_sign.js, tag=同程小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tongc.png, enabled=true
-
-# 同程小程序
 1 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_info.js, tag=同程小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tongc.png, enabled=true
 
 # 途虎养车
