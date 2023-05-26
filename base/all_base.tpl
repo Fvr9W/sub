@@ -433,6 +433,7 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 1 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_info.js, tag=同程小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tongc.png, enabled=true
 
 # 途虎养车
+# 途虎 APP 我的->每日免费领积分
 10 0 8 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.js, tag=途虎养车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tuhu.png, enabled=true
 
 [http_backend]
