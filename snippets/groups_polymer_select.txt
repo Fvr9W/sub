@@ -19,7 +19,7 @@ PrivateTracker`select`[]DIRECT`[]Other Games`[]NEX`[]CNIX`[]TAG`[]FREE`[]DIRECT
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=0!!.*香港.*$
-AutoHK 🇭🇰`fallback`!!GROUPID=0!!.*香港 γ.*$`!!GROUPID=0!!.*香港 (λ|ι).*$`[]CnixHK 🇭🇰`https://www.gstatic.com/generate_204`300
+AutoHK 🇭🇰`fallback`!!GROUPID=0!!.*香港 γ.*$`!!GROUPID=0!!.*香港 (λ|ι).*$`https://www.gstatic.com/generate_204`300
 CnixHK 🇭🇰`fallback`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`[]AutoHK 🇭🇰`https://www.gstatic.com/generate_204`300
 TW 🇨🇳`select`!!GROUPID=0!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
 AutoTW 🇨🇳`fallback`!!GROUPID=0!!.*台湾 (β|γ).*$`!!GROUPID=1!!.*台湾 α.*$`https://www.gstatic.com/generate_204`300
