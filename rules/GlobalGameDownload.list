@@ -73,3 +73,5 @@ DOMAIN,download.gg-cdn.com
 DOMAIN,download.calibre-ebook.com
 # 微软
 DOMAIN-SUFFIX,msecnd.net
+# 谷歌盘
+DOMAIN-KEYWORD,drive-data-export.googleusercontent.com
