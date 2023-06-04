@@ -76,3 +76,4 @@ DOMAIN-SUFFIX,msecnd.net
 # 谷歌盘
 DOMAIN-KEYWORD,drive-data-export.googleusercontent.com
 DOMAIN-SUFFIX,www.googleapis.com
+DOMAIN-KEYWORD,docs.googleusercontent.com
