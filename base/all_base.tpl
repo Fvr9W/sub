@@ -149,7 +149,7 @@ dns-server = 119.29.29.29,223.5.5.5
 http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
 {% endif %}
-{% if request.target == "nsloon" %}
+{% if request.target == "loon" %}
 
 [General]
 ipv6 = true
