@@ -149,7 +149,7 @@ dns-server = 119.29.29.29,223.5.5.5
 http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
 {% endif %}
-{% if request.target == "loon" %}
+{% if request.target == "nsloon" %}
 
 [General]
 ipv6 = true
@@ -176,13 +176,19 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 
 [Remote Proxy]
 
+[Remote Filter]
+
 [Proxy Group]
+
+[Rule]
 
 [Remote Rule]
 
-[URL Rewrite]
-enable = true
-^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+[Rewrite]
+
+[Host]
+
+[Script]
 
 [Remote Script]
 
@@ -295,6 +301,8 @@ STATE,AUTO
 [MITM]
 
 {% endif %}
+
+
 {# 
 Target : Quantumult X
 Request: who (self, lulu, tira, xty, biu, leo, none)
