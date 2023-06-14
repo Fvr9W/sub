@@ -160,7 +160,7 @@ disable-udp-ports = 443
 allow-wifi-access = false
 wifi-access-http-port = 7222
 wifi-access-socks5-port = 7221
-proxy-test-url = http://www.apple.com/library/test/success.html
+proxy-test-url = http://cp.cloudflare.com/
 test-timeout = 2
 interface-mode = auto
 sni-sniffing = true
@@ -281,7 +281,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 {% if request.target == "quanx" %}
 [general]
 network_check_url=http://captive.apple.com/generate_204
-server_check_url=http://cp.cloudflare.com/generate_204
+server_check_url=http://cp.cloudflare.com/
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
 dns_exclusion_list = +.lan, +.local, localhost.ptlogin2.qq.com, +.nip.io
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
@@ -373,8 +373,6 @@ https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/snippet/HTTPDNS.
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikTok, update-interval=172800, opt-parser=false, enabled=true
 # VIP解锁
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=UnlockVIP, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=EmbyVIP, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/MeiYanXiangJi.conf, tag=MyxjVIP, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/bilibili.snippet, tag=BiliVIP, update-interval=172800, opt-parser=false, enabled=true
 #功能增强
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=172800, opt-parser=false, enabled=true
