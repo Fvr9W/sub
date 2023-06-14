@@ -1,59 +1,77 @@
-hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, www.qobuz.com, api.tidal.com, subscription.grammarly.com, auth.grammarly.com, cn.pornhubpremium.com, photos.adobe.io, lcs-mobile-cops.adobe.io, vsco.co, api.revenuecat.com, dxy.com, gateway.caixin.com, account.wps.cn, *account.wps.com, vira.llsapp.com, ap*.intsig.net, api.polarisoffice.com, mobwsa.ximalaya.com, m.ximalaya.com, hybrid.ximalaya.com, adse.ximalaya.com, api.infzm.com, spclient.wg.spotify.com, m.pearkin.com
+hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, www.qobuz.com, api.tidal.com, subscription.grammarly.com, auth.grammarly.com, cn.pornhubpremium.com, photos.adobe.io, lcs-mobile-cops.adobe.io, vsco.co, api.revenuecat.com, dxy.com, gateway.caixin.com, account.wps.cn, *account.wps.com, vira.llsapp.com, ap*.intsig.net, api.polarisoffice.com, mobwsa.ximalaya.com, m.ximalaya.com, hybrid.ximalaya.com, adse.ximalaya.com, api.infzm.com, spclient.wg.spotify.com, m.pearkin.com, mb3admin.com, api.account.meitu.com, api.meiyan.com
+
 # > Clam 解锁：VIP
-# 仓库地址 https://github.com/langkhach270389
+# > 仓库地址 https://github.com/langkhach270389
 ^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
 ^https:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
 
 # > Deezer 解锁：Hi-Fi
+# > 仓库地址 https://github.com/yqc007/QuantumultX
 ^https?:\/\/media\.deezer\.com\/v1\/get_url$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DeezerHiFiProCrack.js
 
 # > 多邻国 解锁：Plus
+# > 仓库地址 https://github.com/yqc007/QuantumultX
 ^https?:\/\/ios-api-2\.duolingo\.cn\/2017-06-30\/login$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DuolingoPlusCrack.js
 
 # > Qobuz 解锁：Hi-Res
+# > 仓库地址 https://github.com/yqc007/QuantumultX
 ^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/user\/login$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzHiResProCrack.js
 
 # > Qobuz 解锁：设备限制测试
+# > 仓库地址 https://github.com/yqc007/QuantumultX
 ^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/file\/url url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzTest.js
 
 # > TIDAL 解锁：Hi-Fi Plus
+# > 仓库地址 https://github.com/yqc007/QuantumultX
 # ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
 # ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ url script-analyze-echo-response https://raw.githubusercontent.com/yqc007/QuantumultX/master/TidalHiFiPlusCrack.js
 
 # > Grammarly 解锁：高级订阅
+# > 仓库地址 https://github.com/I-am-R-E/QuantumultX
 ^https?:\/\/(subscription|auth)\.grammarly\.com(\/api)?\/v\d\/(subscription|user\/oranonymous) url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/Grammarly.js
 
 # > PornHub 解锁：Premium
+# > 仓库地址 https://github.com/yqc007/QuantumultX
 ^https?:\/\/cn\.pornhubpremium\.com\/ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js
 
 # > Photoshop 解锁：Express
+# > 仓库地址 https://github.com/litieyin/AD_VIP
 ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/photoshop.js
 
 # > VSCO 解锁：高级特权
+# > 仓库地址 https://github.com/langkhach270389/Quantumult-X-LK
 #^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/vsco.js
 
 # > 爱企查 解锁：VIP
+# > 仓库地址 https://github.com/litieyin/AD_VIP
 ^https:\//aiqicha.baidu.com\/usercenter\/getvipinfoajax url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/aiqicha.js
 
 # > 丁香医生 解锁：VIP
+# > 仓库地址 https://github.com/litieyin/AD_VIP
 ^https:\//dxy.com\/app\/i\/user\/ask\/account\?ac url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/dxys.js
 
 # > 财新会员 解锁：财新文章阅读与音频限制 @Functional_Store_Hub
+# > 仓库地址 https://github.com/I-am-R-E/Functional-Store-Hub
 ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) url script-request-header https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/CaiXin.js
 
 # > WPS 解锁：本地会员,支持大陆版以及非大陆版
+# > 仓库地址 https://github.com/I-am-R-E/QuantumultX
 ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
 
 # > 流利说 解锁：阅读会员、阅读权限、音频权限等
+# > 仓库地址 https://github.com/
 ^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/LiuLiShuoYueDu/Script/LiuLiShuoYueDu.js
 
 # > 全能扫描王 解锁：部分高级特权
+# > 仓库地址 https://github.com/NobyDa/Script
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
 
 # > 泼辣修图 解锁：订阅
+# > 仓库地址 https://github.com/yqc007/QuantumultX
 ^https?:\/\/api\.polarisoffice\.com\/api\/1\/account\/userinfo$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PolarisOfficeProCrack.js
 
 # > 喜马拉雅 解锁：VIP
+# > 仓库地址 https://github.com/litieyin/AD_VIP
 #^https:\//mobwsa.ximalaya.com\/mobile-user\/v1\/homePage url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/homepage.js
 #^https:\//m.ximalaya.com\/business-vip-presale-core-web\/product\/info url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/vip.js
 #^http:\//m.ximalaya.com\/vip\/check\/user url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/vipcheck.js
@@ -79,10 +97,24 @@ hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, 
 ^https:\/\/fdfs.xmcdn.com\/group24\/M07\/C4\/3D\/ url reject
 
 # > 南方周末 解锁：年费会员到2030年、年费会员所有课程、所有付费课程
+# > 仓库地址 https://github.com/I-am-R-E/QuantumultX
 ^https?:\/\/api\.infzm\.com\/mobile\/(user|contents\?|contents\/\d+\?|contents\/\d+\/isview\?|course_borrow|courses\/\d+\?|mall|course_items) url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/NanFangZhouMo.js
 
-# > spotify 解锁：premium 需iOS15 ,建议重新登录,音质不能设置为超高
+# > Spotify 部分解锁premium,建议重新登录,并清除缓存,音质不能设置为超高 2023.6.13
+# > 仓库地址 https://github.com/app2smile/rules
+# > 功能: 1.去除播放广告 2.歌手/专辑列表正常展示 3.去除随机播放
 ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 
 # > Pear 雪梨
+# > 仓库地址 https://github.com/
 ^https:\/\/m\.pearkin\.com\/(api\/Movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail) url script-response-body https://raw.githubusercontent.com/Fvr9W/sub/master/rules/pear.js
+
+# > Emby 解锁播放权限
+# > 仓库地址 https://github.com/qiangxinglin/Emby
+^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/qiangxinglin/Emby/main/scripts/emby.js
+
+# > 美颜相机 2022.01.15
+# > 仓库地址 https://github.com/I-am-R-E/QuantumultX
+^https?:\/\/api\.account\.meitu\.com\/(common\/check_device_login_pwd|users\/show_current\.json) url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js
+^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json) url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js
