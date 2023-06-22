@@ -12,6 +12,7 @@
 !!GROUPID=0!!  @ 
 
 !!GROUPID=1!! [0-9]{1}$@
+!!GROUPID=1!!Next.*([0-9]{1})@游戏 - 香港 IEPL G0$1
 !!GROUPID=1!!集客.*香港.*([A-Z]).*([0-9]{2}).*@上海 - 香港 VPLS Equinix $1$2
 !!GROUPID=1!!ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC.*([A-Z]).*([0-9]{2}).*@上海 - 香港 PVCC Equinix $1$2
 !!GROUPID=1!!游戏 中国-韩国 IEPL ([0-9]) 3Gbps@游戏 - 韩国 IEPL G0$1
