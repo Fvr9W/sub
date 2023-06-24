@@ -1,6 +1,6 @@
-Premium`fallback`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`http://cp.cloudflare.com`60 
-Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT 
-B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT 
+Premium`fallback`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`http://cp.cloudflare.com`60
+Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
+B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
 Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]CNIX`[]FREE`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
 Telegram`select`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
@@ -19,24 +19,24 @@ PrivateTracker`select`[]DIRECT`[]TW 🇨🇳`[]Other Games`[]CNIX`[]FREE`[]DIREC
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=0!!.*港.*$`!!GROUPID=0!!.*限制中.*
-AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`http://cp.cloudflare.com`60 
+AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`http://cp.cloudflare.com`60
 TW 🇨🇳`select`!!GROUPID=0!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾 α.*$`http://cp.cloudflare.com`60
-KR 🇰🇷`select`!!GROUPID=0!!.*(韩国|首尔).*$ 
-AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 δ.*$`http://cp.cloudflare.com`60 
+KR 🇰🇷`select`!!GROUPID=0!!.*(韩国|首尔).*$
+AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 δ.*$`http://cp.cloudflare.com`60
 JP 🇯🇵`select`!!GROUPID=0!!.*(日本|东京|大阪).*$
-AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) α.*$`http://cp.cloudflare.com`60 
+AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) α.*$`http://cp.cloudflare.com`60
 SGP 🇸🇬`select`!!GROUPID=0!!.*新加坡.*$
-AutoSGP 🇸🇬`url-test`!!GROUPID=0!!.*新加坡 α.*$`http://cp.cloudflare.com`60 
+AutoSGP 🇸🇬`url-test`!!GROUPID=0!!.*新加坡 α.*$`http://cp.cloudflare.com`60
 AU 🇦🇺`select`!!GROUPID=0!!.*(悉尼|澳大利亚).*$`[]SGP 🇸🇬
-AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*(悉尼|澳大利亚) (α|β).*$`http://cp.cloudflare.com`60 
+AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*(悉尼|澳大利亚) (α|β).*$`http://cp.cloudflare.com`60
 RU 🇷🇺`select`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]AutoEU 🇪🇺
-AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*俄罗斯 (α|β).*$`http://cp.cloudflare.com`60 
-EU 🇪🇺`select`!!GROUPID=0!!.*Europe.*$ 
-AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*(法国|伦敦|德国) α.*$`http://cp.cloudflare.com`60 
-CA 🇨🇦`select`!!GROUPID=0!!.*(多伦多|加拿大).*$`[]NA 🇺🇲`http://cp.cloudflare.com`60 
+AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*俄罗斯 (α|β).*$`http://cp.cloudflare.com`60
+EU 🇪🇺`select`!!GROUPID=0!!.*Europe.*$
+AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*(法国|伦敦|德国) α.*$`http://cp.cloudflare.com`60
+CA 🇨🇦`select`!!GROUPID=0!!.*(多伦多|加拿大).*$`[]NA 🇺🇲`http://cp.cloudflare.com`60
 AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大) (α|β).*$`http://cp.cloudflare.com`60
-NA 🇺🇲`select`!!GROUPID=0!!.*America.*$ 
+NA 🇺🇲`select`!!GROUPID=0!!.*America.*$
 AutoNA 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?α).*高级 - 美国.*$`http://cp.cloudflare.com`60 
 CNIX`select`!!GROUPID=0!!^(?!.*?(过期|暂时|渠道|接入|备用|客服|禁止)).*
 FREE`select`!!GROUPID=1!!^(?!.*?(关注|暂时|渠道|接入|备用|客服|禁止)).*
