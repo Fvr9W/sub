@@ -40,5 +40,5 @@ CA 🇨🇦`select`!!GROUPID=0!!.*(多伦多|加拿大).*$`[]NA 🇺🇲`http://
 AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大) (α|β).*$`http://cp.cloudflare.com`60
 NA 🇺🇲`select`!!GROUPID=0!!.*America.*$
 AutoNA 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?α).*高级 - 美国.*$`http://cp.cloudflare.com`60
-CNIX`select`!!GROUPID=0!!^(?!.*?(过期|暂时|渠道|接入)).*
-FREE`select`!!GROUPID=1!!^(?!.*?(关注|暂时|渠道|接入)).*
+CNIX`select`!!GROUPID=0!!^(?!.*?(过期|暂时|渠道|接入|备用|客服|禁止)).*
+FREE`select`!!GROUPID=1!!^(?!.*?(关注|暂时|渠道|接入|备用|客服|禁止)).*
