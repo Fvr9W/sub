@@ -1,6 +1,6 @@
-Premium`fallback`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`http://cp.cloudflare.com`60
-Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
-B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
+Premium`fallback`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`http://cp.cloudflare.com`60 
+Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT 
+B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT 
 Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]CNIX`[]FREE`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
 Telegram`select`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
@@ -19,7 +19,7 @@ PrivateTracker`select`[]DIRECT`[]TW 🇨🇳`[]Other Games`[]CNIX`[]FREE`[]DIREC
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=0!!.*港.*$`!!GROUPID=0!!.*限制中.*
-AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`http://cp.cloudflare.com`60
+AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`http://cp.cloudflare.com`60 
 TW 🇨🇳`select`!!GROUPID=0!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾 α.*$`http://cp.cloudflare.com`60
 KR 🇰🇷`select`!!GROUPID=0!!.*(韩国|首尔).*$
