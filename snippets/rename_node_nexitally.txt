@@ -22,6 +22,7 @@
 !!GROUPID=0!!Germany@德国
 !!GROUPID=0!!France@法国
 !!GROUPID=0!!United Kingdom@英国
+!!GROUPID=0!!Great Britain@英国
 !!GROUPID=0!!UK London@伦敦
 !!GROUPID=0!!UK Coventry@考文垂
 !!GROUPID=0!!Sweden@瑞典
