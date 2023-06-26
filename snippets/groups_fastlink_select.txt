@@ -1,4 +1,4 @@
-Premium`fallback`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`!!GROUPID=0!!^(?!.*?Game).*3x - 香港 α.*$`http://cp.cloudflare.com`60
+Premium`fallback`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`!!GROUPID=0!!^(?!.*?Game).*3x - 香港 α.*$`https://i.ytimg.com/generate_204`60
 Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]FastLHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]FastL`[]CNIX`[]FREE`[]DIRECT
 B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]FastLHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]FastL`[]CNIX`[]FREE`[]DIRECT
 Hax`select`[]FastLNA 🇺🇲`[]AutoNA 🇺🇲`[]FastLHK 🇭🇰`[]AutoHK 🇭🇰`[]Other Games`[]FastL`[]CNIX`[]DIRECT
@@ -19,27 +19,27 @@ PrivateTracker`select`[]DIRECT`[]TW 🇨🇳`[]Other Games`[]FastL`[]CNIX`[]FREE
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 HK 🇭🇰`select`!!GROUPID=1!!.*香港.*$`!!GROUPID=0!!.*3x - 香港.*$
-AutoHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`http://cp.cloudflare.com`60
-FastLHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Game`http://cp.cloudflare.com`60
+AutoHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://i.ytimg.com/generate_204`60
+FastLHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Game`https://i.ytimg.com/generate_204`60
 TW 🇨🇳`select`!!GROUPID=1!!.*(宜兰|桃园|彰化|嘉义|台北|台湾).*$`!!GROUPID=0!!.*3x - 台湾.*$
-AutoTW 🇨🇳`fallback`!!GROUPID=1!!.*台湾 α.*$`!!GROUPID=1!!.*台湾 (α|β) #(D|E)`!!GROUPID=0!!.*3x - 台湾.*$`http://cp.cloudflare.com`60
+AutoTW 🇨🇳`fallback`!!GROUPID=1!!.*台湾 α.*$`!!GROUPID=1!!.*台湾 (α|β) #(D|E)`!!GROUPID=0!!.*3x - 台湾.*$`https://i.ytimg.com/generate_204`60
 KR 🇰🇷`select`!!GROUPID=1!!.*(韩国|首尔).*$`!!GROUPID=0!!.*3x - 韩国.*$
-AutoKR 🇰🇷`fallback`!!GROUPID=1!!.*韩国 δ.*$`!!GROUPID=0!!.*3x - 韩国.*$`http://cp.cloudflare.com`60
+AutoKR 🇰🇷`fallback`!!GROUPID=1!!.*韩国 δ.*$`!!GROUPID=0!!.*3x - 韩国.*$`https://i.ytimg.com/generate_204`60
 JP 🇯🇵`select`!!GROUPID=1!!.*(日本|东京|大阪).*$`!!GROUPID=0!!.*3x - 日本.*$
-AutoJP 🇯🇵`fallback`!!GROUPID=1!!.*日本 α.*$`!!GROUPID=0!!.*3x - 日本.*$`http://cp.cloudflare.com`60
+AutoJP 🇯🇵`fallback`!!GROUPID=1!!.*日本 α.*$`!!GROUPID=0!!.*3x - 日本.*$`https://i.ytimg.com/generate_204`60
 SGP 🇸🇬`select`!!GROUPID=1!!.*新加坡.*$`!!GROUPID=0!!.*3x - 新加坡.*$
-AutoSGP 🇸🇬`fallback`!!GROUPID=1!!.*Legacy - 新加坡.*$`!!GROUPID=0!!.*3x - 新加坡.*$`http://cp.cloudflare.com`60
+AutoSGP 🇸🇬`fallback`!!GROUPID=1!!.*Legacy - 新加坡.*$`!!GROUPID=0!!.*3x - 新加坡.*$`https://i.ytimg.com/generate_204`60
 AU 🇦🇺`select`!!GROUPID=1!!.*Oceania.*$`!!GROUPID=0!!.*Oceania.*$`[]SGP 🇸🇬
-AutoAU 🇦🇺`fallback`!!GROUPID=1!!.*(悉尼|澳大利亚) (α|β).*$`!!GROUPID=0!!.*(悉尼|澳大利亚).*$`http://cp.cloudflare.com`60
+AutoAU 🇦🇺`fallback`!!GROUPID=1!!.*(悉尼|澳大利亚) (α|β).*$`!!GROUPID=0!!.*(悉尼|澳大利亚).*$`https://i.ytimg.com/generate_204`60
 RU 🇷🇺`select`!!GROUPID=1!!.*俄罗斯.*$`!!GROUPID=0!!.*俄罗斯.*$`[]AutoEU 🇪🇺
-AutoRU 🇷🇺`fallback`!!GROUPID=1!!.*俄罗斯 (α|β).*$`!!GROUPID=0!!.*俄罗斯 (α|β).*$`http://cp.cloudflare.com`60
+AutoRU 🇷🇺`fallback`!!GROUPID=1!!.*俄罗斯 (α|β).*$`!!GROUPID=0!!.*俄罗斯 (α|β).*$`https://i.ytimg.com/generate_204`60
 EU 🇪🇺`select`!!GROUPID=1!!.*Europe.*$`!!GROUPID=0!!.*Europe.*$
-AutoEU 🇪🇺`fallback`!!GROUPID=1!!.*(法国|英国|德国) α.*$`!!GROUPID=0!!.*德国.*$`http://cp.cloudflare.com`60
-CA 🇨🇦`select`!!GROUPID=1!!.*(多伦多|加拿大).*$`[]NA 🇺🇲`http://cp.cloudflare.com`60
-AutoCA 🇨🇦`fallback`!!GROUPID=1!!.*(多伦多|加拿大) (α|β).*$`!!GROUPID=0!!.*(多伦多|加拿大).*$`http://cp.cloudflare.com`60
+AutoEU 🇪🇺`fallback`!!GROUPID=1!!.*(法国|英国|德国) α.*$`!!GROUPID=0!!.*德国.*$`https://i.ytimg.com/generate_204`60
+CA 🇨🇦`select`!!GROUPID=1!!.*(多伦多|加拿大).*$`[]NA 🇺🇲`https://i.ytimg.com/generate_204`60
+AutoCA 🇨🇦`fallback`!!GROUPID=1!!.*(多伦多|加拿大) (α|β).*$`!!GROUPID=0!!.*(多伦多|加拿大).*$`https://i.ytimg.com/generate_204`60
 NA 🇺🇲`select`!!GROUPID=1!!.*America.*$`!!GROUPID=0!!.*3x.*America.*$
-AutoNA 🇺🇲`fallback`!!GROUPID=1!!^(?!.*?α).*高级 - 美国.*$`!!GROUPID=0!!^.*美国.*Native.*$`http://cp.cloudflare.com`60
-FastLNA 🇺🇲`fallback`!!GROUPID=0!!^.*美国.*Native.*$`!!GROUPID=1!!^(?!.*?α).*高级 - 美国.*$`http://cp.cloudflare.com`60
+AutoNA 🇺🇲`fallback`!!GROUPID=1!!^(?!.*?α).*高级 - 美国.*$`!!GROUPID=0!!^.*美国.*Native.*$`https://i.ytimg.com/generate_204`60
+FastLNA 🇺🇲`fallback`!!GROUPID=0!!^.*美国.*Native.*$`!!GROUPID=1!!^(?!.*?α).*高级 - 美国.*$`https://i.ytimg.com/generate_204`60
 FastL`select`!!GROUPID=0!!.*3x.*`!!GROUPID=0!!.*
 CNIX`select`!!GROUPID=1!!^(?!.*?(过期|暂时|渠道|接入)).*
 FREE`select`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入)).*
