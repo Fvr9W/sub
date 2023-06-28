@@ -1,4 +1,4 @@
-Premium`fallback`AutoHK 🇭🇰`https://i.ytimg.com/generate_204`60,,10
+Premium`fallback`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`https://i.ytimg.com/generate_204`60,,10
 Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
 B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
 Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]CNIX`[]FREE`[]DIRECT
