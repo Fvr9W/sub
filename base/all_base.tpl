@@ -160,7 +160,7 @@ disable-udp-ports = 443
 allow-wifi-access = false
 wifi-access-http-port = 7222
 wifi-access-socks5-port = 7221
-proxy-test-url = http://i.ytimg.com/generate_204
+proxy-test-url = http://connectivitycheck.gstatic.com
 test-timeout = 2
 interface-mode = auto
 sni-sniffing = true
@@ -280,8 +280,8 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-network_check_url=http://captive.apple.com/generate_204
-server_check_url=http://i.ytimg.com/generate_204
+network_check_url=http://www.baidu.com
+server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
 dns_exclusion_list = +.lan, +.local, localhost.ptlogin2.qq.com, +.nip.io
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
