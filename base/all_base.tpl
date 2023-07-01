@@ -45,7 +45,7 @@ dns:
     - 119.29.29.29
     - 223.5.5.5
   fallback:
-    - https://doh.pub/dns-query
+    - https://sm2.doh.pub/dns-query
   fallback-filter:
     geoip: false
     ipcidr:
