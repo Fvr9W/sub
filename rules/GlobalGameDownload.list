@@ -56,8 +56,7 @@ DOMAIN-SUFFIX,updates.signal.org
 # DMM 不需要多解释吧
 DOMAIN-SUFFIX,dmm.com
 # pikpak 网盘
-DOMAIN-SUFFIX,mypikpak.com
-DOMAIN-KEYWORD,pikpak
+DOMAIN,mypikpak.com
 # 其他
 DOMAIN,gog-cdn-lumen.secure2.footprint.net
 DOMAIN,download.cdp.bethesda.net 
