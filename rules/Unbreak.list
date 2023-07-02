@@ -119,3 +119,14 @@ DOMAIN-SUFFIX,hk.misakaf.org
 DOMAIN-SUFFIX,4837.misakaf.org
 DOMAIN-SUFFIX,11.loseremby.org
 DOMAIN-SUFFIX,bsem.ddns.me
+# > pikpak 可直连线路
+DOMAIN,dl-a10b-0393.mypikpak.com
+DOMAIN,dl-a10b-0394.mypikpak.com
+DOMAIN,dl-a10b-0395.mypikpak.com
+DOMAIN,dl-a10b-0480.mypikpak.com
+DOMAIN,dl-a10b-0481.mypikpak.com
+DOMAIN,dl-a10b-0482.mypikpak.com
+DOMAIN,dl-a10b-0483.mypikpak.com
+DOMAIN,dl-a10b-0484.mypikpak.com
+DOMAIN,dl-a10b-0469.mypikpak.com
+DOMAIN,dl-a10b-0470.mypikpak.com
