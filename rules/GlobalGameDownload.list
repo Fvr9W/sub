@@ -57,6 +57,14 @@ DOMAIN-SUFFIX,updates.signal.org
 DOMAIN-SUFFIX,dmm.com
 # pikpak 网盘
 DOMAIN,mypikpak.com
+DOMAIN,api-drive.mypikpak.com
+DOMAIN,info.mypikpak.com
+DOMAIN,user.mypikpak.com
+DOMAIN,access.mypikpak.com
+DOMAIN,config.mypikpak.com
+DOMAIN,res-etl-ssl.mypikpak.com
+DOMAIN,rcv5-sp.mypikpak.com
+DOMAIN,download.mypikpak.com
 # 其他
 DOMAIN,gog-cdn-lumen.secure2.footprint.net
 DOMAIN,download.cdp.bethesda.net 
