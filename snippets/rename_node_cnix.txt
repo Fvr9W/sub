@@ -26,7 +26,6 @@
 !!GROUPID=0!!沪日@上海
 !!GROUPID=0!!中港@广州 - 香港
 
-!!GROUPID=1!!\|赞助商.*@
 !!GROUPID=1!!NL@荷兰
 !!GROUPID=1!!HK@香港
 !!GROUPID=1!!SG@新加坡
