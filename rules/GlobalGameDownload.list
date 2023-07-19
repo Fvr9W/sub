@@ -84,3 +84,5 @@ DOMAIN-SUFFIX,msecnd.net
 DOMAIN-KEYWORD,drive-data-export.googleusercontent.com
 DOMAIN-SUFFIX,www.googleapis.com
 DOMAIN-KEYWORD,docs.googleusercontent.com
+# notion
+DOMAIN-KEYWORD,release.notion-static.com
