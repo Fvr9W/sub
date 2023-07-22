@@ -4,7 +4,7 @@ B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`
 Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]CNIX`[]FREE`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
 Telegram`select`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
-Discord(windowsOnly)`select`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
+DiscordVoice(WindowsOnly)`select`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
 Netflix`select`[]B1gProxy`[]Other Games`[]CNIX`[]FREE`[]DIRECT
 Spotify`select`[]B1gProxy`[]Other Games`[]CNIX`[]FREE`[]DIRECT
 GlobalMedia`select`[]B1gProxy`[]Other Games`[]CNIX`[]FREE`[]DIRECT
