@@ -17,7 +17,7 @@ Riot`select`[]Other Games`[]CNIX`[]DIRECT
 Rockstar`select`[]Other Games`[]CNIX`[]DIRECT
 Ubisoft`select`[]Other Games`[]CNIX`[]DIRECT
 GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]CNIX`[]FREE`[]DIRECT
-PrivateTracker`select`[]DIRECT`[]TW 🇨🇳`[]Other Games`[]CNIX`[]FREE`[]DIRECT
+PrivateTracker`select`[]DIRECT`[]Other Games`[]CNIX`[]FREE`[]DIRECT
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 CNIX`select`!!GROUPID=0!!^(?!.*?(过期|暂时|渠道|接入|备用|客服|禁止)).*
