@@ -10,7 +10,12 @@ experimental:
   ignore-resolve-fail: true
 clash-for-android:
   ui-subtitle-pattern: '[一-龥]{2,4}'
-
+script:
+  engine: expr # or starlark (10x to 20x slower)
+  shortcuts:
+    Mail: dst_port == 465 or dst_port == 993 or dst_port == 995
+    discord_UDP: resolve_process_name() == 'Discord.exe' and network == 'udp'
+    discord_TCP: resolve_process_name() == 'Discord.exe' and network == 'tcp'
 {% if exists("request.tun") %}
   {% if request.tun == "windows" %}
 tun:
