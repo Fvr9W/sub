@@ -21,7 +21,7 @@ Hijacking`select`[]REJECT`[]DIRECT
 MAGIC`select`!!GROUPID=0!!^(?!.*?(过期|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*
 CNIX`select`!!GROUPID=1!!^(?!.*?(过期|暂时|渠道|接入|备用|客服|禁止)).*
 FREE`select`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入|备用|客服|禁止)).*
-AutoHK 🇭🇰`url-test`!!GROUPID=0!!^.*香港.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
+AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?下载).*香港.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 CnixHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`!!GROUPID=1!!.*游戏 - 香港.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
