@@ -11,11 +11,16 @@ experimental:
 clash-for-android:
   ui-subtitle-pattern: '[一-龥]{2,4}'
 script:
-  engine: expr # or starlark (10x to 20x slower)
+  engine: expr
   shortcuts:
     Mail: dst_port == 465 or dst_port == 993 or dst_port == 995
+    bilibilishit: "any(['biliapi', 'bilibili'], host contains #) and any(['-live-tracker-', 'p2p', 'pcdn', 'stun'], host contains #)"
+    douyushit: (network == 'udp' or host contains 'p2p') and host contains 'douyu'
+    quic: network == 'udp' and dst_port == 443
+    tailscale: network == 'udp' and dst_port == 12345
     discord_UDP: resolve_process_name() == 'Discord.exe' and network == 'udp'
     discord_TCP: resolve_process_name() == 'Discord.exe' and network == 'tcp'
+    PIKPAK_DL_443: resolve_process_name() == 'DownloadServer.exe' and dst_port == 443
 {% if exists("request.tun") %}
   {% if request.tun == "windows" %}
 tun:
