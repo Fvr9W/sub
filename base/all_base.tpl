@@ -412,6 +412,7 @@ static=JP 🇯🇵, img-url=https://raw.githubusercontent.com/Koolson/Qure/maste
 static=AutoJP 🇯🇵, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
 static=SGP 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
 static=AutoSGP 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+static=AutoSG 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
 static=SEA 🌏, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
 static=AutoSEA 🌏, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
 static=AU 🇦🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
@@ -450,10 +451,10 @@ https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=知乎不跳转, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信助手, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DualSubs/Universal/main/qxrewrite/DualSubs.qxrewrite, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/DualSubs/YouTube/main/qxrewrite/DualSubs.YouTube.feat.ADs.qxrewrite, tag=DualSubsYouTube, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Siri.qxrewrite, tag=iRingoSiri, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite, tag=iRingoLocation, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.snippet, tag=DualSubsUniversal, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/DualSubs/YouTube/main/modules/DualSubs.YouTube.snippet, tag=DualSubsYouTube, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet, tag=iRingoSiri, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag=iRingoLocation, update-interval=86400, opt-parser=false, enabled=true
 #去广告
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet, tag=高德地图去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=微信小程序去广告, update-interval=172800, opt-parser=false, enabled=true
