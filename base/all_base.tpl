@@ -10,6 +10,8 @@ experimental:
   ignore-resolve-fail: true
 clash-for-android:
   ui-subtitle-pattern: '[一-龥]{2,4}'
+{% if exists("request.tun") %}
+  {% if request.tun == "windows" %}
 script:
   engine: expr
   shortcuts:
@@ -21,8 +23,6 @@ script:
     discord_UDP: resolve_process_name() == 'Discord.exe' and network == 'udp'
     discord_TCP: resolve_process_name() == 'Discord.exe' and network == 'tcp'
     PIKPAK_DL_443: resolve_process_name() == 'DownloadServer.exe' and dst_port == 443
-{% if exists("request.tun") %}
-  {% if request.tun == "windows" %}
 tun:
   enable: true
   stack: gvisor
