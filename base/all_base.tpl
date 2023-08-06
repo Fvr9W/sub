@@ -446,6 +446,8 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikT
 # VIP解锁
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=UnlockVIP, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/bilibili.snippet, tag=BiliVIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsck.jst, tag=BiliVIP, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsck.js, tag=用药助手VIP, update-interval=172800, opt-parser=false, enabled=false
 #功能增强
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分, update-interval=172800, opt-parser=false, enabled=true
