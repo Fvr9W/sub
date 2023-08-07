@@ -503,6 +503,10 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 # 首页>天天抽奖, 系统提示 2 次: 获取Cookie: 成功 (登录抽奖) 和 获取Cookie: 成功 (抽奖次数)
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png,enabled=true
 
+# 爱思助手  (By @Crazy-Z7)
+15 9 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Aisising.js, tag=爱思助手全能版,img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0917.jpeg,enabled=true
+
+
 # bilibili  (By @chavyleung)
 # 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
 2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=bilibili, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png,enabled=true
@@ -538,6 +542,9 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 # 智行火车
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js, tag=智行火车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/zxhc.png, enabled=true
 
+# 高德地图  (By @Crazy-Z7)
+15 9 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/GDTu.js, tag=高德地图,img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0967.jpeg,enabled=true
+
 # 携程旅行
 # 登录携程旅行，然后点击我的，我的积分进入即可即可获取cookie
 0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip/ctrip.js, tag=携程旅行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/ctrip.png, enabled=true
@@ -566,8 +573,10 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 1 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_info.js, tag=同程小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tongc.png, enabled=true
 
 # 途虎养车
-# 途虎 APP 我的->每日免费领积分
-10 0 8 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.js, tag=途虎养车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tuhu.png, enabled=true
+# 公众号：搜索途虎小程序登录
+# app：登录点击我的页面
+41 8 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/apptuhu.js, tag=途虎app, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=true
+40 8 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Vxtuhu.js, tag=途虎小程序, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=true
 
 [http_backend]
 
