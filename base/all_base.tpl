@@ -446,8 +446,7 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = TikT
 # VIP解锁
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=UnlockVIP, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/bilibili.snippet, tag=BiliVIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsck.jst, tag=BiliVIP, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsck.js, tag=用药助手VIP, update-interval=172800, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsck.js, tag=用药助手VIP, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/QuantumultX.snippet, tag=NicegramVIP, update-interval=172800, opt-parser=false, enabled=true
 #功能增强
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=172800, opt-parser=false, enabled=true
@@ -461,7 +460,7 @@ https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snipp
 #去广告
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet, tag=高德地图去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=微信小程序去广告, update-interval=172800, opt-parser=false, enabled=true
-https://gist.githubusercontent.com/ddgksf2013/beec132ca0c3570ffa0cf331bce8f82a/raw/baidumap.adblock.conf, tag=百度地图地图去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/bdmap.snippet, tag=百度地图地图去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cainiao.snippet, tag=菜鸟裹裹去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cloudmusic.snippet, tag=网易云去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/KeepStyle.conf, tag=KEEP去广告, update-interval=172800, opt-parser=false, enabled=true
@@ -479,7 +478,7 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/weibo.snippet, 
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet, tag=小红书去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf, tag=喜马拉雅去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet, tag=油管去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet, tag=知乎去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/zhihu.snippet, tag=知乎去广告, update-interval=172800, opt-parser=false, enabled=true
 # 去广告收尾
 https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=去广告联盟, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向, update-interval=86400, opt-parser=false, enabled=true
