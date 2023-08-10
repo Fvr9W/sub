@@ -22,23 +22,23 @@ NEX`select`!!GROUPID=0!!.*Premium.*$`!!GROUPID=0!!.*(Asia|America|Europe|Oceania
 CNIX`select`!!GROUPID=1!!.*(Asia|America|Europe|Oceania|Antarctica).*$
 FREE`select`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入)).*
 AutoHK 🇭🇰`fallback`[]AutoHK1 🇭🇰`[]AutoHK2 🇭🇰`https://connectivitycheck.gstatic.com/generate_204`60,,10
-AutoHK1 🇭🇰`url-test`!!GROUPID=0!!.*香港 #Premium.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
+AutoHK1 🇭🇰`url-test`!!GROUPID=0!!.*香港.*#Premium.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 AutoHK2 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#P).*香港.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 CnixHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 AutoJP 🇯🇵`fallback`[]AutoJP1 🇯🇵`[]AutoJP2 🇯🇵`https://connectivitycheck.gstatic.com/generate_204`60,,10
-AutoJP1 🇯🇵`url-test`!!GROUPID=0!!.*日本 #Premium.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
+AutoJP1 🇯🇵`url-test`!!GROUPID=0!!.*日本.*#Premium.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 AutoJP2 🇯🇵`url-test`!!GROUPID=0!!^(?!.*?#P).*日本.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 CnixJP 🇯🇵`url-test`!!GROUPID=1!!.*(日本|东京|大阪) α.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 AutoSG 🇸🇬`fallback`[]AutoSG1 🇸🇬`[]AutoSG2 🇸🇬`https://connectivitycheck.gstatic.com/generate_204`60,,10
-AutoSG1 🇸🇬`url-test`!!GROUPID=0!!.*新加坡 #Premium.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
+AutoSG1 🇸🇬`url-test`!!GROUPID=0!!.*新加坡.*#Premium.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 AutoSG2 🇸🇬`url-test`!!GROUPID=0!!^(?!.*?#P).*新加坡.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
-AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*(悉尼|澳大利亚).*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
+AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
 AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
 AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*Europe.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
 AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大).*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
 AutoNA 🇺🇲`fallback`[]AutoNA1 🇺🇲`[]AutoNA2 🇺🇲`https://connectivitycheck.gstatic.com/generate_204`60,,20
-AutoNA1 🇺🇲`url-test`!!GROUPID=0!!.*(硅谷|西雅图|美国) #Premium.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
+AutoNA1 🇺🇲`url-test`!!GROUPID=0!!.*(硅谷|西雅图|美国).*#Premium.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
 AutoNA2 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?#P).*(硅谷|西雅图|美国).*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
 CnixNA 🇺🇲`url-test`!!GROUPID=1!!(?!.*?α).*高级 - 美国.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
