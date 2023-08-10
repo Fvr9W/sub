@@ -131,3 +131,7 @@ DOMAIN,dl-a10b-0484.mypikpak.com
 DOMAIN,dl-a10b-0469.mypikpak.com
 DOMAIN,dl-a10b-0470.mypikpak.com
 PROCESS-PATH,C:\Program Files (x86)\PikPak\resources\bin\SDK\DownloadServer.exe
+# 奶昔
+DOMAIN-SUFFIX,api.nexconvert.com
+DOMAIN-SUFFIX,bpnigk.xyz
+DOMAIN-SUFFIX,svedeu.lol
