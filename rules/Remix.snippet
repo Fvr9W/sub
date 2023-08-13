@@ -1,7 +1,7 @@
 #!name = 合集去广告
 #!desc = 各种去广告
 #!homepage = https://github.com/Fvr9W/sub/edit/master/rules/Remix.snippet
-#!date = 2023-08-08 18:05:47
+#!date = 2023-8-13 18:35:44
 
 # 来电 #微信小程序
 ^https:\/\/mobile-api\.imlaidian\.com\/api\/args url reject-dict
@@ -23,18 +23,25 @@
 # 完美世界电竞 # 开屏广告 @豆豆
 ^https:\/\/api\.wmpvp\.com\/api\/v1\/config\/promote url reject
 
-# 同花顺至尊版 @All in 梭哈
-^https:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=adm_kaiping_368840&pic_id=0&ts=168015 url reject-dict
+# 同花顺
+^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend url reject-200
+^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) url reject
+# 同花顺至尊版 感谢@梭哈 All in分享
+^https:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad url reject-dict
 
 # 同程旅行 #开屏广告 @豆豆
 ^https:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(screen|banner|converge)))$ url reject
 
-# 雪球开屏 #开屏广告 @Runestoner
+# 雪球开屏
+# > @Runestoner分享
 ^https:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json\? url reject
+^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ url reject-200
+# > @Joe Joy分享
 ^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\? url reject-dict
 
 # 得物 #开屏广告 @Runestoner
 ^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement url reject
+^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg url reject-200
 
 # 顺丰速运小程序 #弹窗广告 #其他乱七八糟的广告
 ^https:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list url reject-200
@@ -80,8 +87,10 @@
 ^https:\/\/customer-app\.sto\.cn\/api\/app\/banner\/banner url reject-dict
 ^https:\/\/sto-customer-app\.oss-cn-shanghai\.aliyuncs\.com\/images url reject-dict
 
-# 滴滴出行 微信小程序个人中心净化 由TEXAS和豆豆提供
-^https:\/\/common\.diditaxi\.com\.cn\/common\/v5 url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/didi.js
+# > 滴滴出行 微信小程序个人中心净化 由TEXAS和豆豆提供
+^https:\/\/common\.diditaxi\.com\.cn\/common\/v5 url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/didi.js
+# > 滴滴打车 小程序净化 感谢#豆豆分享
+^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core url reject-dict
 
 # 悠洗APP 净化 由TEXAS和豆豆提供
 ^https:\/\/api\.ulife\.group\/signintask\/adServing url reject-dict
@@ -102,10 +111,36 @@
 ^https:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do url reject
 
 # 大众点评 APP 开屏广告
-^https:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) url reject-200
+^https:\/\/img\.meituan\.net\/dpmobile\/.+93241\.png url reject-dict
+^https?:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) url reject-200
 
-#T3出行 微信小程序净化
+# T3 出行 微信小程序净化
 ^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/T3.js
 ^https:\/\/passenger\.t3go\.cn\/passenger-activity-api\/notoken\/api\/v1\/resource\/getSource url reject-dict
 
-hostname = mobile-api.imlaidian.com, wxs-weixin.sd.zhumanggroup.com, s.jiediankeji.com, smarket.dian.so, file.dian.so, aag.enmonster.com, api.wmpvp.com, stat.10jqka.com.cn, wx.17u.cn, 101.201.175.228, app.dewu.com, ucmp.sf-express.com, app.chinahxzq.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, api.hellobike.coming, ump.ems.com.cn, applets.jtexpress.com.cn, minicap.caocaokeji.cn, miniprogram.ishansong.com, ads.ishansong.com, apiproxy.zuche.com, api.kuaidihelp.com, webchatapp.fcbox.com, dsp.fcbox.com, supplier-api.imdada.cn, customer-app.sto.cn, sto-customer-app.oss-cn-shanghai.aliyuncs.com, common.diditaxi.com.cn, api.ulife.group, hdgateway.zto.com, ccmsupport-sz.tenpay.com, cdn.kuaidi100.com, p.kuaidi100.com, img.meituan.net, passenger.t3go.cn
+# >>>>>>>>>>>>>>> ✅ Z ✅ <<<<<<<<<<<<<<
+# > 招商银行
+^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig url reject-200
+# 首页横幅广告
+^https:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic url reject-dict
+
+# > 中国银行
+^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg url reject-200
+# > 中国银行 缤纷生活
+^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 url reject-200
+
+# > 中国联通
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd url reject-200
+^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) url reject-img
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm url reject-dict
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) url reject-img
+^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(\/|\.js) url reject-img
+^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3} url reject-img
+^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer= url reject-img
+
+# > 中国电信
+^https?:\/\/cloud\.189\.cn\/include\/splash\/ url reject
+^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation url reject-img
+
+hostname = mobile-api.imlaidian.com, wxs-weixin.sd.zhumanggroup.com, s.jiediankeji.com, smarket.dian.so, file.dian.so, aag.enmonster.com, api.wmpvp.com, stat.10jqka.com.cn, wx.17u.cn, 101.201.175.228, app.dewu.com, ucmp.sf-express.com, app.chinahxzq.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, api.hellobike.coming, ump.ems.com.cn, applets.jtexpress.com.cn, minicap.caocaokeji.cn, miniprogram.ishansong.com, ads.ishansong.com, apiproxy.zuche.com, api.kuaidihelp.com, webchatapp.fcbox.com, dsp.fcbox.com, supplier-api.imdada.cn, customer-app.sto.cn, sto-customer-app.oss-cn-shanghai.aliyuncs.com, common.diditaxi.com.cn, api.ulife.group, hdgateway.zto.com, ccmsupport-sz.tenpay.com, cdn.kuaidi100.com, p.kuaidi100.com, img.meituan.net, passenger.t3go.cn, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, mbs.boc.cn, mlife.jf365.boc.cn, m.client.10010.com, m1.ad.10010.com, res.mall.10010.cn, cloud.189.cn, zt-app.go189.cn, xqimg.imedao.com, cdn.poizon.com, adm.10jqka.com.cn, iphone.ac.qq.com
+
