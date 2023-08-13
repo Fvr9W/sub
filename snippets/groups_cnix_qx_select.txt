@@ -1,4 +1,4 @@
-Premium`fallback`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
+Premium`fallback`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
 Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
 B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
 Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]CNIX`[]FREE`[]DIRECT
@@ -20,13 +20,13 @@ SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 CNIX`select`!!GROUPID=0!!^(?!.*?(过期|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*
 FREE`select`!!GROUPID=1!!^(?!.*?(关注|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*
-AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
-AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾 α.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
-AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 δ.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
-AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) α.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
-AutoSG 🇸🇬`url-test`!!GROUPID=0!!.*新加坡 α.*$`https://connectivitycheck.gstatic.com/generate_204`60,,10
-AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*(悉尼|澳大利亚) (α|β).*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
-AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*俄罗斯 (α|β).*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
-AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*(法国|伦敦|德国) α.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
-AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大) (α|β).*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
-AutoNA 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?α).*高级 - 美国.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
+AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
+AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾 α.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
+AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 δ.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
+AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) α.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
+AutoSG 🇸🇬`url-test`!!GROUPID=0!!.*新加坡 α.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
+AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*(悉尼|澳大利亚) (α|β).*$`https://connectivitycheck.gstatic.com/generate_204`60,,30
+AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*俄罗斯 (α|β).*$`https://connectivitycheck.gstatic.com/generate_204`60,,30
+AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*(法国|伦敦|德国) α.*$`https://connectivitycheck.gstatic.com/generate_204`60,,30
+AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大) (α|β).*$`https://connectivitycheck.gstatic.com/generate_204`60,,30
+AutoNA 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?α).*高级 - 美国.*$`https://connectivitycheck.gstatic.com/generate_204`60,,30
