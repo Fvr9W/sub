@@ -3,7 +3,7 @@
 #!homepage = https://github.com/Fvr9W/sub/edit/master/rules/Unlock.qxrewrite
 #!date = 2023-8-13 17:45:27
 
-hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, www.qobuz.com, api.tidal.com, subscription.grammarly.com, auth.grammarly.com, cn.pornhubpremium.com, photos.adobe.io, lcs-mobile-cops.adobe.io, vsco.co, api.revenuecat.com, dxy.com, gateway.caixin.com, account.wps.cn, *account.wps.com, vira.llsapp.com, ap*.intsig.net, api.polarisoffice.com, mobwsa.ximalaya.com, m.ximalaya.com, hybrid.ximalaya.com, adse.ximalaya.com, api.infzm.com, spclient.wg.spotify.com, m.pearkin.com, mb3admin.com, api.account.meitu.com, api.meiyan.com, biz.cyapi.cn, wrapper.cyapi.cn, newdrugs.dxy.cn, api.polaxiong.com, oxfordx.cp.com.cn, mobile.flightradar24.com
+hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, www.qobuz.com, api.tidal.com, subscription.grammarly.com, auth.grammarly.com, cn.pornhubpremium.com, photos.adobe.io, lcs-mobile-cops.adobe.io, vsco.co, api.revenuecat.com, dxy.com, gateway.caixin.com, account.wps.cn, *account.wps.com, vira.llsapp.com, ap*.intsig.net, api.polarisoffice.com, mobwsa.ximalaya.com, m.ximalaya.com, hybrid.ximalaya.com, adse.ximalaya.com, api.infzm.com, spclient.wg.spotify.com, m.pearkin.com, mb3admin.com, api.account.meitu.com, api.meiyan.com, biz.cyapi.cn, wrapper.cyapi.cn, newdrugs.dxy.cn, api.polaxiong.com, oxfordx.cp.com.cn, mobile.flightradar24.com, restore-access.indream.app
 # > Clam 解锁：VIP
 # > 仓库地址 https://github.com/langkhach270389
 ^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
@@ -54,6 +54,11 @@ hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, 
 # > VSCO 解锁：高级特权
 # > 仓库地址 https://github.com/langkhach270389/Quantumult-X-LK
 #^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/vsco.js
+
+# > Nicegram //restore-access.indream.app
+# > 2022.07.15
+# > 仓库地址 https://github.com/langkhach270389/Quantumult-X-LK
+^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ url script-echo-response https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js
 
 # > 爱企查 解锁：VIP
 # > 仓库地址 https://github.com/litieyin/AD_VIP
