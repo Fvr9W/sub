@@ -37,7 +37,7 @@
 ^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement url reject
 
 # 顺丰速运小程序 #弹窗广告 #其他乱七八糟的广告
-^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list url reject-200
+^https:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list url reject-200
 
 # 星途 starway #开屏广告
 ^https:\/\/app\.chinahxzq\.com\.cn:9302\/starway-api\/ad url reject-dict
@@ -98,11 +98,11 @@
 ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi url reject
 
 # 快递100 微信小程序净化
-^https?:\/\/cdn\.kuaidi100\.com\/images\/open\/appads url reject-img
-^https?:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do url reject
+^https:\/\/cdn\.kuaidi100\.com\/images\/open\/appads url reject-img
+^https:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do url reject
 
 # 大众点评 APP 开屏广告
-^https?:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) url reject-200
+^https:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) url reject-200
 
 #T3出行 微信小程序净化
 ^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/T3.js
