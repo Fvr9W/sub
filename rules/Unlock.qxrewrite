@@ -129,7 +129,9 @@ hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, 
 # > 仓库地址 https://github.com/I-am-R-E/QuantumultX
 ^https?:\/\/api\.infzm\.com\/mobile\/(user|contents\?|contents\/\d+\?|contents\/\d+\/isview\?|course_borrow|courses\/\d+\?|mall|course_items) url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/NanFangZhouMo.js
 
-# > Spotify 部分解锁premium,建议重新登录,并清除缓存,音质不能设置为超高 2023.6.13
+# > Spotify 部分解锁premium //spclient.wg.spotify.com
+# > 建议重新登录,并清除缓存,音质不能设置为超高 
+# > 2023.6.13
 # > 仓库地址 https://github.com/app2smile/rules
 # > 功能: 1.去除播放广告 2.歌手/专辑列表正常展示 3.去除随机播放
 ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
