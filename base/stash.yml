@@ -1,0 +1,720 @@
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+experimental:
+  ignore-resolve-fail: true
+udp: true
+
+http:
+  # 以 PKCS #12 编码的 CA 证书
+  ca: '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'
+  # 证书密码
+  ca-passphrase: 'FA1A9849'
+
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  listen: 1053
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - https://sm2.doh.pub/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 0.0.0.0/32
+  fake-ip-filter:
+    - .lan
+    - +.local
+    - localhost.ptlogin2.qq.com
+    - +.nip.io
+    - +.onetap.su
+    - +.onetap.com
+    - +.neverlose.cc
+    - +.neverlose.com
+    - +.engineowning.com
+    - +.engineowning.to
+    - +.bgx.gg
+    - +.gamesense.pub
+    - +.interwebz-cheats.com
+    - +.aimware.net
+    - +.fatality.win
+    - +.legendsen.se
+    - +.memesense.gg
+    - +.midnight.im
+    - +.primordial.gay
+    - +.ps.im
+  nameserver-policy:
+    raw.githubusercontent.com: 8.8.8.8
+    +.meiquankongjian.com: 8.8.8.8
+    +.getxlx.com: 8.8.8.8
+    +.nachoneko.shop: 8.8.8.8
+    +.ptrecord.com: 8.8.8.8
+    +.bing.cn: 1.1.1.1
+    +.bing.com: 1.1.1.1
+
+###锚点###
+
+# 规则行为相关
+c: &c
+  behavior: classical
+  interval: 86400
+
+# 也叫 rule-set
+d: &d
+  behavior: domain
+  interval: 86400
+
+# 也叫 domain-set
+dt: &dt
+  behavior: domain-text
+  interval: 86400
+
+i: &i
+  behavior: ipcidr
+  interval: 86400
+
+it: &it
+  behavior: ipcidr-text
+  interval: 86400
+
+# 远程订阅相关
+p: &p
+  type: http
+  interval: 42300
+  health-check:
+    enable: true
+    url: http://connectivitycheck.gstatic.com
+    interval: 300
+
+# 代理组相关
+ut: &ut
+  type: url-test
+  url: http://connectivitycheck.gstatic.com
+  interval: 60
+  tolerance: 20
+
+proxies:   # 本地服务器
+
+proxy-providers:
+#这部分自己改，不一定符合每个人的，按照自己机场节点来
+  cnix: &cnix
+    <<: *p
+    filter: "(?!.*?免费)"
+    url: "填入我给你的链接"
+    path: ./proxy_providers/cnix.yaml
+
+  free: &free
+    <<: *p
+    filter: "(?!.*?免费)"
+    url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fsub.sharecentre.online%2Fsub&config=https%3A%2F%2Fraw.githubusercontent.com%2FFvr9W%2Fsub%2Fmaster%2Fpref.ini&emoji=true&list=false&sort=true&udp=true&tfo=false&scv=false&append_type=false&fdn=true&scp=true"
+    path: ./proxy_providers/cnix.yaml
+    
+proxy-groups:
+  - name: Premium
+    type: fallback
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Auto.png
+    proxies:
+      - AutoHK 🇭🇰
+      - AutoJP 🇯🇵
+      - AutoSG 🇸🇬
+      - AutoNA 🇺🇲
+
+  - name: Other Games
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/game.png
+    proxies:
+      - B1gProxy
+      - AutoHK 🇭🇰
+      - AutoTW 🇨🇳
+      - AutoKR 🇰🇷
+      - AutoJP 🇯🇵
+      - AutoSG 🇸🇬
+      - AutoEU 🇪🇺
+      - AutoNA 🇺🇲
+      - CNIX
+      - FREE
+      - DIRECT
+
+  - name: B1gProxy
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
+    proxies:
+      - Premium
+      - AutoHK 🇭🇰
+      - AutoTW 🇨🇳
+      - AutoKR 🇰🇷
+      - AutoJP 🇯🇵
+      - AutoSG 🇸🇬
+      - AutoEU 🇪🇺
+      - AutoNA 🇺🇲
+      - CNIX
+      - FREE
+      - DIRECT
+
+  - name: Hax
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+    proxies:
+      - AutoNA 🇺🇲
+      - Other Games
+      - AutoHK 🇭🇰
+      - AutoTW 🇨🇳
+      - AutoKR 🇰🇷
+      - AutoJP 🇯🇵
+      - AutoSG 🇸🇬
+      - AutoEU 🇪🇺
+      - CNIX
+      - FREE
+      - DIRECT
+
+  - name: Trading
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
+    proxies:
+      - B1gProxy
+      - Other Games
+      - AutoHK 🇭🇰
+      - AutoTW 🇨🇳
+      - AutoKR 🇰🇷
+      - AutoJP 🇯🇵
+      - AutoSG 🇸🇬
+      - AutoEU 🇪🇺
+      - AutoNA 🇺🇲
+      - CNIX
+      - FREE
+      - DIRECT
+
+  - name: Telegram
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Telegram.png
+    proxies:
+      - AutoSG 🇸🇬
+      - AutoNA 🇺🇲
+      - B1gProxy
+
+  - name: Spotify
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Spotify.png
+    proxies:
+      - AutoSG 🇸🇬
+      - AutoNA 🇺🇲
+      - B1gProxy
+
+  - name: Netflix
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Netflix.png
+    proxies:
+      - B1gProxy
+      - Other Games
+      - AutoHK 🇭🇰
+      - AutoTW 🇨🇳
+      - AutoKR 🇰🇷
+      - AutoJP 🇯🇵
+      - AutoSG 🇸🇬
+      - AutoEU 🇪🇺
+      - AutoNA 🇺🇲
+      - CNIX
+      - FREE
+      - DIRECT
+
+  - name: GlobalMedia
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Streaming.png
+    proxies:
+      - B1gProxy
+      - Other Games
+      - AutoHK 🇭🇰
+      - AutoTW 🇨🇳
+      - AutoKR 🇰🇷
+      - AutoJP 🇯🇵
+      - AutoSG 🇸🇬
+      - AutoEU 🇪🇺
+      - AutoNA 🇺🇲
+      - CNIX
+      - FREE
+      - DIRECT
+
+  - name: Microsoft
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
+    proxies:
+      - AutoNA 🇺🇲
+      - AutoHK 🇭🇰
+      - Other Games
+      - AutoTW 🇨🇳
+      - AutoKR 🇰🇷
+      - AutoJP 🇯🇵
+      - AutoSG 🇸🇬
+      - AutoEU 🇪🇺
+      - CNIX
+      - FREE
+      - DIRECT
+
+  - name: SteamChina
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/steam.png
+    proxies:
+      - DIRECT
+      - B1gProxy
+      - Other Games
+      - REJECT
+  - name: SteamGlobal
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/steam.png
+    proxies:
+      - B1gProxy
+      - DIRECT
+      - Other Games
+      - REJECT
+  - name: GlobalGameDownload
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
+    proxies:
+      - B1gProxy
+      - Other Games
+      - CNIX
+      - FREE
+      - DIRECT
+  - name: PrivateTracker
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
+    proxies:
+      - DIRECT
+      - Other Games
+      - CNIX
+      - FREE
+      - DIRECT
+  - name: SougouInput
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: Hijacking
+    type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: CNIX
+    type: select
+    filter: "^(?!.*?(免费|关注|过期|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*"
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/CNIX.png
+    use:
+      - cnix
+  - name: FREE
+    type: select
+    filter: "^(?!.*?(关注|过期|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*"
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Team.png
+    use:
+      - free
+  - name: AutoHK 🇭🇰
+    <<: *ut
+    filter: "^(?!.*?#E).*香港 α.*$|.*香港 ι #E.*$|.*游戏 - 香港.*$"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+    use:
+      - cnix
+  - name: AutoTW 🇨🇳
+    <<: *ut
+    filter: ".*台湾 α.*$"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+    use:
+      - cnix
+  - name: AutoKR 🇰🇷
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+    filter: ".*韩国 δ.*$"
+    use:
+      - cnix
+  - name: AutoJP 🇯🇵
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+    filter: ".*(日本|东京|大阪) α.*$"
+    use:
+      - cnix
+  - name: AutoSG 🇸🇬
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+    filter: ".*新加坡 α.*$"
+    use:
+      - cnix
+  - name: AutoAU 🇦🇺
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+    filter: ".*(悉尼|澳大利亚) (α|β).*$"
+    use:
+      - cnix
+  - name: AutoRU 🇷🇺
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
+    filter: ".*俄罗斯 (α|β).*$"
+    use:
+      - cnix
+  - name: AutoEU 🇪🇺
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+    filter: ".*(法国|伦敦|德国) α.*$"
+    use:
+      - cnix
+  - name: AutoCA 🇨🇦
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
+    filter: ".*(多伦多|加拿大) (α|β).*$"
+    use:
+      - cnix
+  - name: AutoNA 🇺🇲
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+    filter: "^(?!.*?α).*高级 - 美国.*$"
+    use:
+      - cnix
+
+rule-providers:
+  Unbreak_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvVW5icmVhay5saXN0"
+    path: ./providers/rule-provider_Unbreak_domain.yaml
+    interval: 86400
+  Unbreak_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvVW5icmVhay5saXN0"
+    path: ./providers/rule-provider_Unbreak_ipcidr.yaml
+    interval: 86400
+  icloud_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0xveWFsc29sZGllci9zdXJnZS1ydWxlcy9yZWxlYXNlL3J1bGVzZXQvaWNsb3VkLnR4dA"
+    path: ./providers/rule-provider_icloud_domain.yaml
+    interval: 86400
+  apple_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0xveWFsc29sZGllci9zdXJnZS1ydWxlcy9yZWxlYXNlL3J1bGVzZXQvYXBwbGUudHh0"
+    path: ./providers/rule-provider_apple_domain.yaml
+    interval: 86400
+  rejectFix_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvcmVqZWN0Rml4Lmxpc3Q"
+    path: ./providers/rule-provider_rejectFix_domain.yaml
+    interval: 86400
+  rejectFix_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvcmVqZWN0Rml4Lmxpc3Q"
+    path: ./providers/rule-provider_rejectFix_ipcidr.yaml
+    interval: 86400
+  Reject_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2RsZXItaW8vUnVsZXMvbWFpbi9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvUmVqZWN0Lmxpc3Q"
+    path: ./providers/rule-provider_Reject_domain.yaml
+    interval: 86400
+  Reject_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2RsZXItaW8vUnVsZXMvbWFpbi9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvUmVqZWN0Lmxpc3Q"
+    path: ./providers/rule-provider_Reject_ipcidr.yaml
+    interval: 86400
+  sogouinput_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9ydWxlc2V0LnNray5tb2UvTGlzdC9ub25faXAvc29nb3VpbnB1dC5jb25m"
+    path: ./providers/rule-provider_sogouinput_domain.yaml
+    interval: 86400
+  PrivateTracker_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvU3VyZ2UvUHJpdmF0ZVRyYWNrZXIvUHJpdmF0ZVRyYWNrZXIubGlzdA"
+    path: ./providers/rule-provider_PrivateTracker_domain.yaml
+    interval: 86400
+  PrivateTracker_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvU3VyZ2UvUHJpdmF0ZVRyYWNrZXIvUHJpdmF0ZVRyYWNrZXIubGlzdA"
+    path: ./providers/rule-provider_PrivateTracker_ipcidr.yaml
+    interval: 86400
+  b1g_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvYjFnLmxpc3Q"
+    path: ./providers/rule-provider_b1g_domain.yaml
+    interval: 86400
+  b1g_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvYjFnLmxpc3Q"
+    path: ./providers/rule-provider_b1g_ipcidr.yaml
+    interval: 86400
+  GlobalGameDownload_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvR2xvYmFsR2FtZURvd25sb2FkLmxpc3Q"
+    path: ./providers/rule-provider_GlobalGameDownload_domain.yaml
+    interval: 86400
+  battle_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvYmF0dGxlLmxpc3Q"
+    path: ./providers/rule-provider_battle_domain.yaml
+    interval: 86400
+  GranTurismo_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvR3JhblR1cmlzbW8ubGlzdA"
+    path: ./providers/rule-provider_GranTurismo_domain.yaml
+    interval: 86400
+  Riot_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvUmlvdC5saXN0"
+    path: ./providers/rule-provider_Riot_domain.yaml
+    interval: 86400
+  Rockstar_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvUm9ja3N0YXIubGlzdA"
+    path: ./providers/rule-provider_Rockstar_domain.yaml
+    interval: 86400
+  SteamCN_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbUNOLmxpc3Q"
+    path: ./providers/rule-provider_SteamCN_domain.yaml
+    interval: 86400
+  Steam_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbS5saXN0"
+    path: ./providers/rule-provider_Steam_domain.yaml
+    interval: 86400
+  ubi_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvdWJpLmxpc3Q"
+    path: ./providers/rule-provider_ubi_domain.yaml
+    interval: 86400
+  Microsoft_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvTWljcm9zb2Z0Lmxpc3Q"
+    path: ./providers/rule-provider_Microsoft_domain.yaml
+    interval: 86400
+  Microsoft_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvTWljcm9zb2Z0Lmxpc3Q"
+    path: ./providers/rule-provider_Microsoft_ipcidr.yaml
+    interval: 86400
+  Hax_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvSGF4Lmxpc3Q"
+    path: ./providers/rule-provider_Hax_domain.yaml
+    interval: 86400
+  Hax_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvSGF4Lmxpc3Q"
+    path: ./providers/rule-provider_Hax_ipcidr.yaml
+    interval: 86400
+  Trading_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvVHJhZGluZy5saXN0"
+    path: ./providers/rule-provider_Trading_domain.yaml
+    interval: 86400
+  Trading_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvVHJhZGluZy5saXN0"
+    path: ./providers/rule-provider_Trading_ipcidr.yaml
+    interval: 86400
+  Emby_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvRW1ieS5saXN0"
+    path: ./providers/rule-provider_Emby_domain.yaml
+    interval: 86400
+  Netflix_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2RsZXItaW8vUnVsZXMvbWFpbi9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvTmV0ZmxpeC5saXN0"
+    path: ./providers/rule-provider_Netflix_domain.yaml
+    interval: 86400
+  Netflix_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2RsZXItaW8vUnVsZXMvbWFpbi9TdXJnZS9TdXJnZSUyMDMvUHJvdmlkZXIvTWVkaWEvTmV0ZmxpeC5saXN0"
+    path: ./providers/rule-provider_Netflix_ipcidr.yaml
+    interval: 86400
+  ProxyMedia_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0"
+    path: ./providers/rule-provider_ProxyMedia_domain.yaml
+    interval: 86400
+  ProxyMedia_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0"
+    path: ./providers/rule-provider_ProxyMedia_ipcidr.yaml
+    interval: 86400
+  telegram_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9ydWxlc2V0LnNray5tb2UvTGlzdC9ub25faXAvdGVsZWdyYW0uY29uZg"
+    path: ./providers/rule-provider_telegram_domain.yaml
+    interval: 86400
+  DomesticDirect_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvRG9tZXN0aWNEaXJlY3QubGlzdA"
+    path: ./providers/rule-provider_DomesticDirect_domain.yaml
+    interval: 86400
+  gfw_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0xveWFsc29sZGllci9zdXJnZS1ydWxlcy9yZWxlYXNlL3J1bGVzZXQvZ2Z3LnR4dA"
+    path: ./providers/rule-provider_gfw_domain.yaml
+    interval: 86400
+  greatfire_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0xveWFsc29sZGllci9zdXJnZS1ydWxlcy9yZWxlYXNlL3J1bGVzZXQvZ3JlYXRmaXJlLnR4dA"
+    path: ./providers/rule-provider_greatfire_domain.yaml
+    interval: 86400
+  telegram_2_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9ydWxlc2V0LnNray5tb2UvTGlzdC9pcC90ZWxlZ3JhbS5jb25m"
+    path: ./providers/rule-provider_telegram_2_ipcidr.yaml
+    interval: 86400
+  DirectFix_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvRGlyZWN0Rml4Lmxpc3Q"
+    path: ./providers/rule-provider_DirectFix_domain.yaml
+    interval: 86400
+  DirectFix_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvRGlyZWN0Rml4Lmxpc3Q"
+    path: ./providers/rule-provider_DirectFix_ipcidr.yaml
+    interval: 86400
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+rules:
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  # Apple
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - DOMAIN-SUFFIX,iphone-ld.apple.com,DIRECT
+  - DOMAIN-SUFFIX,lcdn-locator.apple.com,DIRECT
+  - DOMAIN-SUFFIX,lcdn-registration.apple.com,DIRECT
+  - DOMAIN-SUFFIX,push.apple.com,DIRECT
+  # google
+  - RULE-SET,google,DIRECT
+  # 搜狗
+  - RULE-SET,sogouinput_domain,SougouInput
+  # PT,BT
+  - RULE-SET,PrivateTracker_domain,PrivateTracker
+  - RULE-SET,PrivateTracker_ipcidr,PrivateTracker
+  # 代理修复
+  - RULE-SET,b1g_domain,B1gProxy
+  - RULE-SET,b1g_ipcidr,B1gProxy
+  # Steam
+  - GEOSITE,steam@cn,SteamChina
+  - GEOSITE,steam,SteamGlobal
+  # 微软，包含openai
+  - GEOSITE,microsoft@cn,DIRECT
+  - GEOSITE,microsoft,Microsoft
+  - GEOSITE,xbox,Microsoft
+  - RULE-SET,Microsoft_domain,Microsoft
+  - RULE-SET,Microsoft_ipcidr,Microsoft
+  # Hax
+  - RULE-SET,Hax_domain,Hax
+  - RULE-SET,Hax_ipcidr,Hax
+  # Trading
+  - RULE-SET,Trading_domain,Trading
+  - RULE-SET,Trading_ipcidr,Trading
+  # Emby
+  - RULE-SET,Emby_domain,Netflix
+  # Netflix
+  - GEOSITE,netflix,Netflix
+  # Spotify
+  - GEOSITE,spotify,Spotify
+  # GlobalMedia
+  - RULE-SET,ProxyMedia_domain,GlobalMedia
+  - RULE-SET,ProxyMedia_ipcidr,GlobalMedia
+  # Telegram
+  - IP-ASN,62014,Telegram,no-resolve
+  - IP-ASN,59930,Telegram,no-resolve
+  - IP-ASN,44907,Telegram,no-resolve
+  - IP-ASN,211157,Telegram,no-resolve
+  - GEOSITE,telegram,Telegram
+  # common proxy utils
+  - RULE-SET,proxy,B1gProxy
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - IP-CIDR,162.159.193.0/24,DIRECT,no-resolve
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Other Games
