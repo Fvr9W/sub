@@ -97,6 +97,7 @@ ut: &ut
   url: http://connectivitycheck.gstatic.com
   interval: 60
   tolerance: 20
+  lazy: true # 在策略组没有被使用时候，不进行延迟测试
 
 proxies:   # 本地服务器
 
