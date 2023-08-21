@@ -244,14 +244,15 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
     proxies:
-      - AutoNA 🇺🇲
-      - AutoHK 🇭🇰
+      - B1gProxy
       - Other Games
+      - AutoHK 🇭🇰
       - AutoTW 🇨🇳
       - AutoKR 🇰🇷
       - AutoJP 🇯🇵
       - AutoSG 🇸🇬
       - AutoEU 🇪🇺
+      - AutoNA 🇺🇲
       - CNIX
       - FREE
       - DIRECT
@@ -662,16 +663,16 @@ rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
-  # Apple
+  # Apple CN
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - DOMAIN-SUFFIX,iphone-ld.apple.com,DIRECT
   - DOMAIN-SUFFIX,lcdn-locator.apple.com,DIRECT
   - DOMAIN-SUFFIX,lcdn-registration.apple.com,DIRECT
   - DOMAIN-SUFFIX,push.apple.com,DIRECT
-  # google
+  # google CN
   - RULE-SET,google,DIRECT
-  # 搜狗
+  # 搜狗隐私手机
   - RULE-SET,sogouinput_domain,SougouInput
   # PT,BT
   - RULE-SET,PrivateTracker_domain,PrivateTracker
@@ -682,7 +683,7 @@ rules:
   # Steam
   - GEOSITE,steam@cn,SteamChina
   - GEOSITE,steam,SteamGlobal
-  # 微软，包含openai
+  # 微软(openai|GitHub)
   - GEOSITE,microsoft@cn,DIRECT
   - GEOSITE,microsoft,Microsoft
   - GEOSITE,xbox,Microsoft
@@ -711,10 +712,12 @@ rules:
   - GEOSITE,telegram,Telegram
   # common proxy utils
   - RULE-SET,proxy,B1gProxy
-  - RULE-SET,direct,DIRECT
-  - RULE-SET,lancidr,DIRECT
-  - RULE-SET,cncidr,DIRECT
+  #- RULE-SET,direct,DIRECT
+  #- RULE-SET,lancidr,DIRECT
+  #- RULE-SET,cncidr,DIRECT
   - IP-CIDR,162.159.193.0/24,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,127.0.0.1/8,DIRECT
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Other Games
