@@ -21,9 +21,7 @@ Netflix,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Emby.list
 Netflix,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Netflix.list
 GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 Telegram,https://ruleset.skk.moe/List/non_ip/telegram.conf
-DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/DomesticDirect.list
-B1gProxy,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
-B1gProxy,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt
 Telegram,https://ruleset.skk.moe/List/ip/telegram.conf
+B1gProxy,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/DirectFix.list
 Other Games,[]FINAL
