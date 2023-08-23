@@ -30,6 +30,9 @@ DOMAIN-SUFFIX,router.ctc
 DOMAIN-SUFFIX,routerlogin.com
 DOMAIN-SUFFIX,tendawifi.com
 DOMAIN-SUFFIX,zte.home
+# > Clash 面板
+DOMAIN,clash.razord.top,DIRECT
+DOMAIN,yacd.haishan.me,DIRECT
 # > General
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
