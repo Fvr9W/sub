@@ -377,6 +377,18 @@ proxy-groups:
       - cnix
 
 rule-providers:
+  Unbreak_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvVW5icmVhay5saXN0"
+    path: ./providers/rule-provider_Unbreak_domain.yaml
+    interval: 86400
+  Unbreak_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvVW5icmVhay5saXN0"
+    path: ./providers/rule-provider_Unbreak_ipcidr.yaml
+    interval: 86400
   sogouinput_domain:
     type: http
     behavior: domain
@@ -467,12 +479,6 @@ rule-providers:
     url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0"
     path: ./providers/rule-provider_ProxyMedia_ipcidr.yaml
     interval: 86400
-  private:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
-    path: ./ruleset/private.yaml
-    interval: 86400
   icloud:
     type: http
     behavior: domain
@@ -492,9 +498,9 @@ rule-providers:
     path: ./ruleset/proxy.yaml
     interval: 86400
 rules:
-  - DOMAIN,clash.razord.top,DIRECT
-  - DOMAIN,yacd.haishan.me,DIRECT
-  - RULE-SET,private,DIRECT
+  # Unbreak
+  - RULE-SET,Unbreak_domain,DIRECT
+  - RULE-SET,Unbreak_ipcidr,DIRECT
   # Apple CN
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
