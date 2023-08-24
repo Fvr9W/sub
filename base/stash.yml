@@ -1,4 +1,4 @@
-# 2023-8-24 14:28:03
+# 2023-8-24 14:39:33
 mixed-port: 7890
 allow-lan: true
 mode: Rule
@@ -472,7 +472,7 @@ proxy-groups:
     filter: ".^.*Europe.*Premium.*$"
     use:
       - nex
-  - name: AutoEU 🇪🇺
+  - name: CnixEU 🇪🇺
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
     filter: ".*(法国|伦敦|德国) α.*$"
