@@ -1,4 +1,4 @@
-# 2023-8-24 14:50:58
+# 2023-8-24 14:56:54
 mixed-port: 7890
 allow-lan: true
 mode: Rule
@@ -383,7 +383,7 @@ proxy-groups:
   - name: NexKR 🇰🇷
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
-    filter: ".*韩国 δ.*$"
+    filter: ".*韩国.*Premium.*$"
     use:
       - nex
     proxies:
@@ -391,6 +391,7 @@ proxy-groups:
   - name: CnixKR 🇰🇷
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+    filter: ".*韩国 δ.*$"
     use:
       - cnix
     proxies:
@@ -538,8 +539,8 @@ proxy-groups:
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
     proxies:
-      - NexCA 🇨🇦
-      - CnixCA 🇨🇦
+      - NexNA 🇺🇲
+      - CnixNA 🇺🇲
   - name: NexNA 🇺🇲
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
