@@ -103,6 +103,12 @@ proxies:   # 本地服务器
 
 proxy-providers:
 #这部分自己改，不一定符合每个人的，按照自己机场节点来
+  nex: &nex
+    <<: *p
+    filter: "(?!.*?免费)"
+    url: "填入我给你的链接"
+    path: ./proxy_providers/nex.yaml
+
   cnix: &cnix
     <<: *p
     filter: "(?!.*?免费)"
@@ -113,7 +119,7 @@ proxy-providers:
     <<: *p
     filter: "(?!.*?免费)"
     url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fsub.sharecentre.online%2Fsub&config=https%3A%2F%2Fraw.githubusercontent.com%2FFvr9W%2Fsub%2Fmaster%2Fpref.ini&emoji=true&list=false&sort=true&udp=true&tfo=false&scv=false&append_type=false&fdn=true&scp=true"
-    path: ./proxy_providers/cnix.yaml
+    path: ./proxy_providers/free.yaml
     
 proxy-groups:
   - name: Premium
@@ -123,8 +129,6 @@ proxy-groups:
     proxies:
       - AutoHK 🇭🇰
       - AutoJP 🇯🇵
-      - AutoSG 🇸🇬
-      - AutoNA 🇺🇲
 
   - name: Other Games
     type: select
@@ -303,6 +307,12 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
+  - name: Nex
+    type: select
+    filter: "^(?!.*?(免费|关注|过期|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*"
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
+    use:
+      - nex
   - name: CNIX
     type: select
     filter: "^(?!.*?(免费|关注|过期|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*"
@@ -315,64 +325,194 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Team.png
     use:
       - free
+
   - name: AutoHK 🇭🇰
+    type: fallback
     <<: *ut
-    filter: "^(?!.*?#E).*香港 α.*$|.*香港 ι #E.*$|.*游戏 - 香港.*$|^.*香港.*Premium.*$"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+    proxies:
+      - NexHK 🇭🇰
+      - CnixHK 🇭🇰
+  - name: NexHK 🇭🇰
+    <<: *ut
+    filter: "^.*香港.*Premium.*$"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+    use:
+      - nex
+  - name: CnixHK 🇭🇰
+    <<: *ut
+    filter: "^(?!.*?#E).*香港 α.*$|.*香港 ι #E.*$|.*游戏 - 香港.*$"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
     use:
       - cnix
   - name: AutoTW 🇨🇳
+    type: fallback
     <<: *ut
-    filter: ".*台湾 α.*$|^.*台湾.*Premium.*$"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+    proxies:
+      - NexTW 🇨🇳
+      - CnixTW 🇨🇳
+  - name: NexTW 🇨🇳
+    <<: *ut
+    filter: "^.*台湾.*Premium.*$"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+    use:
+      - nex
+  - name: CnixTW 🇨🇳
+    <<: *ut
+    filter: ".*台湾 α.*$"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
     use:
       - cnix
   - name: AutoKR 🇰🇷
+    type: fallback
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
-    filter: ".*韩国 δ.*$|^.*韩国.*Premium.*$"
+    proxies:
+      - NexKR 🇰🇷
+      - CnixKR 🇰🇷
+  - name: NexKR 🇰🇷
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+    filter: ".*韩国 δ.*$"
+    use:
+      - nex
+  - name: CnixKR 🇰🇷
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
     use:
       - cnix
   - name: AutoJP 🇯🇵
+    type: fallback
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
-    filter: ".*(日本|东京|大阪) α.*$|^.*(日本|东京|大阪).*Premium.*$"
+    proxies:
+      - NexJP 🇯🇵
+      - CnixJP 🇯🇵
+  - name: NexJP 🇯🇵
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+    filter: "^.*(日本|东京|大阪).*Premium.*$"
+    use:
+      - nex
+  - name: CnixJP 🇯🇵
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+    filter: ".*(日本|东京|大阪) α.*$"
     use:
       - cnix
   - name: AutoSG 🇸🇬
+    type: fallback
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
-    filter: ".*新加坡 α.*$|^.*新加坡.*Premium.*$"
+    proxies:
+      - NexSG 🇸🇬
+      - CnixSG 🇸🇬
+  - name: NexSG 🇸🇬
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+    filter: "^.*新加坡.*Premium.*$"
+    use:
+      - nex
+  - name: CnixSG 🇸🇬
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+    filter: ".*新加坡 α.*$"
     use:
       - cnix
   - name: AutoAU 🇦🇺
+    type: fallback
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
-    filter: ".*(悉尼|澳大利亚) (α|β).*$|^.*Oceania.*Premium.*$"
+    proxies:
+      - NexAU 🇦🇺
+      - CnixAU 🇦🇺
+  - name: NexAU 🇦🇺
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+    filter: "^.*Oceania.*Premium.*$"
+    use:
+      - nex
+  - name: CnixAU 🇦🇺
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+    filter: ".*(悉尼|澳大利亚) (α|β).*$"
     use:
       - cnix
   - name: AutoRU 🇷🇺
+    type: fallback
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
-    filter: ".*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯) (α|β).*$|^.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*Premium.*$"
+    proxies:
+      - NexRU 🇷🇺
+      - CnixRU 🇷🇺
+  - name: NexRU 🇷🇺
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
+    filter: "^.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*Premium.*$"
+    use:
+      - nex
+  - name: CnixRU 🇷🇺
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
+    filter: ".*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯) (α|β).*$"
     use:
       - cnix
   - name: AutoEU 🇪🇺
+    type: fallback
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
-    filter: ".*(法国|伦敦|德国) α.*$|^.*Europe.*Premium.*$"
+    proxies:
+      - NexEU 🇪🇺
+      - CnixEU 🇪🇺
+  - name: NexEU 🇪🇺
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+    filter: ".^.*Europe.*Premium.*$"
+    use:
+      - nex
+  - name: AutoEU 🇪🇺
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+    filter: ".*(法国|伦敦|德国) α.*$"
     use:
       - cnix
   - name: AutoCA 🇨🇦
+    type: fallback
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
-    filter: ".*(多伦多|加拿大) (α|β).*$|^.*(多伦多|加拿大).*Premium.*$"
+    proxies:
+      - NexCA 🇨🇦
+      - CnixCA 🇨🇦
+  - name: NexCA 🇨🇦
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
+    filter: "^.*(多伦多|加拿大).*Premium.*$"
+    use:
+      - nex
+  - name: CnixCA 🇨🇦
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
+    filter: ".*(多伦多|加拿大) (α|β).*$"
     use:
       - cnix
   - name: AutoNA 🇺🇲
+    type: fallback
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
-    filter: "^(?!.*?α).*高级 - 美国.*$|^.*(硅谷|西雅图|美国).*Premium.*$"
+    proxies:
+      - NexCA 🇨🇦
+      - CnixCA 🇨🇦
+  - name: NexNA 🇺🇲
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+    filter: "^.*(硅谷|西雅图|美国).*Premium.*$"
+    use:
+      - nex
+  - name: CnixNA 🇺🇲
+    <<: *ut
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+    filter: "^(?!.*?α).*高级 - 美国.*$"
     use:
       - cnix
 
