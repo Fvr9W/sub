@@ -130,6 +130,7 @@ proxy-groups:
     proxies:
       - AutoHK 🇭🇰
       - AutoJP 🇯🇵
+      - DIRECT
 
   - name: Other Games
     type: select
