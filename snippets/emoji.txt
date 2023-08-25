@@ -93,7 +93,7 @@
 (法属留尼汪|La.*?Rényon),🇷🇪
 (?i:\bRU[S]?\b|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|[^-]俄|叶卡捷琳堡),🇷🇺
 (卢旺达|基加利|维涅杜|Rwanda|Kigali|Vinedu),🇷🇼
-(沙特阿拉伯|利雅得|Arabia|Riyadh),🇸🇦
+(沙特阿拉伯|阿拉伯|利雅得|Arabia|Riyadh),🇸🇦
 (塞舌尔|塞兴岛|Seychelles),🇸🇨
 (瑞典|斯德哥尔摩|Sweden|Stockholm),🇸🇪
 (斯洛文尼亚|Slovenia),🇸🇮
