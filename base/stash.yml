@@ -106,19 +106,18 @@ proxy-providers:
 #这部分自己改，不一定符合每个人的，按照自己机场节点来
   nex: &nex
     <<: *p
-    filter: "(?!.*?免费)"
+    filter: "^(?!.*?免费).*Premium.*$|^(?!.*?免费).*(Asia|America|Europe|Oceania|Antarctica).*$"
     url: "填入我给你的链接"
     path: ./proxy_providers/nex.yaml
 
   cnix: &cnix
     <<: *p
-    filter: "(?!.*?免费)"
+    filter: "^(?!.*?免费).*(Asia|America|Europe|Oceania|Antarctica).*$"
     url: "填入我给你的链接"
     path: ./proxy_providers/cnix.yaml
 
   free: &free
     <<: *p
-    filter: "(?!.*?免费)"
     url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fsub.sharecentre.online%2Fsub&config=https%3A%2F%2Fraw.githubusercontent.com%2FFvr9W%2Fsub%2Fmaster%2Fpref.ini&emoji=true&list=false&sort=true&udp=true&tfo=false&scv=false&append_type=false&fdn=true&scp=true"
     path: ./proxy_providers/free.yaml
     
@@ -360,7 +359,7 @@ proxy-groups:
       - CnixTW 🇨🇳
   - name: NexTW 🇨🇳
     <<: *ut
-    filter: "^.*台湾.*Premium.*$"
+    filter: "^.*台湾.*$"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
     use:
       - nex
@@ -476,7 +475,7 @@ proxy-groups:
   - name: NexRU 🇷🇺
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
-    filter: "^.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*Premium.*$"
+    filter: "^.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$"
     use:
       - nex
     proxies:
@@ -499,7 +498,7 @@ proxy-groups:
   - name: NexEU 🇪🇺
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
-    filter: ".^.*Europe.*Premium.*$"
+    filter: ".^.*(法国|伦敦|德国).*$"
     use:
       - nex
     proxies:
@@ -507,7 +506,7 @@ proxy-groups:
   - name: CnixEU 🇪🇺
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
-    filter: ".*(法国|伦敦|德国) α.*$"
+    filter: ".*(法国|伦敦|德国|英国) α.*$"
     use:
       - cnix
     proxies:
@@ -522,7 +521,7 @@ proxy-groups:
   - name: NexCA 🇨🇦
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
-    filter: "^.*(多伦多|加拿大).*Premium.*$"
+    filter: "^.*(多伦多|加拿大).*$"
     use:
       - nex
     proxies:
