@@ -1,4 +1,4 @@
-# 2023-8-25 10:39:50
+# 2023-8-25 10:47:42
 mixed-port: 7890
 allow-lan: true
 mode: Rule
@@ -106,13 +106,11 @@ proxy-providers:
 #这部分自己改，不一定符合每个人的，按照自己机场节点来
   nex: &nex
     <<: *p
-    filter: "^(?!.*?免费).*Premium.*$|^(?!.*?免费).*(Asia|America|Europe|Oceania|Antarctica).*$"
     url: "填入我给你的链接"
     path: ./proxy_providers/nex.yaml
 
   cnix: &cnix
     <<: *p
-    filter: "^(?!.*?免费).*(Asia|America|Europe|Oceania|Antarctica).*$"
     url: "填入我给你的链接"
     path: ./proxy_providers/cnix.yaml
 
@@ -310,13 +308,13 @@ proxy-groups:
       - DIRECT
   - name: Nex
     type: select
-    filter: "^(?!.*?(免费|关注|过期|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*"
+    filter: "^(?!.*?(免费|关注|过期|暂时|渠道|接入|备用|客服|禁止|网址|版本|GB|Traffic|Expire)).*"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
     use:
       - nex
   - name: CNIX
     type: select
-    filter: "^(?!.*?(免费|关注|过期|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*"
+    filter: "^(?!.*?(免费|关注|过期|暂时|渠道|接入|备用|客服|禁止|网址|版本|GB|Traffic|Expire)).*"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/CNIX.png
     use:
       - cnix
