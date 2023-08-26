@@ -1,4 +1,4 @@
-# 2023-8-25 10:47:42
+# 2023-8-26 18:50:06
 mixed-port: 7890
 allow-lan: true
 mode: Rule
@@ -201,6 +201,7 @@ proxy-groups:
       - AutoSG 🇸🇬
       - AutoNA 🇺🇲
       - B1gProxy
+      - Other Games
 
   - name: Spotify
     type: select
@@ -208,6 +209,13 @@ proxy-groups:
     proxies:
       - AutoNA 🇺🇲
       - B1gProxy
+      - Other Games
+      - AutoHK 🇭🇰
+      - AutoTW 🇨🇳
+      - AutoKR 🇰🇷
+      - AutoJP 🇯🇵
+      - AutoSG 🇸🇬
+      - AutoEU 🇪🇺
 
   - name: Netflix
     type: select
@@ -276,10 +284,15 @@ proxy-groups:
       - DIRECT
       - Other Games
       - REJECT
+    filter: (阿根廷|土耳其)
+    use:
+      - nex
+      - cnix
   - name: GlobalGameDownload
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
     proxies:
+      - CnixHK 🇭🇰
       - B1gProxy
       - Other Games
       - CNIX
@@ -293,7 +306,6 @@ proxy-groups:
       - Other Games
       - CNIX
       - FREE
-      - DIRECT
   - name: SougouInput
     type: select
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
@@ -346,8 +358,6 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
     use:
       - cnix
-    proxies:
-      - REJECT
   - name: AutoTW 🇨🇳
     type: fallback
     <<: *ut
@@ -369,8 +379,6 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
     use:
       - cnix
-    proxies:
-      - REJECT
   - name: AutoKR 🇰🇷
     type: fallback
     <<: *ut
@@ -392,8 +400,6 @@ proxy-groups:
     filter: ".*韩国 δ.*$"
     use:
       - cnix
-    proxies:
-      - REJECT
   - name: AutoJP 🇯🇵
     type: fallback
     <<: *ut
@@ -415,8 +421,6 @@ proxy-groups:
     filter: ".*(日本|东京|大阪) α.*$"
     use:
       - cnix
-    proxies:
-      - REJECT
   - name: AutoSG 🇸🇬
     type: fallback
     <<: *ut
@@ -438,8 +442,6 @@ proxy-groups:
     filter: ".*新加坡 α.*$"
     use:
       - cnix
-    proxies:
-      - REJECT
   - name: AutoAU 🇦🇺
     type: fallback
     <<: *ut
@@ -450,7 +452,7 @@ proxy-groups:
   - name: NexAU 🇦🇺
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
-    filter: "^.*Oceania.*Premium.*$"
+    filter: "^.*Premium.*Oceania.*$"
     use:
       - nex
     proxies:
@@ -461,8 +463,6 @@ proxy-groups:
     filter: ".*(悉尼|澳大利亚) (α|β).*$"
     use:
       - cnix
-    proxies:
-      - REJECT
   - name: AutoRU 🇷🇺
     type: fallback
     <<: *ut
@@ -484,8 +484,6 @@ proxy-groups:
     filter: ".*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯) (α|β).*$"
     use:
       - cnix
-    proxies:
-      - REJECT
   - name: AutoEU 🇪🇺
     type: fallback
     <<: *ut
@@ -496,7 +494,7 @@ proxy-groups:
   - name: NexEU 🇪🇺
     <<: *ut
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
-    filter: ".^.*(法国|伦敦|德国).*$"
+    filter: "^.*(法国|德国).*$"
     use:
       - nex
     proxies:
@@ -507,8 +505,6 @@ proxy-groups:
     filter: ".*(法国|伦敦|德国|英国) α.*$"
     use:
       - cnix
-    proxies:
-      - REJECT
   - name: AutoCA 🇨🇦
     type: fallback
     <<: *ut
@@ -530,8 +526,6 @@ proxy-groups:
     filter: ".*(多伦多|加拿大) (α|β).*$"
     use:
       - cnix
-    proxies:
-      - REJECT
   - name: AutoNA 🇺🇲
     type: fallback
     <<: *ut
@@ -553,8 +547,6 @@ proxy-groups:
     filter: "^(?!.*?α).*高级 - 美国.*$"
     use:
       - cnix
-    proxies:
-      - REJECT
 
 rule-providers:
   Unbreak_domain:
@@ -592,18 +584,6 @@ rule-providers:
     behavior: domain
     url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvR2xvYmFsR2FtZURvd25sb2FkLmxpc3Q"
     path: ./providers/rule-provider_GlobalGameDownload_domain.yaml
-    interval: 86400
-  SteamCN_domain:
-    type: http
-    behavior: domain
-    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbUNOLmxpc3Q"
-    path: ./providers/rule-provider_SteamCN_domain.yaml
-    interval: 86400
-  Steam_domain:
-    type: http
-    behavior: domain
-    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbS5saXN0"
-    path: ./providers/rule-provider_Steam_domain.yaml
     interval: 86400
   Microsoft_domain:
     type: http
