@@ -1,4 +1,4 @@
-# 2023-8-26 18:50:06
+# date: 2023-8-28 12:31:28
 mixed-port: 7890
 allow-lan: true
 mode: Rule
@@ -103,7 +103,6 @@ ut: &ut
 proxies:   # 本地服务器
 
 proxy-providers:
-#这部分自己改，不一定符合每个人的，按照自己机场节点来
   nex: &nex
     <<: *p
     url: "填入我给你的链接"
@@ -116,7 +115,7 @@ proxy-providers:
 
   free: &free
     <<: *p
-    url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fsub.sharecentre.online%2Fsub&config=https%3A%2F%2Fraw.githubusercontent.com%2FFvr9W%2Fsub%2Fmaster%2Fpref.ini&emoji=true&list=false&sort=true&udp=true&tfo=false&scv=false&append_type=false&fdn=true&scp=true"
+    url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fsub.sharecentre.online%2Fsub&config=https%3A%2F%2Fraw.githubusercontent.com%2FFvr9W%2Fsub%2Fmaster%2Fpref.ini&emoji=true&list=false&sort=true&udp=true&tfo=false&scv=false&append_type=false&fdn=true&scp=true&expand=false"
     path: ./proxy_providers/free.yaml
     
 proxy-groups:
