@@ -1,4 +1,4 @@
-# date: 2023-8-28 12:31:28
+# date: 2023-8-30 09:40:57
 mixed-port: 7890
 allow-lan: true
 mode: Rule
@@ -29,7 +29,7 @@ dns:
     ipcidr:
       - 0.0.0.0/32
   fake-ip-filter:
-    - .lan
+    - '.lan'
     - +.local
     - localhost.ptlogin2.qq.com
     - +.nip.io
@@ -626,6 +626,18 @@ rule-providers:
     url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Z2cjlXL3N1Yi9tYXN0ZXIvcnVsZXMvRW1ieS5saXN0"
     path: ./providers/rule-provider_Emby_domain.yaml
     interval: 86400
+  telegram_domain:
+    type: http
+    behavior: domain
+    url: "https://sub.xeton.dev/getruleset?type=3&url=aHR0cHM6Ly9ydWxlc2V0LnNray5tb2UvTGlzdC9ub25faXAvdGVsZWdyYW0uY29uZg"
+    path: ./providers/rule-provider_telegram_domain.yaml
+    interval: 86400
+  telegram_2_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://sub.xeton.dev/getruleset?type=4&url=aHR0cHM6Ly9ydWxlc2V0LnNray5tb2UvTGlzdC9pcC90ZWxlZ3JhbS5jb25m"
+    path: ./providers/rule-provider_telegram_2_ipcidr.yaml
+    interval: 86400
   ProxyMedia_domain:
     type: http
     behavior: domain
@@ -695,7 +707,8 @@ rules:
   - RULE-SET,ProxyMedia_domain,GlobalMedia
   - RULE-SET,ProxyMedia_ipcidr,GlobalMedia
   # Telegram
-  - GEOSITE,telegram,Telegram
+  - RULE-SET,telegram_domain,Telegram
+  - RULE-SET,telegram_2_ipcidr,Telegram
   # Proxy
   - RULE-SET,proxy,B1gProxy
   # 直连
