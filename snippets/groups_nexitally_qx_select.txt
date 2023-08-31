@@ -1,12 +1,12 @@
 Premium`fallback`!!GROUPID=0!!.*香港 γ.*$`!!GROUPID=0!!.*香港 (λ|ι).*$`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`!!GROUPID=1!!.*游戏 - 香港.*$`http://connectivitycheck.gstatic.com`60,,20
-Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]NEX`[]CNIX`[]FREE`[]DIRECT
-B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]NEX`[]CNIX`[]FREE`[]DIRECT
+Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]NEX`[]CNIX`[]FREE`[]DIRECT
+B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]NEX`[]CNIX`[]FREE`[]DIRECT
 Hax`select`[]AutoNA 🇺🇲`[]CnixNA 🇺🇲`[]B1gProxy`[]Other Games`[]DIRECT
-Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-Telegram`select`[]CnixHK 🇭🇰`[]AutoHK 🇭🇰`[]AutoSGP 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
-Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-Netflix`select`[]CnixHK 🇭🇰`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSGP 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Telegram`select`[]CnixHK 🇭🇰`[]AutoHK 🇭🇰`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
+Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Netflix`select`[]CnixHK 🇭🇰`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 GlobalMedia`select`[]CnixHK 🇭🇰`[]AutoHK 🇭🇰`[]CnixNA 🇺🇲`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]NEX`[]CNIX`[]FREE`[]DIRECT
 Microsoft`select`[]AutoNA 🇺🇲`[]CnixNA 🇺🇲`[]B1gProxy`[]Other Games`[]NEX`[]CNIX`[]FREE`[]DIRECT
 SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]REJECT`!!GROUPID=0!!.*(土耳其|阿根廷).*$
@@ -29,7 +29,7 @@ AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`http://connectivitycheck.gstat
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*日本.*$`http://connectivitycheck.gstatic.com`60,,20
 CnixJP 🇯🇵`url-test`!!GROUPID=1!!.*(日本|东京|大阪) α.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoSGP 🇸🇬`url-test`!!GROUPID=0!!.*新加坡.*$`http://connectivitycheck.gstatic.com`60,,20
+AutoSG 🇸🇬`url-test`!!GROUPID=0!!.*新加坡.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*(悉尼|澳大利亚).*$`http://connectivitycheck.gstatic.com`60,,20
 AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`http://connectivitycheck.gstatic.com`60,,20
 AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*Europe.*$`http://connectivitycheck.gstatic.com`60,,20
