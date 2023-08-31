@@ -524,8 +524,7 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 [http_backend]
 
 [filter_local]
-geoip, cn, direct
-final, Final
+Final, Other Game
 
 [rewrite_local]
 
