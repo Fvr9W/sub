@@ -384,7 +384,7 @@ static=Riot, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconS
 static=Hax, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/onetap.png
 static=Other Games, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=B1gProxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
-static=Trading, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Trading.png
+static=Trading, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/trading.png
 static=Telegram, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Telegram.png
 static=Discord, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/discord.png
 static=Spotify, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Spotify.png
@@ -527,6 +527,7 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 [http_backend]
 
 [filter_local]
+geoip, netflix, Netflix
 Final, Other Game
 
 [rewrite_local]
