@@ -3,7 +3,8 @@
 #!homepage = https://github.com/Fvr9W/sub/edit/master/rules/Unlock.qxrewrite
 #!date = 2023-8-13 17:59:33
 
-hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, www.qobuz.com, api.tidal.com, subscription.grammarly.com, auth.grammarly.com, cn.pornhubpremium.com, photos.adobe.io, lcs-mobile-cops.adobe.io, vsco.co, api.revenuecat.com, dxy.com, gateway.caixin.com, account.wps.cn, *account.wps.com, vira.llsapp.com, ap*.intsig.net, api.polarisoffice.com, mobwsa.ximalaya.com, m.ximalaya.com, hybrid.ximalaya.com, adse.ximalaya.com, api.infzm.com, spclient.wg.spotify.com, m.pearkin.com, mb3admin.com, api.account.meitu.com, api.meiyan.com, biz.cyapi.cn, wrapper.cyapi.cn, newdrugs.dxy.cn, api.polaxiong.com, oxfordx.cp.com.cn, mobile.flightradar24.com, restore-access.indream.app, appwk.baidu.com, pan.baidu.com
+hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, www.qobuz.com, api.tidal.com, subscription.grammarly.com, auth.grammarly.com, cn.pornhubpremium.com, photos.adobe.io, lcs-mobile-cops.adobe.io, vsco.co, api.revenuecat.com, dxy.com, gateway.caixin.com, account.wps.cn, *account.wps.com, vira.llsapp.com, ap*.intsig.net, api.polarisoffice.com, mobwsa.ximalaya.com, m.ximalaya.com, hybrid.ximalaya.com, adse.ximalaya.com, api.infzm.com, spclient.wg.spotify.com, m.pearkin.com, mb3admin.com, api.account.meitu.com, api.meiyan.com, biz.cyapi.cn, wrapper.cyapi.cn, newdrugs.dxy.cn, api.polaxiong.com, oxfordx.cp.com.cn, mobile.flightradar24.com, restore-access.indream.app, appwk.baidu.com, pan.baidu.com, 10010v4.com
+
 # ======= A ====== #
 # > 爱企查 解锁：VIP
 # > 仓库地址 https://github.com/litieyin/AD_VIP
@@ -198,3 +199,7 @@ hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, 
 ^https?:\/\/newdrugs\.dxy\.cn url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzs2.js
 
 # ======= Z ====== #
+# > 联通余量
+# > 2023-8-31 22:39:52
+# > https://github.com/ChinaTelecomOperators/ChinaUnicom
+https?:\/\/10010v4\.com url script-analyze-echo-response https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js
