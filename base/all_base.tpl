@@ -492,7 +492,7 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 42 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png,enabled=true
 
 # 10000 余量查询
-*/5 * * * https://github.com/ChinaTelecomOperators/ChinaTelecom/releases/download/Prerelease-Alpha/Tele_Cellular_Auto.js, tag=电信余量, img-url=https://raw.githubusercontent.com/LikeGEM/TuBiao/main/Icons/zhongguodianxin.png, enabled=false
+*/5 * * * * https://github.com/ChinaTelecomOperators/ChinaTelecom/releases/download/Prerelease-Alpha/Tele_Cellular_Auto.js, tag=电信余量, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png, enabled=false
 
 # 10010  (By @chavyleung)
 43 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png,enabled=true
