@@ -2,7 +2,9 @@ Premium`fallback`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoJP 🇯🇵`[]CnixJP 
 Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]NEX`[]CNIX`[]FREE`[]DIRECT
 B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]NEX`[]CNIX`[]FREE`[]DIRECT
 Hax`select`[]AutoNA 🇺🇲`[]CnixNA 🇺🇲`[]B1gProxy`[]Other Games`[]DIRECT
+Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Telegram`select`[]CnixHK 🇭🇰`[]AutoHK 🇭🇰`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
+Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Netflix`select`[]CnixHK 🇭🇰`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 GlobalMedia`select`[]CnixHK 🇭🇰`[]AutoHK 🇭🇰`[]CnixNA 🇺🇲`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]NEX`[]CNIX`[]FREE`[]DIRECT
