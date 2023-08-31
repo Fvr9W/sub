@@ -344,7 +344,9 @@ network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
 dns_exclusion_list = +.lan, +.local, localhost.ptlogin2.qq.com, +.nip.io
+resource_parser_url= https://fastly.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
+
 # 指定在某个 Wi-Fi 下暂停 Quantumult X
 {% if exists("request.who") %}
   {% if request.who == "self" %}
@@ -360,6 +362,7 @@ running_mode_trigger=filter, filter, INFINITY-WORLD:all_direct, nana:all_direct
 {% endif %}
 
 [dns]
+no-system
 no-ipv6
 server=223.5.5.5
 server=119.29.29.29
@@ -378,12 +381,12 @@ static=Ubisoft, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/Ic
 static=Xboxlive, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
 static=Microsoft, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
 static=Riot, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/League_of_Legends.png
-static=Hax, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/gamesense.png
+static=Hax, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/onetap.png
 static=Other Games, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=B1gProxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
 static=Trading, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
 static=Telegram, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Telegram.png
-static=Discord, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png
+static=Discord, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/discord.png
 static=Spotify, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Spotify.png
 static=Netflix, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Netflix.png
 static=GlobalMedia, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Streaming.png
