@@ -3,7 +3,7 @@
 #!author=Fvr9W
 #!homepage=https://github.com/Fvr9W/sub/edit/master/rules/rejectFix.list
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
-#!time=2023-8-23 22:12:20
+#!date=2023-8-31 21:12:05
 
 # Zhihu
 DOMAIN,appcloud2.in.zhihu.com
@@ -17,53 +17,43 @@ USER-AGENT,AVOS*
 DOMAIN,o33249.ingest.sentry.io
 
 # 番茄小说
-DOMAIN,p6-ad-sign.byteimg.com,REJECT
-DOMAIN,p9-ad-sign.byteimg.com,REJECT
-# DOMAIN-SUFFIX,byteimg.com,DIRECT
-DOMAIN,i.snssdk.com,REJECT
-DOMAIN,i-lq.snssdk.com,REJECT
-DOMAIN,dig.bdurl.net,REJECT
-DOMAIN-KEYWORD,zijieapi,REJECT
-# DOMAIN,ads3-normal-lq.zijieapi.com,REJECT
-# DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
-# DOMAIN,polaris3-normal-lq.zijieapi.com,REJECT
-DOMAIN,activity-ag.awemeughun.com,REJECT
+DOMAIN,p6-ad-sign.byteimg.com
+DOMAIN,p9-ad-sign.byteimg.com
+DOMAIN,i.snssdk.com
+DOMAIN,i-lq.snssdk.com
+DOMAIN,dig.bdurl.net
+DOMAIN-KEYWORD,zijieapi
+DOMAIN,activity-ag.awemeughun.com
 
-DOMAIN,mcs.snssdk.com,REJECT
-DOMAIN,tnc3-alisc1.snssdk.com,REJECT
-DOMAIN,security-lq.snssdk.com,REJECT
-DOMAIN,tnc3-aliec2.snssdk.com,REJECT
-DOMAIN,is.snssdk.com,REJECT
+DOMAIN,mcs.snssdk.com
+DOMAIN,tnc3-alisc1.snssdk.com
+DOMAIN,security-lq.snssdk.com
+DOMAIN,tnc3-aliec2.snssdk.com
+DOMAIN,is.snssdk.com
 
-DOMAIN,msync-im1-vip6-std.easemob.com,REJECT
+DOMAIN,msync-im1-vip6-std.easemob.com
 
-DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,REJECT
-DOMAIN,api.iegadp.qq.com,REJECT
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,api.iegadp.qq.com
 
-DOMAIN,sf3-ttcdn-tos.pstatp.com,REJECT
-DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
-# DOMAIN,p3-be-pack-sign.pglstatp-toutiao.com,REJECT
-# DOMAIN,sf3-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN,sf3-ttcdn-tos.pstatp.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
 
-DOMAIN,*default.ixigua.com,REJECT
-DOMAIN,v6-novelapp.ixigua.com,REJECT
-DOMAIN,*novelapp.ixigua.com,REJECT
-# DOMAIN,v3-default.ixigua.com,REJECT
-# DOMAIN,v9-default.ixigua.com,REJECT
-# DOMAIN,v6-default.ixigua.com,REJECT
+DOMAIN,*default.ixigua.com
+DOMAIN,v6-novelapp.ixigua.com
+DOMAIN,*novelapp.ixigua.com
 
-DOMAIN-SUFFIX,byteorge.com,REJECT
-DOMAIN-SUFFIX,bytegoofy.com,REJECT
-DOMAIN-SUFFIX,bytedance.com,REJECT
+DOMAIN-SUFFIX,byteorge.com
+DOMAIN-SUFFIX,bytegoofy.com
+DOMAIN-SUFFIX,bytedance.com
 
-IP-CIDR,49.71.37.101/32,REJECT,no-resolve
-IP-CIDR,117.71.105.23/32,REJECT,no-resolve
-IP-CIDR,218.94.207.205/32,REJECT,no-resolve
-IP-CIDR,117.92.229.188/32,REJECT,no-resolve
-IP-CIDR,101.36.166.16/32,REJECT,no-resolve
-IP-CIDR,180.96.2.114/32,REJECT,no-resolve
+IP-CIDR,49.71.37.101/32,no-resolve
+IP-CIDR,117.71.105.23/32,no-resolve
+IP-CIDR,218.94.207.205/32,no-resolve
+IP-CIDR,117.92.229.188/32,no-resolve
+IP-CIDR,101.36.166.16/32,no-resolve
+IP-CIDR,180.96.2.114/32,no-resolve
 
-URL-REGEX,*-default.ixigua.com,REJECT
-# URL-REGEX,.+web\.business\.image,REJECT
-URL-REGEX,^http:\/\/.+\.byteimg\.com\/ad-app-package,REJECT
-URL-REGEX,^http:\/\/.+\.byteimg\.com\/web\.business\.image,REJECT
+URL-REGEX,*-default.ixigua.com
+URL-REGEX,^http:\/\/.+\.byteimg\.com\/ad-app-package
+URL-REGEX,^http:\/\/.+\.byteimg\.com\/web\.business\.image
