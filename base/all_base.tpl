@@ -378,7 +378,7 @@ static=Ubisoft, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/Ic
 static=Xboxlive, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
 static=Microsoft, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
 static=Riot, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/League_of_Legends.png
-static=Hax, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=Hax, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/gamesense.png
 static=Other Games, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 static=B1gProxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
 static=Trading, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
