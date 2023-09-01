@@ -43,10 +43,6 @@ DOMAIN,*default.ixigua.com
 DOMAIN,v6-novelapp.ixigua.com
 DOMAIN,*novelapp.ixigua.com
 
-DOMAIN-SUFFIX,byteorge.com
-DOMAIN-SUFFIX,bytegoofy.com
-DOMAIN-SUFFIX,bytedance.com
-
 IP-CIDR,49.71.37.101/32,no-resolve
 IP-CIDR,117.71.105.23/32,no-resolve
 IP-CIDR,218.94.207.205/32,no-resolve
