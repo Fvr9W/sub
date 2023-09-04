@@ -15,14 +15,14 @@ clash-for-android:
 script:
   engine: expr
   shortcuts:
-    Mail: "(dst_port == 465 or dst_port == 993 or dst_port == 995) and geoip(dst_ip) != 'CN'"
+    Mail: "dst_port in [465, 993, 995] and geoip(dst_ip) != 'CN'"
     bilibilishit: "any(['biliapi', 'bilibili'], host contains #) and any(['-live-tracker-', 'p2p', 'pcdn', 'stun'], host contains #)"
     douyushit: "(network == 'udp' or host contains 'p2p') and host contains 'douyu'"
-    quic: "network == 'udp' and dst_port == 443"
-    tailscale: "network == 'udp' and dst_port == 12345"
-    discord_UDP: "resolve_process_name() == 'Discord.exe' and network == 'udp'"
-    discord_TCP: "resolve_process_name() == 'Discord.exe' and network == 'tcp'"
-    Download_!=CN: "(resolve_process_name() == 'DownloadServer.exe' or resolve_process_name() == 'IDMan.exe') and geoip(dst_ip) != 'CN'"
+    quic: "network == 'udp' and dst_port in [443]"
+    tailscale: "network == 'udp' and dst_port in [12345]"
+    discord_UDP: "resolve_process_name() in ['Discord.exe'] and network == 'udp'"
+    discord_TCP: "resolve_process_name() in ['Discord.exe'] and network == 'tcp'"
+    Download_!=CN: "resolve_process_name() in ['DownloadServer.exe', 'IDMan.exe'] and geoip(dst_ip) != 'CN'"
 tun:
   enable: true
   stack: gvisor
