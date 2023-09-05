@@ -81,6 +81,10 @@ dns:
     - '+.local'
     - localhost.ptlogin2.qq.com
     - '+.nip.io'
+    ## Windows
+    - dns.msftncsi.com
+    - www.msftncsi.com
+    - www.msftconnecttest.com
     ## onetap
     - '+.onetap.su'
     - '+.onetap.com'
