@@ -22,7 +22,7 @@ SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 NEX`select`!!GROUPID=0!!.*(Asia|America|Europe|Oceania|Antarctica).*$
 CNIX`select`!!GROUPID=1!!.*(Asia|America|Europe|Oceania|Antarctica).*$
-FREE`select`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入)).*
+FREE`select`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入|备用|客服|禁止|网址|版本|狗狗)).*
 AutoHK 🇭🇰`fallback`[]NexHK 🇭🇰`[]CnixHK 🇭🇰`https://connectivitycheck.gstatic.com/generate_204`60,,20
 NexHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
 CnixHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`https://connectivitycheck.gstatic.com/generate_204`60,,20
