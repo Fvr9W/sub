@@ -80,11 +80,11 @@ DOMAIN,download.gg-cdn.com
 DOMAIN,download.calibre-ebook.com
 # 微软
 DOMAIN-SUFFIX,msecnd.net
-# 谷歌盘
+# Google Diver
 DOMAIN-SUFFIX,www.googleapis.com
 DOMAIN-KEYWORD,drive-data-export.googleusercontent.com
 DOMAIN-KEYWORD,docs.googleusercontent.com
-# Google store
+# Google Store
 DOMAIN-SUFFIX,services.googleapis.cn
 DOMAIN-SUFFIX,play.googleapis.com
 DOMAIN-SUFFIX,play-lh.googleusercontent.com
