@@ -81,8 +81,14 @@ DOMAIN,download.calibre-ebook.com
 # 微软
 DOMAIN-SUFFIX,msecnd.net
 # 谷歌盘
-DOMAIN-KEYWORD,drive-data-export.googleusercontent.com
 DOMAIN-SUFFIX,www.googleapis.com
+DOMAIN-KEYWORD,drive-data-export.googleusercontent.com
 DOMAIN-KEYWORD,docs.googleusercontent.com
+# Google store
+DOMAIN-SUFFIX,services.googleapis.cn
+DOMAIN-SUFFIX,play.googleapis.com
+DOMAIN-SUFFIX,play-lh.googleusercontent.com
+DOMAIN-SUFFIX,play-fe.googleapis.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 # notion
 DOMAIN-KEYWORD,release.notion-static.com
