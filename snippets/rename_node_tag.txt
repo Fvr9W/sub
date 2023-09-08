@@ -46,6 +46,7 @@
 !!GROUPID=2!!CA@加拿大
 !!GROUPID=2!!US@美国
 !!GROUPID=2!!UK@英国
+!!GROUPID=2!!NNC@英格兰
 !!GROUPID=2!!DE@德国
 !!GROUPID=2!!FR@法国
 !!GROUPID=2!!IN@印度
