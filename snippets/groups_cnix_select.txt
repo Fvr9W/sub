@@ -22,7 +22,7 @@ SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 CNIX`select`!!GROUPID=0!!^(?!.*?(过期|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*
 FREE`select`!!GROUPID=1!!^(?!.*?(关注|暂时|渠道|接入|备用|客服|禁止|网址|版本)).*
-AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#E).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`http://connectivitycheck.gstatic.com`60,,20
+AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(E|游戏)).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾 α.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 δ.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) α.*$`http://connectivitycheck.gstatic.com`60,,20
