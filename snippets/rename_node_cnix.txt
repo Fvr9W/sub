@@ -33,6 +33,7 @@
 !!GROUPID=1!!CA@加拿大
 !!GROUPID=1!!US@美国
 !!GROUPID=1!!UK@英国
+!!GROUPID=1!!NNC@英格兰
 !!GROUPID=1!!DE@德国
 !!GROUPID=1!!FR@法国
 !!GROUPID=1!!IN@印度
