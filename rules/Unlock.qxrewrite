@@ -1,7 +1,7 @@
-#!name = 合集破解会员
+#!name = 「合集」会员破解
 #!desc = 爱企查|百度文库|网盘|Clam|财新|彩云天气|Deezer|多邻国|丁香医生|Emby|Flightradar24|Grammarly|流利说|美颜相机|Nicegram|南方周末|牛津高阶词典第10版|PornHub|Photoshop|泼辣修图|泼辣|Pear|Qobuz|全能扫描王|Spotify|TIDAL|VSCO|WPS|喜马拉雅|用药助手|联通余量|
 #!homepage = https://github.com/Fvr9W/sub/edit/master/rules/Unlock.qxrewrite
-#!date = 2023-8-31 22:40:55
+#!date = 2023-9-8 20:57:27
 
 hostname = api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, www.qobuz.com, api.tidal.com, subscription.grammarly.com, auth.grammarly.com, cn.pornhubpremium.com, photos.adobe.io, lcs-mobile-cops.adobe.io, vsco.co, api.revenuecat.com, dxy.com, gateway.caixin.com, account.wps.cn, *account.wps.com, vira.llsapp.com, ap*.intsig.net, api.polarisoffice.com, mobwsa.ximalaya.com, m.ximalaya.com, hybrid.ximalaya.com, adse.ximalaya.com, api.infzm.com, spclient.wg.spotify.com, m.pearkin.com, mb3admin.com, api.account.meitu.com, api.meiyan.com, biz.cyapi.cn, wrapper.cyapi.cn, newdrugs.dxy.cn, api.polaxiong.com, oxfordx.cp.com.cn, mobile.flightradar24.com, restore-access.indream.app, appwk.baidu.com, pan.baidu.com, 10010v4.com
 
