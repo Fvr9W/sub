@@ -90,5 +90,7 @@ DOMAIN-SUFFIX,play.googleapis.com
 DOMAIN-SUFFIX,play-lh.googleusercontent.com
 DOMAIN-SUFFIX,play-fe.googleapis.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+# GitHub
+DOMAIN-SUFFIX,objects.githubusercontent.com
 # notion
 DOMAIN-KEYWORD,release.notion-static.com
