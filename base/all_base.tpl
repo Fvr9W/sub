@@ -182,7 +182,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-# 2023-9-8 17:19:53
+# date = 2023-9-8 17:19:53
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -244,8 +244,9 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Loon.plugin, policy = B1gProxy, enabled = true
 https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.loon.plugin, policy = B1gProxy, enabled = true
 # 解锁
-https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, enabled = true
+https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.plugin, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite/_end_/Unlock.plugin?type=qx-rewrite&target=loon-plugin, enabled = true
+https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, enabled = true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, enabled = true
 # 功能增强
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/1.1.1.1.plugin, enabled = false
