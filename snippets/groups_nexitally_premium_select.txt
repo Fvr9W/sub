@@ -20,9 +20,9 @@ GlobalGameDownload`select`[]Other Games`[]CnixHK 🇭🇰`[]NEX`[]CNIX`[]DIRECT
 PrivateTracker`select`[]DIRECT`[]FREE`[]Other Games`[]NEX`[]CNIX
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
-NEX`select`!!GROUPID=0!!.*Premium.*$`!!GROUPID=0!!^.*(Asia|America|Europe|Oceania|Antarctica).*$
-CNIX`select`!!GROUPID=1!!^.*(Asia|America|Europe|Oceania|Antarctica).*$
-FREE`select`!!GROUPID=2!!^.*(Asia|America|Europe|Oceania|Antarctica).*$
+NEX`select`!!GROUPID=0!!.*Premium.*$`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+CNIX`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+FREE`select`!!GROUPID=2!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 AutoHK 🇭🇰`fallback`[]AutoHK1 🇭🇰`[]AutoHK2 🇭🇰`https://connectivitycheck.gstatic.com/generate_204`60,,30
 AutoHK1 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Premium.*$`https://connectivitycheck.gstatic.com/generate_204`60,,30
 AutoHK2 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#P).*香港.*$`https://connectivitycheck.gstatic.com/generate_204`60,,30
