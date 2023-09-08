@@ -182,12 +182,13 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
+# 2023-8-24 01:36:51
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
 dns-server = 119.29.29.29, 223.5.5.5
 # DNS over HTTPS服务器，用,隔开多个服务器
-doh-server = https://223.5.5.5/resolve, https://sm2.doh.pub/dns-query
+# doh-server = https://223.5.5.5/resolve, https://sm2.doh.pub/dns-query
 # 是否开启局域网代理访问
 allow-wifi-access = false
 # 开启局域网访问后的 http 代理端口
@@ -239,11 +240,13 @@ ssid-trigger = "Ccccccc":DIRECT,"cellular":RULE,"default":RULE
 
 [Plugin]
 # 基础
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/BoxJS.plugin, policy = B1gProxy, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Sub-Store.plugin, policy = B1gProxy, enabled = true
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin, policy = B1gProxy, enabled = true
+https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Loon.plugin, policy = B1gProxy, enabled = true
+https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.loon.plugin, policy = B1gProxy, enabled = true
 # 解锁
 https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, enabled = true
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewriteqx, enabled = true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite/_end_/Unlock.plugin?type=qx-rewrite&target=loon-plugin, enabled = true
+https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, enabled = true
 # 功能增强
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/1.1.1.1.plugin, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Auto_Join_TF.plugin, policy = DIRECT, enabled = false
@@ -252,29 +255,31 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/BingAI.plugin, 
 https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.plugin, enabled = true
 https://raw.githubusercontent.com/BiliUniverse/Global/main/modules/BiliBili.Global.plugin, enabled = true
 https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.plugin, enabled = true
-https://raw.githubusercontent.com/DualSubs/YouTube/main/plugin/DualSubs.YouTube.feat.ADs.plugin, enabled = false
+https://raw.githubusercontent.com/DualSubs/YouTube/main/plugin/DualSubs.YouTube.feat.ADs.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Google.plugin, enabled = false
-https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = true
+https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin, enabled = false
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Fileball_mount.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/JD_Price.plugin, enabled = true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, enabled = true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/RemoteResourceConverter.plugin, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/RemoteResourceConverter.plugin, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Node_detection_tool.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/NodeLinkCheck.Plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/TestFlight.plugin, policy = DIRECT, enabled = true
-https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/WARP_Node_Query.plugin, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, enabled = true
-
 # 去广告
+http://script.hub/file/_start_/https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf/_end_/MyBlockAds.plugin?type=qx-rewrite&target=loon-plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Amap_remove_ads.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Baidu_input_method_remove_ads.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/BaiduNetDisk_remove_ads.plugin, enabled = true
+https://raw.githubusercontent.com/RuCu6/Loon/main/Plugins/bdmap.plugin, enabled = true
 https://raw.githubusercontent.com/BiliUniverse/ADBlock/main/modules/BiliBili.ADBlock.plugin, enabled = true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cnftp.snippet/_end_/cnftp.plugin?type=qx-rewrite&target=loon-plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Cainiao_remove_ads.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Daily_remove_ads.plugin, enabled = true
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/FanQieNovel.plugin, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Himalaya_remove_ads.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/IThome_remove_ads.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/NeteaseCloudMusic_remove_ads.plugin, enabled = true
@@ -286,15 +291,18 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Remove_ads_by_k
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Remove_splash_screen_ads.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/smzdm_remove_ads.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Tieba_remove_ads.plugin, enabled = true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/reddit/reddit.ad.sgmodule/_end_/reddit.plugin?type=surge-module&target=loon-plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/TubeMax_remove_ads.plugin, policy = B1gProxy, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Weibo_remove_ads.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/YouTube_remove_ads.plugin, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Zhihu_remove_ads.plugin, enabled = true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/zhihu.snippet/_end_/zhihu.plugin?type=qx-rewrite&target=loon-plugin, enabled = true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet/_end_/zheye.plugin?type=qx-rewrite&target=loon-plugin, enabled = true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Remix.snippet/_end_/Remix.plugin?type=qx-rewrite&target=loon-plugin, enabled = true
 # 签到
 https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.plugin, enabled = true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.lnplugin, enabled = true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf/_end_/GetCookie.plugin?type=qx-rewrite&target=loon-plugin, enabled = true
 
 [MITM]
 hostname = 
