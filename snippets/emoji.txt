@@ -37,7 +37,7 @@
 (芬兰|赫尔辛基|Finland|Helsinki),🇫🇮
 (斐济|富吉拉|Fiji|Suva),🇫🇯
 (?i:\bFR[A]?\b|France|Paris|法国|巴黎),🇫🇷
-(?i:\bUK\b|\bGB[R]?\b|England|United.*?Kingdom|London|英国|[^-]英|伦敦|考文垂|Coventry),🇬🇧
+(?i:\bUK\b|\bGB[R]?\b|England|英格兰|United.*?Kingdom|London|英国|[^-]英|伦敦|考文垂|Coventry|北安普顿),🇬🇧
 (格鲁吉亚|第比利斯|Georgia|Tbilisi),🇬🇪
 (希腊|雅典|Greece|Athens),🇬🇷
 (危地马拉|危地马拉城|Guatemala|Guatemala.*?City),🇬🇹
