@@ -20,9 +20,9 @@ GlobalGameDownload`select`[]CnixHK 🇭🇰`[]Other Games`[]DIRECT`[]NEX`[]CNIX
 PrivateTracker`select`[]DIRECT`[]FREE`[]Other Games`[]NEX`[]CNIX
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
-NEX`select`!!GROUPID=0!!.*(Asia|America|Europe|Oceania|Antarctica).*$
-CNIX`select`!!GROUPID=1!!.*(Asia|America|Europe|Oceania|Antarctica).*$
-FREE`select`!!GROUPID=2!!^(?!.*?(关注|暂时|渠道|接入|备用|客服|禁止|网址|版本|狗狗)).*
+NEX`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+CNIX`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+FREE`select`!!GROUPID=2!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 AutoHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*$`http://connectivitycheck.gstatic.com`60,,20
 CnixHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`!!GROUPID=1!!.*游戏 - 香港.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`http://connectivitycheck.gstatic.com`60,,20
