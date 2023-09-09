@@ -182,7 +182,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-# date = 2023-9-10 00:50:56
+# date = 2023-9-10 01:07:44
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -247,29 +247,30 @@ https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-
 https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.plugin, tag=「合集2」会员破解, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite/_end_/Unlock.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」会员破解, enabled = true
 https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, tag=「TikTok」解锁区域, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/TestFlight.plugin, tag=「TestFlight」解锁区域, policy = DIRECT, enabled = true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=「Spotify」解锁, enabled = true
 # 功能增强
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/1.1.1.1.plugin, enabled = false
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Auto_Join_TF.plugin, policy = DIRECT, enabled = false
-https://raw.githubusercontent.com/Keywos/rule/main/loon/Barkapps.plugin, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/BingAI.plugin, policy = Microsoft, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/1.1.1.1.plugin, tag=「1.1.1.1」配置管理, enabled = false
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Auto_Join_TF.plugin, policy = DIRECT, tag=「TestFlight」自动加入, enabled = false
+https://raw.githubusercontent.com/Keywos/rule/main/loon/Barkapps.plugin, tag=「Bark」增强, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/BingAI.plugin, policy = Microsoft, tag=「BingAI」解锁, enabled = true
 https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.plugin, tag=自定义「哔哩哔哩粉白」主界面, enabled = true
 https://raw.githubusercontent.com/BiliUniverse/Global/main/modules/BiliBili.Global.plugin, tag=自动化「哔哩哔哩粉白」线路及全区搜索, enabled = true
 https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.plugin, tag=「流媒体平台」字幕增强及双语模块, enabled = true
 https://raw.githubusercontent.com/DualSubs/YouTube/main/plugin/DualSubs.YouTube.feat.ADs.plugin, tag=「YouTube」字幕增强及双语模块, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Google.plugin, enabled = false
-https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin, enabled = false
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Google.plugin, tag=「Google」重定向, enabled = false
+https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin, tag=「HTTPDNS」禁止, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = false
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Fileball_mount.plugin, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东|淘宝」比价脚本, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Fileball_mount.plugin, tag=「Fileball」挂载增强, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东」比价脚本, enabled = true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, tag=自定义「定位服务」与「地图」功能, enabled = true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/RemoteResourceConverter.plugin, enabled = false
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Node_detection_tool.plugin, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/NodeLinkCheck.Plugin, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/TestFlight.plugin, policy = DIRECT, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/WARP_Node_Query.plugin, enabled = false
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/RemoteResourceConverter.plugin, tag=「远程资源」转换器, enabled = false
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Node_detection_tool.plugin, tag=「节点」检测, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/NodeLinkCheck.Plugin, tag=「代理链路」检测, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/WARP_Node_Query.plugin, tag=「WARP」节点查询, enabled = false
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, tag=「微信」外链增强, enabled = true
 # 去广告合集
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Remix.snippet/_end_/Remix.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」去广告, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf/_end_/MyBlockAds.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集2」去广告, enabled = true
@@ -290,7 +291,6 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/IThome_remove_a
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/NeteaseCloudMusic_remove_ads.plugin, tag=「网易云音乐」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/QiDian_remove_ads.plugin, tag=「起点」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/QQMusic_remove_ads.plugin, tag=「QQ音乐」去广告, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/RedPaper_remove_ads.plugin, tag=「小红书」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/smzdm_remove_ads.plugin, tag=「什么值得买」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Tieba_remove_ads.plugin, tag=「百度地图」去广告, enabled = true
@@ -449,7 +449,7 @@ static=FREE, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/T
 [rewrite_remote]
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag = BoxJS, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/QX.snippet, tag = SubStore, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/snippet/HTTPDNS.Block.snippet, tag = HTTPDNS, update-interval=172800, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/snippet/HTTPDNS.Block.snippet, tag=「HTTPDNS」禁止, update-interval=172800, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = 「TikTok」美区, update-interval=172800, opt-parser=false, enabled=true
 # VIP解锁
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=「合集1」VIP解锁, update-interval=86400, opt-parser=false, enabled=true
