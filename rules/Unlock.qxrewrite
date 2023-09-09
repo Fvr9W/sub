@@ -1,28 +1,28 @@
 #!name = 「合集」会员破解
-#!desc = 爱企查|百度文库|网盘|Clam|财新|彩云天气|Deezer|多邻国|丁香医生|Emby|Flightradar24|Grammarly|流利说|美颜相机|Nicegram|南方周末|牛津高阶词典第10版|PornHub|Photoshop|泼辣修图|泼辣|Pear|Qobuz|全能扫描王|Spotify|TIDAL|VSCO|WPS|喜马拉雅|用药助手|联通余量|
+#!desc = 爱企查|百度文库|网盘|Clam|财新|彩云天气|Deezer|多邻国|丁香医生|Emby|Flightradar24|Grammarly|流利说|美颜相机|Nicegram|南方周末|牛津高阶词典第10版|PornHub|Photoshop|泼辣修图|泼辣|Pear|Qobuz|全能扫描王|Spotify|TIDAL|VSCO|WPS|用药助手|联通余量
 #!homepage = https://github.com/Fvr9W/sub/edit/master/rules/Unlock.qxrewrite
 #!date = 2023-9-9 22:40:49
 
-hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.calm.com, media.deezer.com, ios-api-2.duolingo.cn, www.qobuz.com, api.tidal.com, subscription.grammarly.com, auth.grammarly.com, cn.pornhubpremium.com, photos.adobe.io, lcs-mobile-cops.adobe.io, vsco.co, api.revenuecat.com, dxy.com, gateway.caixin.com, account.wps.cn, *account.wps.com, vira.llsapp.com, ap*.intsig.net, api.polarisoffice.com, mobwsa.ximalaya.com, m.ximalaya.com, hybrid.ximalaya.com, adse.ximalaya.com, api.infzm.com, spclient.wg.spotify.com, m.pearkin.com, mb3admin.com, api.account.meitu.com, api.meiyan.com, biz.cyapi.cn, wrapper.cyapi.cn, newdrugs.dxy.cn, api.polaxiong.com, oxfordx.cp.com.cn, mobile.flightradar24.com, restore-access.indream.app, appwk.baidu.com, pan.baidu.com, 10010v4.com
+hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.calm.com, gateway.caixin.com, api.caiyunapp.com, biz.cyapi.cn, wrapper.cyapi.cn, media.deezer.com, ios-api-2.duolingo.cn, dxy.com, mb3admin.com, mobile.flightradar24.com, subscription.grammarly.com, auth.grammarly.com, vira.llsapp.com, api.account.meitu.com, api.meiyan.com, restore-access.indream.app, api.infzm.com, oxfordx.cp.com.cn, oxadmin.cp.com.cn, cn.pornhubpremium.com, lcs-mobile-cops.adobe.io, api.polarisoffice.com, m.pearkin.com, www.qobuz.com, ap*.intsig.net, spclient.wg.spotify.com, api.tidal.com, vsco.co, account.wps.cn, *account.wps.com, newdrugs.dxy.cn, 10010v4.com
 
 # ======= A ====== #
 # > 爱企查 解锁：VIP //aiqicha.baidu.com
 # > 仓库地址 https://github.com/litieyin/AD_VIP
-^https:\//aiqicha\.baidu\.com\/usercenter\/getvipinfoajax url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/aiqicha.js
+^https?:\/\/aiqicha\.baidu\.com\/usercenter\/getvipinfoajax url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/aiqicha.js
 
 # ======= B ====== #
 # > 百度文库解锁VIP文档阅读权限 //appwk.baidu.com
 # > 2023-08-08 21:00
-^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduLib.js
+^https?:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduLib.js
 # > 百度网盘画质倍速 //pan.baidu.com
 # > 2023-08-08 21:00
-^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js
+^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js
 
 # ======= C ====== #
 # > Clam 解锁：VIP //api.calm.com, www.calm.com
 # > 仓库地址 https://github.com/langkhach270389
-^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
-^https:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
+^https?:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
+^https?:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
 
 # > 财新会员 //gateway.caixin.com
 # > 解锁：财新文章阅读与音频限制
@@ -32,9 +32,9 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 # > 彩云天气 //biz.cyapi.cn, wrapper.cyapi.cn
 # > 2023-08-08 21:00
 # > 仓库地址 https://github.com/RuCu6
-^https:\/\/api\.caiyunapp\.com\/v1\/activity\? url reject-dict
-^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
-^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\? url reject-dict
+^https?:\/\/api\.caiyunapp\.com\/v1\/activity\? url reject-dict
+^https?:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
+^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity\? url reject-dict
 
 # ======= D ====== #
 # > Deezer 解锁：Hi-Fi
@@ -47,12 +47,12 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 
 # > 丁香医生 解锁：VIP //dxy.com
 # > 仓库地址 https://github.com/litieyin/AD_VIP
-^https:\//dxy.com\/app\/i\/user\/ask\/account\?ac url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/dxys.js
+^https?:\//dxy.com\/app\/i\/user\/ask\/account\?ac url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/dxys.js
 
 # ======= E ====== #
 # > Emby 解锁播放权限
 # > 仓库地址 https://github.com/qiangxinglin/Emby
-^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/qiangxinglin/Emby/main/scripts/emby.js
+^https?:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/qiangxinglin/Emby/main/scripts/emby.js
 
 # ======= F ====== #
 # > Flightradar24
@@ -94,11 +94,11 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 # > 牛津高阶词典第10版
 # > 2023-8-10 17:33:51
 # > 仓库地址 https://github.com/Yu9191
-^https:\/\/oxfordx\.cp\.com\.cn\/api\/pay\/apple_notify url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/niujin10.js
+^https?:\/\/oxfordx\.cp\.com\.cn\/api\/pay\/apple_notify url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/niujin10.js
 #去除首页下方广告
-^https:\/\/oxadmin\.cp\.com\.cn\/api\/hot\/index url reject-dict
+^https?:\/\/oxadmin\.cp\.com\.cn\/api\/hot\/index url reject-dict
 #去除首页下方广告
-^https:\/\/oxadmin\.cp\.com\.cn\/api\/advertise\/banner url reject-dict
+^https?:\/\/oxadmin\.cp\.com\.cn\/api\/advertise\/banner url reject-dict
 
 # ======= O ====== #
 # ======= P ====== #
@@ -108,7 +108,7 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 
 # > Photoshop 解锁：Express
 # > 仓库地址 https://github.com/litieyin/AD_VIP
-^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/photoshop.js
+^https?:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/photoshop.js
 
 # > 泼辣修图 解锁：订阅
 # > 仓库地址 https://github.com/yqc007/QuantumultX
@@ -121,7 +121,7 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 
 # > Pear 雪梨
 # > 仓库地址 https://github.com/
-^https:\/\/m\.pearkin\.com\/(api\/Movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail) url script-response-body https://raw.githubusercontent.com/Fvr9W/sub/master/rules/pear.js
+^https?:\/\/m\.pearkin\.com\/(api\/Movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail) url script-response-body https://raw.githubusercontent.com/Fvr9W/sub/master/rules/pear.js
 
 
 # ======= Q ====== #
@@ -131,7 +131,7 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 
 # > 全能扫描王 解锁：部分高级特权
 # > 仓库地址 https://github.com/NobyDa/Script
-^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
+^https?:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
 
 # ======= R ====== #
 # ======= S ====== #
@@ -140,8 +140,8 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 # > 2023.6.13
 # > 仓库地址 https://github.com/app2smile/rules
 # > 功能: 1.去除播放广告 2.歌手/专辑列表正常展示 3.去除随机播放
-^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
-^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
+^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+^https?:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 
 # ======= T ====== #
 # > TIDAL 解锁：Hi-Fi Plus
@@ -161,31 +161,6 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
 
 # ======= X ====== #
-# > 喜马拉雅 解锁：VIP
-# > 仓库地址 https://github.com/litieyin/AD_VIP
-#^https:\//mobwsa.ximalaya.com\/mobile-user\/v1\/homePage url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/homepage.js
-#^https:\//m.ximalaya.com\/business-vip-presale-core-web\/product\/info url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/vip.js
-#^http:\//m.ximalaya.com\/vip\/check\/user url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/vipcheck.js
-#^http:\//mwsa.ximalaya.com\/vip\/check\/user url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/vipcheck.js
-#^https:\//mobwsa.ximalaya.com\/vip\/v1\/recommand\/ts url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/ts.js
-#^https:\//m.ximalaya.com\/business-vip-level-h5-web\/api\/profile url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/profile.js
-#^http:\//hybrid.ximalaya.com\/web-activity\/task\/taskRecords url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/task.js
-#^http:\//hybrid.ximalaya.com\/hybrid\/api\/newUserWelfare\/participateInfo url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/xmly/part.js
-^https:\/\/adse.+.com\/[a-z]{4}\/loading\?appid= url reject
-^https:\/\/adse.ximalaya.com\/ting\/feed\?appid= url reject
-^https:\/\/adse.ximalaya.com\/ting\/loading\?appid= url reject
-^https:\/\/adse.ximalaya.com\/ting\?appid= url reject
-^https:\/\/fdfs.xmcdn.com\/group21\/M03\/E7\/3F\/ url reject
-^https:\/\/fdfs.xmcdn.com\/group21\/M0A\/95\/3B\/ url reject
-^https:\/\/fdfs.xmcdn.com\/group22\/M00\/92\/FF\/ url reject
-^https:\/\/fdfs.xmcdn.com\/group22\/M05\/66\/67\/ url reject
-^https:\/\/fdfs.xmcdn.com\/group22\/M07\/76\/54\/ url reject
-^https:\/\/fdfs.xmcdn.com\/group23\/M01\/63\/F1\/ url reject
-^https:\/\/fdfs.xmcdn.com\/group23\/M04\/E5\/F6\/ url reject
-^https:\/\/fdfs.xmcdn.com\/group23\/M07\/81\/F6\/ url reject
-^https:\/\/fdfs.xmcdn.com\/group23\/M0A\/75\/AA\/ url reject
-^https:\/\/fdfs.xmcdn.com\/group24\/M03\/E6\/09\/ url reject
-^https:\/\/fdfs.xmcdn.com\/group24\/M07\/C4\/3D\/ url reject
 
 # ======= Y ====== #
 # > 用药助手
@@ -198,4 +173,4 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 # > 联通余量
 # > 2023-8-31 22:39:52
 # > https://github.com/ChinaTelecomOperators/ChinaUnicom
-https?:\/\/10010v4\.com url script-analyze-echo-response https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js
+^https?:\/\/10010v4\.com url script-analyze-echo-response https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js
