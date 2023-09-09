@@ -9,8 +9,8 @@ Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]Au
 Netflix`select`[]CnixHK 🇭🇰`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 GlobalMedia`select`[]CnixHK 🇭🇰`[]AutoHK 🇭🇰`[]CnixNA 🇺🇲`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]NEX`[]CNIX`[]FREE`[]DIRECT
 Microsoft`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]NEX`[]CNIX`[]FREE`[]DIRECT
-SteamChina`select`[]DIRECT`[]B1gProxy`[]SteamGlobal`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
-SteamGlobal`select`[]B1gProxy`[]DIRECT`[]SteamChina`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
+SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
+SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
 Blizzard`select`[]Other Games`[]NEX`[]CNIX`[]DIRECT
 PlayStation`select`[]Other Games`[]NEX`[]CNIX`[]DIRECT
 Riot`select`[]Other Games`[]NEX`[]CNIX`[]DIRECT
