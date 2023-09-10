@@ -40,7 +40,7 @@ AutoSG1 🇸🇬`url-test`!!GROUPID=0!!.*新加坡.*Premium.*$`http://connectivi
 AutoSG2 🇸🇬`url-test`!!GROUPID=0!!^(?!.*?#P).*新加坡.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`http://connectivitycheck.gstatic.com`60,,30
-AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*Europe.*$`http://connectivitycheck.gstatic.com`60,,30
+AutoEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*Europe.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大).*$`http://connectivitycheck.gstatic.com`60,,30
 AutoNA 🇺🇲`fallback`[]AutoNA1 🇺🇲`[]AutoNA2 🇺🇲`http://connectivitycheck.gstatic.com`60,,30
 AutoNA1 🇺🇲`url-test`!!GROUPID=0!!.*(硅谷|西雅图|美国).*Premium.*$`http://connectivitycheck.gstatic.com`60,,30
