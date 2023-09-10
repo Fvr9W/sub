@@ -22,13 +22,13 @@ SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 CNIX`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
-AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(E|游戏)).*香港 α.*$`!!GROUPID=0!!.*香港 ι #E.*$`!!GROUPID=0!!.*游戏 - 香港.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾 α.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 δ.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) α.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoSG 🇸🇬`url-test`!!GROUPID=0!!.*新加坡 α.*$`http://connectivitycheck.gstatic.com`60,,20
+AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(E|游戏)).*香港 α.*$`!!GROUPID=0!!.*香港 ϵ #E.*$`!!GROUPID=0!!^(?!.*?α)游戏 - 香港.*$`http://connectivitycheck.gstatic.com`60,,20
+AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾 ϵ.*$`http://connectivitycheck.gstatic.com`60,,20
+AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 ϵ.*$`http://connectivitycheck.gstatic.com`60,,20
+AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) ϵ.*$`http://connectivitycheck.gstatic.com`60,,20
+AutoSG 🇸🇬`url-test`!!GROUPID=0!!.*新加坡 (β|ϵ|δ|γ|α).*$`http://connectivitycheck.gstatic.com`60,,20
 AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*(悉尼|澳大利亚) (α|β).*$`http://connectivitycheck.gstatic.com`60,,30
-AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*俄罗斯 (α|β).*$`http://connectivitycheck.gstatic.com`60,,30
-AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*(法国|伦敦|德国) α.*$`http://connectivitycheck.gstatic.com`60,,30
-AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大) (α|β).*$`http://connectivitycheck.gstatic.com`60,,30
-AutoNA 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?α).*高级 - 美国.*$`http://connectivitycheck.gstatic.com`60,,30
+AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*俄罗斯 ϵ.*$`http://connectivitycheck.gstatic.com`60,,30
+AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*(法国|伦敦|德国) ϵ.*$`http://connectivitycheck.gstatic.com`60,,30
+AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大) ϵ.*$`http://connectivitycheck.gstatic.com`60,,30
+AutoNA 🇺🇲`url-test`!!GROUPID=0!!.*高级 - 美国 (ϵ|γ|β).*$`http://connectivitycheck.gstatic.com`60,,30
