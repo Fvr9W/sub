@@ -31,6 +31,6 @@ AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) (ϵ|γ|μ).*$`!!G
 AutoSG 🇸🇬`url-test`!!GROUPID=0!!^(?!.*?Legacy).*新加坡 (α|β|γ|δ|ϵ).*$`http://connectivitycheck.gstatic.com`60,,20
 AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*俄罗斯 ϵ.*$`http://connectivitycheck.gstatic.com`60,,30
-AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*ϵ.*Europe.*$`http://connectivitycheck.gstatic.com`60,,30
+AutoEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*ϵ.*Europe.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大) (ϵ|δ).*$`http://connectivitycheck.gstatic.com`60,,30
 AutoNA 🇺🇲`url-test`!!GROUPID=0!!.*高级 - 美国 (ϵ|γ|β).*$`http://connectivitycheck.gstatic.com`60,,30
