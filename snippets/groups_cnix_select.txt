@@ -28,7 +28,7 @@ AutoHK2 🇭🇰`url-test`!!GROUPID=0!!.*游戏 - 香港 (β|γ|δ|ϵ|ζ).*$`htt
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*宜兰 - 台湾 (ϵ|θ) #E.*$`!!GROUPID=0!!.*桃园 - 台湾 κ #C.*$`!!GROUPID=0!!(?!.*?(E|C)).*台湾.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 ϵ.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) (ϵ|γ|μ).*$`!!GROUPID=0!!.*日本.*MPLS.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoSG 🇸🇬`url-test`!!GROUPID=0!!^(?!.*?(L)).*新加坡 (α|β|γ|δ|ϵ).*$`http://connectivitycheck.gstatic.com`60,,20
+AutoSG 🇸🇬`url-test`!!GROUPID=0!!^(?!.*?Legacy).*新加坡 (α|β|γ|δ|ϵ).*$`http://connectivitycheck.gstatic.com`60,,20
 AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*俄罗斯 ϵ.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoEU 🇪🇺`url-test`!!GROUPID=0!!.*ϵ.*Europe.*$`http://connectivitycheck.gstatic.com`60,,30
