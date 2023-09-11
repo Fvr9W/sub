@@ -1,4 +1,4 @@
-Premium`fallback`!!GROUPID=0!!.*香港 γ.*$`!!GROUPID=0!!.*香港 (λ|ι).*$`!!GROUPID=1!!^(?!.*?#E).*香港 α.*$`!!GROUPID=1!!.*香港 ι #E.*$`!!GROUPID=1!!.*游戏 - 香港.*$`http://connectivitycheck.gstatic.com`60,,20
+Premium`fallback`!!GROUPID=0!!.*香港 γ.*$`!!GROUPID=0!!.*香港 (λ|ι).*$`!!GROUPID=1!!^(?!.*?Yae).*香港 ϵ.*$`!!GROUPID=1!!.*香港 θ #C #(HGC|IPLC)`!!GROUPID=1!!.*香港 (β|κ) #C #IEPL`!!GROUPID=1!!.*香港 (σ|υ) #E #IEPL`!!GROUPID=1!!.*香港.*Yae.*$`http://connectivitycheck.gstatic.com`60,,20
 Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]NEX`[]CNIX`[]FREE`[]DIRECT
 B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]CnixHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]NEX`[]CNIX`[]FREE`[]DIRECT
 Hax`select`[]AutoNA 🇺🇲`[]CnixNA 🇺🇲`[]B1gProxy`[]Other Games`[]DIRECT
