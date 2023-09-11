@@ -80,6 +80,8 @@ DOMAIN,download.gg-cdn.com
 DOMAIN,download.calibre-ebook.com
 # 微软
 DOMAIN-SUFFIX,msecnd.net
+# 微软应用商店
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
 # Google Diver
 DOMAIN-SUFFIX,www.googleapis.com
 DOMAIN-KEYWORD,drive-data-export.googleusercontent.com
