@@ -22,13 +22,13 @@ SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 CNIX`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
-AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?Yae).*香港 ϵ.*$`!!GROUPID=0!!.*香港 θ #C #(HGC|IPLC)`!!GROUPID=0!!.*香港 (β|κ) #C #IEPL`!!GROUPID=0!!.*香港 (σ|υ) #E #IEPL`!!GROUPID=0!!.*香港.*Yae.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*宜兰 - 台湾 (ϵ|θ) #E.*$`!!GROUPID=0!!.*桃园 - 台湾 (ϵ|κ) #C.*$`!!GROUPID=0!!(?!.*?(E|C)).*台湾.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 ϵ.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) (ϵ|γ|μ).*$`!!GROUPID=0!!.*日本.*MPLS.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoSG 🇸🇬`url-test`!!GROUPID=0!!^(?!.*?(Legacy|高级)).*新加坡.*$`http://connectivitycheck.gstatic.com`60,,20
-AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`http://connectivitycheck.gstatic.com`60,,30
-AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*俄罗斯 (β|ϵ).*$`http://connectivitycheck.gstatic.com`60,,30
-AutoEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*ϵ.*Europe.*$`http://connectivitycheck.gstatic.com`60,,30
-AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大) (ϵ|δ).*$`http://connectivitycheck.gstatic.com`60,,30
-AutoNA 🇺🇲`url-test`!!GROUPID=0!!.*高级 - 美国 (ϵ|γ|β).*$`http://connectivitycheck.gstatic.com`60,,30
+AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?Yae).*香港 ϵ.*$`!!GROUPID=0!!.*香港 θ #C #(HGC|IPLC)`!!GROUPID=0!!.*香港 (β|κ) #C #IEPL`!!GROUPID=0!!.*香港 (σ|υ) #E #IEPL`!!GROUPID=0!!.*香港.*Yae.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*宜兰 - 台湾 (ϵ|θ) #E.*$`!!GROUPID=0!!.*桃园 - 台湾 (ϵ|κ) #C.*$`!!GROUPID=0!!(?!.*?(E|C)).*台湾.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 ϵ.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) (ϵ|γ|μ).*$`!!GROUPID=0!!.*日本.*MPLS.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+AutoSG 🇸🇬`url-test`!!GROUPID=0!!^(?!.*?(Legacy|高级)).*新加坡.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*俄罗斯 (β|ϵ).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+AutoEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*ϵ.*Europe.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大) (ϵ|δ).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+AutoNA 🇺🇲`url-test`!!GROUPID=0!!.*高级 - 美国 (ϵ|γ|β).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
