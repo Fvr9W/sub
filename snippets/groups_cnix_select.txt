@@ -23,8 +23,8 @@ Hijacking`select`[]REJECT`[]DIRECT
 CNIX`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 AutoHK 🇭🇰`fallback`[]AutoHK1 🇭🇰`[]AutoHK2 🇭🇰`http://connectivitycheck.gstatic.com`60,,30
-AutoHK1 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?游戏).*香港 ϵ.*$`!!GROUPID=0!!.*香港 θ #C #(HGC|IPLC)`!!GROUPID=0!!.*香港 (β|κ) #C #IEPL`!!GROUPID=0!!.*香港 (σ|υ) #E #IEPL`http://connectivitycheck.gstatic.com`60,,20
-AutoHK2 🇭🇰`url-test`!!GROUPID=0!!.*游戏 - 香港 (β|γ|δ|ϵ|ζ).*$`http://connectivitycheck.gstatic.com`60,,20
+AutoHK1 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?Yae).*香港 ϵ.*$`!!GROUPID=0!!.*香港 θ #C #(HGC|IPLC)`!!GROUPID=0!!.*香港 (β|κ) #C #IEPL`!!GROUPID=0!!.*香港 (σ|υ) #E #IEPL`http://connectivitycheck.gstatic.com`60,,20
+AutoHK2 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Yae.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*宜兰 - 台湾 (ϵ|θ) #E.*$`!!GROUPID=0!!.*桃园 - 台湾 (ϵ|κ) #C.*$`!!GROUPID=0!!(?!.*?(E|C)).*台湾.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国 ϵ.*$`http://connectivitycheck.gstatic.com`60,,20
 AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪) (ϵ|γ|μ).*$`!!GROUPID=0!!.*日本.*MPLS.*$`http://connectivitycheck.gstatic.com`60,,20
