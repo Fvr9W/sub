@@ -9,6 +9,7 @@ OVH SAS@OVH
 PRIME-SEC@PRIME
 Shanghai Huajuan Information Technology Co., Ltd.@Huajuan
 Yae Telecom Limited@Yae
+SONDATECH S.A.S.@SONDATECH
 
 !!GROUPID=1!!NL@荷兰
 !!GROUPID=1!!HK@香港
