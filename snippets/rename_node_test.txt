@@ -1,5 +1,5 @@
 # 0 是薯条 1 是 SCP
-!!GROUPID=0!!.*Blades ([0-9]{1})@游戏 - 香港 0$1
+!!GROUPID=0!!.*Blades ([0-9]{1})@香港 0$1 #Yae
 !!GROUPID=0!! [0-9]{1}$@
 !!GROUPID=0!!集客.*香港.*([A-Z]).*([0-9]{2}).*@上海 - 香港 VPLS Equinix $1$2
 !!GROUPID=0!!ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC.*([A-Z]).*([0-9]{2}).*@上海 - 香港 PVCC Equinix $1$2
