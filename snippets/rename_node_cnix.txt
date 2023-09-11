@@ -1,4 +1,26 @@
 # 0 是薯条 1 是 SCP
+AMAZON-02@AMAZON
+Civo LTD@Civo
+Comnet Bilgi Iletisim Teknolojileri Ticaret A.s.@CBIT  
+Data Communication Business Group@DCBG
+DIGITALOCEAN-ASN@DIGITALOCEAN
+EIVUS DATA CENTER E TELECOM@EIVUS
+G-Core Labs S.A.@G-Core
+GRUPO ZGH SPA@GRUPO
+HK Cable TV Ltd@HKCT
+JINX CO., LIMITED@JINX
+Kamatera Inc@Kamatera
+Kirino LLC@Kirino
+LLC Baxet@LLC
+MIKU NETWORK LIMITED@MIKU
+OVH SAS@OVH
+PRIME-SEC@PRIME
+Private Layer INC@Private
+Shanghai Huajuan Information Technology Co., Ltd.@Huajuan
+SONDATECH S.A.S.@SONDATECH
+Yae Telecom Limited@Yae
+ZEN-ECN@ZEN
+
 !!GROUPID=0!!.*Blades ([0-9]{1})@香港 0$1 #Yae
 !!GROUPID=0!! [0-9]{1}$@
 !!GROUPID=0!!集客.*香港.*([A-Z]).*([0-9]{2}).*@上海 - 香港 VPLS Equinix $1$2
