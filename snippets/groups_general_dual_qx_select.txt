@@ -1,45 +1,45 @@
 Premium`fallback`!!GROUPID=0!!.*香港.*$`!!GROUPID=0!!.*日本.*$`!!GROUPID=1!!.*香港.*$`http://connectivitycheck.gstatic.com`60,,20
-Other Games`select`[]B1gProxy`[]NexHK 🇭🇰`[]CnixHK 🇭🇰`[]NexTW 🇨🇳`[]NexKR 🇰🇷`[]NexJP 🇯🇵`[]NexSG 🇸🇬`[]NexEU 🇪🇺`[]NexNA 🇺🇲`[]NEX`[]CNIX`[]FREE`[]DIRECT
-B1gProxy`select`[]Premium`[]NexHK 🇭🇰`[]CnixHK 🇭🇰`[]NexTW 🇨🇳`[]NexKR 🇰🇷`[]NexJP 🇯🇵`[]NexSG 🇸🇬`[]NexEU 🇪🇺`[]NexNA 🇺🇲`[]NEX`[]CNIX`[]FREE`[]DIRECT
-Hax`select`[]NexNA 🇺🇲`[]B1gProxy`[]Other Games`[]DIRECT
-Trading`select`[]B1gProxy`[]Other Games`[]NexHK 🇭🇰`[]CnixHK 🇭🇰`[]NexTW 🇨🇳`[]NexKR 🇰🇷`[]NexJP 🇯🇵`[]NexSG 🇸🇬`[]NexEU 🇪🇺`[]NexNA 🇺🇲`[]DIRECT
-Discord`select`[]B1gProxy`[]Other Games`[]NexHK 🇭🇰`[]CnixHK 🇭🇰`[]NexTW 🇨🇳`[]NexKR 🇰🇷`[]NexJP 🇯🇵`[]NexSG 🇸🇬`[]NexEU 🇪🇺`[]NexNA 🇺🇲`[]DIRECT
-Telegram`select`[]CnixHK 🇭🇰`[]NexHK 🇭🇰`[]NexSG 🇸🇬`[]NexNA 🇺🇲`[]B1gProxy
-Spotify`select`[]B1gProxy`[]Other Games`[]NexHK 🇭🇰`[]CnixHK 🇭🇰`[]NexTW 🇨🇳`[]NexKR 🇰🇷`[]NexJP 🇯🇵`[]NexSG 🇸🇬`[]NexEU 🇪🇺`[]NexNA 🇺🇲`[]DIRECT
-Netflix`select`[]CnixHK 🇭🇰`[]B1gProxy`[]Other Games`[]NexHK 🇭🇰`[]NexTW 🇨🇳`[]NexKR 🇰🇷`[]NexJP 🇯🇵`[]NexSG 🇸🇬`[]NexEU 🇪🇺`[]NexNA 🇺🇲`[]DIRECT
-GlobalMedia`select`[]CnixHK 🇭🇰`[]NexHK 🇭🇰`[]CnixNA 🇺🇲`[]NexNA 🇺🇲`[]B1gProxy`[]Other Games`[]NEX`[]CNIX`[]FREE`[]DIRECT
-Microsoft`select`[]NexNA 🇺🇲`[]B1gProxy`[]Other Games`[]NEX`[]CNIX`[]FREE`[]DIRECT
+Other Games`select`[]B1gProxy`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT
+B1gProxy`select`[]Premium`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT
+Hax`select`[]MajorNA 🇺🇲`[]B1gProxy`[]Other Games`[]DIRECT
+Trading`select`[]B1gProxy`[]Other Games`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]DIRECT
+Discord`select`[]B1gProxy`[]Other Games`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]DIRECT
+Telegram`select`[]MinorHK 🇭🇰`[]MajorHK 🇭🇰`[]MajorSG 🇸🇬`[]MajorNA 🇺🇲`[]B1gProxy
+Spotify`select`[]B1gProxy`[]Other Games`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]DIRECT
+Netflix`select`[]MinorHK 🇭🇰`[]B1gProxy`[]Other Games`[]MajorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]DIRECT
+GlobalMedia`select`[]MinorHK 🇭🇰`[]MajorHK 🇭🇰`[]MinorNA 🇺🇲`[]MajorNA 🇺🇲`[]B1gProxy`[]Other Games`[]Major`[]Minor`[]FREE`[]DIRECT
+Microsoft`select`[]MajorNA 🇺🇲`[]B1gProxy`[]Other Games`[]Major`[]Minor`[]FREE`[]DIRECT
 SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
 SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
-Blizzard`select`[]Other Games`[]NEX`[]CNIX`[]DIRECT
-PlayStation`select`[]Other Games`[]NEX`[]CNIX`[]DIRECT
-Riot`select`[]Other Games`[]NEX`[]CNIX`[]DIRECT
-Rockstar`select`[]Other Games`[]NEX`[]CNIX`[]DIRECT
-Ubisoft`select`[]Other Games`[]NEX`[]CNIX`[]DIRECT
-GlobalGameDownload`select`[]CnixHK 🇭🇰`[]Other Games`[]DIRECT`[]NEX`[]CNIX
-PrivateTracker`select`[]DIRECT`[]FREE`[]Other Games`[]NEX`[]CNIX
+Blizzard`select`[]Other Games`[]Major`[]Minor`[]DIRECT
+PlayStation`select`[]Other Games`[]Major`[]Minor`[]DIRECT
+Riot`select`[]Other Games`[]Major`[]Minor`[]DIRECT
+Rockstar`select`[]Other Games`[]Major`[]Minor`[]DIRECT
+Ubisoft`select`[]Other Games`[]Major`[]Minor`[]DIRECT
+GlobalGameDownload`select`[]MinorHK 🇭🇰`[]Other Games`[]DIRECT`[]Major`[]Minor
+PrivateTracker`select`[]DIRECT`[]FREE`[]Other Games`[]Major`[]Minor
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
-NEX`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
-CNIX`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+Major`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+Minor`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`!!GROUPID=2!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
-NexHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-CnixHK 🇭🇰`url-test`!!GROUPID=1!!.*香港.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-NexTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-CnixTW 🇨🇳`url-test`!!GROUPID=1!!.*台湾.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-NexKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-CnixKR 🇰🇷`url-test`!!GROUPID=1!!.*韩国.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-NexJP 🇯🇵`url-test`!!GROUPID=0!!.*日本.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-CnixJP 🇯🇵`url-test`!!GROUPID=1!!.*(日本|东京|大阪).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-NexSG 🇸🇬`url-test`!!GROUPID=0!!.*新加坡.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-CnixSG 🇸🇬`url-test`!!GROUPID=1!!.*新加坡.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-NexAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-CnixAU 🇦🇺`url-test`!!GROUPID=1!!.*Oceania.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-NexRU 🇷🇺`url-test`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
-CnixRU 🇷🇺`url-test`!!GROUPID=1!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
-NexEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*Europe.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
-CnixEU 🇪🇺`url-test`!!GROUPID=1!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*Europe.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
-NexCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
-CnixCA 🇨🇦`url-test`!!GROUPID=1!!.*(多伦多|加拿大).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
-NexNA 🇺🇲`url-test`!!GROUPID=0!!.*(硅谷|西雅图|美国).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
-CnixNA 🇺🇲`url-test`!!GROUPID=1!!.*美国.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+MajorHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MinorHK 🇭🇰`url-test`!!GROUPID=1!!.*香港.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MajorTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MinorTW 🇨🇳`url-test`!!GROUPID=1!!.*台湾.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MajorKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MinorKR 🇰🇷`url-test`!!GROUPID=1!!.*韩国.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MajorJP 🇯🇵`url-test`!!GROUPID=0!!.*日本.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MinorJP 🇯🇵`url-test`!!GROUPID=1!!.*(日本|东京|大阪).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MajorSG 🇸🇬`url-test`!!GROUPID=0!!.*新加坡.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MinorSG 🇸🇬`url-test`!!GROUPID=1!!.*新加坡.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MajorAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MinorAU 🇦🇺`url-test`!!GROUPID=1!!.*Oceania.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+MajorRU 🇷🇺`url-test`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+MinorRU 🇷🇺`url-test`!!GROUPID=1!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+MajorEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*Europe.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+MinorEU 🇪🇺`url-test`!!GROUPID=1!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*Europe.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+MajorCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+MinorCA 🇨🇦`url-test`!!GROUPID=1!!.*(多伦多|加拿大).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+MajorNA 🇺🇲`url-test`!!GROUPID=0!!.*(硅谷|西雅图|美国).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
+MinorNA 🇺🇲`url-test`!!GROUPID=1!!.*美国.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
