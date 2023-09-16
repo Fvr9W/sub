@@ -1,5 +1,5 @@
 #!name = 「合集」去广告
-#!desc = 来电|搜电充电|街电|小电充电|怪兽充电|完美世界电竞|同花顺|同程旅行|雪球|得物|顺丰速运|货拉拉|哈啰|EMS|极兔快递|曹操出行|闪送|神州租车|微快递|丰巢达达快送|申通快递|滴滴出行|滴滴打车|悠洗APP|中通|乘车码|快递100|大众点评|T3 出行|粉笔|米家|星途|携程|招商银行|中国银行|中国联通|中国电信
+#!desc = 来电|搜电充电|街电|小电充电|怪兽充电|完美世界电竞|同花顺|同程旅行|雪球|得物|顺丰速运|货拉拉|哈啰|EMS|极兔快递|曹操出行|闪送|神州租车|微快递|丰巢达达快送|申通快递|滴滴出行|滴滴打车|悠洗APP|中通|乘车码|快递100|大众点评|T3 出行|粉笔|米家|星途|携程|招商银行|中国银行|中国联通|中国电信|掌上生活
 #!homepage = https://github.com/Fvr9W/sub/edit/master/rules/Remix.snippet
 #!date = 2023-9-8 18:14:52
 
@@ -138,6 +138,12 @@
 # 首页横幅广告
 ^https:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic url reject-dict
 
+# 招行掌上生活 (需卸载重装)
+# 开屏广告 az1mbasecc.bas.cmbchina.com
+^https?:\/\/az1mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec url reject
+# 设置栏目内广告 intellicc.bas.cmbchina.com
+^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec url reject
+
 # > 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg url reject-200
 # > 中国银行 缤纷生活
@@ -156,5 +162,5 @@
 ^https?:\/\/cloud\.189\.cn\/include\/splash\/ url reject
 ^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation url reject-img
 
-hostname = mobile-api.imlaidian.com, wxs-weixin.sd.zhumanggroup.com, s.jiediankeji.com, smarket.dian.so, file.dian.so, aag.enmonster.com, api.wmpvp.com, stat.10jqka.com.cn, wx.17u.cn, 101.201.175.228, app.dewu.com, ucmp.sf-express.com, app.chinahxzq.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, api.hellobike.coming, ump.ems.com.cn, applets.jtexpress.com.cn, minicap.caocaokeji.cn, miniprogram.ishansong.com, ads.ishansong.com, apiproxy.zuche.com, api.kuaidihelp.com, webchatapp.fcbox.com, dsp.fcbox.com, supplier-api.imdada.cn, customer-app.sto.cn, sto-customer-app.oss-cn-shanghai.aliyuncs.com, common.diditaxi.com.cn, api.ulife.group, hdgateway.zto.com, ccmsupport-sz.tenpay.com, cdn.kuaidi100.com, p.kuaidi100.com, img.meituan.net, passenger.t3go.cn, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, mbs.boc.cn, mlife.jf365.boc.cn, m.client.10010.com, m1.ad.10010.com, res.mall.10010.cn, cloud.189.cn, zt-app.go189.cn, xqimg.imedao.com, cdn.poizon.com, adm.10jqka.com.cn, iphone.ac.qq.com, home.mi.com, tiku.fenbi.com, m.ctrip.com
+hostname = mobile-api.imlaidian.com, wxs-weixin.sd.zhumanggroup.com, s.jiediankeji.com, smarket.dian.so, file.dian.so, aag.enmonster.com, api.wmpvp.com, stat.10jqka.com.cn, wx.17u.cn, 101.201.175.228, app.dewu.com, ucmp.sf-express.com, app.chinahxzq.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, api.hellobike.coming, ump.ems.com.cn, applets.jtexpress.com.cn, minicap.caocaokeji.cn, miniprogram.ishansong.com, ads.ishansong.com, apiproxy.zuche.com, api.kuaidihelp.com, webchatapp.fcbox.com, dsp.fcbox.com, supplier-api.imdada.cn, customer-app.sto.cn, sto-customer-app.oss-cn-shanghai.aliyuncs.com, common.diditaxi.com.cn, api.ulife.group, hdgateway.zto.com, ccmsupport-sz.tenpay.com, cdn.kuaidi100.com, p.kuaidi100.com, img.meituan.net, passenger.t3go.cn, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, mbs.boc.cn, mlife.jf365.boc.cn, m.client.10010.com, m1.ad.10010.com, res.mall.10010.cn, cloud.189.cn, zt-app.go189.cn, xqimg.imedao.com, cdn.poizon.com, adm.10jqka.com.cn, iphone.ac.qq.com, home.mi.com, tiku.fenbi.com, m.ctrip.com, az1mbasecc.bas.cmbchina.com, intellicc.bas.cmbchina.com
 
