@@ -26,7 +26,7 @@ FREE`select`!!GROUPID=2!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 AutoHK 🇭🇰`fallback`[]AutoHK1 🇭🇰`[]AutoHK2 🇭🇰`http://connectivitycheck.gstatic.com`60,,30
 AutoHK1 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Premium.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoHK2 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#P).*香港.*$`http://connectivitycheck.gstatic.com`60,,30
-CnixHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?Yae).*香港 ϵ.*$`!!GROUPID=1!!.*香港 θ #C #(HGC|IPLC)`!!GROUPID=1!!.*香港 (β|κ) #C #IEPL`!!GROUPID=1!!.*香港 (σ|υ) #E #IEPL`!!GROUPID=1!!.*香港.*Yae.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
+CnixHK 🇭🇰`url-test`!!GROUPID=1!!.*香港 ϵ.*`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoKR 🇰🇷`fallback`[]AutoKR1 🇰🇷`[]AutoKR2 🇰🇷`http://connectivitycheck.gstatic.com`60,,30
 AutoKR1 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*Premium.*$`http://connectivitycheck.gstatic.com`60,,30
@@ -45,4 +45,4 @@ AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大).*$`http://connecti
 AutoNA 🇺🇲`fallback`[]AutoNA1 🇺🇲`[]AutoNA2 🇺🇲`http://connectivitycheck.gstatic.com`60,,30
 AutoNA1 🇺🇲`url-test`!!GROUPID=0!!.*(硅谷|西雅图|美国).*Premium.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoNA2 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?#P).*(硅谷|西雅图|美国).*$`http://connectivitycheck.gstatic.com`60,,30
-CnixNA 🇺🇲`url-test`!!GROUPID=1!!(?!.*?α).*高级 - 美国.*$`http://connectivitycheck.gstatic.com`60,,30
+CnixNA 🇺🇲`url-test`!!GROUPID=1!!.*美国.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
