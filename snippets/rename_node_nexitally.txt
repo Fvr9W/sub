@@ -8,10 +8,12 @@ Data Communication Business Group@DCBG
 DIGITALOCEAN-ASN@DIGITALOCEAN
 Daniel Jackson@Daniel
 EIVUS DATA CENTER E TELECOM@EIVUS
+Eons Data Communications Limited@Eons
 G-Core Labs S.A.@G-Core
 GRUPO ZGH SPA@GRUPO
 GB Network Solutions Sdn. Bhd.@GBN
 HK Cable TV Ltd@HKCT
+Hohl IT e.U.@Hohl
 JINX CO., LIMITED@JINX
 Kamatera Inc@Kamatera
 Kirino LLC@Kirino
@@ -24,10 +26,18 @@ oneCorp GmbH@oneCorp
 PRIME-SEC@PRIME
 Private Layer INC@Private
 Propelin Consulting S.L.U.@Propelin
+Rackforest Zrt.@Rackforest
 Network Presence@Presence
+Misaka Network, Inc.@Misaka
+Mammoth Media Pty Ltd@Mammoth
+M247 Europe SRL@M247
+Melbikomas UAB@Melbikomas
 Shanghai Huajuan Information Technology Co., Ltd.@Huajuan
 SONDATECH S.A.S.@SONDATECH
+Sangsang Networks Co., Ltd.@Sangsang
+SIA VEESP@SIA
 VIETNAM POSTS AND TELECOMMUNICATIONS GROUP@VPATG
+w1n ltd@w1n
 Yae Telecom Limited@Yae
 ZEN-ECN@ZEN
 
