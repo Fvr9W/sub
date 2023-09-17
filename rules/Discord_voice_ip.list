@@ -12,6 +12,7 @@ IP-CIDR,66.22.222.0/23,no-resolve
 IP-CIDR,66.22.224.0/23,no-resolve
 IP-CIDR,66.22.228.0/23,no-resolve
 IP-CIDR,35.215.0.0/18,no-resolve
+IP-CIDR,35.215.128.0/18,no-resolve
 IP-CIDR,185.50.107.211/32,no-resolve
 IP-CIDR,162.245.207.215/32,no-resolve
 IP-CIDR,104.153.87.153/32,no-resolve
