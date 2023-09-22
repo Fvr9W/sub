@@ -182,7 +182,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-# date = 2023-9-10 01:07:44
+# date = 2023-9-22 09:29:01
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -219,7 +219,7 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 # 当切换到某一特定的WiFi下时改变Loon的流量模式，如"loon-wifi5g":DIRECT，表示在loon-wifi5g这个wifi网络下使用直连模式，"cellular":PROXY，表示在蜂窝网络下使用代理模式，"default":RULE，默认使用分流模式
 {% if exists("request.who") %}
   {% if request.who == "self" %}
-ssid-trigger = "Ccccccc":DIRECT,"cellular":RULE,"default":RULE
+ssid-trigger = "Cccccc":PROXY,"cellular":RULE,"default":RULE
   {% else %}
     {% if request.who == "lulu" %}
 ssid-trigger = "Society-5G":DIRECT,"Society":DIRECT,"cellular":RULE,"default":RULE
@@ -277,8 +277,7 @@ https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/RemoteResourceConverter.plugin, tag=「远程资源」转换器, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Node_detection_tool.plugin, tag=「节点」检测, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/NodeLinkCheck.Plugin, tag=「代理链路」检测, enabled = true
+https://raw.githubusercontent.com/Keywos/rule/main/loon/Netisp.plugin, tag=「节点」检测, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/WARP_Node_Query.plugin, tag=「WARP」节点查询, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, tag=「微信」外链增强, enabled = true
 # 去广告合集
@@ -305,7 +304,7 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/RedPaper_remove
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/smzdm_remove_ads.plugin, tag=「什么值得买」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Tieba_remove_ads.plugin, tag=「百度地图」去广告, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/reddit/reddit.ad.sgmodule/_end_/reddit.plugin?type=surge-module&target=loon-plugin, tag=「红迪」去广告, enabled = false
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/TubeMax_remove_ads.plugin, policy = B1gProxy, tag=「TubeMax」去广告, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/TubeMax_remove_ads.plugin, policy = B1gProxy, tag=「TubeMax」去广告, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Weibo_remove_ads.plugin, tag=「微博国内版」去广告, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf/_end_/WeiBoWorldWide.plugin?type=qx-rewrite&target=loon-plugin, tag=「微博国际版」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin, tag=「微信公众号」去广告, enabled = true
