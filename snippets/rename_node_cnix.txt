@@ -4,7 +4,7 @@ AMAZON-02@AMAZON
 Civo LTD@Civo
 Comnet Bilgi Iletisim Teknolojileri Ticaret A.s.@CBIT
 Bangmod Enterprise Co., Ltd.@Bangmod
-Brain PEACE Science Foundation@BPSF
+Brain PEACE Science Foundation, Inc.@BPSF
 Data Communication Business Group@DCBG
 DIGITALOCEAN-ASN@DIGITALOCEAN
 Daniel Jackson@Daniel
