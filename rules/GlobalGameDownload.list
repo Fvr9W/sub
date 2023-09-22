@@ -98,3 +98,11 @@ DOMAIN-SUFFIX,objects.githubusercontent.com
 DOMAIN-KEYWORD,release.notion-static.com
 # pixiv.rsshub
 DOMAIN-SUFFIX,pixiv.rsshub.app
+# spotify
+DOMAIN-SUFFIX,download.scdn.co
+# tidal
+DOMAIN-SUFFIX,download.tidal.com
+# WinSCP
+DOMAIN-SUFFIX,downloads.sourceforge.net
+# mp3tag
+DOMAIN-SUFFIX,download.mp3tag.de
