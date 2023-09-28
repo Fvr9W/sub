@@ -27,6 +27,8 @@ DOMAIN-SUFFIX,midnight.im
 IP-CIDR,135.125.188.145/32,no-resolve
 # primordial
 DOMAIN-SUFFIX,primordial.gay
+# satan5
+DOMAIN-SUFFIX,satan5.com
 # other
 DOMAIN-SUFFIX,reminds.cn
 DOMAIN-SUFFIX,shop66791.com
