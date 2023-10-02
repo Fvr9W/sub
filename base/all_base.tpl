@@ -219,7 +219,7 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 # 当切换到某一特定的WiFi下时改变Loon的流量模式，如"loon-wifi5g":DIRECT，表示在loon-wifi5g这个wifi网络下使用直连模式，"cellular":PROXY，表示在蜂窝网络下使用代理模式，"default":RULE，默认使用分流模式
 {% if exists("request.who") %}
   {% if request.who == "self" %}
-ssid-trigger = "Cccccc":PROXY,"cellular":RULE,"default":RULE
+ssid-trigger = "Cccccc":PROXY,"Cccccc_5G":DIRECT,"cellular":RULE,"default":RULE
   {% else %}
     {% if request.who == "lulu" %}
 ssid-trigger = "Society-5G":DIRECT,"Society":DIRECT,"cellular":RULE,"default":RULE
