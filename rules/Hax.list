@@ -1,13 +1,14 @@
 # Onetap
 DOMAIN-SUFFIX,onetap.su
 DOMAIN-SUFFIX,onetap.com
-PROCESS-NAME,onetap.exe
 # neverlose
 DOMAIN-SUFFIX,neverlose.cc
 DOMAIN-SUFFIX,neverlose.com
 # EO
 DOMAIN-SUFFIX,engineowning.com
 DOMAIN-SUFFIX,engineowning.to
+# ev0lve
+DOMAIN-SUFFIX,ev0lve.xyz
 # bgx
 DOMAIN-SUFFIX,bgx.gg
 # gamesense
@@ -28,12 +29,37 @@ DOMAIN-SUFFIX,midnight.im
 IP-CIDR,135.125.188.145/32,no-resolve
 # primordial
 DOMAIN-SUFFIX,primordial.gay
+DOMAIN-SUFFIX,primordial.dev
 # satan5
 DOMAIN-SUFFIX,satan5.com
 # extremecheats
 DOMAIN-SUFFIX,extremecheats.me
 # scriptersrift
 DOMAIN-SUFFIX,scriptersrift.gg
+# perfectaim
+DOMAIN-SUFFIX,perfectaim.io
+# hypex
+DOMAIN-SUFFIX,hypex.to
+# proofcore
+DOMAIN-SUFFIX,proofcore.io
+# tmhacks22
+DOMAIN-SUFFIX,tmhacks22.xyz
+# damncheaters
+DOMAIN-SUFFIX,damncheaters.com
+# izicheats
+DOMAIN-SUFFIX,izicheats.net
+# iniuria
+DOMAIN-SUFFIX,iniuria.us
+# kidua
+DOMAIN-SUFFIX,kidua.net
+# rifk7
+DOMAIN-SUFFIX,rifk7.com
+# nixware
+DOMAIN-SUFFIX,nixware.cc
+# aimboss
+DOMAIN-SUFFIX,aimboss.org
+# clutch-solution
+DOMAIN-SUFFIX,clutch-solution.com
 # other
 DOMAIN-SUFFIX,reminds.cn
 DOMAIN-SUFFIX,shop66791.com
