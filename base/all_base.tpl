@@ -389,7 +389,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-# update = 2023-10-9 01:54:53
+#!date = 2023-10-9 02:17:43
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -566,7 +566,7 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 
 # 机场签到  (By @evilbutcher)
 # 教程：https://github.com/evilbutcher/QuantumultX/blob/main/check_in/glados/checkin.jpeg
-46 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tieba.png, enabled=true
+46 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, tag=机场签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/CNIX.png, enabled=true
 
 # 多看阅读  (By @chavyleung)
 # `我的` > `签到任务` 等到提示获取 Cookie 成功即可
@@ -582,10 +582,10 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 
 # 什么值得买  (By @blackmatrix7)
 # 打开什么值得买APP，点击“我的”，进入右上角的签到页面，等待脚本弹出获取Cookie成功的通知即可。
-41 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买每日签到, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=true
+41 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买每日签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/smzdm.png, enabled=true
 
 # 青龙 docker 每日自动同步 boxjs cookie  (By @dompling)
-4 0 * * * https://raw.githubusercontent.com/dompling/Script/master/jd/ql_cookie_sync.js, tag=青龙同步, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=true
+4 0 * * * https://raw.githubusercontent.com/dompling/Script/master/jd/ql_cookie_sync.js, tag=青龙同步, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/magicjs/images/qinglong.png, enabled=true
 
 # 起点  (By @MCdasheng)
 20 21 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.js, img-url=https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/qidian.png, tag=起点读书, enabled=true
