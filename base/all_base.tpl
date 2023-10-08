@@ -389,6 +389,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
+# update = 2023-10-9 01:54:53
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -399,13 +400,12 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 # 指定在某个 Wi-Fi 下暂停 Quantumult X
 {% if exists("request.who") %}
   {% if request.who == "self" %}
-running_mode_trigger=filter, filter, Cccccc:all_direct, zxcvawer:all_direct, Cccccc_5G:all_direct
+running_mode_trigger=filter, filter, Cccccc:all_proxy, zxcvawer:all_proxy, Cccccc_5G:all_proxy
   {% else %}
     {% if request.who == "lulu" %}
 running_mode_trigger=filter, filter, Society-5G:all_direct, Society:all_direct
     {% else %}
 running_mode_trigger=filter, filter, INFINITY-WORLD:all_direct, nana:all_direct
-;ssid_suspended_list=LINK_22E174, LINK_22E175
     {% endif %}
   {% endif %}
 {% endif %}
@@ -489,7 +489,7 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = 「T
 # VIP解锁
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=「合集1」VIP解锁, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule, tag=「合集2」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
-#功能增强
+# 功能增强
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=「京东|淘宝」比价脚本, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=「Netflix」评分, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=「知乎」不跳转, update-interval=86400, opt-parser=false, enabled=true
@@ -499,7 +499,7 @@ https://raw.githubusercontent.com/DualSubs/YouTube/main/modules/DualSubs.YouTube
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet, tag=自定义「Siri与搜索」功能, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag=自定义「定位服务」与「地图」功能, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
-#去广告
+# 去广告
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf, tag=「合集1」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Remix.snippet, tag=「合集2」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cnftp.snippet, tag=「爱奇艺|芒果|腾讯视频|优酷」去广告, update-interval=172800, opt-parser=false, enabled=true
@@ -530,9 +530,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhe
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/WebPage.conf, tag=「一些网页」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=去广告联盟, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向, update-interval=172800, opt-parser=false, enabled=true
-#Cookie
-https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet, tag = GetCookie1, update-interval=172800, opt-parser=false, enabled = false
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = GetCookie2, update-interval=172800, opt-parser=true, enabled = false
+# Cookie
+https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = GetCookie1, update-interval=172800, opt-parser=true, enabled = true
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet, tag = GetCookie2, update-interval=172800, opt-parser=false, enabled = false
 
 [server_local]
 
@@ -544,25 +544,21 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 # 10000  (By @chavyleung)
 42 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png,enabled=true
 
-# 10000 余量查询
-*/5 * * * * https://github.com/ChinaTelecomOperators/ChinaTelecom/releases/download/Prerelease-Alpha/Tele_Cellular_Auto.js, tag=电信余量, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png, enabled=false
-
 # 10010  (By @chavyleung)
 43 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png,enabled=true
 
-# 10010 余量查询
-*/5 * * * * https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js, tag=联通余量, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png, enabled=false
+# 12123  (By @dompling)
+
 
 # 爱思助手  (By @Crazy-Z7)
-45 9 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Aisisign.js, tag=爱思助手全能版,img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0917.jpeg,enabled=true
+45 9 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Aisising.js, tag=爱思助手全能版,img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0917.jpeg,enabled=true
 
 # 百度贴吧  (By @chavyleung)
 # 浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
 20 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tieba.png, enabled=true
 
-# 哔哩哔哩  (By @ClydeTime)
-# 自动获取 cookies 打开B站就行
-46 6 * * * https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/HuiDoY/Icon/main/mini/Color/bilibili.png, enabled=true
+# B站每日等级任务  (By @ClydeTime)
+46 9 * * * https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/HuiDoY/Icon/main/mini/Color/bilibili.png, enabled=true
 
 # 霸王茶姬  (By @Guding88)
 # 进入微信霸王茶姬小程序 --> 积分商城 --> 积分签到 --> 签到
@@ -570,7 +566,7 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 
 # 机场签到  (By @evilbutcher)
 # 教程：https://github.com/evilbutcher/QuantumultX/blob/main/check_in/glados/checkin.jpeg
-46 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tieba.png, enabled=false
+46 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tieba.png, enabled=true
 
 # 多看阅读  (By @chavyleung)
 # `我的` > `签到任务` 等到提示获取 Cookie 成功即可
@@ -586,15 +582,20 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 
 # 什么值得买  (By @blackmatrix7)
 # 打开什么值得买APP，点击“我的”，进入右上角的签到页面，等待脚本弹出获取Cookie成功的通知即可。
-41 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买每日签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm.png, enabled=true
+41 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买每日签到, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=true
 
-# 青龙 docker 每日自动同步 boxjs cookie
-4 0 * * * https://raw.githubusercontent.com/dompling/Script/master/jd/ql_cookie_sync.js, tag=青龙同步, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=false
+# 青龙 docker 每日自动同步 boxjs cookie  (By @dompling)
+4 0 * * * https://raw.githubusercontent.com/dompling/Script/master/jd/ql_cookie_sync.js, tag=青龙同步, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=true
+
+# 起点  (By @MCdasheng)
+20 21 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.js, img-url=https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/qidian.png, tag=起点读书, enabled=true
+
+# i茅台自动预约  (By @Yuheng0101)
+0 9 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/imaotai/imaotai.js, tag=i茅台自动预约, img-url=https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f4/18/aef41811-955e-e6b0-5d23-6763c2eef1ab/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png, enabled=true
 
 [http_backend]
 
 [filter_local]
-geoip, netflix, Netflix
 Final, Other Game
 
 [rewrite_local]
