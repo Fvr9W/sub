@@ -235,67 +235,67 @@ ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"cellular":RULE,"default":R
 
 [Remote Filter]
 
+Premium=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
+Game=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/game.png
+Daily=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Daily.png
+Blizzard=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+Garena=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+PlayStation=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/PSN.png
+Rockstar=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+SteamChina=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/steam.png
+SteamGlobal=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/steam.png
+Ubisoft=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+Xboxlive=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
+Microsoft=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
+Riot=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/League_of_Legends.png
+Hax=select, direct, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/onetap.png
+Other Games=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+B1gProxy=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
+Trading=select, direct, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/trading.png
+Telegram=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Telegram.png
+Discord=select, direct, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/discord.png
+Spotify=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Spotify.png
+Netflix=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Netflix.png
+GlobalMedia=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Streaming.png
+GlobalGameDownload=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
+PrivateTracker=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
+SougouInput=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
+Hijacking=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
+HK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+FastLHK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+CnixHK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+AutoHK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+TW 🇨🇳=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+AutoTW 🇨🇳=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+KR 🇰🇷=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+AutoKR 🇰🇷=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+JP 🇯🇵=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+AutoJP 🇯🇵=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+SGP 🇸🇬=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+AutoSGP 🇸🇬=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+AutoSG 🇸🇬=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+SEA 🌏=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+AutoSEA 🌏=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+AU 🇦🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+AutoAU 🇦🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+RU 🇷🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
+AutoRU 🇷🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
+EU 🇪🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+AutoEU 🇪🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+CA 🇨🇦=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
+AutoCA 🇨🇦=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
+NA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+AutoNA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+FastLNA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+CnixNA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+
+NEX=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
+TAG=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TAG.png
+CNIX=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/CNIX.png
+FastL=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Fastlink.png
+FREE=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Team.png
+
 [Proxy Group]
-
-static=Premium, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
-static=Game, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/game.png
-static=Daily, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Daily.png
-static=Blizzard, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=Garena, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=PlayStation, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/PSN.png
-static=Rockstar, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=SteamChina, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/steam.png
-static=SteamGlobal, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/steam.png
-static=Ubisoft, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=Xboxlive, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
-static=Microsoft, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Microsoft.png
-static=Riot, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/League_of_Legends.png
-static=Hax, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/onetap.png
-static=Other Games, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=B1gProxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Global.png
-static=Trading, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/trading.png
-static=Telegram, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Telegram.png
-static=Discord, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/discord.png
-static=Spotify, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Spotify.png
-static=Netflix, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Netflix.png
-static=GlobalMedia, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Streaming.png
-static=GlobalGameDownload, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
-static=PrivateTracker, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
-static=SougouInput, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
-static=Hijacking, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
-static=HK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-static=FastLHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-static=CnixHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-static=AutoHK 🇭🇰, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-static=TW 🇨🇳, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
-static=AutoTW 🇨🇳, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
-static=KR 🇰🇷, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
-static=AutoKR 🇰🇷, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
-static=JP 🇯🇵, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
-static=AutoJP 🇯🇵, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
-static=SGP 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
-static=AutoSGP 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
-static=AutoSG 🇸🇬, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
-static=SEA 🌏, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
-static=AutoSEA 🌏, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
-static=AU 🇦🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
-static=AutoAU 🇦🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
-static=RU 🇷🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
-static=AutoRU 🇷🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
-static=EU 🇪🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
-static=AutoEU 🇪🇺, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
-static=CA 🇨🇦, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
-static=AutoCA 🇨🇦, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
-static=NA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
-static=AutoNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
-static=FastLNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
-static=CnixNA 🇺🇲, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
-
-static=NEX, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
-static=TAG, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TAG.png
-static=CNIX, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/CNIX.png
-static=FastL, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Fastlink.png
-static=FREE, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Team.png
 
 [Rule]
 
