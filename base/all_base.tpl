@@ -235,6 +235,8 @@ ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"cellular":RULE,"default":R
 
 [Remote Filter]
 
+[Proxy Group]
+
 Premium=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
 Game=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/game.png
 Daily=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Daily.png
@@ -294,8 +296,6 @@ TAG=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/maste
 CNIX=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/CNIX.png
 FastL=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Fastlink.png
 FREE=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Team.png
-
-[Proxy Group]
 
 [Rule]
 
