@@ -182,7 +182,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2023-10-9 18:18:39
+#!date = 2023-10-12 01:58:45
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -318,6 +318,7 @@ https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-
 # 解锁
 https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.plugin, tag=「合集2」会员破解, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite/_end_/Unlock.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」会员破解, enabled = true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/yqc007/QuantumultX/master/LightBeautyCamCrack.js/_end_/LightBeautyCamCrack.plugin?type=qx-rewrite&target=loon-plugin, tag=「轻颜相机5.2.1」会员破解, enabled = true
 https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, tag=「TikTok」解锁区域, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/TestFlight.plugin, tag=「TestFlight」解锁区域, policy = DIRECT, enabled = true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=「Spotify」解锁, enabled = true
@@ -451,7 +452,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-#!date = 2023-10-10 17:43:44
+#!date = 2023-10-12 01:59:58
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -551,6 +552,7 @@ https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = 「T
 # VIP解锁
 https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=「合集1」VIP解锁, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule, tag=「合集2」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/LightBeautyCamCrack.js, tag=「轻颜相机5.2.1」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
 # 功能增强
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=「京东|淘宝」比价脚本, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=「Netflix」评分, update-interval=172800, opt-parser=false, enabled=true
