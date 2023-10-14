@@ -182,7 +182,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2023-10-12 01:58:45
+#!date = 2023-10-15 03:16:41
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -325,12 +325,11 @@ https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, 
 # 功能增强
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/1.1.1.1.plugin, tag=「1.1.1.1」配置管理, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Auto_Join_TF.plugin, policy = DIRECT, tag=「TestFlight」自动加入, enabled = false
-https://raw.githubusercontent.com/Keywos/rule/main/loon/Barkapps.plugin, tag=「Bark」增强, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/BingAI.plugin, policy = Microsoft, tag=「BingAI」解锁, enabled = true
 https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.plugin, tag=自定义「哔哩哔哩粉白」主界面, enabled = true
 https://raw.githubusercontent.com/BiliUniverse/Global/main/modules/BiliBili.Global.plugin, tag=自动化「哔哩哔哩粉白」线路及全区搜索, enabled = true
 https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.plugin, tag=「流媒体平台」字幕增强及双语模块, enabled = true
-https://raw.githubusercontent.com/DualSubs/YouTube/main/plugin/DualSubs.YouTube.feat.ADs.plugin, tag=「YouTube」字幕增强及双语模块, enabled = true
+https://raw.githubusercontent.com/DualSubs/YouTube/main/modules/DualSubs.YouTube.plugin, tag=「YouTube」字幕增强及双语模块, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Google.plugin, tag=「Google」重定向, enabled = false
 https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin, tag=「HTTPDNS」禁止, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = false
@@ -338,7 +337,6 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Fileball_mount.
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东」比价脚本, enabled = true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, tag=自定义「定位服务」与「地图」功能, enabled = true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/RemoteResourceConverter.plugin, tag=「远程资源」转换器, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = true
 https://raw.githubusercontent.com/Keywos/rule/main/loon/Netisp.plugin, tag=「节点」检测, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/WARP_Node_Query.plugin, tag=「WARP」节点查询, enabled = false
@@ -373,7 +371,7 @@ http://script.hub/file/_start_/https://raw.githubusercontent.com/ddgksf2013/Rewr
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin, tag=「微信公众号」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin, tag=「部分微信小程序」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/YouTube_remove_ads.plugin, tag=「YouTube」去广告, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Zhihu_remove_ads.plugin, tag=「知乎」去广告, enabled = true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.lnplugin, tag=「知乎」去广告, enabled = true
 # 签到
 https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.plugin, tag=「哔哩哔哩」签到, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf/_end_/GetCookie.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集」签到CK一体化, enabled = true
@@ -452,7 +450,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-#!date = 2023-10-12 01:59:58
+#!date = 2023-10-15 03:18:05
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
