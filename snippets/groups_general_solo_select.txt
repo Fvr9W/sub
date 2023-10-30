@@ -1,30 +1,30 @@
 Premium`fallback`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲`http://connectivitycheck.gstatic.com`60,,20
-Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
-B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
-Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]CNIX`[]FREE`[]DIRECT
-Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
-Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
+Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
+B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
+Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]ALL`[]FREE`[]DIRECT
+Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
+Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
 Telegram`select`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
-Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
-Netflix`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
-GlobalMedia`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
-Microsoft`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]CNIX`[]FREE`[]DIRECT
+Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
+Netflix`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
+GlobalMedia`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
+Microsoft`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
 SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]REJECT`^.*(阿根廷|土耳其).*$
 SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]REJECT`^.*(阿根廷|土耳其).*$
-Blizzard`select`[]Other Games`[]CNIX`[]DIRECT
-PlayStation`select`[]Other Games`[]CNIX`[]DIRECT
-Riot`select`[]Other Games`[]CNIX`[]DIRECT
-Rockstar`select`[]Other Games`[]CNIX`[]DIRECT
-Ubisoft`select`[]Other Games`[]CNIX`[]DIRECT
-GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]CNIX`[]FREE`[]DIRECT
-PrivateTracker`select`[]DIRECT`[]Other Games`[]CNIX`[]FREE
+Blizzard`select`[]Other Games`[]ALL`[]DIRECT
+PlayStation`select`[]Other Games`[]ALL`[]DIRECT
+Riot`select`[]Other Games`[]ALL`[]DIRECT
+Rockstar`select`[]Other Games`[]ALL`[]DIRECT
+Ubisoft`select`[]Other Games`[]ALL`[]DIRECT
+GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]ALL`[]FREE`[]DIRECT
+PrivateTracker`select`[]DIRECT`[]Other Games`[]ALL`[]FREE
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
-CNIX`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+ALL`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 AutoHK 🇭🇰`fallback`[]AutoHK1 🇭🇰`[]AutoHK2 🇭🇰`http://connectivitycheck.gstatic.com`60,,30
 AutoHK1 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(Yae|Kirino)).*香港.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
-AutoHK2 🇭🇰`url-test`!!GROUPID=0!!.*香港.*(Yae|Kirino).*$`http://connectivitycheck.gstatic.com`60,,20
+AutoHK2 🇭🇰`url-test`!!GROUPID=0!!.*香港.*(Yae|Kirino).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
 AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(日本|东京|大阪).*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
