@@ -1,6 +1,7 @@
 # 0 是薯条 1 是 SCP
 282, Sector 19@E2E
 AMAZON-02@AMAZON
+Atomlantis Network, LLC@Atomlantis
 Civo LTD@Civo
 Comnet Bilgi Iletisim Teknolojileri Ticaret A.s.@CBIT
 Canopus It Solutions Pvt Ltd@CISP
