@@ -127,6 +127,9 @@ DOMAIN-SUFFIX,bsem.ddns.me
 DOMAIN-SUFFIX,api.nexconvert.com
 DOMAIN-SUFFIX,bpnigk.xyz
 DOMAIN-SUFFIX,svedeu.lol
+# > midnight cn
+DOMAIN-SUFFIX,cn-0.servers.midnight.im
+DOMAIN-SUFFIX,cn-1.servers.midnight.im
 # > pikpak 可直连线路
 DOMAIN,dl-a10b-0001.mypikpak.com
 DOMAIN,dl-a10b-0002.mypikpak.com
