@@ -3,11 +3,13 @@
 AMAZON-02@AMAZON
 Atomlantis Network, LLC@Atomlantis
 Akamai Connected Cloud@Akamai
+Akari Networks@Akari
 Zhejiang Aiyun Network Technology Co Ltd@Aiyun
 Civo LTD@Civo
 Comnet Bilgi Iletisim Teknolojileri Ticaret A.s.@CBIT
 Canopus It Solutions Pvt Ltd@CISP
 Chociz Private Limited@Chociz
+CLOUDFLARENET@CF
 Bangmod Enterprise Co., Ltd.@Bangmod
 Brain PEACE Science Foundation, Inc.@BPSF
 Data Communication Business Group@DCBG
@@ -53,7 +55,9 @@ Melbikomas UAB@Melbikomas
 Shanghai Huajuan Information Technology Co., Ltd.@Huajuan
 SONDATECH S.A.S.@SONDATECH
 Sangsang Networks Co., Ltd.@Sangsang
+SoftBank Corp.@SB
 SIA VEESP@SIA
+Stark Industries Solutions Ltd@SIS
 VIETNAM POSTS AND TELECOMMUNICATIONS GROUP@VPATG
 Virtury Cloud Pakistan@Virtury
 w1n ltd@w1n
