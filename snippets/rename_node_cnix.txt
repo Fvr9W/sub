@@ -2,9 +2,12 @@
 282, Sector 19@E2E
 AMAZON-02@AMAZON
 Atomlantis Network, LLC@Atomlantis
+Akamai Connected Cloud@Akamai
+Zhejiang Aiyun Network Technology Co Ltd@Aiyun
 Civo LTD@Civo
 Comnet Bilgi Iletisim Teknolojileri Ticaret A.s.@CBIT
 Canopus It Solutions Pvt Ltd@CISP
+Chociz Private Limited@Chociz
 Bangmod Enterprise Co., Ltd.@Bangmod
 Brain PEACE Science Foundation, Inc.@BPSF
 Data Communication Business Group@DCBG
@@ -12,25 +15,37 @@ DIGITALOCEAN-ASN@DIGITALOCEAN
 Daniel Jackson@Daniel
 EIVUS DATA CENTER E TELECOM@EIVUS
 Eons Data Communications Limited@Eons
+Eastern Telecoms Phils., Inc.@ET
 G-Core Labs S.A.@G-Core
 GRUPO ZGH SPA@GRUPO
 GB Network Solutions Sdn. Bhd.@GBN
 HK Cable TV Ltd@HKCT
+Hong Kong Broadband Network Ltd.@HKBN
+HGC Global Communications Limited@HKG
 Hohl IT e.U.@Hohl
 JINX CO., LIMITED@JINX
 Kamatera Inc@Kamatera
 Kirino LLC@Kirino
+Kaopu Cloud HK Limited@Kaopu
 LLC Baxet@LLC
+NPO G-net@NPO
 MIKU NETWORK LIMITED@MIKU
+MikiPro Ltd@MikiPro
 OVH SAS@OVH
 ORACLE-BMC-31898@ORACLE
 O.m.c. Computers & Communications Ltd@O.m.c.
 oneCorp GmbH@oneCorp
+Truxgo S. R.L. de C.V.@Truxgo
+TM TECHNOLOGY SERVICES SDN. BHD.@TM
 PRIME-SEC@PRIME
 Private Layer INC@Private
 Propelin Consulting S.L.U.@Propelin
+POLONETWORK LIMITED@POLONETWORK
+PT Biznet Gio Nusantara@PT
 Rackforest Zrt.@Rackforest
 Network Presence@Presence
+NTT PC Communications, Inc.@NTT
+Next Network Research Laboratory, Graduate School of Science and Engineering, Hosei Universi@NEXTNET-LAB
 Misaka Network, Inc.@Misaka
 Mammoth Media Pty Ltd@Mammoth
 M247 Europe SRL@M247
@@ -40,6 +55,7 @@ SONDATECH S.A.S.@SONDATECH
 Sangsang Networks Co., Ltd.@Sangsang
 SIA VEESP@SIA
 VIETNAM POSTS AND TELECOMMUNICATIONS GROUP@VPATG
+Virtury Cloud Pakistan@Virtury
 w1n ltd@w1n
 Yae Telecom Limited@Yae
 ZEN-ECN@ZEN
