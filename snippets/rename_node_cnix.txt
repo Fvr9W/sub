@@ -15,9 +15,12 @@ Brain PEACE Science Foundation, Inc.@BPSF
 Data Communication Business Group@DCBG
 DIGITALOCEAN-ASN@DIGITALOCEAN
 Daniel Jackson@Daniel
+Deutsche Glasfaser Wholesale GmbH@DGWG
 EIVUS DATA CENTER E TELECOM@EIVUS
 Eons Data Communications Limited@Eons
-Eastern Telecoms Phils., Inc.@ET
+Eastern Telecoms Phils., Inc.@ETPI
+EDIS GmbH@EDIS
+EDGEUNO SAS@EDGEUNO
 G-Core Labs S.A.@G-Core
 GRUPO ZGH SPA@GRUPO
 GB Network Solutions Sdn. Bhd.@GBN
@@ -33,6 +36,7 @@ LLC Baxet@LLC
 NPO G-net@NPO
 MIKU NETWORK LIMITED@MIKU
 MikiPro Ltd@MikiPro
+NetCologne Gesellschaft fur Telekommunikation mbH@NetCologne
 OVH SAS@OVH
 ORACLE-BMC-31898@ORACLE
 O.m.c. Computers & Communications Ltd@O.m.c.
@@ -63,7 +67,6 @@ Virtury Cloud Pakistan@Virtury
 w1n ltd@w1n
 Yae Telecom Limited@Yae
 ZEN-ECN@ZEN
-
 
 
 !!GROUPID=0!!.*Blades ([0-9]{1})@香港 0$1 #Yae
