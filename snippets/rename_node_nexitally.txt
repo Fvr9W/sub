@@ -13,7 +13,7 @@ CLOUDFLARENET@CF
 Bangmod Enterprise Co., Ltd.@Bangmod
 Brain PEACE Science Foundation, Inc.@BPSF
 Data Communication Business Group@DCBG
-DIGITALOCEAN-ASN@DIGITALOCEAN
+DIGITALOCEAN-ASN@DO
 Daniel Jackson@Daniel
 Deutsche Glasfaser Wholesale GmbH@DGWG
 EIVUS DATA CENTER E TELECOM@EIVUS
@@ -34,6 +34,7 @@ Kirino LLC@Kirino
 Kaopu Cloud HK Limited@Kaopu
 LLC Baxet@LLC
 NPO G-net@NPO
+NB-NETWORKS@NB
 MIKU NETWORK LIMITED@MIKU
 MikiPro Ltd@MikiPro
 NetCologne Gesellschaft fur Telekommunikation mbH@NetCologne
@@ -60,13 +61,16 @@ Shanghai Huajuan Information Technology Co., Ltd.@Huajuan
 SONDATECH S.A.S.@SONDATECH
 Sangsang Networks Co., Ltd.@Sangsang
 SoftBank Corp.@SB
+Sony Network Communications Inc.@Sony
 SIA VEESP@SIA
 Stark Industries Solutions Ltd@SIS
 VIETNAM POSTS AND TELECOMMUNICATIONS GROUP@VPATG
 Virtury Cloud Pakistan@Virtury
+UAB Bite Lietuva@UAB
 w1n ltd@w1n
 Yae Telecom Limited@Yae
 ZEN-ECN@ZEN
+
 
 
 !!GROUPID=0!!\[Premium\]@#Premium
