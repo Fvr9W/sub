@@ -21,6 +21,7 @@ Eons Data Communications Limited@Eons
 Eastern Telecoms Phils., Inc.@ETPI
 EDIS GmbH@EDIS
 EDGEUNO SAS@EDGEUNO
+Tokyo Online Co.,Ltd.@TOC
 G-Core Labs S.A.@G-Core
 GRUPO ZGH SPA@GRUPO
 GB Network Solutions Sdn. Bhd.@GBN
