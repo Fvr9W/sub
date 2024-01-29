@@ -182,7 +182,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2023-12-30 21:27:02
+#!date = 2024-1-29 17:59:56
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -340,7 +340,7 @@ https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.B
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Fileball_mount.plugin, tag=「Fileball」挂载增强, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东」比价脚本, enabled = true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, tag=自定义「定位服务」与「地图」功能, enabled = true
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, tag=自定义「定位服务」与「地图」功能, enabled = false
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = false
 https://raw.githubusercontent.com/Keywos/rule/main/loon/Netisp.plugin, tag=「节点」检测, enabled = true
