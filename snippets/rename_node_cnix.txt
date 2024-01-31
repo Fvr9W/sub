@@ -67,11 +67,76 @@ SIA VEESP@SIA
 Stark Industries Solutions Ltd@SIS
 VIETNAM POSTS AND TELECOMMUNICATIONS GROUP@VPATG
 Virtury Cloud Pakistan@Virtury
+Vivacom Bulgaria EAD@Vivacom
 UAB Bite Lietuva@UAB
 w1n ltd@w1n
 Yae Telecom Limited@Yae
 ZEN-ECN@ZEN
-
+NAVEGALO S.A.@NAVEGALO
+MICROSOFT-CORP-MSN-AS-BLOCK@MICROSOFT
+Andorra Telecom S.a.u.@Andorra
+Telecom Algeria@Algeria
+GβK ARGENTINA S.A.@Argentina
+Aperture Science Limited@Aperture
+Delta Telecom Ltd@Delta
+Tomattos Technologies Ltd.@Tomattos
+QNAX LTDA@QNAX
+BRASCLOUD LTDA - ME@BRASCLOUD
+Accuris Technologies Ltd.@Accuris
+Flow Swiss AG@FSAG
+J AND J SPA INFOFRACTAL@JJSI
+Digital United Inc.@DU
+Asia Pacific On-line Service Inc.@APOS
+Sony Network Taiwan Limited@Sony
+Extra-Lan Technologies Co.LTD@Extra-Lan
+GTD COLOMBIA S.A.S@GTD
+Administracion Nacional de Telecomunicaciones@ANdT
+Marcatel ComS.A. de C.V.@Marcatel
+Companhia de Telecomunicacoes de Macau SARL@CTM
+Catixs Ltd@Catixs
+Community Fibre Limited@C-Fibre
+Liberty Global B.V.@Liberty
+Webconex SAS@Webconex
+Caucasus Online Ltd.@Caucasus
+Media Antar Nusa PT.@Nusanet
+Partner Communications Ltd.@Partner
+ISPIXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.@CAMBODIA
+NTT Communications Corporation@NTT
+Internet Initiative Japan Inc.@IIJ
+Servercore-Africa-Ltd@Servercore
+Optima Telecom Ltd.@Optima
+JSC Kazakhtelecom@JSC
+Global Digital Management Solutions Co Ltd@GDMS
+Batterflyai Media ltd.@Batterflyai
+Lanka Communication Services@LCS
+UAB Baltnetos komunikacijos@UAB
+Visual Online S.A.@Visual
+Baltcom SIA@Baltcom
+IM Level η SRL@IM
+Makedonski Telekom AD-Skopje@MT
+Golden TMH Telecom Co. Ltd@GTT
+iTools JSC@iTools
+Smart IP (SIP) Limited@SIP
+Subisu Cablenet Pvt Ltd, Baluwatar, Kathmandu, Nepal@SCP
+Two Degrees Networks Limited@TDN
+Korbank S. A.@Korbank
+Nuno Felgueiras@Nuno
+United Internet Ltd.@UI
+Datacheap LLC@Datacheap
+Private services Unitary Enterprise Vash Internet@Vash
+Olleh-Rwanda-Networks@Olleh-Rwanda
+Maintenance of Network & information Technology Company LLC@Maintenance
+Whiz Communications Pte Ltd@Whiz
+Singtel Fibre Broadband@SFB
+MobileOne Ltd. MobileInternet Service Provider Singapore@MobileOne
+Webglobe, a.s@Webglobe
+Syrian Telecommunication Private Closed Joint Stock Company@Joint Stock
+The Communication Authoity of Thailand, CAT@CAT
+Real Future Company Limited@Real Future
+TN-BB-AS Tunisia BackBone AS@BackBone
+Markahost Telekomunikasyon Ve Ticaret Limited Sirketi@Markahost
+Vodafone Net Iletisim Hizmetler AS@Vodafone
+Teknosos Bilisim Hizmetleri Ve Tic. Ltd. Sti.@Teknosos
 
 !!GROUPID=0!!.*Blades ([0-9]{1})@香港 0$1 #Yae
 !!GROUPID=0!! [0-9]{1}$@
