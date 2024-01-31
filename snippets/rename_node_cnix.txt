@@ -76,7 +76,7 @@ NAVEGALO S.A.@NAVEGALO
 MICROSOFT-CORP-MSN-AS-BLOCK@MICROSOFT
 Andorra Telecom, S.a.u.@Andorra
 Telecom Algeria@Algeria
-GβK ARGENTINA S.A.@Argentina
+GBK ARGENTINA S.A.@Argentina
 Aperture Science Limited@Aperture
 Delta Telecom Ltd@Delta
 Tomattos Technologies Ltd.@Tomattos
@@ -88,10 +88,10 @@ J AND J SPA INFOFRACTAL@JJSI
 Digital United Inc.@DU
 Asia Pacific On-line Service Inc.@APOS
 Sony Network Taiwan Limited@Sony
-Extra-Lan Technologies Co.LTD@Extra-Lan
+Extra-Lan Technologies Co., LTD@Extra-Lan
 GTD COLOMBIA S.A.S@GTD
 Administracion Nacional de Telecomunicaciones@ANdT
-Marcatel ComS.A. de C.V.@Marcatel
+Marcatel Com, S.A. de C.V.@Marcatel
 Companhia de Telecomunicacoes de Macau SARL@CTM
 Catixs Ltd@Catixs
 Community Fibre Limited@C-Fibre
@@ -106,6 +106,7 @@ Internet Initiative Japan Inc.@IIJ
 Servercore-Africa-Ltd@Servercore
 Optima Telecom Ltd.@Optima
 JSC Kazakhtelecom@JSC
+CORPORACION GALA IT, C.A.@CORPORACION
 Global Digital Management Solutions Co Ltd@GDMS
 Batterflyai Media ltd.@Batterflyai
 Lanka Communication Services@LCS
@@ -116,15 +117,19 @@ IM Level η SRL@IM
 Makedonski Telekom AD-Skopje@MT
 Golden TMH Telecom Co. Ltd@GTT
 iTools JSC@iTools
-Smart IP (SIP) Limited@SIP
+Smart IP \(SIP\) Limited@SIP
 Subisu Cablenet Pvt Ltd, Baluwatar, Kathmandu, Nepal@SCP
 Two Degrees Networks Limited@TDN
 Korbank S. A.@Korbank
 Nuno Felgueiras@Nuno
 United Internet Ltd.@UI
 Datacheap LLC@Datacheap
+DEDIOUTLET-NETWORK-PHX@DEDIOUTLET
 Private services Unitary Enterprise Vash Internet@Vash
 Olleh-Rwanda-Networks@Olleh-Rwanda
+BIGLOBE Inc.@BIGLOBE
+Active Network S.p.A.@Active
+Aruba S.p.A.@Aruba
 Maintenance of Network & information Technology Company LLC@Maintenance
 Whiz Communications Pte Ltd@Whiz
 Singtel Fibre Broadband@SFB
