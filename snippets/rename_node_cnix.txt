@@ -74,7 +74,7 @@ Yae Telecom Limited@Yae
 ZEN-ECN@ZEN
 NAVEGALO S.A.@NAVEGALO
 MICROSOFT-CORP-MSN-AS-BLOCK@MICROSOFT
-Andorra Telecom S.a.u.@Andorra
+Andorra Telecom, S.a.u.@Andorra
 Telecom Algeria@Algeria
 GβK ARGENTINA S.A.@Argentina
 Aperture Science Limited@Aperture
