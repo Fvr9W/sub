@@ -1,4 +1,9 @@
 # 微软加速，虽然能直连但是很慢
+
+# 不让 Windows 出地球
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+
 # new bing
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.cn
