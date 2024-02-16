@@ -130,6 +130,9 @@ DOMAIN-SUFFIX,svedeu.lol
 # > midnight cn
 DOMAIN-SUFFIX,cn-0.servers.midnight.im
 DOMAIN-SUFFIX,cn-1.servers.midnight.im
+# > 不让 Windows 出地球，可以代理但是有些代理屏蔽了，直连比较好
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
 # > pikpak 可直连线路
 DOMAIN,dl-a10b-0001.mypikpak.com
 DOMAIN,dl-a10b-0002.mypikpak.com
