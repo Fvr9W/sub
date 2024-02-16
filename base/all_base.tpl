@@ -114,6 +114,8 @@ dns:
     - '+.primordial.gay'
     ## pokerstars
     - '+.ps.im'
+    ## verykuai
+    - '+.verykuai.com'
   nameserver-policy:
     'raw.githubusercontent.com': '8.8.8.8'
     '+.meiquankongjian.com': '8.8.8.8'
