@@ -104,8 +104,6 @@ PROCESS-NAME,newkkredirector.exe
 DOMAIN-SUFFIX,xunlei.com
 # > steam 零售商中国IP进才显示
 DOMAIN-SUFFIX,greenmangaming.com
-# > 小说网站，虽然在境外但是不用中国IP不让进
-DOMAIN-SUFFIX,kenshuzw.com
 # > dns
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
@@ -115,9 +113,11 @@ DOMAIN-SUFFIX,cn.download.nvidia.com
 # > bet365
 DOMAIN-SUFFIX,365365094.com
 DOMAIN-SUFFIX,365-010.com
-# > 小说
+# > 小说网站，虽然在境外但是不用中国IP不让进
+DOMAIN-SUFFIX,kenshuzw.com
 DOMAIN-SUFFIX,xqb5.org
 DOMAIN-SUFFIX,555x.org
+DOMAIN-SUFFIX,zxcs.info
 # > emby 可直连线路
 DOMAIN-SUFFIX,hk.misakaf.org
 DOMAIN-SUFFIX,4837.misakaf.org
