@@ -184,7 +184,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2024-1-29 17:59:56
+#!date = 2024-3-9 20:02:47
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -379,7 +379,7 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/WexinMiniProg
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/YouTube_remove_ads.plugin, tag=「YouTube」去广告, enabled = true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.lnplugin, tag=「知乎」去广告, enabled = true
 # 签到
-https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.plugin, tag=「哔哩哔哩」签到, enabled = true
+https://gist.githubusercontent.com/Sliverkiss/3c0239a09cbe381c572a826a5caf5621/raw/midea.js, tag=「美的」签到, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf/_end_/GetCookie.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集」签到CK一体化, enabled = true
 
 [MITM]
@@ -456,7 +456,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-#!date = 2023-10-15 03:18:05
+#!date = 2024-3-9 20:02:55
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -565,7 +565,7 @@ https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, 
 https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.snippet, tag=「流媒体平台」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DualSubs/YouTube/main/modules/DualSubs.YouTube.snippet, tag=「YouTube」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet, tag=自定义「Siri与搜索」功能, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag=自定义「定位服务」与「地图」功能, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag=自定义「定位服务」与「地图」功能, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
 # 去广告
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf, tag=「合集1」去广告, update-interval=172800, opt-parser=false, enabled=true
@@ -596,11 +596,11 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/zhihu.snippet, 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet, tag=「知乎2」去广告, update-interval=172800, opt-parser=false, enabled=true
 # 去广告收尾
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/WebPage.conf, tag=「一些网页」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=去广告联盟, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=「联盟」去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=「重定向」神机, update-interval=172800, opt-parser=false, enabled=true
 # Cookie
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = GetCookie1, update-interval=172800, opt-parser=true, enabled = true
-https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet, tag = GetCookie2, update-interval=172800, opt-parser=false, enabled = false
+https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = 「合集1」CK获取 update-interval=172800, opt-parser=true, enabled = true
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet, tag = 「合集2」CK获取, update-interval=172800, opt-parser=false, enabled = false
 
 [server_local]
 
@@ -609,57 +609,88 @@ https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/c
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体 - 解锁查询, img-url=checkmark.seal.system, enabled=true
 event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Script/NodeLinkCheck.js, tag=Env代理链路检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png, enabled=true
 
-# 10000  (By @chavyleung)
-42 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=10000, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png,enabled=true
+# 10000  (By @FoKit)
+# 自动抓取中国电信 Cookie，登录入口：http://u3v.cn/5uwtIP
+^https?:\/\/(e\.189\.cn\/store\/user|open\.e\.189\.cn\/api\/logbox\/oauth2\/loginSubmit\.do) url script-request-header https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_10000_cookie.js
+# 10000  (By @chavyleung) wapside.189.cn
+# 打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
+^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js
 
-# 10010  (By @chavyleung)
-43 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png,enabled=true
+# 10010  (By @dompling) m.client.10010.com
+# 中国联通 app -> 首页的流量查询获取 Cookie
+^https?:\/\/m\.client\.10010\.com\/(.*)\/smartwisdomCommon  url script-request-header https://raw.githubusercontent.com/dompling/Script/master/10010/index.js
+# 10010  (By @chavyleung) act.10010.com, m.client.10010.com
+# 打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
+^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
 
-# 12123  (By @dompling)
+# 12123  (By @FoKit)
+# 打开交管12123支付宝或者微信小程序 登录即可自动抓取Token
+^https?:\/\/miniappcsfw\.122\.gov\.cn:8443\/openapi\/invokeApi\/business\/biz url script-request-body https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_12123_token.js
+^https?:\/\/miniappcsfw\.122\.gov\.cn:8443\/openapi\/invokeApi\/business\/biz url script-request-body https://raw.githubusercontent.com/dompling/Script/master/12123/index.js
 
-
-# 爱思助手  (By @Crazy-Z7)
-45 9 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Aisisign.js, tag=爱思助手全能版,img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0917.jpeg,enabled=true
+# 爱思助手全能版  (By @Crazy-Z7)
+# 我的 - 每日签到 - 签到一次
+^https?:\/\/usercenter2\.i4\.cn\/saveMemberSign\.xhtml url script-request-body https://raw.githubusercontent.com/Crazy-Z7/Task/main/Aisisign.js
 
 # 百度贴吧  (By @chavyleung)
 # 浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
-20 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tieba.png, enabled=true
+^https?:\/\/tieba\.baidu\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
 
-# B站每日等级任务  (By @ClydeTime)
-46 9 * * * https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/HuiDoY/Icon/main/mini/Color/bilibili.png, enabled=true
+# B站Cookie(APP)  (By @ClydeTime)
+# 方法A：后台退出手机B站客户端的情况下, 重新打开APP进入主页
+^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\? url script-request-header https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js
+# B站Cookie(网页)  (By @ClydeTime)
+# 方法B：通过网址「https://www.bilibili.com」登录（`暂不支持Loon`）
+^https?:\/\/m.bilibili.com/$ url script-request-header https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js
 
 # 霸王茶姬  (By @Guding88)
-# 进入微信霸王茶姬小程序 --> 积分商城 --> 积分签到 --> 签到
-47 9 * * * https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js, tag=霸王茶姬小程序签到, img-url=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png, enabled=true
+# 小程序 --> 积分商城 --> 积分签到 --> 签到
+# 小程序 -> 进入我的页面，若提示获取Cookie成功则可以使用该脚本
+^https?:\/\/webapi\.qmai\.cn\/web\/catering\/integral\/sign\/signIn url script-request-body https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
+http-request ^https:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js, timeout=10, tag=霸王茶姬获取token
 
-# 机场签到  (By @evilbutcher)
-# 教程：https://github.com/evilbutcher/QuantumultX/blob/main/check_in/glados/checkin.jpeg
-46 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, tag=机场签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/CNIX.png, enabled=true
+# CNIX  (By @evilbutcher)
+# BoxJs中，填入机场登陆链接。
+# 配置好后，手动签到一次，提示Cookie获取成功，如无第二个机场即可禁用Cookie获取。
+# 此时返回BoxJs中查看，Cookie和URL都有数据，即可保存会话。如有需要再重复1-4，获取第二个机场的Cookie（记得更改url为第二个机场对应的登陆链接）
+^https?:\/\/xn--d4ty0ojsqzfd\.com url script-request-header https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
 
 # 多看阅读  (By @chavyleung)
 # `我的` > `签到任务` 等到提示获取 Cookie 成功即可
-25 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js, tag=多看, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/duokan.png,enabled=true
+^https?:\/\/www\.duokan\.com\/checkin\/v0\/status url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.cookie.js
 
 # 飞客茶馆  (By @chavyleung)
 # 打开 APP, 访问下`个人中心`
-45 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/flyertea.png,enabled=true
+^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=getdata&.* url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.cookie.js
 
-# 途虎养车  (By @Crazy-Z7)
-# 公众号：搜索途虎小程序登录
-40 9 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js, tag=途虎养车积分签到, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=true
+# 途虎  (By @Crazy-Z7)
+# cookie获取:公众号搜索途虎小程序登录
+^https?://api.tuhu.cn/User/GetInternalCenterInfo url script-request-header https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js
 
-# 什么值得买  (By @blackmatrix7)
+# 什么值得买每日自动签到  (By @blackmatrix7)
 # 打开什么值得买APP，点击“我的”，进入右上角的签到页面，等待脚本弹出获取Cookie成功的通知即可。
-41 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买每日签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/task/smzdm.png, enabled=true
+^https?:\/\/user-api\.smzdm\.com\/checkin$ url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js
 
-# 青龙 docker 每日自动同步 boxjs cookie  (By @dompling)
-4 0 * * * https://raw.githubusercontent.com/dompling/Script/master/jd/ql_cookie_sync.js, tag=青龙同步, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/magicjs/images/qinglong.png, enabled=true
+# 起点 脚本功能: 自动观看 起点读书 广告
+# 任务1: 福利中心 --> 每日视频福利 --> 手动看一个视频
+# 任务2: 福利中心 --> 限时彩蛋 --> 额外看三次小视频奖励 --> 手动看一个视频
+# BoxJs地址: https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/mcdasheng.boxjs.json
+https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/finishWatch url script-request-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.cookie.js
+https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage url script-response-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.taskId.js
 
-# 起点  (By @MCdasheng)
-20 21 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.js, img-url=https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/qidian.png, tag=起点读书, enabled=true
+# i茅台自动预约 (By @FoKit)
+# boxjs地址：https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
+^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query url script-request-header https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js
 
-# i茅台自动预约  (By @FoKit)
-17 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js, tag=i茅台自动预约, img-url=https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f4/18/aef41811-955e-e6b0-5d23-6763c2eef1ab/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png, enabled=true
+# 假知轩藏书  (By @GoodNight)
+# 登录网站，打开个人中心
+^https:\/\/zxcstxt\.com\/user\/ url script-request-header https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/zhixuan.js
+
+# 高德高德打车  (By @wf021325)
+# 获取Cookie方法 ，QX开重写，进入【高德地图/微信/支付宝 小程序[高德打车]，打车，福利中心】，任意一端获取成功即可3端签到
+^https:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=) url script-response-body https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js
 
 [http_backend]
 
