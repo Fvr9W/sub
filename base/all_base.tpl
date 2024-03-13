@@ -184,7 +184,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2024-3-9 20:02:47
+#!date = 2024-3-13 15:51:27
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -215,7 +215,7 @@ resource-parser = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Scrip
 # 自定义 geoip 数据库的 url
 geoip-url = https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.mmdb
 # 配置了该参数，那么所配置的这些IP段、域名将不会转发到Loon，而是由系统处理
-skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com, e.crashlynatics.com
+skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com, e.crashlynatics.com, www.baidu.com, yunbusiness.ccb.com, wxh.wo.cn, gate.lagou.com, www.abchina.com.cn, www.shanbay.com, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com
 # 配置了该参数，那么所配置的这些IP段、域名就会不交给Loon来处理，系统直接处理
 bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 239.255.255.250/32, 255.255.255.255/32
 # 当切换到某一特定的WiFi下时改变Loon的流量模式，如"loon-wifi5g":DIRECT，表示在loon-wifi5g这个wifi网络下使用直连模式，"cellular":PROXY，表示在蜂窝网络下使用代理模式，"default":RULE，默认使用分流模式
@@ -344,6 +344,7 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Fileball_moun
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东」比价脚本, enabled = true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, tag=自定义「定位服务」与「地图」功能, enabled = false
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
+https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.plugin, tag=「Spotify」歌词增强及双语模块, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = false
 https://raw.githubusercontent.com/Keywos/rule/main/loon/Netisp.plugin, tag=「节点」检测, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/WARP_Node_Query.plugin, tag=「WARP」节点查询, enabled = false
@@ -455,7 +456,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-#!date = 2024-3-9 20:02:55
+#!date = 2024-3-13 15:53:55
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -563,6 +564,7 @@ https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=「知乎
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=「微信」链接助手, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.snippet, tag=「流媒体平台」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DualSubs/YouTube/main/modules/DualSubs.YouTube.snippet, tag=「YouTube」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.snippet, tag=「Spotify」歌词增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet, tag=自定义「Siri与搜索」功能, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag=自定义「定位服务」与「地图」功能, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
@@ -660,24 +662,87 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 20 21 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.js, img-url=https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/qidian.png, tag=起点读书, enabled=true
 
 # i茅台自动预约  (By @FoKit)
-17 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js, tag=i 茅台, enabled=true
+17 9 * * * https://gist.githubusercontent.com/Fvr9W/cf76045e60e70b08912f0484f33e4717/raw/i-maotai.js, tag=i 茅台, enabled=true
 
 # 假知轩藏书  (By @GoodNight)
 # hostname = zxcstxt.com
 # 将获取ck脚本保存到本地
 # 登录网站，打开个人中心，若提示获取ck成功则可以使用该脚本
 # 关闭获取ck脚本，防止产生不必要的mitm
-0 9 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/zhixuan.js, tag=知轩藏书签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zxcs.png, enabled=true
+0 8 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/zhixuan.js, tag=知轩藏书签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zxcs.png, enabled=true
 
 # 高德地图  (By @wf021325)
 # hostname = *.amap.com
 # 获取Cookie方法 ，QX开重写，进入【高德地图/微信/支付宝 小程序[高德打车]，打车，福利中心】，任意一端获取成功即可3端签到
-01 9 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, tag=高德地图打车签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Gddt.png, enabled=true
+01 8 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, tag=高德地图打车签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Gddt.png, enabled=true
 
 # 美的 (By @wf021325)
 # hostname = mvip.midea.cn
 # 打开小程序->我的
-02 9 * * * https://gist.githubusercontent.com/Sliverkiss/3c0239a09cbe381c572a826a5caf5621/raw/midea.js, tag=美的签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zxcs.png, enabled=true
+02 8 * * * https://gist.githubusercontent.com/Sliverkiss/3c0239a09cbe381c572a826a5caf5621/raw/midea.js, tag=美的签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zxcs.png, enabled=true
+
+# 爱奇艺  (By @Nobyda)
+# Safari浏览器打开 https://m.iqiyi.com/user.html 使用密码登录, 如通知成功获取cookie则可使用该脚本.
+03 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/iQIYI.png, enabled=true
+
+# 微博  (By @GoodHolidays)
+04 8 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/weibo.js, tag=微博签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true
+
+# 哈啰出行  (By @chavyleung)
+# 打开 APP 进入签到页面: 我的 > 有哈有车 系统提示: 首次写入 哈啰出行 Token 成功
+05 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, tag=哈啰出行签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/hellbike.png, enabled=true
+
+# 美团  (By @chavyleung)
+# 打开 APP , 然后手动签到 1 次, 系统提示: 获取Cookie: 成功 (首页 > 红包签到)
+06 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true
+
+# 网易云音乐  (By @chavyleung)
+# 先登录: https://music.163.com/m/login 再访问: https://music.163.com/#/user/level 提示: 获取会话: 成功!
+07 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js, tag=网易云音乐签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/neteasemusic.png, enabled=true
+
+# 去哪儿  (By @chavyleung)
+# 打开 APP 然后手动签到 1 次 系统提示: 获取Cookie: 成功
+08 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js, tag=去哪儿签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/qunar.png, enabled=true
+
+# 顺丰速运  (By @chavyleung)
+# APP 我的顺丰 > 任务中心 > 去签到 提示 获取会话: 成功
+09 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, tag=顺丰速运签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/sfexpress.png, enabled=true
+
+# 斗鱼鱼吧  (By @lowking)
+# 打开https://yuba.douyu.com/homepage/hotwbs并登陆，打开获取cookie，刷新页面，提示获取鱼吧关注列表成功
+10 8 * * * https://raw.githubusercontent.com/lowking/Scripts/master/douyu/yubaSign.js, tag=斗鱼鱼吧签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/douyu.png, enabled=true
+
+# 夸克网盘签到  (By @Sliverkiss)
+# 青龙：抓https://drive-m.quark.cn/1/clouddrive/capacity/growth/sign接口的kps、sign、vcode，用#连接，填写到quark_data，多账号用@分割
+# Surge、QuantumultX、Loon、Shadowrocket：1.将获取ck脚本拉取到本地 2.打开网盘，手动点击一次签到，若提示获取ck成功则可以使用改脚本 3.关闭获取ck脚本，防止出现不必要的mitm。ps：若以上获取ck操作失败，可以参照青龙的使用方法手动将参数填入boxjs
+11 8 * * * https://gist.githubusercontent.com/Sliverkiss/2694a665b4e52d8788c18394201ff3eb/raw/quarkcloud.js, tag=夸克网盘签到, enabled=true
+
+# 阿里云任务  (By @Sliverkiss)
+# 单账号&&多账号：1.将获取ck脚本拉取到本地 2.打开阿里云盘，若提示获取ck成功，则可以使用该脚本 3.获取成功后，关闭获取ck脚本，避免产生不必要的mitm
+0 7,11,17 * * * https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, tag=阿里云签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png, enabled=true
+
+# 哈罗单车奖励金签到  (By @Sliverkiss)
+# 使用方法：青龙：1.登录后抓包 api.hellobike.com域名下的token,填写到hldc_data,多账号用 @ 分割 2.可选推送：将bark的key填写到bark_key，不填默认使用青龙自带的推送
+# Loon、QuantumultX、surge、Shadowrocket: 1.将获取Cookie脚本保存到本地 2.打开小程序->奖励中心，若提示获取Cookie成功则可以使用该脚本 3.关闭获取ck脚本，避免产生不必要的mitm。
+12 8 * * * https://gist.githubusercontent.com/Sliverkiss/4e0081f7b18a2cea9dbdf13545e60885/raw/hldc.js, tag=哈罗单车奖励金签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/LoadBalance.png, enabled=true
+
+# 美团买菜任务  (By @JoJoJotarou)
+# 使用说明：方式1：美团APP -> 美团买菜 -> 我的 -> 买菜币 -> QX提示成功即可 （若此方式不行尝试下面2种方法）
+# 使用说明：方式2：美团APP -> 美团买菜 -> 我的 -> 买菜币 -> 去使用 -> 在退回上一级，QX提示成功即可
+# 使用说明：方式3：美团APP -> 美团买菜 -> 我的 -> 买菜币 -> 左滑一半做退出手势再松手（不要真的退出了）-> QX提示成功即可
+13 6,8 * * * https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.mallcoin.task.js, tag=美团买菜任务, enabled=true
+
+# 天翼云盘签到  (By @MCdasheng)
+# 我的 --> 手动签到一次
+14 8 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/ty.js, tag=天翼云盘, enabled=true
+
+# 捷停车  (By @FoKit)
+# 添加重写规则并打开捷停车APP即可获取userId
+15 8 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js, tag=捷停车签到, enabled=true
+
+# 建行生活  (By @FoKit)
+# 建行生活APP -> 首页 -> 会员有礼 -> 签到
+16 8 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js, tag=建行生活, enabled=true
 
 [http_backend]
 
