@@ -1,3 +1,5 @@
+# tts asia 暂时走下这个策略
+DOMAIN-SUFFIX,eastasia.tts.speech.microsoft.com
 # pokerstars有国家限制，建议使用 英国 节点
 PROCESS-NAME,PokerStars.exe
 DOMAIN-SUFFIX,pokerstars.com
