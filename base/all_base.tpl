@@ -456,7 +456,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-#!date = 2024-3-13 15:53:55
+#!date = 2024-3-29 13:20:47
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -740,6 +740,11 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 # 建行生活  (By @FoKit)
 # 建行生活APP -> 首页 -> 会员有礼 -> 签到
 15 8 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js, tag=建行生活, enabled=true
+
+# 龙湖天街  (By @leiyiyan)
+# 获取 Cookie：打开龙湖天街小程序，进入 我的 - 签到赚珑珠 - 任务赚奖励 - 马上签到。
+# gw2c-hw-open.longfor.com
+16 8 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, tag=龙湖天街, img-url=ttps://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png, enabled=true
 
 [http_backend]
 
