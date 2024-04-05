@@ -1,7 +1,7 @@
 #!name = 「合集」会员破解
-#!desc = 爱企查|百度文库|网盘|Clam|财新|彩云天气|Deezer|多邻国|丁香医生|Emby|Flightradar24|Grammarly|流利说|美颜相机|Nicegram|南方周末|牛津高阶词典第10版|PornHub|Photoshop|泼辣修图|泼辣|Pear|Qobuz|全能扫描王|Spotify|TIDAL|VSCO|WPS|用药助手|联通余量
+#!desc = 爱企查|百度文库|网盘|#Clam|财新|彩云天气|Deezer|多邻国|丁香医生|Emby|Flightradar24|Grammarly|流利说|美颜相机|Nicegram|南方周末|牛津高阶词典第10版|PornHub|Photoshop|泼辣修图|泼辣|Pear|Qobuz|全能扫描王|Spotify|TIDAL|VSCO|WPS|用药助手|联通余量
 #!homepage = https://github.com/Fvr9W/sub/edit/master/rules/Unlock.qxrewrite
-#!date = 2023-9-9 22:40:49
+#!date = 2024-4-5 23:14:24
 
 hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.calm.com, gateway.caixin.com, api.caiyunapp.com, biz.cyapi.cn, wrapper.cyapi.cn, media.deezer.com, ios-api-2.duolingo.cn, dxy.com, mb3admin.com, mobile.flightradar24.com, subscription.grammarly.com, auth.grammarly.com, vira.llsapp.com, api.account.meitu.com, api.meiyan.com, restore-access.indream.app, api.infzm.com, oxfordx.cp.com.cn, oxadmin.cp.com.cn, cn.pornhubpremium.com, lcs-mobile-cops.adobe.io, api.polarisoffice.com, m.pearkin.com, www.qobuz.com, ap*.intsig.net, spclient.wg.spotify.com, api.tidal.com, vsco.co, account.wps.cn, *account.wps.com, newdrugs.dxy.cn, 10010v4.com
 
@@ -21,8 +21,8 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 # ======= C ====== #
 # > Clam 解锁：VIP //api.calm.com, www.calm.com
 # > 仓库地址 https://github.com/langkhach270389
-^https?:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
-^https?:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
+# ^https?:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
+# ^https?:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
 
 # > 财新会员 //gateway.caixin.com
 # > 解锁：财新文章阅读与音频限制
