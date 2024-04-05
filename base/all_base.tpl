@@ -184,7 +184,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2024-3-13 15:51:27
+#!date = 2024-4-5 22:59:50
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -342,11 +342,12 @@ https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.B
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Fileball_mount.plugin, tag=「Fileball」挂载增强, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东」比价脚本, enabled = true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, tag=自定义「定位服务」与「地图」功能, enabled = false
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, tag=自定义「定位服务」功能, enabled = true
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Maps.plugin, tag=自定义「地图」功能, enabled = true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
 https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.plugin, tag=「Spotify」歌词增强及双语模块, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = false
-https://raw.githubusercontent.com/Keywos/rule/main/loon/Netisp.plugin, tag=「节点」检测, enabled = true
+https://raw.githubusercontent.com/Keywos/rule/main/loon/ip.plugin, tag=「节点」检测, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/WARP_Node_Query.plugin, tag=「WARP」节点查询, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, tag=「微信」外链增强, enabled = true
 # 去广告合集
@@ -456,7 +457,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-#!date = 2024-3-29 13:20:47
+#!date = 2024-4-5 23:00:01
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -566,7 +567,8 @@ https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Unive
 https://raw.githubusercontent.com/DualSubs/YouTube/main/modules/DualSubs.YouTube.snippet, tag=「YouTube」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.snippet, tag=「Spotify」歌词增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet, tag=自定义「Siri与搜索」功能, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag=自定义「定位服务」与「地图」功能, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag=自定义「定位服务」功能, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Maps.snippet, tag=自定义「地图」功能, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
 # 去广告
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf, tag=「合集1」去广告, update-interval=172800, opt-parser=false, enabled=true
