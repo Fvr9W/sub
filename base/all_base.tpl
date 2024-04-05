@@ -211,7 +211,7 @@ disconnect-on-policy-change = true
 # 一个节点连接失败几次后会进行节点切换，默认 3 次
 switch-node-after-failure-times = 3
 # 订阅资源解析器链接
-resource-parser = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/sub-store-parser_for_loon.js
+resource-parser = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Sub-Store/sub-store-parser_for_loon.js
 # 自定义 geoip 数据库的 url
 geoip-url = https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.mmdb
 # 配置了该参数，那么所配置的这些IP段、域名将不会转发到Loon，而是由系统处理
