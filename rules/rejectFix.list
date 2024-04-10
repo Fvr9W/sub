@@ -1,12 +1,5 @@
 #!name=rejectFix
-#!desc=修复一些需要 reject 的
-#!author=Fvr9W
-#!homepage=https://github.com/Fvr9W/sub/edit/master/rules/rejectFix.list
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
-#!date=2024-04-07 22:30
-
-#!name=rejectFix
-#!desc=修复一些需要 reject 的
+#!desc=修复一些需要拒绝访问的地址
 #!author=Fvr9W
 #!homepage=https://github.com/Fvr9W/sub/edit/master/rules/rejectFix.list
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
