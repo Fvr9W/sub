@@ -138,6 +138,9 @@ DOMAIN-SUFFIX,cn-1.servers.midnight.im
 # > 不让 Windows 出地球，可以代理但是有些代理屏蔽了，直连比较好
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
+# > 365
+DOMAIN-SUFFIX,365-213.com
+DOMAIN-SUFFIX,365365317.com
 # > pikpak 可直连线路
 DOMAIN,dl-a10b-0800.mypikpak.com
 DOMAIN,dl-a10b-0801.mypikpak.com
