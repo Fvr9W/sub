@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,pfmsqosprod.westus.cloudapp.azure.com
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,chatgpt.com
 
 # > Chat GPT API & CDN
 DOMAIN,cdn.auth0.com
