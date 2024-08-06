@@ -191,10 +191,6 @@ ipv6 = false
 dns-server = system, 119.29.29.29, 223.5.5.5
 # DNS over HTTPS服务器，用,隔开多个服务器
 # doh-server = https://223.5.5.5/resolve, https://sm2.doh.pub/dns-query
-# 禁用 stun 是否禁用 stun 协议的 udp 数据，禁用后可以有效解决 webrtc 的 ip 泄露
-sni-sniffing = true
-# 禁用 stun 是否禁用 stun 协议的 udp 数据，禁用后可以有效解决 webrtc 的 ip 泄露
-disable-stun = false
 # 当 UDP 的流量规则匹配到相关节点，但该节点不支持 UDP 或未未开启 UDP 转发时使用的策略，可选 DIRECT、REJECT
 udp-fallback-mode = DIRECT
 # 域名拒绝规则执行的阶段
@@ -214,7 +210,8 @@ test-timeout = 2
 # 指定流量使用哪个网络接口进行转发
 interface-mode = auto
 # 禁用 stun 是否禁用 stun 协议的 udp 数据，禁用后可以有效解决 webrtc 的 ip 泄露
-disable-stun = true
+sni-sniffing = true
+disable-stun = false
 # 策略改变时候打断连接
 disconnect-on-policy-change = true
 # 一个节点连接失败几次后会进行节点切换，默认 3 次
