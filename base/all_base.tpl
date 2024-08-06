@@ -188,7 +188,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
-dns-server = 119.29.29.29, 223.5.5.5
+dns-server = system, 119.29.29.29, 223.5.5.5
 # DNS over HTTPS服务器，用,隔开多个服务器
 # doh-server = https://223.5.5.5/resolve, https://sm2.doh.pub/dns-query
 # 禁用 stun 是否禁用 stun 协议的 udp 数据，禁用后可以有效解决 webrtc 的 ip 泄露
