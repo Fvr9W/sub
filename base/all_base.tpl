@@ -390,6 +390,7 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Weixin_Offici
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin, tag=「部分微信小程序」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Snowball_remove_ads.plugin, tag=「雪球」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/XiaoHeiHe_remove_ads.plugin, tag=「小黑盒」去广告, enabled = true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/FleaMarket_remove_ads.plugin, tag=「咸鱼」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/YouTube_remove_ads.plugin, tag=「YouTube」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Zhihu_remove_ads.plugin, tag=「知乎」去广告, enabled = true
 # 签到
