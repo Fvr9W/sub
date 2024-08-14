@@ -141,7 +141,11 @@ DOMAIN-SUFFIX,msftncsi.com
 # > 365
 DOMAIN-SUFFIX,365-213.com
 DOMAIN-SUFFIX,365365317.com
+# > 接码
+DOMAIN-KEYWORD,yezi66
+DOMAIN-KEYWORD,yezi779
 # > pikpak 可直连线路
+DOMAIN-KEYWORD,dl-a10b
 DOMAIN,dl-a10b-0800.mypikpak.com
 DOMAIN,dl-a10b-0801.mypikpak.com
 DOMAIN,dl-a10b-0802.mypikpak.com
