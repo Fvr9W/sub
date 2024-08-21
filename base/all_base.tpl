@@ -116,6 +116,8 @@ dns:
     - '+.ps.im'
     ## verykuai
     - '+.verykuai.com'
+    ## pubg
+    - '+.acs.pubg.com'
   nameserver-policy:
     'raw.githubusercontent.com': '8.8.8.8'
     '+.meiquankongjian.com': '8.8.8.8'
