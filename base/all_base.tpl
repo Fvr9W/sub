@@ -118,6 +118,7 @@ dns:
     - '+.verykuai.com'
     ## pubg
     - '+.acs.pubg.com'
+    - 'pubg1.battleye.com'
   nameserver-policy:
     'raw.githubusercontent.com': '8.8.8.8'
     '+.meiquankongjian.com': '8.8.8.8'
