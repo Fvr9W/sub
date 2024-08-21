@@ -150,5 +150,6 @@ DOMAIN-KEYWORD,dl-a10b
 DOMAIN-KEYWORD,verykuai
 # > PUBG 服务，无需代理
 DOMAIN-SUFFIX,acrt-pcprod.acs.pubg.com
+DOMAIN-SUFFIX,pubg1.battleye.com
 # > 黑魂线上服务器
 DOMAIN-SUFFIX,fromsoftware-game.net
