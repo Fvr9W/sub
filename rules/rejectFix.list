@@ -3,7 +3,7 @@
 #!author=Fvr9W
 #!homepage=https://github.com/Fvr9W/sub/edit/master/rules/rejectFix.list
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
-#!date=2024-04-07 22:30
+#!date=2024-8-29 06:11:54
 
 # ======= A ======= #
 # 阿里巴巴
@@ -63,6 +63,11 @@ DOMAIN,md-i-s.apptimize.com
 # ======= D ======= #
 # DNS 无响应
 DOMAIN,adttrackingprd.hwwt8.com
+
+# ======= E ======= #
+# ESET精睿版防止更新失效
+DOMAIN,expire.eset.com
+DOMAIN,edf.eset.com
 
 # ======= G ======= #
 # 高德地图
