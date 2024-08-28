@@ -1,4 +1,5 @@
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unbreak.list
+Hijacking,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/rejectFix.list
 DIRECT,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt
 DIRECT,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt
 SougouInput,https://ruleset.skk.moe/List/non_ip/sogouinput.conf
@@ -23,5 +24,4 @@ Telegram,https://ruleset.skk.moe/List/ip/telegram.conf
 B1gProxy,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
 Discord,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Discord_voice_ip.list
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/DirectFix.list
-REJECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/rejectFix.list
 Other Games,[]FINAL
