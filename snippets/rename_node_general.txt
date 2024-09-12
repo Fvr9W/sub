@@ -1,0 +1,182 @@
+282, Sector 19@E2E
+AMAZON-02@AMAZON
+Atomlantis Network, LLC@Atomlantis
+Akamai Connected Cloud@Akamai
+Akari Networks@Akari
+Zhejiang Aiyun Network Technology Co Ltd@Aiyun
+Civo LTD@Civo
+Comnet Bilgi Iletisim Teknolojileri Ticaret A.s.@CBIT
+Canopus It Solutions Pvt Ltd@CISP
+Chociz Private Limited@Chociz
+CLOUDFLARENET@CF
+Bangmod Enterprise Co., Ltd.@Bangmod
+Brain PEACE Science Foundation, Inc.@BPSF
+Data Communication Business Group@DCBG
+DIGITALOCEAN-ASN@DO
+Daniel Jackson@Daniel
+Deutsche Glasfaser Wholesale GmbH@DGWG
+EIVUS DATA CENTER E TELECOM@EIVUS
+Eons Data Communications Limited@Eons
+Eastern Telecoms Phils., Inc.@ETPI
+EDIS GmbH@EDIS
+EDGEUNO SAS@EDGEUNO
+Tokyo Online Co.,Ltd.@TOC
+G-Core Labs S.A.@G-Core
+GRUPO ZGH SPA@GRUPO
+GB Network Solutions Sdn. Bhd.@GBN
+HK Cable TV Ltd@HKCT
+Hong Kong Broadband Network Ltd.@HKBN
+HGC Global Communications Limited@HKG
+Hohl IT e.U.@Hohl
+JINX CO., LIMITED@JINX
+Kamatera Inc@Kamatera
+Kirino LLC@Kirino
+Kaopu Cloud HK Limited@Kaopu
+LLC Baxet@LLC
+NPO G-net@NPO
+NB-NETWORKS@NB
+MIKU NETWORK LIMITED@MIKU
+MikiPro Ltd@MikiPro
+NetCologne Gesellschaft fur Telekommunikation mbH@NetCologne
+OVH SAS@OVH
+ORACLE-BMC-31898@ORACLE
+O.m.c. Computers & Communications Ltd@O.m.c.
+oneCorp GmbH@oneCorp
+Truxgo S. R.L. de C.V.@Truxgo
+TM TECHNOLOGY SERVICES SDN. BHD.@TM
+PRIME-SEC@PRIME
+Private Layer INC@Private
+Propelin Consulting S.L.U.@Propelin
+POLONETWORK LIMITED@POLONETWORK
+PT Biznet Gio Nusantara@PT
+Rackforest Zrt.@Rackforest
+Network Presence@Presence
+NTT PC Communications, Inc.@NTT
+Next Network Research Laboratory, Graduate School of Science and Engineering, Hosei Universi@NEXTNET-LAB
+Misaka Network, Inc.@Misaka
+Mammoth Media Pty Ltd@Mammoth
+M247 Europe SRL@M247
+Melbikomas UAB@Melbikomas
+Shanghai Huajuan Information Technology Co., Ltd.@Huajuan
+SONDATECH S.A.S.@SONDATECH
+Sangsang Networks Co., Ltd.@Sangsang
+SoftBank Corp.@SB
+Sony Network Communications Inc.@Sony
+SIA VEESP@SIA
+Stark Industries Solutions Ltd@SIS
+VIETNAM POSTS AND TELECOMMUNICATIONS GROUP@VPATG
+Virtury Cloud Pakistan@Virtury
+Vivacom Bulgaria EAD@Vivacom
+UAB Bite Lietuva@UAB
+w1n ltd@w1n
+Yae Telecom Limited@Yae
+ZEN-ECN@ZEN
+NAVEGALO S.A.@NAVEGALO
+MICROSOFT-CORP-MSN-AS-BLOCK@MICROSOFT
+Andorra Telecom, S.a.u.@Andorra
+Telecom Algeria@Algeria
+GBK ARGENTINA S.A.@Argentina
+Aperture Science Limited@Aperture
+Delta Telecom Ltd@Delta
+Tomattos Technologies Ltd.@Tomattos
+QNAX LTDA@QNAX
+BRASCLOUD LTDA - ME@BRASCLOUD
+Accuris Technologies Ltd.@Accuris
+Flow Swiss AG@FSAG
+J AND J SPA INFOFRACTAL@JJSI
+Digital United Inc.@DU
+Asia Pacific On-line Service Inc.@APOS
+Sony Network Taiwan Limited@Sony
+Extra-Lan Technologies Co., LTD@Extra-Lan
+GTD COLOMBIA S.A.S@GTD
+Administracion Nacional de Telecomunicaciones@ANdT
+Marcatel Com, S.A. de C.V.@Marcatel
+Companhia de Telecomunicacoes de Macau SARL@CTM
+Catixs Ltd@Catixs
+Community Fibre Limited@C-Fibre
+Liberty Global B.V.@Liberty
+Webconex SAS@Webconex
+Caucasus Online Ltd.@Caucasus
+Media Antar Nusa PT.@Nusanet
+Partner Communications Ltd.@Partner
+ISPIXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.@CAMBODIA
+NTT Communications Corporation@NTT
+Internet Initiative Japan Inc.@IIJ
+Servercore-Africa-Ltd@Servercore
+Optima Telecom Ltd.@Optima
+JSC Kazakhtelecom@JSC
+CORPORACION GALA IT, C.A.@CORPORACION
+Global Digital Management Solutions Co Ltd@GDMS
+Batterflyai Media ltd.@Batterflyai
+Lanka Communication Services@LCS
+UAB Baltnetos komunikacijos@UAB
+Visual Online S.A.@Visual
+Baltcom SIA@Baltcom
+IM Level η SRL@IM
+Makedonski Telekom AD-Skopje@MT
+Golden TMH Telecom Co. Ltd@GTT
+iTools JSC@iTools
+Smart IP \(SIP\) Limited@SIP
+Subisu Cablenet Pvt Ltd, Baluwatar, Kathmandu, Nepal@SCP
+Two Degrees Networks Limited@TDN
+Korbank S. A.@Korbank
+Nuno Felgueiras@Nuno
+United Internet Ltd.@UI
+Datacheap LLC@Datacheap
+DEDIOUTLET-NETWORK-PHX@DEDIOUTLET
+Private services Unitary Enterprise Vash Internet@Vash
+Olleh-Rwanda-Networks@Olleh-Rwanda
+BIGLOBE Inc.@BIGLOBE
+Active Network S.p.A.@Active
+Aruba S.p.A.@Aruba
+Maintenance of Network & information Technology Company LLC@Maintenance
+Whiz Communications Pte Ltd@Whiz
+Singtel Fibre Broadband@SFB
+MobileOne Ltd. MobileInternet Service Provider Singapore@MobileOne
+Webglobe, a.s@Webglobe
+Syrian Telecommunication Private Closed Joint Stock Company@Joint Stock
+The Communication Authoity of Thailand, CAT@CAT
+Real Future Company Limited@Real Future
+TN-BB-AS Tunisia BackBone AS@BackBone
+Markahost Telekomunikasyon Ve Ticaret Limited Sirketi@Markahost
+Vodafone Net Iletisim Hizmetler AS@Vodafone
+Teknosos Bilisim Hizmetleri Ve Tic. Ltd. Sti.@Teknosos
+
+24@ω
+23@ψ
+22@χ
+21@ϕ
+20@υ
+19@τ
+18@σ
+17@ρ
+16@π
+15@ο
+14@ξ
+13@ν
+12@μ
+11@λ
+10@κ
+(09|9)@ι
+(08|8)@θ
+(07|7)@η
+(06|6)@ζ
+(05|5)@ϵ
+(04|4)@δ
+(03|3)@γ
+(02|2)@β
+(01|1)@α
+
+(.*(阿布扎比|阿曼|阿塞拜疆|澳门|巴基斯坦|巴林|白俄罗斯|北马其顿|中国|香港|印度|马哈拉施特拉|班加罗尔|印尼|伊朗|伊拉克|以色列|日本|约旦|哈萨克斯坦|韩国|吉尔吉斯斯坦|柬埔寨|科威特|老挝|黎巴嫩|马来西亚|马尔代夫|蒙古|缅甸|尼泊尔|欧马尔群岛|菲律宾|卡塔尔|沙特阿拉伯|新加坡|斯里兰卡|叙利亚|台湾|嘉义|桃园|彰化|塔吉克斯坦|泰国|土库曼斯坦|土耳其|阿联酋|乌兹别克斯坦|越南|也门|佩塔提克瓦|克拉克|叶卡捷琳堡|海法|特拉维夫|约翰内斯堡|维涅杜|萨尔瓦多|马尼拉|亚美尼亚|孟加拉).*$)@$1 #Asia
+(.*(加拿大|美国|巴拿马|波多黎各|危地马拉|墨西哥|奥斯汀|达拉斯|丹佛|夏威夷|波士顿|洛杉矶|拉斯维加斯|华盛顿|温哥华|西雅图|密尔沃基|渥太华|蒙特利尔|魁北克市|奥兰多|费城|多伦多|奥格登|帕西格|底特律|斯波坎|棉兰|纽约|凤凰城|圣何塞|圣克拉拉|芝加哥|荷属库拉索).*$)@$1 #North America
+(.*(阿根廷|巴西|哥伦比亚|智利|厄瓜多尔|秘鲁|委内瑞拉|里约热内卢|圣保罗|哥斯达黎加|乌拉圭).*$)@$1 #South America
+(.*(阿尔巴尼亚|安道尔|安道尔|白俄罗斯|波兰|保加利亚|比利时|捷克|丹麦|爱沙尼亚|芬兰|法国|格鲁吉亚|德国|希腊|匈牙利|冰岛|爱尔兰|意大利|拉脱维亚|立陶宛|卢森堡|北马其顿|马耳他|摩尔多瓦|荷兰|考文垂|挪威|葡萄牙|罗马尼亚|俄罗斯|圣彼得堡|莫斯科|圣马力诺|塞尔维亚|斯洛伐克|斯洛文尼亚|西班牙|瑞典|瑞士|土耳其|英国|北安普顿|梵蒂冈|委内瑞拉|罗什艾因|奥地利|波黑共和国|克罗地亚|马恩岛|列支敦士登|乌克兰).*$)@$1 #Europe
+(.*(澳大利亚|悉尼|珀斯|墨尔本|阿德莱德|新西兰|布里斯班|富吉拉|关岛).*$)@$1 #Oceania
+(.*(阿尔及利亚|肯尼亚|摩洛哥|南非|突尼斯|乌干达|卢旺达|法属留尼汪|塞舌尔|毛里求斯).*$)@$1 #Africa
+(.*(阿布扎比|阿曼|埃及|卡塔尔|沙特阿拉伯|阿联酋|迪拜).*$)@$1 #Middle East
+(.*南极.*$)@$1 #Antarctica
+
+IPVζ@IPV6
+IPVδ@IPV4
+  @ 
+\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
