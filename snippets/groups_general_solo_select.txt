@@ -22,7 +22,7 @@ SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 ALL`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
-AutoHK 🇭🇰`fallback`!!GROUPID=0!!.*香港.*Premium.*$`[]AutoHK1 🇭🇰`[]AutoHK2 🇭🇰`http://cp.cloudflare.com/generate_204`60,,30
+AutoHK 🇭🇰`fallback`!!GROUPID=0!!.*香港.*# Premium.*$`[]AutoHK1 🇭🇰`[]AutoHK2 🇭🇰`http://cp.cloudflare.com/generate_204`60,,30
 AutoHK1 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?Premium).*香港.*(PRIME|Kirino|Atomlantis|HKCT).*$`[]REJECT`http://cp.cloudflare.com/generate_204`60,,20
 AutoHK2 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(PRIME|Atomlantis|HKCT|Premium)).*香港.*$`[]REJECT`http://cp.cloudflare.com/generate_204`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`[]REJECT`http://cp.cloudflare.com/generate_204`60,,20
