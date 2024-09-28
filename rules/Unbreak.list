@@ -149,8 +149,5 @@ DOMAIN-KEYWORD,yezi779
 DOMAIN-KEYWORD,dl-a10b
 # > vk加速器
 DOMAIN-KEYWORD,verykuai
-# > PUBG 服务，无需代理
-DOMAIN-SUFFIX,pubg.com
-DOMAIN-SUFFIX,pubg1.battleye.com
 # > 黑魂线上服务器
 DOMAIN-SUFFIX,fromsoftware-game.net
