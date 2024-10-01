@@ -81,6 +81,7 @@ DOMAIN,download.calibre-ebook.com
 # 微软
 DOMAIN-SUFFIX,msecnd.net
 DOMAIN-SUFFIX,dotnetcli.blob.core.windows.net
+DOMAIN-SUFFIX,cdn.office.net
 # 微软应用商店
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
 # Google Diver
