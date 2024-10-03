@@ -108,3 +108,5 @@ DOMAIN-SUFFIX,download.tidal.com
 DOMAIN-SUFFIX,downloads.sourceforge.net
 # mp3tag
 DOMAIN-SUFFIX,download.mp3tag.de
+# binance
+DOMAIN-SUFFIX,ftp.binance.com
