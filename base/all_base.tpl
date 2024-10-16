@@ -337,12 +337,8 @@ https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.plugin, ta
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite/_end_/Unlock.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」会员破解, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/yqc007/QuantumultX/master/LightBeautyCamCrack.js/_end_/LightBeautyCamCrack.plugin?type=qx-rewrite&target=loon-plugin, tag=「轻颜相机5.2.1」会员破解, enabled = false
 https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, tag=「TikTok」解锁区域, enabled = true
-https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/TestFlight.plugin, tag=「TestFlight」解锁区域, policy = DIRECT, enabled = true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=「Spotify」解锁, enabled = true
 # 功能增强
-https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/1.1.1.1.plugin, tag=「1.1.1.1」配置管理, enabled = false
-https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Auto_Join_TF.plugin, policy = DIRECT, tag=「TestFlight」自动加入, enabled = false
-https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/BingAI.plugin, policy = Microsoft, tag=「BingAI」解锁, enabled = true
 https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.plugin, tag=自定义「哔哩哔哩粉白」主界面, enabled = true
 https://raw.githubusercontent.com/BiliUniverse/Global/main/modules/BiliBili.Global.plugin, tag=自动化「哔哩哔哩粉白」线路及全区搜索, enabled = true
 https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.plugin, tag=「流媒体平台」字幕增强及双语模块, enabled = true
@@ -357,6 +353,9 @@ https://github.com/NSRingo/Weather/raw/main/modules/Weather.plugin, tag=自定�
 https://github.com/NSRingo/GeoServices/releases/latest/download/Location.plugin, tag=自定义「定位服务」功能, enabled = true
 https://github.com/NSRingo/GeoServices/releases/latest/download/Maps.plugin, tag=自定义「地图」功能, enabled = true
 https://github.com/NSRingo/Siri/releases/latest/download/Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
+https://github.com/NSRingo/TV/releases/latest/download/TV.plugin, tag=自定义「AppleTV」功能, enabled = true
+https://github.com/NSRingo/News/releases/latest/download/News.plugin, tag=自定义「AppleNews」功能, enabled = true
+https://github.com/NSRingo/TestFlight/releases/latest/download/TestFlight.plugin, tag=自定义「TestFlight」功能, enabled = true
 https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.plugin, tag=「Spotify」歌词增强及双语模块, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = false
 https://raw.githubusercontent.com/Keywos/rule/main/loon/ip.plugin, tag=「节点」检测, enabled = true
