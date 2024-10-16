@@ -191,7 +191,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2024-9-18
+#!date = 2024-10-16
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -207,13 +207,14 @@ dns-reject-mode = LoopbackIP
 # 是否开启局域网代理访问
 allow-wifi-access = false
 # 开启局域网访问后的 http 代理端口
-wifi-access-http-port = 7222
+wifi-access-http-port = 7892
 # 开启局域网访问后的 socks5 代理端口
-wifi-access-socks5-port = 7221
+wifi-access-socks5-port = 7893
 # 测速所用的测试链接，如果策略组没有自定义测试链接就会使用这里配置的
-proxy-test-url = http://cp.cloudflare.com/generate_204
+internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
+proxy-test-url = http://detectportal.firefox.com/success.txt
 # 节点测速时的超时秒数
-test-timeout = 2
+test-timeout = 5
 # 指定流量使用哪个网络接口进行转发
 interface-mode = auto
 # 禁用 stun 是否禁用 stun 协议的 udp 数据，禁用后可以有效解决 webrtc 的 ip 泄露
@@ -351,9 +352,11 @@ https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.B
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Fileball_mount.plugin, tag=「Fileball」挂载增强, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东」比价脚本, enabled = true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin, tag=自定义「定位服务」功能, enabled = true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Maps.plugin, tag=自定义「地图」功能, enabled = true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
+https://github.com/NSRingo/WeatherKit/releases/latest/download/WeatherKit.plugin, tag=自定义「天气Kit」功能, enabled = true
+https://github.com/NSRingo/Weather/raw/main/modules/Weather.plugin, tag=自定义「天气」功能, enabled = true
+https://github.com/NSRingo/GeoServices/releases/latest/download/Location.plugin, tag=自定义「定位服务」功能, enabled = true
+https://github.com/NSRingo/GeoServices/releases/latest/download/Maps.plugin, tag=自定义「地图」功能, enabled = true
+https://github.com/NSRingo/Siri/releases/latest/download/Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
 https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.plugin, tag=「Spotify」歌词增强及双语模块, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = false
 https://raw.githubusercontent.com/Keywos/rule/main/loon/ip.plugin, tag=「节点」检测, enabled = true
@@ -494,7 +497,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-#!date = 2024-8-29
+#!date = 2024-10-16
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -603,9 +606,11 @@ https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, 
 https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.snippet, tag=「流媒体平台」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DualSubs/YouTube/main/modules/DualSubs.YouTube.snippet, tag=「YouTube」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.snippet, tag=「Spotify」歌词增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Siri.snippet, tag=自定义「Siri与搜索」功能, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet, tag=自定义「定位服务」功能, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Maps.snippet, tag=自定义「地图」功能, update-interval=86400, opt-parser=false, enabled=false
+https://github.com/NSRingo/WeatherKit/releases/latest/download/WeatherKit.snippet, tag=自定义「天气Kit」功能, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/Weather/raw/main/modules/Weather.snippet, tag=自定义「天气」功能, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/Siri/releases/latest/download/Siri.snippet, tag=自定义「Siri与搜索」功能, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/GeoServices/releases/latest/download/Location.snippet, tag=自定义「定位服务」功能, update-interval=86400, opt-parser=false, enabled=false
+https://github.com/NSRingo/GeoServices/releases/latest/download/Maps.snippet, tag=自定义「地图」功能, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
 # 去广告
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf, tag=「合集1」去广告, update-interval=172800, opt-parser=false, enabled=true
