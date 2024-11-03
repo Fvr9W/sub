@@ -108,5 +108,7 @@ DOMAIN-SUFFIX,download.tidal.com
 DOMAIN-SUFFIX,downloads.sourceforge.net
 # mp3tag
 DOMAIN-SUFFIX,download.mp3tag.de
+# 5t 网盘
+DOMAIN-SUFFIX,cache.5t-cdn.com
 # binance
 DOMAIN-SUFFIX,ftp.binance.com
