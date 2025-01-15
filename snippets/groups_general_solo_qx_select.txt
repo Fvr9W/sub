@@ -21,7 +21,7 @@ PrivateTracker`select`[]DIRECT`[]Other Games`[]ALL`[]FREE
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 ALL`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
-FREE`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+FREE`select`^.*Free.*$
 AutoHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*$`Antarctica`http://connectivitycheck.gstatic.com`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`Antarctica`http://connectivitycheck.gstatic.com`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`Antarctica`http://connectivitycheck.gstatic.com`60,,20
