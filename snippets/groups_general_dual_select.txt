@@ -22,7 +22,7 @@ SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 Major`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 Minor`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
-FREE`select`!!GROUPID=2!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+FREE`select`^.*Free.*$
 AutoHK 🇭🇰`fallback`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`http://cp.cloudflare.com/generate_204`60,,20
 MajorHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*$`[]REJECT`http://cp.cloudflare.com/generate_204`60,,20
 MinorHK 🇭🇰`url-test`!!GROUPID=1!!.*香港.*$`[]REJECT`http://cp.cloudflare.com/generate_204`60,,20
