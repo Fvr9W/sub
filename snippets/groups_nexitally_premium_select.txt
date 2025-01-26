@@ -24,21 +24,21 @@ NEX`select`!!GROUPID=0!!.*Premium.*$`!!GROUPID=0!!^.*(Asia|Africa|America|Europe
 CNIX`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`^.*Free.*$
 AutoHK 🇭🇰`fallback`!!GROUPID=0!!.*香港.*Premium.*$`[]NexHK 🇭🇰`http://connectivitycheck.gstatic.com`60,,30
-NexHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#P).*香港.*$`http://connectivitycheck.gstatic.com`60,,30
+NexHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#Premium).*香港.*$`http://connectivitycheck.gstatic.com`60,,30
 CnixHK 🇭🇰`url-test`!!GROUPID=1!!.*香港.*`[]REJECT`http://connectivitycheck.gstatic.com`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoKR 🇰🇷`fallback`!!GROUPID=0!!.*韩国.*Premium.*$`[]NexKR 🇰🇷`http://connectivitycheck.gstatic.com`60,,30
-NexKR 🇰🇷`url-test`!!GROUPID=0!!^(?!.*?#P).*韩国.*$`http://connectivitycheck.gstatic.com`60,,30
+NexKR 🇰🇷`url-test`!!GROUPID=0!!^(?!.*?#Premium).*韩国.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoJP 🇯🇵`fallback`!!GROUPID=0!!.*日本.*Premium.*$`[]NexJP 🇯🇵`http://connectivitycheck.gstatic.com`60,,30
-NexJP 🇯🇵`url-test`!!GROUPID=0!!^(?!.*?#P).*日本.*$`http://connectivitycheck.gstatic.com`60,,30
+NexJP 🇯🇵`url-test`!!GROUPID=0!!^(?!.*?#Premium).*日本.*$`http://connectivitycheck.gstatic.com`60,,30
 CnixJP 🇯🇵`url-test`!!GROUPID=1!!.*(日本|东京|大阪).*$`http://connectivitycheck.gstatic.com`60,,30
 AutoSG 🇸🇬`fallback`!!GROUPID=0!!.*新加坡.*Premium.*$`[]NexSG 🇸🇬`http://connectivitycheck.gstatic.com`60,,30
-NexSG 🇸🇬`url-test`!!GROUPID=0!!^(?!.*?#P).*新加坡.*$`http://connectivitycheck.gstatic.com`60,,30
+NexSG 🇸🇬`url-test`!!GROUPID=0!!^(?!.*?#Premium).*新加坡.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`http://connectivitycheck.gstatic.com`60,,30
 AutoEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯|土耳其)).*Europe.*$`http://connectivitycheck.gstatic.com`60,,30
 AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大).*$`http://connectivitycheck.gstatic.com`60,,30
 AutoNA 🇺🇲`fallback`[]AutoNA1 🇺🇲`[]AutoNA2 🇺🇲`http://connectivitycheck.gstatic.com`60,,30
 AutoNA1 🇺🇲`url-test`!!GROUPID=0!!.*(硅谷|西雅图|美国).*Premium.*$`http://connectivitycheck.gstatic.com`60,,30
-AutoNA2 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?#P).*(硅谷|西雅图|美国).*$`http://connectivitycheck.gstatic.com`60,,30
+AutoNA2 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?#Premium).*(硅谷|西雅图|美国).*$`http://connectivitycheck.gstatic.com`60,,30
 CnixNA 🇺🇲`url-test`!!GROUPID=1!!.*美国.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
