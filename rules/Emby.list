@@ -2,9 +2,9 @@
 # 更新时间：2025-2-2 18:19:09
 
 # 卷毛鼠
-DOMAIN,jmsuper.com
+DOMAIN-SUFFIX,jmsuper.com
 # nebula
-DOMAIN,nebula-media.org
+DOMAIN-SUFFIX,nebula-media.org
 # other
 DOMAIN,195.201.86.86
 DOMAIN,cc.coemn.com
