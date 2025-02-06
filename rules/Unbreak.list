@@ -156,3 +156,5 @@ DOMAIN-SUFFIX,cn.smartbot.ws
 DOMAIN-SUFFIX,cnproxy.smartbot.ws
 #  > 佩奇 要求的
 DOMAIN-SUFFIX,zlonggame.com
+#  > suyu 要求的
+DOMAIN-SUFFIX,dynupdate.no-ip.com
