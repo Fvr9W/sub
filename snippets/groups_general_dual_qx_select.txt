@@ -1,14 +1,14 @@
 Premium`fallback`!!GROUPID=0!!.*香港.*$`!!GROUPID=0!!.*日本.*$`!!GROUPID=1!!.*香港.*$`http://connectivitycheck.gstatic.com`60,,20
 Other Games`select`[]B1gProxy`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT
 B1gProxy`select`[]Premium`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT
-Hax`select`[]MajorNA 🇺🇲`[]B1gProxy`[]Other Games`[]DIRECT
-Trading`select`[]B1gProxy`[]Other Games`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]DIRECT
-Discord`select`[]B1gProxy`[]Other Games`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]DIRECT
-Telegram`select`[]MinorHK 🇭🇰`[]MajorHK 🇭🇰`[]MajorSG 🇸🇬`[]MajorNA 🇺🇲`[]B1gProxy
-Spotify`select`[]B1gProxy`[]Other Games`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]DIRECT
-Netflix`select`[]MinorHK 🇭🇰`[]B1gProxy`[]Other Games`[]MajorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorEU 🇪🇺`[]MajorNA 🇺🇲`[]DIRECT
-GlobalMedia`select`[]MinorHK 🇭🇰`[]MajorHK 🇭🇰`[]MinorNA 🇺🇲`[]MajorNA 🇺🇲`[]B1gProxy`[]Other Games`[]Major`[]Minor`[]FREE`[]DIRECT
-Microsoft`select`[]MajorNA 🇺🇲`[]B1gProxy`[]Other Games`[]Major`[]Minor`[]FREE`[]DIRECT
+Hax`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]DIRECT
+Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Telegram`select`[]B1gProxy`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoSG 🇸🇬`[]MinorSG 🇸🇬`[]AutoNA 🇺🇲
+Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Netflix`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+GlobalMedia`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
+Microsoft`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]Major`[]Minor`[]FREE`[]DIRECT
 SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
 SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
 Blizzard`select`[]Other Games`[]Major`[]Minor`[]DIRECT
@@ -16,7 +16,7 @@ PlayStation`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 Riot`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 Rockstar`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 Ubisoft`select`[]Other Games`[]Major`[]Minor`[]DIRECT
-GlobalGameDownload`select`[]MinorHK 🇭🇰`[]Other Games`[]DIRECT`[]Major`[]Minor
+GlobalGameDownload`select`[]Other Games`[]MinorHK 🇭🇰`[]DIRECT`[]FREE`[]Other Games`[]Major`[]Minor
 PrivateTracker`select`[]DIRECT`[]FREE`[]Other Games`[]Major`[]Minor
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
