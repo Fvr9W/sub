@@ -16,7 +16,7 @@ PlayStation`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 Riot`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 Rockstar`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 Ubisoft`select`[]Other Games`[]Major`[]Minor`[]DIRECT
-GlobalGameDownload`select`[]Other Games`[]MinorHK 🇭🇰`[]DIRECT`[]Major`[]Minor`[]Free
+GlobalGameDownload`select`[]Other Games`[]MinorHK 🇭🇰`[]DIRECT`[]FREE`[]Other Games`[]Major`[]Minor
 PrivateTracker`select`[]DIRECT`[]FREE`[]Other Games`[]Major`[]Minor
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
