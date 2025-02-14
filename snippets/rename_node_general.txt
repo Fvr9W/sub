@@ -9,12 +9,14 @@ Comnet Bilgi Iletisim Teknolojileri Ticaret A.s.@CBIT
 Canopus It Solutions Pvt Ltd@CISP
 Chociz Private Limited@Chociz
 CLOUDFLARENET@CF
+Cyberzone S.A.@Cyberzone
 Bangmod Enterprise Co., Ltd.@Bangmod
 Brain PEACE Science Foundation, Inc.@BPSF
 Data Communication Business Group@DCBG
 DIGITALOCEAN-ASN@DO
 Daniel Jackson@Daniel
 Deutsche Glasfaser Wholesale GmbH@DGWG
+Datacamp Limited@Datacamp
 EIVUS DATA CENTER E TELECOM@EIVUS
 Eons Data Communications Limited@Eons
 Eastern Telecoms Phils., Inc.@ETPI
@@ -44,7 +46,8 @@ O.m.c. Computers & Communications Ltd@O.m.c.
 oneCorp GmbH@oneCorp
 Truxgo S. R.L. de C.V.@Truxgo
 TM TECHNOLOGY SERVICES SDN. BHD.@TM
-PRIME-SEC@PRIME
+PRIME-SEC@PSC
+Prime Security Corp.@PSC
 Private Layer INC@Private
 Propelin Consulting S.L.U.@Propelin
 POLONETWORK LIMITED@POLONETWORK
