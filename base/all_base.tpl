@@ -248,6 +248,7 @@ ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"cellular":RULE,"default":R
 [Proxy]
 
 [Remote Proxy]
+Free = https://gist.githubusercontent.com/Fvr9W/b13795c35c2ba2d3bdade1807691bc92/raw/FREE.YAML,parser-enabled = true,udp=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=true
 
 [Remote Filter]
 
