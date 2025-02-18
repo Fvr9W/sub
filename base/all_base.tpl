@@ -191,7 +191,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2024-12-28
+#!date = 2025-2-18
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -281,37 +281,65 @@ SougouInput=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini
 Hijacking=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Advertising.png
 HK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 FastLHK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+NexHK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 CnixHK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 AutoHK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 AutoHK1 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 AutoHK2 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+MajorHK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+MinorHK 🇭🇰=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 TW 🇨🇳=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
 AutoTW 🇨🇳=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+MajorTW 🇨🇳=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
+MinorTW 🇨🇳=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
 KR 🇰🇷=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+NexKR 🇰🇷=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
 AutoKR 🇰🇷=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+MajorKR 🇰🇷=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
+MinorKR 🇰🇷=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png
 JP 🇯🇵=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
 AutoJP 🇯🇵=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
 AutoJP1 🇯🇵=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
 AutoJP2 🇯🇵=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+CnixJP 🇯🇵=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+NexJP 🇯🇵=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+MajorJP 🇯🇵=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+MinorJP 🇯🇵=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
 SGP 🇸🇬=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
 AutoSGP 🇸🇬=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
 AutoSG 🇸🇬=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+NexSG 🇸🇬=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+MajorSG 🇸🇬=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+MinorSG 🇸🇬=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
 SEA 🌏=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
 AutoSEA 🌏=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+MajorSEA 🌏=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+MinorSEA 🌏=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
 AU 🇦🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
 AutoAU 🇦🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+MajorAU 🇦🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+MinorAU 🇦🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
 RU 🇷🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
 AutoRU 🇷🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
+MajorRU 🇷🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
+MinorRU 🇷🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Russia.png
 EU 🇪🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
 AutoEU 🇪🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+MajorEU 🇪🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
+MinorEU 🇪🇺=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/EU.png
 CA 🇨🇦=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
 AutoCA 🇨🇦=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
+MajorCA 🇨🇦=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
+MinorCA 🇨🇦=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Canada.png
 NA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 AutoNA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 AutoNA1 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 AutoNA2 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 FastLNA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 CnixNA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+NexNA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+MajorNA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+MinorNA 🇺🇲=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 
 ALL=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
 NEX=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
