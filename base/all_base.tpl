@@ -212,9 +212,9 @@ wifi-access-http-port = 7892
 wifi-access-socks5-port = 7893
 # 测速所用的测试链接，如果策略组没有自定义测试链接就会使用这里配置的
 internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
-proxy-test-url = http://detectportal.firefox.com/success.txt
+proxy-test-url = http://www.gstatic.com/generate_204
 # 节点测速时的超时秒数
-test-timeout = 5
+test-timeout = 2
 # 指定流量使用哪个网络接口进行转发
 interface-mode = auto
 # 禁用 stun 是否禁用 stun 协议的 udp 数据，禁用后可以有效解决 webrtc 的 ip 泄露
@@ -225,9 +225,10 @@ disconnect-on-policy-change = true
 # 一个节点连接失败几次后会进行节点切换，默认 3 次
 switch-node-after-failure-times = 3
 # 订阅资源解析器链接
-resource-parser = https://kelee.one/Resource/Script/Sub-Store/sub-store-parser_for_loon.js
+resource-parser = https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-parser.loon.min.js
 # 自定义 geoip 数据库的 url
 geoip-url = https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.mmdb
+ipasn-url = https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
 # 配置了该参数，那么所配置的这些IP段、域名将不会转发到Loon，而是由系统处理
 skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com, e.crashlynatics.com, www.baidu.com, yunbusiness.ccb.com, wxh.wo.cn, gate.lagou.com, www.abchina.com.cn, www.shanbay.com, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com
 # 配置了该参数，那么所配置的这些IP段、域名就会不交给Loon来处理，系统直接处理
