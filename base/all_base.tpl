@@ -375,8 +375,7 @@ https://github.com/DualSubs/Universal/releases/latest/download/DualSubs.Universa
 https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.plugin, tag=「YouTube」字幕增强及双语模块, enabled = true
 https://github.com/DualSubs/Spotify/releases/latest/download/DualSubs.Spotify.plugin, tag=「Spotify」歌词增强及双语模块, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Google.plugin, tag=「Google」重定向, enabled = false
-https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin, tag=「HTTPDNS」禁止, enabled = false
-https://kelee.one/Tool/Loon/Plugin/Block_HTTPDNS.plugin, tag=「HTTPDNS」禁止Keli版, enabled = false
+https://kelee.one/Tool/Loon/Plugin/Block_HTTPDNS.plugin, tag=「HTTPDNS」禁止, enabled = true
 https://kelee.one/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = false
 https://kelee.one/Tool/Loon/Plugin/Fileball_mount.plugin, tag=「Fileball」挂载增强, enabled = false
 https://kelee.one/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东」比价脚本, enabled = true
@@ -389,7 +388,7 @@ https://github.com/NSRingo/TV/releases/latest/download/iRingo.TV.plugin, tag=自
 https://github.com/NSRingo/News/releases/latest/download/iRingo.News.plugin, policy = AutoNA 🇺🇲, tag=自定义「AppleNews」功能, enabled = true
 https://github.com/NSRingo/TestFlight/releases/latest/download/iRingo.TestFlight.plugin, tag=自定义「TestFlight」功能, enabled = true
 https://kelee.one/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = false
-https://raw.githubusercontent.com/Keywos/rule/main/loon/ip.plugin, tag=「节点」检测, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Node_detection_tool.plugin, tag=「节点」检测, enabled = true
 https://kelee.one/Tool/Loon/Plugin/WARP_Node_Query.plugin, tag=「WARP」节点查询, enabled = false
 https://kelee.one/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, tag=「微信」外链增强, enabled = true
 # 去广告合集
@@ -397,7 +396,6 @@ http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/maste
 https://raw.githubusercontent.com/RuCu6/Loon/main/Plugins/myblockads.plugin, tag=「合集2」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/BlockAdvertisers.plugin, tag=「合集3」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Remove_ads_by_keli.plugin, tag=「合集4」去广告, enabled = true
-https://kelee.one/Tool/Loon/Plugin/GaoDing_remove_ads.plugin, tag=「合集5」去广告, enabled = false
 # 去广告单独
 https://kelee.one/Tool/Loon/Plugin/Aiinquiry_remove_ads.plugin, tag=「爱企查」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Amap_remove_ads.plugin, tag=「高德地图」去广告, enabled = true
@@ -412,6 +410,7 @@ https://kelee.one/Tool/Loon/Plugin/Daily_remove_ads.plugin, tag=「剑网3推栏
 https://kelee.one/Tool/Loon/Plugin/HKDouYin_remove_ads.plugin, tag=「香港抖音」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/FenBi_remove_ads.plugin, tag=「粉笔」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/FlyerTea_remove_ads.plugin, tag=「飞客茶馆」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/GaoDing_remove_ads.plugin, tag=「稿定设计」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/DragonRead_remove_ads.plugin, tag=「番茄小说」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/Himalaya_remove_ads.plugin, tag=「喜马拉雅」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/IThome_remove_ads.plugin, tag=「IThome」去广告, enabled = true
@@ -426,7 +425,7 @@ https://kelee.one/Tool/Loon/Plugin/QQMusic_remove_ads.plugin, tag=「QQ音乐」
 https://kelee.one/Tool/Loon/Plugin/RedPaper_remove_ads.plugin, tag=「小红书」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/smzdm_remove_ads.plugin, tag=「什么值得买」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Tieba_remove_ads.plugin, tag=「百度贴吧」去广告, enabled = true
-https://kelee.one/Tool/Loon/Plugin/Reddit_remove_ads.plugin, tag=「红迪」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/Reddit_remove_ads.plugin, tag=「红迪」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/TubeMax_remove_ads.plugin, policy = B1gProxy, tag=「TubeMax」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/Weibo_remove_ads.plugin, tag=「微博国内版」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin, tag=「微信公众号」去广告, enabled = true
@@ -443,7 +442,7 @@ https://kelee.one/Tool/Loon/Plugin/Zhihu_remove_ads.plugin, tag=「知乎」去�
 https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.plugin, tag=「哔哩哔哩粉白」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/iQiYi_Video_remove_ads.plugin, tag=「爱奇艺」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/Tencent_Video_remove_ads.plugin, tag=「腾讯视频」去广告, enabled = false
-https://kelee.one/Tool/Loon/Plugin/Mango_Viedo_remove_ads.plugin, tag=「芒果」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/MangoTV_remove_ads.plugin, tag=「芒果」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/YouKu_Video_remove_ads.plugin, tag=「优酷」去广告, enabled = false
 # 签到
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf/_end_/GetCookie.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集」签到CK一体化, enabled = true
