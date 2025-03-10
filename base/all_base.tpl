@@ -191,7 +191,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2025-2-18
+#!date = 2025-3-10
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -363,7 +363,6 @@ FREE=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master
 
 [Plugin]
 # 解锁
-https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.plugin, tag=「合集2」会员破解, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite/_end_/Unlock.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」会员破解, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/yqc007/QuantumultX/master/LightBeautyCamCrack.js/_end_/LightBeautyCamCrack.plugin?type=qx-rewrite&target=loon-plugin, tag=「轻颜相机5.2.1」会员破解, enabled = false
 https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, tag=「TikTok」解锁区域, enabled = true
@@ -377,6 +376,7 @@ https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.pl
 https://github.com/DualSubs/Spotify/releases/latest/download/DualSubs.Spotify.plugin, tag=「Spotify」歌词增强及双语模块, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Google.plugin, tag=「Google」重定向, enabled = false
 https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin, tag=「HTTPDNS」禁止, enabled = false
+https://kelee.one/Tool/Loon/Plugin/Block_HTTPDNS.plugin, tag=「HTTPDNS」禁止Keli版, enabled = false
 https://kelee.one/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = false
 https://kelee.one/Tool/Loon/Plugin/Fileball_mount.plugin, tag=「Fileball」挂载增强, enabled = false
 https://kelee.one/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东」比价脚本, enabled = true
@@ -386,7 +386,7 @@ https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.
 https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.plugin, tag=自定义「地图」功能, enabled = true
 https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
 https://github.com/NSRingo/TV/releases/latest/download/iRingo.TV.plugin, tag=自定义「AppleTV」功能, enabled = true
-https://github.com/NSRingo/News/releases/latest/download/iRingo.News.plugin, tag=自定义「AppleNews」功能, enabled = true
+https://github.com/NSRingo/News/releases/latest/download/iRingo.News.plugin, policy = AutoNA 🇺🇲, tag=自定义「AppleNews」功能, enabled = true
 https://github.com/NSRingo/TestFlight/releases/latest/download/iRingo.TestFlight.plugin, tag=自定义「TestFlight」功能, enabled = true
 https://kelee.one/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = false
 https://raw.githubusercontent.com/Keywos/rule/main/loon/ip.plugin, tag=「节点」检测, enabled = true
@@ -394,7 +394,7 @@ https://kelee.one/Tool/Loon/Plugin/WARP_Node_Query.plugin, tag=「WARP」节点�
 https://kelee.one/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, tag=「微信」外链增强, enabled = true
 # 去广告合集
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Remix.snippet/_end_/Remix.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」去广告, enabled = true
-https://raw.githubusercontent.com/RuCu6/Loon/main/Plugins/myblockads.plugin, tag=「合集2」去广告, enabled = true
+https://raw.githubusercontent.com/RuCu6/Loon/main/Plugins/myblockads.plugin, tag=「合集2」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/BlockAdvertisers.plugin, tag=「合集3」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Remove_ads_by_keli.plugin, tag=「合集4」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/GaoDing_remove_ads.plugin, tag=「合集5」去广告, enabled = false
@@ -409,12 +409,16 @@ https://kelee.one/Tool/Loon/Plugin/DiDi_remove_ads.plugin, tag=「滴滴出行�
 https://kelee.one/Tool/Loon/Plugin/DouBan_remove_ads.plugin, tag=「豆瓣7.76」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/Douyu_remove_ads.plugin, tag=「斗鱼」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/Daily_remove_ads.plugin, tag=「剑网3推栏」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/HKDouYin_remove_ads.plugin, tag=「香港抖音」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/FenBi_remove_ads.plugin, tag=「粉笔」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/FlyerTea_remove_ads.plugin, tag=「飞客茶馆」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/DragonRead_remove_ads.plugin, tag=「番茄小说」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/Himalaya_remove_ads.plugin, tag=「喜马拉雅」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/IThome_remove_ads.plugin, tag=「IThome」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Keep_remove_ads.plugin, tag=「Keep」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/KOOK_remove_ads.plugin, tag=「Kook」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/KuaiShou_remove_ads.plugin, tag=「快手」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/MaFengWo_remove_ads.plugin, tag=「马蜂窝」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/NeteaseCloudMusic_remove_ads.plugin, tag=「网易云音乐」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/TV_Assistant_remove_ads.plugin, tag=「乐播投屏」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/QiDian_remove_ads.plugin, tag=「起点」去广告, enabled = true
