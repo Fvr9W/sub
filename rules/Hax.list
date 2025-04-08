@@ -133,6 +133,7 @@ IP-CIDR,64.23.132.171/32,no-resolve
 DOMAIN-KEYWORD,openai
 # GROK
 DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
 # Other AI
 DOMAIN-SUFFIX,lmsys.org
 DOMAIN-SUFFIX,poe.com
