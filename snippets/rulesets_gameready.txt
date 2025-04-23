@@ -1,11 +1,11 @@
 DIRECT,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unbreak.list
+Hax,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Hax.list
 Hijacking,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/rejectFix.list
 DIRECT,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt
 DIRECT,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt
 SougouInput,https://ruleset.skk.moe/List/non_ip/sogouinput.conf
 PrivateTracker,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrivateTracker/PrivateTracker.list
 GlobalGameDownload,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GlobalGameDownload.list
-Hax,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Hax.list
 Trading,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Trading.list
 Blizzard,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/battle.list
 PlayStation,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GranTurismo.list
