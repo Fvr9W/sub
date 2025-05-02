@@ -112,3 +112,5 @@ DOMAIN-SUFFIX,download.mp3tag.de
 DOMAIN-SUFFIX,cache.5t-cdn.com
 # binance
 DOMAIN-SUFFIX,ftp.binance.com
+# k-lite
+DOMAIN-SUFFIX,files3.codecguide.com
