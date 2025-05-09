@@ -92,6 +92,7 @@ dns:
   enhanced-mode: fake-ip
   listen: 1053
   nameserver:
+    - system
     - 119.29.29.29
     - 223.5.5.5
   fallback:
@@ -105,6 +106,7 @@ dns:
     - '+.local'
     - localhost.ptlogin2.qq.com
     - '+.nip.io'
+    - '+.market.xiaomi.com'
     ## Windows
     - dns.msftncsi.com
     - www.msftncsi.com
