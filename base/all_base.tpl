@@ -1,6 +1,6 @@
 {% if request.target == "clash" or request.target == "clashr" %}
 
-port: {{ default(global.clash.http_port, "7890") }}
+mixed-port: {{ default(global.clash.http_port, "7890") }}
 socks-port: {{ default(global.clash.socks_port, "7891") }}
 allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: Rule
@@ -8,8 +8,6 @@ log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
 experimental:
   ignore-resolve-fail: true
-clash-for-android:
-  ui-subtitle-pattern: '[一-龥]{2,4}'
 {% if exists("request.tun") %}
   {% if request.tun == "windows" %}
 script:
@@ -32,6 +30,8 @@ tun:
   auto-detect-interface: true
   {% else %}
     {% if request.tun == "open" %}
+clash-for-android:
+  ui-subtitle-pattern: '[一-龥]{2,4}'
 tun:
   enable: true
   stack: system
@@ -59,6 +59,23 @@ tun:
     {% endif %}
   {% endif %}
 {% endif %}
+
+listeners:
+- name: mixed-in
+  type: mixed
+  port: 8848
+  listen: 0.0.0.0
+  udp: true
+  users:
+    - username: caesar
+      password: R17XVY5VHZEMDC
+- name: ss-in
+  type: shadowsocks
+  port: 8888
+  listen: 0.0.0.0
+  cipher: 2022-blake3-aes-126-gcm
+  password: RXlhgk8y+7KjFk6kL1Bo5Q==
+  udp: true
 
 {% if exists("request.dns") %}
   {% if request.dns == "fake" %}
