@@ -68,20 +68,20 @@ listeners:
   udp: true
   users:
     - username: caesar
-      password: R17XVY5VHZEMDC
+      password: 9GP35MZ48B2AEW
 - name: ss-2022-in
   type: shadowsocks
   port: 8888
   listen: 0.0.0.0
   cipher: 2022-blake3-aes-128-gcm
-  password: RXlhgk8y+7KjFk6kL1Bo5Q==
+  password: ebhPeDlnQ+ZlLBhaWzptVA==
   udp: true
 - name: ss-in
   type: shadowsocks
   port: 8889
   listen: 0.0.0.0
   cipher: rc4-md5
-  password: R17XVY5VHZEMDC
+  password: 9GP35MZ48B2AEW
   udp: true
 
 {% if exists("request.dns") %}
