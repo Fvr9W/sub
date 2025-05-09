@@ -1,7 +1,6 @@
 {% if request.target == "clash" or request.target == "clashr" %}
 
 mixed-port: {{ default(global.clash.http_port, "7890") }}
-socks-port: {{ default(global.clash.socks_port, "7891") }}
 allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
@@ -23,7 +22,7 @@ script:
     Mail: dst_port in [465, 993, 995] and geoip(dst_ip) != 'CN'
 tun:
   enable: true
-  stack: gvisor
+  stack: mixed
   dns-hijack:
     - any:53
   auto-route: true
@@ -34,7 +33,7 @@ clash-for-android:
   ui-subtitle-pattern: '[一-龥]{2,4}'
 tun:
   enable: true
-  stack: system
+  stack: mixed
   dns-hijack:
     - tcp://any:53
   auto-route: false
