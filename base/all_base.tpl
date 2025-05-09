@@ -216,7 +216,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2025-04-06
+#!date = 2025-05-09
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -382,6 +382,8 @@ FREE=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master
 [Rewrite]
 
 [Host]
+# 改善 App Store下载速度
+iosapps.itunes.apple.com = iosapps.itunes.apple.com.download.ks-cdn.com
 
 [Script]
 
