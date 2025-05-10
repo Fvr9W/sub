@@ -216,9 +216,10 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2025-05-09
+#!date = 2025-05-10
 # IPV6 启动与否
-ipv6 = false
+ip-mode = ipv4-only
+ipv6-vif = off
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
 dns-server = system, 119.29.29.29, 223.5.5.5
 # DNS over HTTPS服务器，用,隔开多个服务器
