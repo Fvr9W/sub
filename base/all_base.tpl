@@ -60,6 +60,14 @@ tun:
 {% endif %}
 
 listeners:
+- name: mixed-in
+  type: mixed
+  port: 8848
+  listen: 192.168.0.0/16
+  udp: true
+  users:
+    - username: caesar
+      password: 9GP35MZ48B2AEW
 - name: ss-2022-in
   type: shadowsocks
   port: 8888
