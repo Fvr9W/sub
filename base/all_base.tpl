@@ -224,8 +224,8 @@ udp-fallback-mode = DIRECT
 domain-reject-mode = DNS
 # 在 DNS 阶段拒绝域名时采用的方式
 dns-reject-mode = LoopbackIP
-# 是否开启局域网代理访问
-allow-wifi-access = false
+# 是否开启局域网代理访问(其他 IOS 手机连接的时候需要再 HTTP 代理里面去设置)
+allow-wifi-access = true
 # 开启局域网访问后的 http 代理端口
 wifi-access-http-port = 7892
 # 开启局域网访问后的 socks5 代理端口
