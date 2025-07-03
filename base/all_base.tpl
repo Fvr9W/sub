@@ -231,7 +231,7 @@ wifi-access-http-port = 7892
 # 开启局域网访问后的 socks5 代理端口
 wifi-access-socks5-port = 7893
 # 测速所用的测试链接，如果策略组没有自定义测试链接就会使用这里配置的
-internet-test-url = http://www.baidu.com
+internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
 proxy-test-url = http://www.gstatic.com/generate_204
 # 节点测速时的超时秒数
 test-timeout = 2
