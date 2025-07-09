@@ -52,6 +52,7 @@ Private Layer INC@Private
 Propelin Consulting S.L.U.@Propelin
 POLONETWORK LIMITED@POLONETWORK
 PT Biznet Gio Nusantara@PT
+PAN-LIAN TECHNOLOGY CO., LIMITED@PAN-LIAN
 Rackforest Zrt.@Rackforest
 Network Presence@Presence
 NTT PC Communications, Inc.@NTT
