@@ -67,6 +67,7 @@ SoftBank Corp.@SB
 Sony Network Communications Inc.@Sony
 SIA VEESP@SIA
 Stark Industries Solutions Ltd@SIS
+STACKS INC@STACKS
 VIETNAM POSTS AND TELECOMMUNICATIONS GROUP@VPATG
 Virtury Cloud Pakistan@Virtury
 Vivacom Bulgaria EAD@Vivacom
