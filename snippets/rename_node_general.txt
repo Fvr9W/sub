@@ -46,8 +46,8 @@ O.m.c. Computers & Communications Ltd@O.m.c.
 oneCorp GmbH@oneCorp
 Truxgo S. R.L. de C.V.@Truxgo
 TM TECHNOLOGY SERVICES SDN. BHD.@TM
-PRIME-SEC@PRIME
-Prime Security Corp.@PSC
+PRIME-SEC@Prime
+Prime Security Corp.@Prime
 Private Layer INC@Private
 Propelin Consulting S.L.U.@Propelin
 POLONETWORK LIMITED@POLONETWORK
@@ -71,6 +71,7 @@ VIETNAM POSTS AND TELECOMMUNICATIONS GROUP@VPATG
 Virtury Cloud Pakistan@Virtury
 Vivacom Bulgaria EAD@Vivacom
 UAB Bite Lietuva@UAB
+UCLOUD INFORMATION TECHNOLOGY HK LIMITED@UCLOUD
 w1n ltd@w1n
 Yae Telecom Limited@Yae
 ZEN-ECN@ZEN
