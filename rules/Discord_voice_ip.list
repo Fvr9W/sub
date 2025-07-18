@@ -1,5 +1,7 @@
 # Discord 所有的语音服务器
 # https://gist.githubusercontent.com/itslukej/e7e06b7013b964e1df8f4bd71817eb89/raw/voice_servers.json
+# update 2025-7-18 09:17:08
+DOMAIN-SUFFIX,discord.media
 IP-CIDR,66.22.196.0/22,no-resolve
 IP-CIDR,66.22.200.0/22,no-resolve
 IP-CIDR,66.22.204.0/22,no-resolve
