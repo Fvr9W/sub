@@ -23,8 +23,8 @@ Hijacking`select`[]REJECT`[]DIRECT
 NEX`select`!!GROUPID=0!!.*Premium.*$`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 CNIX`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`^.*Free.*$
-AutoHK 🇭🇰`fallback`!!GROUPID=0!!.*香港.*Premium.*$`[]NexHK 🇭🇰`[]CnixHK 🇭🇰`http://www.gstatic.com/generate_204`60,,30
-NexHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?#Premium).*香港.*$`http://www.gstatic.com/generate_204`60,,30
+AutoHK 🇭🇰`fallback`[]NexHK 🇭🇰`[]CnixHK 🇭🇰`http://www.gstatic.com/generate_204`60,,30
+NexHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*Premium.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
 CnixHK 🇭🇰`url-test`!!GROUPID=1!!.*香港.*`[]REJECT`http://www.gstatic.com/generate_204`60,,30
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`http://www.gstatic.com/generate_204`60,,30
 CnixTW 🇨🇳`url-test`!!GROUPID=1!!.*台湾.*`[]REJECT`http://www.gstatic.com/generate_204`60,,30
