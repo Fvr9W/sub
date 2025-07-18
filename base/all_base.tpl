@@ -83,7 +83,6 @@ dns:
   enhanced-mode: fake-ip
   listen: 1053
   nameserver:
-    - system
     - 119.29.29.29
     - 223.5.5.5
   fallback:
@@ -151,6 +150,206 @@ dns:
     '+.ptrecord.com': '8.8.8.8'
     '+.bing.cn': '1.1.1.1'
     '+.bing.com': '1.1.1.1'
+    # > Modify Contents
+    'blog.google': '119.29.29.29' # Google Blog
+    'googletraveladservices.com': '119.29.29.29' # Google Flights
+    'dl.google.com': '119.29.29.29' # Google Download
+    'dl.l.google.com': '119.29.29.29' # Google Download
+    'clientservices.googleapis.com': '119.29.29.29' # Google Chrome
+    'update.googleapis.com': '119.29.29.29' # Google Update
+    'translate.googleapis.com': '119.29.29.29' # Google Translate
+    'fonts.googleapis.com': '119.29.29.29' # Google Fonts
+    'fonts.gstatic.com': '119.29.29.29' # Google Fonts
+
+    # > Apple
+    # refer: https://support.apple.com/zh-cn/HT210060
+    'networking.apple': 'https://doh.dns.apple.com/dns-query' # Apple
+    '+.icloud.com': 'https://doh.dns.apple.com/dns-query' # iCloud.com
+
+    # > 阿里巴巴
+    # refer: https://www.alidns.com
+    '+.alibaba.cn': 'https://dns.alidns.com/dns-query' # 阿里巴巴
+    '+.alibaba.com.cn': 'https://dns.alidns.com/dns-query' # 阿里巴巴
+    '+.china.alibaba.com': 'https://dns.alidns.com/dns-query' # Alibaba 中国
+    '+.1688.com': 'https://dns.alidns.com/dns-query' # 1688
+    '+.taobao.com': 'https://dns.alidns.com/dns-query' # 淘宝
+    '+.tbcache.com': 'https://dns.alidns.com/dns-query' # 淘宝 缓存
+    '+.tmall.com': 'https://dns.alidns.com/dns-query' # 天猫
+    '+.alicdn.com': 'https://dns.alidns.com/dns-query' # 阿里云 CDN
+    '+.alikunlun.com': 'https://dns.alidns.com/dns-query' # 阿里云 阿里昆仑
+    '+.aliapp.com': 'https://dns.alidns.com/dns-query' # 云引擎应用平台
+    '+.aliapp.org': 'https://dns.alidns.com/dns-query' # 上云平台
+    '+.alibabausercontent.com': 'https://dns.alidns.com/dns-query' # 阿里用户上传资料
+    '+.mmstat.com': 'https://dns.alidns.com/dns-query' # mmstat 数据统计 广告追踪
+    'tb.cn': 'https://dns.alidns.com/dns-query' # 淘宝短网址
+
+    # > 阿里云
+    '+.aliyun.+': 'https://dns.alidns.com/dns-query' # 阿里云
+    '+.aliyuncdn.+': 'https://dns.alidns.com/dns-query' # 阿里云 CDN
+    '+.aliyuncs.com': 'https://dns.alidns.com/dns-query' # 阿里云 API 服务
+    '+.aliyunddos????.com': 'https://dns.alidns.com/dns-query' # 阿里云 DDoS防护
+    '+.aliyundrive.com': 'https://dns.alidns.com/dns-query' # 阿里云 阿里云盘
+    '+.aliyundun.com': 'https://dns.alidns.com/dns-query' # 阿里云 阿里云盾
+    '+.aliyundunwaf.com': 'https://dns.alidns.com/dns-query' # 阿里云盾 Web 应用防火墙
+    '+.aliyun-inc.com': 'https://dns.alidns.com/dns-query' # 阿里云 内部
+
+    # > 蚂蚁集团
+    # refer: https://www.alidns.com
+    '+.antgroup.com': 'https://dns.alidns.com/dns-query' # 蚂蚁集团
+    '+.antfin.com': 'https://dns.alidns.com/dns-query' # 蚂蚁金服
+    '+.antfinancial.com': 'https://dns.alidns.com/dns-query' # 蚂蚁金服
+    '+.alipay.com': 'https://dns.alidns.com/dns-query' # 支付宝
+    '+.alipay.com.cn': 'https://dns.alidns.com/dns-query' # 支付宝
+    '+.alipaydns.com': 'https://dns.alidns.com/dns-query' # 支付宝 HTTP DNS
+    '+.alipayeshop.com': 'https://dns.alidns.com/dns-query' # 支付宝 商家资源
+    '+.alipaylog.com': 'https://dns.alidns.com/dns-query' # 支付宝 Mdap
+    '+.alipayobjects.com': 'https://dns.alidns.com/dns-query' # 支付宝 静态资源
+    '+.alipay-eco.com': 'https://dns.alidns.com/dns-query' # 支付宝 开放技术生态体系
+
+    # > 腾讯
+    # refer: https://www.dnspod.cn/products/publicdns
+    '+.tencent.com': 'https://doh.pub/dns-query' # 腾讯
+    '+.qcloud.com': 'https://doh.pub/dns-query' # 腾讯云
+    '+.qcloudcdn.cn': 'https://doh.pub/dns-query' # 腾讯云CDN
+    '+.qcloudcdn.com': 'https://doh.pub/dns-query' # 腾讯云CDN
+    '+.qcloudcos.com': 'https://doh.pub/dns-query' # 腾讯云对象储存
+    '+.qcloudimg.com': 'https://doh.pub/dns-query' # 腾讯云静态资源
+    '+.qcloudcjgj.com': 'https://doh.pub/dns-query' # 腾讯云超级管家
+    '+.qcloudwzgj.com': 'https://doh.pub/dns-query' # 腾讯云网站管家
+    '+.qcloudzygj.com': 'https://doh.pub/dns-query' # 腾讯云主页管家
+    '+.myqcloud.com': 'https://doh.pub/dns-query' # 腾讯开放云
+    '+.tencent-cloud.net': 'https://doh.pub/dns-query' # 腾讯云
+    '+.tencentcloud-aiot.com': 'https://doh.pub/dns-query' # 腾讯云aiot解决方案
+    '+.tencentcloudapi.com': 'https://doh.pub/dns-query' # 腾讯云API
+    '+.tencentcloudcr.com': 'https://doh.pub/dns-query' # 腾讯云容器镜像服务TCR
+    '+.tencentcloudmarket.com': 'https://doh.pub/dns-query' # 腾讯云云市场
+    '+.qq.com': 'https://doh.pub/dns-query' # QQ
+    '+.qlogo.cn': 'https://doh.pub/dns-query' # 腾讯头像
+    '+.qpic.cn': 'https://doh.pub/dns-query' # 腾讯图片
+    '+.weixin.qq.com': 'https://doh.pub/dns-query' # 微信
+    '+.wx.qq.com': 'https://doh.pub/dns-query' # 微信
+    '+.weixin.com': 'https://doh.pub/dns-query' # 微信
+    '+.weixinbridge.com': 'https://doh.pub/dns-query' # 微信公众平台
+    '+.wechat.com': 'https://doh.pub/dns-query' # WeChat
+    '+.servicewechat.com': 'https://doh.pub/dns-query' # 微信小程序
+    '+.weiyun.com': 'https://doh.pub/dns-query' # 微云
+    '+.gtimg.cn': 'https://doh.pub/dns-query' # 腾讯 图片 静态资源
+    '+.idqqimg.com': 'https://doh.pub/dns-query' # 腾讯 图片 静态资源
+    '+.cdn-go.cn': 'https://doh.pub/dns-query' # 腾讯 静态资源 CDN
+    '+.smtcdns.com': 'https://doh.pub/dns-query' # 腾讯云 智能云解析DNS
+    '+.smtcdns.net': 'https://doh.pub/dns-query' # 腾讯云 智能云解析DNS
+    'url.cn': 'https://doh.pub/dns-query' # 腾讯短网址
+
+    # > 百度
+    # refer: https://dudns.baidu.com/support/localdns/Address/index.html
+    '+.baidu': '180.76.76.76' # 百度
+    '+.baidu.com': '180.76.76.76' # 百度
+    '+.bdimg.com': '180.76.76.76' # 百度 静态资源
+    '+.bdstatic.com': '180.76.76.76' # 百度 静态资源
+    '+.baidupcs.*': '180.76.76.76' # 百度网盘
+    '+.baiduyuncdn.*': '180.76.76.76' # 百度云CDN
+    '+.baiduyundns.*': '180.76.76.76' # 百度云DNS
+    '+.bdydns.*': '180.76.76.76' # 百度云 DNS
+    '+.bdycdn.*': '180.76.76.76' # 百度云 CDN
+    '+.bdysite.com': '180.76.76.76' # 百度云 域名
+    '+.bdysites.com': '180.76.76.76' # 百度云 域名
+    '+.baidubce.*': '180.76.76.76' # 百度智能云
+    '+.bcedns.*': '180.76.76.76' # 百度智能云 DNS
+    '+.bcebos.com': '180.76.76.76' # 百度智能云 对象存储BOS
+    '+.bcevod.com': '180.76.76.76' # 百度智能云 播放器服务
+    '+.bceimg.com': '180.76.76.76' # 百度智能云 图片服务
+    '+.bcehost.com': '180.76.76.76' # 百度智能云 主机
+    '+.bcehosts.com': '180.76.76.76' # 百度智能云 主机
+    'dwz.cn': '180.76.76.76' # 百度短网址
+
+    # > 360
+    # refer: https://sdns.360.net/dnsPublic.html#course
+    '+.360.cn': 'https://doh.360.cn/dns-query' # 360安全中心
+    '+.360safe.com': 'https://doh.360.cn/dns-query' # 360安全卫士
+    '+.360kuai.com': 'https://doh.360.cn/dns-query' # 360快资讯
+    '+.so.com': 'https://doh.360.cn/dns-query' # 360搜索
+    '+.360webcache.com': 'https://doh.360.cn/dns-query' # 360网页快照服务
+    '+.qihuapi.com': 'https://doh.360.cn/dns-query' # 奇虎api
+    '+.qhimg.com': 'https://doh.360.cn/dns-query' # 360图床
+    '+.qhimgs.com': 'https://doh.360.cn/dns-query' # 360图床
+    '+.qhimgs?.com': 'https://doh.360.cn/dns-query' # 360图床
+    '+.qhmsg.com': 'https://doh.360.cn/dns-query' # 360
+    '+.qhres.com': 'https://doh.360.cn/dns-query' # 奇虎静态资源
+    '+.qhres?.com': 'https://doh.360.cn/dns-query' # 奇虎静态资源
+    '+.dhrest.com': 'https://doh.360.cn/dns-query' # 导航静态文件
+    '+.qhupdate.com': 'https://doh.360.cn/dns-query' # 360
+    '+.yunpan.cn': 'https://doh.360.cn/dns-query' # 360安全云盘
+    '+.yunpan.com.cn': 'https://doh.360.cn/dns-query' # 360安全云盘
+    '+.yunpan.com': 'https://doh.360.cn/dns-query' # 360安全云盘
+    'urlqh.cn': 'https://doh.360.cn/dns-query' # 360短网址
+
+    # > Bytedance
+    # refer: https://www.volcengine.com/docs/6758/179060
+    '+.amemv.com': '180.184.1.1' # 艾特迷
+    '+.bdxiguaimg.com': '180.184.1.1' # 西瓜 图片服务
+    '+.bdxiguastatic.com': '180.184.1.1' # 西瓜 静态资源
+    '+.byted-static.com': '180.184.1.1' # 字节跳动 UNPKG
+    '+.bytedance.*': '180.184.1.1' # 字节跳动
+    '+.bytedns.net': '180.184.1.1' # 字节跳动 DNS
+    '+.bytednsdoc.com': '180.184.1.1' # 字节跳动 CDN 文件存储
+    '+.bytegoofy.com': '180.184.1.1' # 字节跳动 Goofy
+    '+.byteimg.com': '180.184.1.1' # 字节跳动 图片服务
+    '+.bytescm.com': '180.184.1.1' # 字节跳动 SCM
+    '+.bytetos.com': '180.184.1.1' # 字节跳动 TOS
+    '+.bytexservice.com': '180.184.1.1' # 飞书企业服务平台
+    '+.douyin.com': '180.184.1.1' # 抖音
+    '+.douyinpic.com': '180.184.1.1' # 抖音 静态资源
+    '+.douyinstatic.com': '180.184.1.1' # 抖音 静态资源
+    '+.douyinvod.com': '180.184.1.1' # 抖音 静态资源
+    '+.feelgood.cn': '180.184.1.1' # FeelGood平台
+    '+.feiliao.com': '180.184.1.1' # 飞聊官网
+    '+.gifshow.com': '180.184.1.1' # 快手
+    '+.huoshan.com': '180.184.1.1' # 火山网
+    '+.huoshanzhibo.com': '180.184.1.1' # 火山直播
+    '+.ibytedapm.com': '180.184.1.1' # 抖音 dapm
+    '+.iesdouyin.com': '180.184.1.1' # 抖音 CDN
+    '+.ixigua.com': '180.184.1.1' # 西瓜视频
+    '+.kspkg.com': '180.184.1.1' # 快手
+    '+.pstatp.com': '180.184.1.1' # 抖音 静态资源
+    '+.snssdk.com': '180.184.1.1' # 今日头条
+    '+.toutiao.com': '180.184.1.1' # 今日头条
+    '+.toutiao13.com': '180.184.1.1' # 今日头条
+    '+.toutiao???.???': '180.184.1.1' # 今日头条 静态资源
+    '+.toutiaocloud.cn': '180.184.1.1' # 头条云
+    '+.toutiaocloud.com': '180.184.1.1' # 头条云
+    '+.toutiaopage.com': '180.184.1.1' # 今日头条 建站
+    '+.wukong.com': '180.184.1.1' # 悟空
+    '+.zijieapi.com': '180.184.1.1' # 字节跳动 API
+    '+.zijieimg.com': '180.184.1.1' # 字节跳动 图片服务
+    '+.zjbyte.com': '180.184.1.1' # 今日头条 网页版
+    '+.zjcdn.com': '180.184.1.1' # 字节跳动 CDN
+
+    # > BiliBili
+    'upos-sz-mirrorali.bilivideo.com': 'https://dns.alidns.com/dns-query' # BiliBili upos视频服务器（阿里云）
+    'upos-sz-mirrorali?.bilivideo.com': 'https://dns.alidns.com/dns-query' # BiliBili upos视频服务器（阿里云）
+    'upos-sz-mirrorali??.bilivideo.com': 'https://dns.alidns.com/dns-query' # BiliBili upos视频服务器（阿里云）
+    'upos-sz-mirrorbos.bilivideo.com': '180.76.76.76' # BiliBili upos视频服务器（百度云）
+    'upos-sz-mirrorcos.bilivideo.com': 'https://doh.pub/dns-query' # BiliBili upos视频服务器（腾讯云）
+    'upos-sz-mirrorcos?.bilivideo.com': 'https://doh.pub/dns-query' # BiliBili upos视频服务器（腾讯云）
+    'upos-sz-mirrorcos??.bilivideo.com': 'https://doh.pub/dns-query' # BiliBili upos视频服务器（腾讯云）
+    'upos-sz-upcdnbd??.bilivideo.com': '180.76.76.76' # BiliBili upos视频服务器（百度云）
+    'upos-sz-upcdntx.bilivideo.com': 'https://doh.pub/dns-query' # BiliBili upos视频服务器（腾讯云）
+
+    # > 🇹🇼 TWN
+    # 中华电信
+    '+.cht.com.tw ': 'https://dns.hinet.net/dns-query' # 中华电信
+    '+.hinet.net': 'https://dns.hinet.net/dns-query' # 中华电信HiNet
+    '+.emome.net': 'https://dns.hinet.net/dns-query' # 中华电信emome
+    # So-net
+    # 'so-net.net.tw': 'ns1.so-net.net.tw' # So-net Entertainment Taiwan
+    # 'so-net.tw': 'ns1.so-net.net.tw' # So-net Entertainment Taiwan
+    # Taiwan Network Information Center
+    '+.tw': 'https://dns.twnic.tw/dns-query' # TWNIC DNS
+    '+.taipei': 'https://dns.twnic.tw/dns-query' # TWNIC DNS
+
+    # > 🇺🇸 USA
+    # Hurricane Electric
+    '+.he.net': 'https://ordns.he.net/dns-query' # HE.net
   {% else %}
     {% if request.dns == "host" %}
 dns:
