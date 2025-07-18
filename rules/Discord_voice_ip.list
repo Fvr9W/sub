@@ -2,6 +2,7 @@
 # https://gist.githubusercontent.com/itslukej/e7e06b7013b964e1df8f4bd71817eb89/raw/voice_servers.json
 # update 2025-7-18 09:17:08
 DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,media.discordapp.net
 # DOMAIN-SUFFIX,discordapp.com
 # DOMAIN-SUFFIX,discord.gg
 # DOMAIN-SUFFIX,discord.com
