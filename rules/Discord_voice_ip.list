@@ -2,6 +2,9 @@
 # https://gist.githubusercontent.com/itslukej/e7e06b7013b964e1df8f4bd71817eb89/raw/voice_servers.json
 # update 2025-7-18 09:17:08
 DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.com
 DOMAIN-KEYWORD,discord
 # 2025-7-18 起 Discord 语音、直播不在使用 udp ip 地址
 IP-CIDR,66.22.196.0/22,no-resolve
