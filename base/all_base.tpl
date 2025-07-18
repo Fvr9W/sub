@@ -337,13 +337,10 @@ dns:
 
     # > 🇹🇼 TWN
     # 中华电信
-    '+.cht.com.tw ': 'https://dns.hinet.net/dns-query' # 中华电信
+    '+.cht.com.tw': 'https://dns.hinet.net/dns-query' # 中华电信
     '+.hinet.net': 'https://dns.hinet.net/dns-query' # 中华电信HiNet
     '+.emome.net': 'https://dns.hinet.net/dns-query' # 中华电信emome
     # So-net
-    # 'so-net.net.tw': 'ns1.so-net.net.tw' # So-net Entertainment Taiwan
-    # 'so-net.tw': 'ns1.so-net.net.tw' # So-net Entertainment Taiwan
-    # Taiwan Network Information Center
     '+.tw': 'https://dns.twnic.tw/dns-query' # TWNIC DNS
     '+.taipei': 'https://dns.twnic.tw/dns-query' # TWNIC DNS
 
