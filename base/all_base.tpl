@@ -150,6 +150,7 @@ dns:
     '+.ptrecord.com': '8.8.8.8'
     '+.bing.cn': '1.1.1.1'
     '+.bing.com': '1.1.1.1'
+
     # > Modify Contents
     'blog.google': '119.29.29.29' # Google Blog
     'googletraveladservices.com': '119.29.29.29' # Google Flights
@@ -165,80 +166,6 @@ dns:
     # refer: https://support.apple.com/zh-cn/HT210060
     'networking.apple': 'https://doh.dns.apple.com/dns-query' # Apple
     '+.icloud.com': 'https://doh.dns.apple.com/dns-query' # iCloud.com
-
-    # > 阿里巴巴
-    # refer: https://www.alidns.com
-    '+.alibaba.cn': 'https://dns.alidns.com/dns-query' # 阿里巴巴
-    '+.alibaba.com.cn': 'https://dns.alidns.com/dns-query' # 阿里巴巴
-    '+.china.alibaba.com': 'https://dns.alidns.com/dns-query' # Alibaba 中国
-    '+.1688.com': 'https://dns.alidns.com/dns-query' # 1688
-    '+.taobao.com': 'https://dns.alidns.com/dns-query' # 淘宝
-    '+.tbcache.com': 'https://dns.alidns.com/dns-query' # 淘宝 缓存
-    '+.tmall.com': 'https://dns.alidns.com/dns-query' # 天猫
-    '+.alicdn.com': 'https://dns.alidns.com/dns-query' # 阿里云 CDN
-    '+.alikunlun.com': 'https://dns.alidns.com/dns-query' # 阿里云 阿里昆仑
-    '+.aliapp.com': 'https://dns.alidns.com/dns-query' # 云引擎应用平台
-    '+.aliapp.org': 'https://dns.alidns.com/dns-query' # 上云平台
-    '+.alibabausercontent.com': 'https://dns.alidns.com/dns-query' # 阿里用户上传资料
-    '+.mmstat.com': 'https://dns.alidns.com/dns-query' # mmstat 数据统计 广告追踪
-    'tb.cn': 'https://dns.alidns.com/dns-query' # 淘宝短网址
-
-    # > 阿里云
-    '+.aliyun.+': 'https://dns.alidns.com/dns-query' # 阿里云
-    '+.aliyuncdn.+': 'https://dns.alidns.com/dns-query' # 阿里云 CDN
-    '+.aliyuncs.com': 'https://dns.alidns.com/dns-query' # 阿里云 API 服务
-    '+.aliyunddos????.com': 'https://dns.alidns.com/dns-query' # 阿里云 DDoS防护
-    '+.aliyundrive.com': 'https://dns.alidns.com/dns-query' # 阿里云 阿里云盘
-    '+.aliyundun.com': 'https://dns.alidns.com/dns-query' # 阿里云 阿里云盾
-    '+.aliyundunwaf.com': 'https://dns.alidns.com/dns-query' # 阿里云盾 Web 应用防火墙
-    '+.aliyun-inc.com': 'https://dns.alidns.com/dns-query' # 阿里云 内部
-
-    # > 蚂蚁集团
-    # refer: https://www.alidns.com
-    '+.antgroup.com': 'https://dns.alidns.com/dns-query' # 蚂蚁集团
-    '+.antfin.com': 'https://dns.alidns.com/dns-query' # 蚂蚁金服
-    '+.antfinancial.com': 'https://dns.alidns.com/dns-query' # 蚂蚁金服
-    '+.alipay.com': 'https://dns.alidns.com/dns-query' # 支付宝
-    '+.alipay.com.cn': 'https://dns.alidns.com/dns-query' # 支付宝
-    '+.alipaydns.com': 'https://dns.alidns.com/dns-query' # 支付宝 HTTP DNS
-    '+.alipayeshop.com': 'https://dns.alidns.com/dns-query' # 支付宝 商家资源
-    '+.alipaylog.com': 'https://dns.alidns.com/dns-query' # 支付宝 Mdap
-    '+.alipayobjects.com': 'https://dns.alidns.com/dns-query' # 支付宝 静态资源
-    '+.alipay-eco.com': 'https://dns.alidns.com/dns-query' # 支付宝 开放技术生态体系
-
-    # > 腾讯
-    # refer: https://www.dnspod.cn/products/publicdns
-    '+.tencent.com': 'https://doh.pub/dns-query' # 腾讯
-    '+.qcloud.com': 'https://doh.pub/dns-query' # 腾讯云
-    '+.qcloudcdn.cn': 'https://doh.pub/dns-query' # 腾讯云CDN
-    '+.qcloudcdn.com': 'https://doh.pub/dns-query' # 腾讯云CDN
-    '+.qcloudcos.com': 'https://doh.pub/dns-query' # 腾讯云对象储存
-    '+.qcloudimg.com': 'https://doh.pub/dns-query' # 腾讯云静态资源
-    '+.qcloudcjgj.com': 'https://doh.pub/dns-query' # 腾讯云超级管家
-    '+.qcloudwzgj.com': 'https://doh.pub/dns-query' # 腾讯云网站管家
-    '+.qcloudzygj.com': 'https://doh.pub/dns-query' # 腾讯云主页管家
-    '+.myqcloud.com': 'https://doh.pub/dns-query' # 腾讯开放云
-    '+.tencent-cloud.net': 'https://doh.pub/dns-query' # 腾讯云
-    '+.tencentcloud-aiot.com': 'https://doh.pub/dns-query' # 腾讯云aiot解决方案
-    '+.tencentcloudapi.com': 'https://doh.pub/dns-query' # 腾讯云API
-    '+.tencentcloudcr.com': 'https://doh.pub/dns-query' # 腾讯云容器镜像服务TCR
-    '+.tencentcloudmarket.com': 'https://doh.pub/dns-query' # 腾讯云云市场
-    '+.qq.com': 'https://doh.pub/dns-query' # QQ
-    '+.qlogo.cn': 'https://doh.pub/dns-query' # 腾讯头像
-    '+.qpic.cn': 'https://doh.pub/dns-query' # 腾讯图片
-    '+.weixin.qq.com': 'https://doh.pub/dns-query' # 微信
-    '+.wx.qq.com': 'https://doh.pub/dns-query' # 微信
-    '+.weixin.com': 'https://doh.pub/dns-query' # 微信
-    '+.weixinbridge.com': 'https://doh.pub/dns-query' # 微信公众平台
-    '+.wechat.com': 'https://doh.pub/dns-query' # WeChat
-    '+.servicewechat.com': 'https://doh.pub/dns-query' # 微信小程序
-    '+.weiyun.com': 'https://doh.pub/dns-query' # 微云
-    '+.gtimg.cn': 'https://doh.pub/dns-query' # 腾讯 图片 静态资源
-    '+.idqqimg.com': 'https://doh.pub/dns-query' # 腾讯 图片 静态资源
-    '+.cdn-go.cn': 'https://doh.pub/dns-query' # 腾讯 静态资源 CDN
-    '+.smtcdns.com': 'https://doh.pub/dns-query' # 腾讯云 智能云解析DNS
-    '+.smtcdns.net': 'https://doh.pub/dns-query' # 腾讯云 智能云解析DNS
-    'url.cn': 'https://doh.pub/dns-query' # 腾讯短网址
 
     # > 百度
     # refer: https://dudns.baidu.com/support/localdns/Address/index.html
