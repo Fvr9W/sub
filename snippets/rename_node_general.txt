@@ -10,6 +10,7 @@ Canopus It Solutions Pvt Ltd@CISP
 Chociz Private Limited@Chociz
 CLOUDFLARENET@CF
 Cyberzone S.A.@Cyberzone
+Chunghwa Telecom Co., Ltd.@Chunghwa
 Bangmod Enterprise Co., Ltd.@Bangmod
 Brain PEACE Science Foundation, Inc.@BPSF
 Data Communication Business Group@DCBG
@@ -74,6 +75,7 @@ Virtury Cloud Pakistan@Virtury
 Vivacom Bulgaria EAD@Vivacom
 UAB Bite Lietuva@UAB
 UCLOUD INFORMATION TECHNOLOGY HK LIMITED@UCLOUD
+UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED@UCLOUD
 w1n ltd@w1n
 Yae Telecom Limited@Yae
 ZEN-ECN@ZEN
