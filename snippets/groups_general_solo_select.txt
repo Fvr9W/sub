@@ -23,8 +23,8 @@ Hijacking`select`[]REJECT`[]DIRECT
 ALL`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`^.*Free.*$
 AutoHK 🇭🇰`fallback`!!GROUPID=0!!.*香港.*Premium.*$`[]AutoHK1 🇭🇰`[]AutoHK2 🇭🇰`http://www.gstatic.com/generate_204`60,,30
-AutoHK1 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?Premium).*香港.*(UCLOUD|Kirino|Atomlantis|HKCT|STACKS|GOALNOW).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-AutoHK2 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(UCLOUD|Atomlantis|HKCT|STACKS|GOALNOW|Premium)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+AutoHK1 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?Premium).*香港.*(UCLOUD|Kirino|Atomlantis|HKCT|STACKS|GOALNOW|PCCW).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+AutoHK2 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(UCLOUD|Atomlantis|HKCT|STACKS|GOALNOW|PCCW|Premium)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoJP 🇯🇵`fallback`!!GROUPID=0!!.*日本.*Premium.*$`[]AutoJP1 🇯🇵`[]AutoJP2 🇯🇵`http://www.gstatic.com/generate_204`60,,30
