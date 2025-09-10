@@ -385,7 +385,7 @@ ssid-trigger = "Cccccc":PROXY,"Cccccc_5G":PROXY,"cellular":RULE,"default":RULE
     {% if request.who == "lulu" %}
 ssid-trigger = "Society-5G":DIRECT,"Society":DIRECT,"cellular":RULE,"default":RULE
     {% else %}
-ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"CU_GHfX_5G":DIRECT,"cellular":RULE,"default":RULE
+ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"CU_GHfX_5G":PROXY,"cellular":RULE,"default":RULE
     {% endif %}
   {% endif %}
 {% endif %}
