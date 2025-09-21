@@ -22,6 +22,7 @@ DOMAIN,starharn-cf.nebula-media.org
 DOMAIN,starharn.nebula-media.org
 DOMAIN,web-starharn.nebula-media.org
 DOMAIN,web.nebula-media.org
+DOMAIN-SUFFIX,uhdnow.com
 DOMAIN-SUFFIX,123456.al
 DOMAIN-SUFFIX,16bit.cfd
 DOMAIN-SUFFIX,20120714.xyz
@@ -187,6 +188,7 @@ DOMAIN-SUFFIX,yunti.online
 DOMAIN-SUFFIX,zabc.net
 DOMAIN-SUFFIX,zi0.icu
 DOMAIN-SUFFIX,zox.show
+
 IP-CIDR,152.53.67.239/32,no-resolve
 IP-CIDR,168.119.137.205/32,no-resolve
 IP-CIDR,188.172.228.49/32,no-resolve
