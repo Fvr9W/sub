@@ -85,6 +85,8 @@ dns:
   nameserver:
     - 119.29.29.29
     - 223.5.5.5
+    - 61.128.128.68
+    - 61.128.192.68
   fallback:
     - https://sm2.doh.pub/dns-query
   fallback-filter:
