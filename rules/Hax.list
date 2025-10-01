@@ -70,6 +70,8 @@ DOMAIN-SUFFIX,phantomoverlay.io
 # ring1
 DOMAIN-SUFFIX,ring-1.io
 # other
+DOMAIN-KEYWORD,deepflood
+DOMAIN-KEYWORD,nodeseek
 DOMAIN-SUFFIX,reminds.cn
 DOMAIN-SUFFIX,shop66791.com
 DOMAIN-SUFFIX,18bt.net
