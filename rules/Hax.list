@@ -69,6 +69,8 @@ DOMAIN-SUFFIX,clutch-solution.com
 DOMAIN-SUFFIX,phantomoverlay.io
 # ring1
 DOMAIN-SUFFIX,ring-1.io
+# lsposed
+DOMAIN-SUFFIX,lsposed.org
 # other
 DOMAIN-KEYWORD,deepflood
 DOMAIN-KEYWORD,nodeseek
