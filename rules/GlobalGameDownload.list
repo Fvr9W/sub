@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,nexus-cdn.com
 DOMAIN-SUFFIX,updates.signal.org
 # DMM 不需要多解释吧
 DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm.co.jp
 # pikpak 网盘
 DOMAIN,mypikpak.com
 DOMAIN,api-drive.mypikpak.com
