@@ -117,3 +117,5 @@ DOMAIN-SUFFIX,ftp.binance.com
 DOMAIN-SUFFIX,files3.codecguide.com
 # idm
 DOMAIN-SUFFIX,mirror2.internetdownloadmanager.com
+# mediafire
+DOMAIN-SUFFIX,mediafire.com
