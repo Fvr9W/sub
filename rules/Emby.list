@@ -7,7 +7,10 @@ DOMAIN-SUFFIX,jmsuper.com
 DOMAIN-SUFFIX,nebula-media.org
 # 1111
 DOMAIN-SUFFIX,emby.moe
-DOMAIN-SUFFIX,cflocal.xxlb.net
+DOMAIN-SUFFIX,xxlb.net
+DOMAIN-SUFFIX,loseremby.org
+DOMAIN-SUFFIX,zabc.net
+IP-CIDR,154.12.52.149/25
 # okemby
 DOMAIN-SUFFIX,okemby.org
 # other
