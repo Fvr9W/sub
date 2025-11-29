@@ -684,7 +684,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-#!date = 2024-10-16
+#!date = 2025-11-29
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -777,14 +777,15 @@ static=FREE, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/T
 [filter_remote]
 
 [rewrite_remote]
-https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag = BoxJS, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/QX.snippet, tag = SubStore, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/snippet/HTTPDNS.Block.snippet, tag=「HTTPDNS」禁止, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/TikTok.conf, tag = 「TikTok」美区, update-interval=172800, opt-parser=false, enabled=true
-# VIP解锁
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=「合集1」VIP解锁, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule, tag=「合集2」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/yqc007/QuantumultX/master/LightBeautyCamCrack.js, tag=「轻颜相机5.2.1」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
+# 从下到上，重要程度
+# 去广告
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/rewrite.snippet, tag=「合集」去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/weibo.snippet, tag=「微博」去广告, update-interval=172800, opt-parser=false, enabled=true
+
+# Cookie
+https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = 「合集1」CK获取 update-interval=172800, opt-parser=true, enabled = true
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet, tag = 「合集2」CK获取, update-interval=172800, opt-parser=false, enabled = false
+
 # 功能增强
 https://raw.githubusercontent.com/mw418/Loon/main/script/jd_price.js, tag=「京东」比价脚本, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=「Netflix」评分, update-interval=172800, opt-parser=false, enabled=true
@@ -800,39 +801,16 @@ https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.
 https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.snippet, tag=自定义「地图」功能, update-interval=86400, opt-parser=false, enabled=false
 https://github.com/BiliUniverse/Enhanced/releases/latest/download/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
 
-# 去广告
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf, tag=「合集1」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Remix.snippet, tag=「合集2」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cnftp.snippet, tag=「爱奇艺|芒果|腾讯视频|优酷」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet, tag=「高德地图」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/bdmap.snippet, tag=「百度地图」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.snippet, tag=「哔哩哔哩粉白」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cainiao.snippet, tag=「菜鸟裹裹」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cloudmusic.snippet, tag=「网易云」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/FanQieNovel.qxrewrite, tag=「番茄小说」去广告, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/KeepStyle.conf, tag=「KEEP」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf, tag=「起点」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf, tag=「贴吧」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/reddit/reddit.ad.snippet, tag=「红迪」去广告, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/app2smile/rules/master/module/vgtime.conf, tag=「vgTime」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/ithome.snippet, tag=「ithome」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/kuwo.snippet, tag=「酷我」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=「什么值得买」去广告, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=「微信某些小程序」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/WeChat.conf, tag=「微信公众号」去广告, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/weibo.snippet, tag=「微博」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet, tag=「小红书」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf, tag=「喜马拉雅」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet, tag=「油管」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/zhihu.snippet, tag=「知乎1」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet, tag=「知乎2」去广告, update-interval=172800, opt-parser=false, enabled=true
-# 去广告收尾
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/WebPage.conf, tag=「一些网页」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf, tag=「联盟」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=「重定向」神机, update-interval=172800, opt-parser=false, enabled=true
-# Cookie
-https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GetCookie.conf, tag = 「合集1」CK获取 update-interval=172800, opt-parser=true, enabled = true
-https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cookies.snippet, tag = 「合集2」CK获取, update-interval=172800, opt-parser=false, enabled = false
+# VIP解锁
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/LightBeautyCamCrack.js, tag=「轻颜相机5.2.1」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Unlock.qxrewrite, tag=「合集1」VIP解锁, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule, tag=「合集2」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
+
+# 基本
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag = BoxJS, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/QX.snippet, tag = SubStore, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.beta.qx.conf, tag = ScriptHub, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/snippet/HTTPDNS.Block.snippet, tag=「HTTPDNS」禁止, update-interval=172800, opt-parser=false, enabled=false
 
 [server_local]
 
