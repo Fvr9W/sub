@@ -104,6 +104,7 @@ PROCESS-NAME,newkkredirector.exe
 DOMAIN-SUFFIX,xunlei.com
 # > steam 零售商中国IP进才显示
 DOMAIN-SUFFIX,greenmangaming.com
+DOMAIN-SUFFIX,gamebillet.com
 # > dns
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
@@ -120,11 +121,6 @@ DOMAIN-SUFFIX,kenshuzw.com
 DOMAIN-SUFFIX,xqb5.org
 DOMAIN-SUFFIX,555x.org
 DOMAIN-SUFFIX,zxcs.info
-# > emby 可直连线路
-DOMAIN-SUFFIX,hk.misakaf.org
-DOMAIN-SUFFIX,4837.misakaf.org
-DOMAIN-SUFFIX,11.loseremby.org
-DOMAIN-SUFFIX,bsem.ddns.me
 # > 奶昔
 DOMAIN-SUFFIX,api.nexconvert.com
 DOMAIN-SUFFIX,sub.nexconvert.com
@@ -168,4 +164,3 @@ DOMAIN-SUFFIX,ddns.net
 DOMAIN-KEYWORD,apphot
 #  > 花之湾大路站
 DOMAIN-KEYWORD,huazihwan-cheat.com
-
