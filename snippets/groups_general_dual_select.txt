@@ -12,6 +12,7 @@ Microsoft`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]Major`[]Minor`[]FR
 SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
 SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
 Blizzard`select`[]Other Games`[]Major`[]Minor`[]DIRECT
+Epicgames`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 PlayStation`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 Riot`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 Rockstar`select`[]Other Games`[]Major`[]Minor`[]DIRECT
