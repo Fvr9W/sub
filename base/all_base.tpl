@@ -402,6 +402,7 @@ Free = https://gist.githubusercontent.com/Fvr9W/b13795c35c2ba2d3bdade1807691bc92
 Premium=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Nex.png
 Game=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/game.png
 Daily=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Daily.png
+Epicgames=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/epic.png
 Blizzard=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 Garena=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 PlayStation=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/PSN.png
@@ -419,6 +420,8 @@ Trading=select, direct, img-url=https://raw.githubusercontent.com/Fvr9W/sub/mast
 Telegram=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Telegram.png
 Discord=select, direct, img-url=https://raw.githubusercontent.com/Fvr9W/sub/master/rules/discord.png
 Spotify=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Spotify.png
+Tiktok=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/TikTok.png
+TikTok=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/TikTok.png
 Netflix=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Netflix.png
 GlobalMedia=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Streaming.png
 GlobalGameDownload=select, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Download.png
