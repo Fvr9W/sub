@@ -1,5 +1,14 @@
 # 源文件：https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Emby.list
-# 更新时间：2025-6-24 20:23:45
+# 更新时间：2026-1-2 18:31:12
+
+# 刮削
+DOMAIN-SUFFIX,moviemeter.nl
+DOMAIN-SUFFIX,mpdb.tv
+DOMAIN-SUFFIX,omdbapi.com
+DOMAIN-SUFFIX,ofdb.de
+DOMAIN-SUFFIX,trakt.tv
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,imdb.com
 
 # 卷毛鼠
 DOMAIN-SUFFIX,jmsuper.com
@@ -22,17 +31,22 @@ DOMAIN,cminf.sfcat.link
 DOMAIN,cuinf.sfcat.link
 DOMAIN,emby-cdn1.nebula-media.org
 DOMAIN,emby.nebula-media.org
+DOMAIN,global.uhdnow.com
+DOMAIN,m.mobaiemby.site
+DOMAIN,mcdn.mobaiemby.site
 DOMAIN,notnetflix.cos.cat
 DOMAIN,starharn-cf.nebula-media.org
 DOMAIN,starharn.nebula-media.org
+DOMAIN,v1.uhdnow.com
 DOMAIN,web-starharn.nebula-media.org
 DOMAIN,web.nebula-media.org
-DOMAIN-SUFFIX,uhdnow.com
+DOMAIN-SUFFIX,114514.quest
 DOMAIN-SUFFIX,123456.al
 DOMAIN-SUFFIX,16bit.cfd
 DOMAIN-SUFFIX,20120714.xyz
 DOMAIN-SUFFIX,252798.xyz
 DOMAIN-SUFFIX,285286.xyz
+DOMAIN-SUFFIX,3767483.xyz
 DOMAIN-SUFFIX,404.sb
 DOMAIN-SUFFIX,4545.cf
 DOMAIN-SUFFIX,581658.best
@@ -64,6 +78,7 @@ DOMAIN-SUFFIX,cc.semby.ink
 DOMAIN-SUFFIX,cf.odysseyplus.site
 DOMAIN-SUFFIX,charontv.com
 DOMAIN-SUFFIX,cherrytv.one
+DOMAIN-SUFFIX,ciallo.party
 DOMAIN-SUFFIX,cinema.facmata.net
 DOMAIN-SUFFIX,deja-vu.beauty
 DOMAIN-SUFFIX,dicarerhome.com
@@ -71,7 +86,6 @@ DOMAIN-SUFFIX,e.degyax.one
 DOMAIN-SUFFIX,ednovas.org
 DOMAIN-SUFFIX,em.ssky.me
 DOMAIN-SUFFIX,emby-cf.plusmedia.site
-DOMAIN-SUFFIX,emby-myg-de.vfing.de
 DOMAIN-SUFFIX,emby-sg.plusmedia.site
 DOMAIN-SUFFIX,emby.aiyowei.ml
 DOMAIN-SUFFIX,emby.bid
@@ -162,17 +176,21 @@ DOMAIN-SUFFIX,pololine.ml
 DOMAIN-SUFFIX,pornemby.club
 DOMAIN-SUFFIX,post.cn2gias.uk
 DOMAIN-SUFFIX,pub1.emby.wtf
+DOMAIN-SUFFIX,pub1.term.wtf
 DOMAIN-SUFFIX,pub1back.emby.wtf
 DOMAIN-SUFFIX,pub1cf.emby.wtf
 DOMAIN-SUFFIX,pub2.emby.wtf
+DOMAIN-SUFFIX,pub2.term.wtf
 DOMAIN-SUFFIX,pub2back.emby.wtf
 DOMAIN-SUFFIX,pub2cf.emby.wtf
 DOMAIN-SUFFIX,pub3.emby.wtf
+DOMAIN-SUFFIX,pub3.term.wtf
 DOMAIN-SUFFIX,pub3back.emby.wtf
 DOMAIN-SUFFIX,pub3cf.emby.wtf
 DOMAIN-SUFFIX,reddust.link
 DOMAIN-SUFFIX,ru.odysseyplus.site
 DOMAIN-SUFFIX,servers.xeton.dev
+DOMAIN-SUFFIX,shrekmedia.org
 DOMAIN-SUFFIX,shuipo.lol
 DOMAIN-SUFFIX,speedx.one
 DOMAIN-SUFFIX,starcat.eu.org
@@ -182,6 +200,7 @@ DOMAIN-SUFFIX,stream.synn.cc
 DOMAIN-SUFFIX,studyfun.live
 DOMAIN-SUFFIX,tanhuatv.site
 DOMAIN-SUFFIX,texon.fans
+DOMAIN-SUFFIX,theluyuan.com
 DOMAIN-SUFFIX,tkremby.xyz
 DOMAIN-SUFFIX,tv.worldline.space
 DOMAIN-SUFFIX,uuuoo.cc
@@ -192,8 +211,8 @@ DOMAIN-SUFFIX,younoyes.com
 DOMAIN-SUFFIX,yunti.online
 DOMAIN-SUFFIX,zabc.net
 DOMAIN-SUFFIX,zi0.icu
+DOMAIN-SUFFIX,zn.al
 DOMAIN-SUFFIX,zox.show
-
 IP-CIDR,152.53.67.239/32,no-resolve
 IP-CIDR,168.119.137.205/32,no-resolve
 IP-CIDR,188.172.228.49/32,no-resolve
