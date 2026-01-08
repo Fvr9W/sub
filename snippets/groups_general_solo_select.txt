@@ -1,10 +1,10 @@
 Premium`fallback`!!GROUPID=0!!.*香港.*Premium.*$`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲`http://www.gstatic.com/generate_204`60,,20
 Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
 B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
-Hax`select`[]AutoNA 🇺🇲`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]ALL`[]FREE`[]DIRECT
+Hax`select`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
 Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
-Telegram`select`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲`[]B1gProxy
+Telegram`select`[]B1gProxy`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲
 Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
 Netflix`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT`.*Emby.*$
 GlobalMedia`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
@@ -24,7 +24,7 @@ Hijacking`select`[]REJECT`[]DIRECT
 ALL`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`^.*Free.*$
 AutoHK 🇭🇰`fallback`[]AutoHK1 🇭🇰`[]AutoHK2 🇭🇰`http://www.gstatic.com/generate_204`60,,30
-AutoHK1 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?Premium).*香港.*(UCLOUD|Kirino|Atomlantis|HKCT|STACKS|GOALNOW|PCCW|Prime).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+AutoHK1 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?Premium).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoHK2 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(Premium|UCLOUD|Atomlantis|HKCT|STACKS|GOALNOW|PCCW|Prime)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
