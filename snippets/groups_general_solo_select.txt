@@ -24,8 +24,8 @@ Hijacking`select`[]REJECT`[]DIRECT
 ALL`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`^.*Free.*$
 AutoHK 🇭🇰`fallback`[]AutoHK1 🇭🇰`[]AutoHK2 🇭🇰`http://www.gstatic.com/generate_204`60,,30
-AutoHK1 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?Premium).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-AutoHK2 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(Premium|UCLOUD|Atomlantis|HKCT|STACKS|GOALNOW|PCCW|Prime)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+AutoHK1 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?Premium).*香港.*(Premium|UCLOUD|Atomlantis|HKCT|STACKS|GOALNOW|PCCW|Prime|Eons).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+AutoHK2 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(Premium|UCLOUD|Atomlantis|HKCT|STACKS|GOALNOW|PCCW|Prime|Eons)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*日本.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
