@@ -10,6 +10,8 @@ Aperture Science Limited@Aperture
 Aruba S.p.A.@Aruba
 Asia Pacific On-line Service Inc.@APOS
 Atomlantis Network, LLC@Atomlantis
+ARTERIA Networks Corporation@ARTERIA
+ATT-INTERNET4@ATT
 Baltcom SIA@Baltcom
 Bangmod Enterprise Co., Ltd.@Bangmod
 Batterflyai Media ltd.@Batterflyai
