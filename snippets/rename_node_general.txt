@@ -31,7 +31,7 @@ Companhia de Telecomunicacoes de Macau SARL@CTM
 CORPORACION GALA IT, C.A.@CORPORACION
 Cyberzone S.A.@Cyberzone
 Daniel Jackson@Daniel
-Data Communication Business Group@DCBG
+Data Communication Business Group@HiNet
 Datacamp Limited@Datacamp
 Datacheap LLC@Datacheap
 DEDIOUTLET-NETWORK-PHX@DEDIOUTLET
@@ -39,6 +39,7 @@ Delta Telecom Ltd@Delta
 Deutsche Glasfaser Wholesale GmbH@DGWG
 Digital United Inc.@DU
 DIGITALOCEAN-ASN@DO
+DMIT Inc@DMII
 Eastern Telecoms Phils., Inc.@ETPI
 EDGEUNO SAS@EDGEUNO
 EDIS GmbH@EDIS
@@ -124,6 +125,7 @@ SONDATECH S.A.S.@SONDATECH
 Sony Network Communications Inc.@Sony
 Sony Network Taiwan Limited@Sony
 STACKS INC@STACKS
+STACKSINC-BACKBONE@STACKS
 Stark Industries Solutions Ltd@SIS
 Subisu Cablenet Pvt Ltd, Baluwatar, Kathmandu, Nepal@SCP
 Syrian Telecommunication Private Closed Joint Stock Company@Joint Stock
