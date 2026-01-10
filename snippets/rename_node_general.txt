@@ -46,6 +46,7 @@ EDIS GmbH@EDIS
 EIVUS DATA CENTER E TELECOM@EIVUS
 Eons Data Communications Limited@Eons
 Extra-Lan Technologies Co., LTD@Extra-Lan
+EdgeUno, Inc.@EdgeUno
 Flow Swiss AG@FSAG
 GB Network Solutions Sdn. Bhd.@GBN
 GBK ARGENTINA S.A.@Argentina
