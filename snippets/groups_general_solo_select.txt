@@ -23,13 +23,13 @@ SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 ALL`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`!!GROUPID=1!!.*
-AutoHK 🇭🇰`url-test`!!GROUPID=0!!.*台湾.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
-AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*台湾.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*日本.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+AutoHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*(台北|台湾).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*(首尔|韩国).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+AutoJP 🇯🇵`url-test`!!GROUPID=0!!.*(东京|日本).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoSG 🇸🇬`url-test`!!GROUPID=0!!.*新加坡.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
 AutoRU 🇷🇺`url-test`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
 AutoEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*Europe.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
-AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
-AutoNA 🇺🇲`url-test`!!GROUPID=0!!.*(硅谷|西雅图|美国).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(蒙特利尔|多伦多|加拿大).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+AutoNA 🇺🇲`url-test`!!GROUPID=0!!.*(纽约|硅谷|西雅图|美国).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
