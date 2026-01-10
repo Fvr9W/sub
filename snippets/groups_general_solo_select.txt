@@ -22,7 +22,7 @@ PrivateTracker`select`[]DIRECT`[]Other Games`[]ALL`[]FREE
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 ALL`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
-FREE`select`!!GROUPID=1!!.*
+FREE`select`^.*(ShareCentre|pcg52|mitc).*$
 AutoHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!.*(台北|台湾).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!.*(首尔|韩国).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
