@@ -105,6 +105,7 @@ DOMAIN-SUFFIX,xunlei.com
 # > steam 零售商中国IP进才显示
 DOMAIN-SUFFIX,greenmangaming.com
 DOMAIN-SUFFIX,gamebillet.com
+DOMAIN-SUFFIX,2game.com
 # > dns
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
@@ -165,4 +166,5 @@ DOMAIN-SUFFIX,ddns.net
 DOMAIN-KEYWORD,apphot
 #  > 花之湾大路站
 DOMAIN-KEYWORD,huazihwan-cheat.com
+
 
