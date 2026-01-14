@@ -12,6 +12,7 @@ Asia Pacific On-line Service Inc.@APOS
 Atomlantis Network, LLC@Atomlantis
 ARTERIA Networks Corporation@ARTERIA
 ATT-INTERNET4@ATT
+AT&T Enterprises@ATT
 Baltcom SIA@Baltcom
 Bangmod Enterprise Co., Ltd.@Bangmod
 Batterflyai Media ltd.@Batterflyai
@@ -150,6 +151,7 @@ Virtury Cloud Pakistan@Virtury
 Visual Online S.A.@Visual
 Vivacom Bulgaria EAD@Vivacom
 Vodafone Net Iletisim Hizmetler AS@Vodafone
+Virgin Media@VirginM
 w1n ltd@w1n
 Webconex SAS@Webconex
 Webglobe, a.s@Webglobe
