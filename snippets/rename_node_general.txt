@@ -12,6 +12,7 @@ Asia Pacific On-line Service Inc.@APOS
 Atomlantis Network, LLC@Atomlantis
 ARTERIA Networks Corporation@ARTERIA
 ATT-INTERNET4@ATT
+AT&T Enterprises, LLC@ATT
 AT&T Enterprises@ATT
 Baltcom SIA@Baltcom
 Bangmod Enterprise Co., Ltd.@Bangmod
@@ -40,6 +41,7 @@ Delta Telecom Ltd@Delta
 Deutsche Glasfaser Wholesale GmbH@DGWG
 Digital United Inc.@DU
 DIGITALOCEAN-ASN@DO
+DMIT Inc.@DMII
 DMIT Inc@DMII
 Eastern Telecoms Phils., Inc.@ETPI
 EDGEUNO SAS@EDGEUNO
@@ -102,7 +104,8 @@ O.m.c. Computers & Communications Ltd@O.m.c.
 Olleh-Rwanda-Networks@Olleh-Rwanda
 oneCorp GmbH@oneCorp
 Optima Telecom Ltd.@Optima
-ORACLE-BMC-31898@ORACLE
+ORACLE-BMC-31898@Oracle
+Oracle Corporation@Oracle
 OVH SAS@OVH
 PAN-LIAN TECHNOLOGY CO., LIMITED@PAN-LIAN
 Partner Communications Ltd.@Partner
