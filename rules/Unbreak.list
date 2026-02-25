@@ -164,7 +164,7 @@ DOMAIN-KEYWORD,dl-a10b
 # > vk 加速器
 DOMAIN-KEYWORD,verykuai
 # > 黑魂线上服务器
-DOMAIN-SUFFIX,fromsoftware-game.net
+# > DOMAIN-SUFFIX,fromsoftware-game.net
 # > LULU 要求的
 DOMAIN-SUFFIX,cn.smartbot.ws
 DOMAIN-SUFFIX,cnproxy.smartbot.ws
@@ -177,6 +177,7 @@ DOMAIN-SUFFIX,ddns.net
 DOMAIN-KEYWORD,apphot
 #  > 花之湾大路站
 DOMAIN-KEYWORD,huazihwan-cheat.com
+
 
 
 
