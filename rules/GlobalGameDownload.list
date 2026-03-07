@@ -121,3 +121,5 @@ DOMAIN-SUFFIX,files3.codecguide.com
 DOMAIN-SUFFIX,mirror2.internetdownloadmanager.com
 # mediafire
 DOMAIN-SUFFIX,mediafire.com
+# AMD
+DOMAIN-SUFFIX,drivers.amd.com
