@@ -168,6 +168,8 @@ DOMAIN-KEYWORD,verykuai
 # > LULU 要求的
 DOMAIN-SUFFIX,cn.smartbot.ws
 DOMAIN-SUFFIX,cnproxy.smartbot.ws
+DOMAIN-SUFFIX,cnproxy2.smartbot.ws
+DOMAIN-SUFFIX,cnproxy3.smartbot.ws
 #  > 佩奇 要求的
 DOMAIN-SUFFIX,zlonggame.com
 #  > suyu 要求的
