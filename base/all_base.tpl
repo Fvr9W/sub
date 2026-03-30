@@ -98,6 +98,7 @@ dns:
     - '+.nip.io'
     - '+.market.xiaomi.com'
     - ntp.ntsc.ac.cn
+    - pool.ntp.org
     ## Windows
     - dns.msftncsi.com
     - www.msftncsi.com
