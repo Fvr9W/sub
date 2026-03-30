@@ -334,7 +334,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2025-11-15
+#!date = 2026-3-30
 # IPV6 启动与否
 ip-mode = ipv4-only
 ipv6-vif = off
@@ -385,7 +385,7 @@ ssid-trigger = "Cccccc":PROXY,"Cccccc_5G":PROXY,"cellular":RULE,"default":RULE
     {% if request.who == "lulu" %}
 ssid-trigger = "Society-5G":DIRECT,"Society":DIRECT,"cellular":RULE,"default":RULE
     {% else %}
-ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"cellular":RULE,"default":RULE
+ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"Q3EA_5G":DIRECT,"嘿嘿嘿嘿":DIRECT,"cellular":RULE,"default":RULE
     {% endif %}
   {% endif %}
 {% endif %}
@@ -562,6 +562,7 @@ https://kelee.one/Tool/Loon/Lpx/FenBi_remove_ads.lpx, tag=「粉笔」去广告,
 https://kelee.one/Tool/Loon/Lpx/FlyerTea_remove_ads.lpx, tag=「飞客茶馆」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/GaoDing_remove_ads.lpx, tag=「稿定设计」去广告, enabled = false
 https://kelee.one/Tool/Loon/Lpx/DragonRead_remove_ads.lpx, tag=「番茄小说」去广告, enabled = false
+https://raw.githubusercontent.com/honue/rules/master/Loon/plugin/FanQieNovel.plugin, tag=「番茄小说」去广告2, enabled = false
 https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx, tag=「喜马拉雅」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/IThome_remove_ads.lpx, tag=「IThome」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/Keep_remove_ads.lpx, tag=「Keep」去广告, enabled = true
