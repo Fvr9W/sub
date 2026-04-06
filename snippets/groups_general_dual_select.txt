@@ -1,6 +1,6 @@
 Premium`fallback`!!GROUPID=0!!.*香港.*Premium.*$`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]AutoNA 🇺🇲`http://www.gstatic.com/generate_204`60,,20
 Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT
-B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT
+B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT`^.*倍.*$
 Hax`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
@@ -25,32 +25,32 @@ Major`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 Minor`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`^.*(ShareCentre|pcg52|mitc|Free).*$
 AutoHK 🇭🇰`fallback`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`http://www.gstatic.com/generate_204`60,,20
-MajorHK 🇭🇰`url-test`!!GROUPID=0!!.*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-MinorHK 🇭🇰`url-test`!!GROUPID=1!!.*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MajorHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MinorHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?(倍|率)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoTW 🇨🇳`fallback`!!GROUPID=0!!.*(台北|台湾).*Premium.*$`[]MajorTW 🇨🇳`[]MinorTW 🇨🇳`http://www.gstatic.com/generate_204`60,,20
-MajorTW 🇨🇳`url-test`!!GROUPID=0!!.*(台北|台湾).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-MinorTW 🇨🇳`url-test`!!GROUPID=1!!.*(台北|台湾).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MajorTW 🇨🇳`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(台北|台湾).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MinorTW 🇨🇳`url-test`!!GROUPID=1!!^(?!.*?(倍|率)).*(台北|台湾).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoKR 🇰🇷`fallback`!!GROUPID=0!!.*韩国.*Premium.*$`[]MajorKR 🇰🇷`[]MinorKR 🇰🇷`http://www.gstatic.com/generate_204`60,,20
-MajorKR 🇰🇷`url-test`!!GROUPID=0!!.*韩国.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-MinorKR 🇰🇷`url-test`!!GROUPID=1!!.*韩国.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MajorKR 🇰🇷`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*韩国.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MinorKR 🇰🇷`url-test`!!GROUPID=1!!^(?!.*?(倍|率)).*韩国.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoJP 🇯🇵`fallback`!!GROUPID=0!!.*(大阪|东京|日本).*Premium.*$`[]MajorJP 🇯🇵`[]MinorJP 🇯🇵`http://www.gstatic.com/generate_204`60,,20
-MajorJP 🇯🇵`url-test`!!GROUPID=0!!.*(大阪|东京|日本).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-MinorJP 🇯🇵`url-test`!!GROUPID=1!!.*(大阪|东京|日本).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MajorJP 🇯🇵`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(大阪|东京|日本).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MinorJP 🇯🇵`url-test`!!GROUPID=1!!^(?!.*?(倍|率)).*(大阪|东京|日本).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoSG 🇸🇬`fallback`!!GROUPID=0!!.*新加坡.*Premium.*$`[]MajorSG 🇸🇬`[]MinorSG 🇸🇬`http://www.gstatic.com/generate_204`60,,20
-MajorSG 🇸🇬`url-test`!!GROUPID=0!!.*新加坡.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-MinorSG 🇸🇬`url-test`!!GROUPID=1!!.*新加坡.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MajorSG 🇸🇬`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*新加坡.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MinorSG 🇸🇬`url-test`!!GROUPID=1!!^(?!.*?(倍|率)).*新加坡.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoAU 🇦🇺`fallback`[]MajorAU 🇦🇺`[]MinorAU 🇦🇺`http://www.gstatic.com/generate_204`60,,20
-MajorAU 🇦🇺`url-test`!!GROUPID=0!!.*Oceania.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-MinorAU 🇦🇺`url-test`!!GROUPID=1!!.*Oceania.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MajorAU 🇦🇺`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*Oceania.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MinorAU 🇦🇺`url-test`!!GROUPID=1!!^(?!.*?(倍|率)).*Oceania.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoRU 🇷🇺`fallback`[]MajorRU 🇷🇺`[]MinorRU 🇷🇺`http://www.gstatic.com/generate_204`60,,30
-MajorRU 🇷🇺`url-test`!!GROUPID=0!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
-MinorRU 🇷🇺`url-test`!!GROUPID=1!!.*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+MajorRU 🇷🇺`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+MinorRU 🇷🇺`url-test`!!GROUPID=1!!^(?!.*?(倍|率)).*(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
 AutoEU 🇪🇺`fallback`!!GROUPID=0!!.*Premium.*Europe.*$`[]MajorEU 🇪🇺`[]MinorEU 🇪🇺`http://www.gstatic.com/generate_204`60,,30
-MajorEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*Europe.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
-MinorEU 🇪🇺`url-test`!!GROUPID=1!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*Europe.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+MajorEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(倍|率|莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*Europe.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+MinorEU 🇪🇺`url-test`!!GROUPID=1!!^(?!.*?(倍|率|莫斯科|圣彼得堡|哈巴罗夫斯克|俄罗斯)).*Europe.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
 AutoCA 🇨🇦`fallback`[]MajorCA 🇨🇦`[]MinorCA 🇨🇦`http://www.gstatic.com/generate_204`60,,30
-MajorCA 🇨🇦`url-test`!!GROUPID=0!!.*(蒙特利尔|多伦多|加拿大).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
-MinorCA 🇨🇦`url-test`!!GROUPID=1!!.*(蒙特利尔|多伦多|加拿大).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+MajorCA 🇨🇦`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(蒙特利尔|多伦多|加拿大).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+MinorCA 🇨🇦`url-test`!!GROUPID=1!!^(?!.*?(倍|率)).*(蒙特利尔|多伦多|加拿大).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
 AutoNA 🇺🇲`fallback`!!GROUPID=0!!.*(纽约|硅谷|西雅图|美国).*Premium.*$`[]MajorNA 🇺🇲`[]MinorNA 🇺🇲`http://www.gstatic.com/generate_204`60,,30
-MajorNA 🇺🇲`url-test`!!GROUPID=0!!.*(纽约|硅谷|西雅图|美国).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
-MinorNA 🇺🇲`url-test`!!GROUPID=1!!.*(纽约|硅谷|西雅图|美国).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+MajorNA 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(纽约|硅谷|西雅图|美国).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+MinorNA 🇺🇲`url-test`!!GROUPID=1!!^(?!.*?(倍|率)).*(纽约|硅谷|西雅图|美国).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
