@@ -81,7 +81,7 @@ Korbank S. A.@Korbank
 Lanka Communication Services@LCS
 Liberty Global B.V.@Liberty
 LLC Baxet@LLC
-Level 3 Parent@LevelIII
+Level 3 Parent, LLC@Level 3
 M247 Europe SRL@M247
 Maintenance of Network & information Technology Company LLC@Maintenance
 Makedonski Telekom AD-Skopje@MT
@@ -206,5 +206,6 @@ Zhipinshang .* Electron Communication Technology Limited@Zhipinshang
 
 IPVζ@IPV6
 IPVδ@IPV4
+Level γ@Level 3
   @ 
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
