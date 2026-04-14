@@ -181,8 +181,9 @@ DOMAIN-SUFFIX,ddns.net
 #  > 烈火软件
 DOMAIN-KEYWORD,apphot
 #  > 花之湾大路站
-DOMAIN-KEYWORD,huazihwan-cheat.com
+DOMAIN-SUFFIX,huazihwan-cheat.com
 #  > AI中转站
-DOMAIN-KEYWORD,foropencode.com
-
+DOMAIN-SUFFIX,foropencode.com
+#  > linuxdo 邀请站需要大陆IP
+DOMAIN-SUFFIX,invite.linuxdo.org
 
