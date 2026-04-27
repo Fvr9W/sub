@@ -539,7 +539,7 @@ https://github.com/NSRingo/News/releases/latest/download/iRingo.News.plugin, pol
 https://github.com/NSRingo/TestFlight/releases/latest/download/iRingo.TestFlight.plugin, tag=自定义「TestFlight」功能, enabled = false
 https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx, tag=「QuickSearch」增强, enabled = false
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, tag=「节点」检测, enabled = true
-https://gist.githubusercontent.com/RavelloH/68ed0626dae69a1ce7c8ad6887087ea1/raw/main.snippet, tag=「reddit」翻译增强, enabled = true
+http://script.hub/file/_start_/https://gist.githubusercontent.com/RavelloH/68ed0626dae69a1ce7c8ad6887087ea1/raw/main.snippet/_end_/main.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=truet, tag=「reddit」翻译增强, enabled = true
 https://raw.githubusercontent.com/DemoJameson/Loon.Plugins/main/trakt_simplified_chinese/trakt_simplified_chinese.plugin, tag=「trakt」增强, enabled = true
 https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx, tag=「WARP」节点查询, enabled = false
 https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx, tag=「微信」外链增强, enabled = true
@@ -809,6 +809,7 @@ https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Siri.snippet, ta
 https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.snippet, tag=自定义「定位服务」功能, update-interval=86400, opt-parser=false, enabled=false
 https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.snippet, tag=自定义「地图」功能, update-interval=86400, opt-parser=false, enabled=false
 https://github.com/BiliUniverse/Enhanced/releases/latest/download/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
+https://gist.githubusercontent.com/RavelloH/68ed0626dae69a1ce7c8ad6887087ea1/raw/main.snippet, tag=「reddit」翻译增强, update-interval=172800, opt-parser=false, enabled=true
 
 # VIP解锁
 https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule, tag=「合集2」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
