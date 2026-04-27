@@ -335,7 +335,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2026-04-19
+#!date = 2026-04-27
 # IPV6 启动与否
 ip-mode = ipv4-only
 ipv6-vif = off
@@ -593,6 +593,7 @@ https://kelee.one/Tool/Loon/Lpx/YY_Voice_remove_ads.lpx, tag=「YY」去广告, 
 https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx, tag=「知乎」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/ValorantBible_remove_ads.lpx, tag=「掌上瓦」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/LOL_Bible_remove_ads.lpx, tag=「掌上撸」去广告, enabled = true
+https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/XWebAds.plugin, tag=「X」网页版去广告, enabled = true
 # 视频网站
 https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx, tag=「YouTube」去广告, enabled = true
 https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.plugin, tag=「YouTube」字幕增强及双语模块, enabled = true
