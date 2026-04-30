@@ -23,7 +23,9 @@ SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
 ALL`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`^.*(ShareCentre|pcg52|mitc|Free).*$
-AutoHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,30
+AutoHK 🇭🇰`select`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`http://www.gstatic.com/generate_204`60,,20
+MajorHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(#0|#0)).*香港.*(倍|率).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MinorHK 🇭🇰`url-test`!!GROUPID=1!!^(?!.*?(倍|率)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(台|新竹).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(首尔|韩国).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoJP 🇯🇵`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(东京|日本).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
