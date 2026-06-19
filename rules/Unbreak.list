@@ -165,7 +165,7 @@ DOMAIN-KEYWORD,yezi779
 # > pikpak 可直连线路
 DOMAIN-KEYWORD,dl-z01a
 DOMAIN-KEYWORD,dl-a10b
-DOMAIN-SUFFIX,dl.pikpak.io
+DOMAIN-KEYWORD,dl.pikpak
 # > vk 加速器
 DOMAIN-KEYWORD,verykuai
 # > 黑魂线上服务器
