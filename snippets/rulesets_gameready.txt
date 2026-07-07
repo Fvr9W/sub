@@ -12,6 +12,7 @@ PlayStation,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/GranTurismo
 Riot,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Riot.list
 Rockstar,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/Rockstar.list
 SteamGlobal,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+SteamChina,https://raw.githubusercontent.com/Fvr9W/sub/refs/heads/master/rules/AI_CN.list
 SteamChina,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 Epicgames,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Epicgames.list
 Ubisoft,https://raw.githubusercontent.com/Fvr9W/sub/master/rules/ubi.list
