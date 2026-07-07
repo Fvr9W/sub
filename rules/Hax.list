@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,linkcube.dev
 DOMAIN-SUFFIX,adomainforsub.org
 # AI中转站没国内加速的
 DOMAIN-SUFFIX,suneora.com
-DOMAIN-SUFFIX,sub2api.xytpark.cn
+DOMAIN-SUFFIX,xytpark.cn
 DOMAIN-SUFFIX,xje96.uk
 DOMAIN-SUFFIX,xje96.com
 DOMAIN-SUFFIX,hhhl.cc
@@ -19,6 +19,8 @@ DOMAIN-SUFFIX,dxmcs.xin
 DOMAIN-SUFFIX,zhexueqi.xyz
 DOMAIN-SUFFIX,blueroy.site
 DOMAIN-SUFFIX,anyrouter.top
+DOMAIN-SUFFIX,fflink.top
+DOMAIN-SUFFIX,edu.rs
 # kilo
 DOMAIN-SUFFIX,kilosessions.ai
 DOMAIN-SUFFIX,kilo.ai
