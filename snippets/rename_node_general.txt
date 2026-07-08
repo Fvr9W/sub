@@ -35,6 +35,7 @@ Cyberzone S.A.@Cyberzone
 Daniel Jackson@Daniel
 Data Communication Business Group@HiNet
 Datacamp Limited@Datacamp
+DDPS Networks, LLC@Datacamp
 Datacheap LLC@Datacheap
 DEDIOUTLET-NETWORK-PHX@DEDIOUTLET
 Delta Telecom Ltd@Delta
@@ -67,6 +68,7 @@ HK Cable TV Ltd@HKCT
 Hohl IT e.U.@Hohl
 Hong Kong Broadband Network Ltd.@HKBN
 Hangzhou Alibaba Advertising Co.,Ltd.@Alibaba
+HostHatch, LLC@Alibaba
 IM Level η SRL@IM
 Internet Initiative Japan Inc.@IIJ
 ISPIXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.@CAMBODIA
