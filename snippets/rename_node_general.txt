@@ -1,6 +1,7 @@
 282, Sector 19@E2E
 Accuris Technologies Ltd.@Accuris
 Active Network S.p.A.@Active
+AT&T Services, Inc.@ATT
 Administracion Nacional de Telecomunicaciones@ANdT
 Akamai Connected Cloud@Akamai
 Akari Networks@Akari
@@ -48,6 +49,7 @@ DMIT Cloud Services@DMII
 Eastern Telecoms Phils., Inc.@ETPI
 EDGEUNO SAS@EDGEUNO
 EDIS GmbH@EDIS
+EZProvider Networks, Inc.@EZProvider
 EIVUS DATA CENTER E TELECOM@EIVUS
 Eons Data Communications Limited@Eons
 Extra-Lan Technologies Co., LTD@Extra-Lan
@@ -81,6 +83,7 @@ Kamatera Inc@Kamatera
 Kaopu Cloud HK Limited@Kaopu
 Kirino LLC@Kirino
 Korbank S. A.@Korbank
+Leaseweb USA, Inc.@Leaseweb
 Lanka Communication Services@LCS
 Liberty Global B.V.@Liberty
 LLC Baxet@LLC
