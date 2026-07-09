@@ -9,8 +9,8 @@ Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]A
 Netflix`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]MinorTW 🇨🇳`[]AutoKR 🇰🇷`[]MinorKR 🇰🇷`[]AutoJP 🇯🇵`[]MinorJP 🇯🇵`[]AutoSG 🇸🇬`[]MinorSG 🇸🇬`[]AutoAU 🇦🇺`[]MinorAU 🇦🇺`[]AutoRU 🇷🇺`[]MinorRU 🇷🇺`[]AutoEU 🇪🇺`[]MinorEU 🇪🇺`[]AutoCA 🇨🇦`[]MinorCA 🇨🇦`[]AutoNA 🇺🇲`[]MinorNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT`.*Emby.*$
 GlobalMedia`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]MinorTW 🇨🇳`[]AutoKR 🇰🇷`[]MinorKR 🇰🇷`[]AutoJP 🇯🇵`[]MinorJP 🇯🇵`[]AutoSG 🇸🇬`[]MinorSG 🇸🇬`[]AutoAU 🇦🇺`[]MinorAU 🇦🇺`[]AutoRU 🇷🇺`[]MinorRU 🇷🇺`[]AutoEU 🇪🇺`[]MinorEU 🇪🇺`[]AutoCA 🇨🇦`[]MinorCA 🇨🇦`[]AutoNA 🇺🇲`[]MinorNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT
 Microsoft`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]Major`[]Minor`[]FREE`[]DIRECT
-SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
-SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]REJECT`.*(土耳其|阿根廷).*$
+SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]Major`[]Minor`[]REJECT`.*(土耳其|阿根廷).*$
+SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]Major`[]Minor`[]REJECT`.*(土耳其|阿根廷).*$
 Blizzard`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 Epicgames`select`[]Other Games`[]Major`[]Minor`[]DIRECT
 PlayStation`select`[]Other Games`[]Major`[]Minor`[]DIRECT
@@ -21,8 +21,8 @@ GlobalGameDownload`select`[]Other Games`[]MinorHK 🇭🇰`[]DIRECT`[]FREE`[]Oth
 PrivateTracker`select`[]DIRECT`[]FREE`[]Other Games`[]Major`[]Minor
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
-Major`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
-Minor`select`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+Major`select`[]MajorHK 🇭🇰`[]MajorTW 🇨🇳`[]MajorKR 🇰🇷`[]MajorJP 🇯🇵`[]MajorSG 🇸🇬`[]MajorAU 🇦🇺`[]MajorRU 🇷🇺`[]MajorEU 🇪🇺`[]MajorCA 🇨🇦`[]MajorNA 🇺🇲`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+Minor`select`[]MinorHK 🇭🇰`[]MinorTW 🇨🇳`[]MinorKR 🇰🇷`[]MinorJP 🇯🇵`[]MinorSG 🇸🇬`[]MinorAU 🇦🇺`[]MinorRU 🇷🇺`[]MinorEU 🇪🇺`[]MinorCA 🇨🇦`[]MinorNA 🇺🇲`!!GROUPID=1!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`^.*(ShareCentre|pcg52|mitc|Free).*$
 AutoHK 🇭🇰`fallback`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`http://www.gstatic.com/generate_204`60,,20
 MajorHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
