@@ -3,6 +3,10 @@ DOMAIN-SUFFIX,adoptangelaboradvacotionclwonthorughconfrmcompimentdeseertaltar.or
 DOMAIN-SUFFIX,domainforsub.work
 DOMAIN-SUFFIX,linkcube.dev
 DOMAIN-SUFFIX,adomainforsub.org
+# 中转站不让直连的
+DOMAIN-SUFFIX,congmingai.com
+DOMAIN-SUFFIX,anyrouter.top
+DOMAIN-SUFFIX,asxs.top
 # kilo
 DOMAIN-SUFFIX,kilosessions.ai
 DOMAIN-SUFFIX,kilo.ai
