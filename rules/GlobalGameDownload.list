@@ -123,3 +123,855 @@ DOMAIN-SUFFIX,mirror2.internetdownloadmanager.com
 DOMAIN-SUFFIX,mediafire.com
 # AMD
 DOMAIN-SUFFIX,drivers.amd.com
+
+# === A. Precise download / CDN / file edges (425 hosts: dl, download, cdn, s3, update, files, ...) ===
+# php5.2.10-nts, php5.2.10, php5.2.11-nts, php5.2.11, php5.2.12-nts, php5.2.12, php5.2.13-nts, php5.2.13 (+383 more via windows.php.net)
+DOMAIN-SUFFIX,windows.php.net
+# astyle, biber, binutils, bison, blat, bochs, boost, btyacc (+159 more via downloads.sourceforge.net)
+DOMAIN-SUFFIX,downloads.sourceforge.net
+# connect, dark, fciv, gitignore, grep, httping, innounp, ipcalc (+102 more via raw.githubusercontent.com)
+DOMAIN-SUFFIX,raw.githubusercontent.com
+# dotcover-clt, dotmemory-clt, dotmemoryunit, dottrace-api, dottrace-clt, ijhttp, resharper-clt, clion (+49 more via download.jetbrains.com)
+DOMAIN-SUFFIX,download.jetbrains.com
+# zulu-icedtea-web, zulu-jdk, zulu-jre, zulu10-jdk, zulu11-jdk, zulu11-jre, zulu12-jdk, zulu12-jre (+42 more via cdn.azul.com)
+DOMAIN-SUFFIX,cdn.azul.com
+# cuda, cuda10.1, cuda10.2, cuda10, cuda11.0, cuda11.1, cuda11.2, cuda11.3 (+16 more via developer.download.nvidia.com)
+DOMAIN-SUFFIX,developer.download.nvidia.com
+# jmc, jmc7, jmc8, openjdk-ea, openjdk, openjdk10, openjdk11, openjdk12 (+15 more via download.java.net)
+DOMAIN-SUFFIX,download.java.net
+# oracle-instant-client-odbc, oracle-instant-client-sdk, oracle-instant-client-sqlplus, oracle-instant-client, sqlcl, sqldeveloper, oracle-instant-client-odbc19, oracle-instant-client-odbc21 (+15 more via download.oracle.com)
+DOMAIN-SUFFIX,download.oracle.com
+# winpython, autoclicker, beebeep, cdburnerxp, chart-geany, crystaldiskinfo, crystaldiskmark, cudatext (+15 more via sourceforge.net)
+DOMAIN-SUFFIX,sourceforge.net
+# adb, android-clt, go, android-performance-analyzer, gcloud, googlechrome, go113, go114 (+14 more via dl.google.com)
+DOMAIN-SUFFIX,dl.google.com
+# antigravity-cli, chromedriver, claude-code, cloud-sql-proxy, cscope, dart, libwebp, minikube (+13 more via storage.googleapis.com)
+DOMAIN-SUFFIX,storage.googleapis.com
+# dolphin, elisa, filelight, kasts, kate, kdeconnect, okular, dolphin-nightly (+10 more via cdn.kde.org)
+DOMAIN-SUFFIX,cdn.kde.org
+# acmesharp, importexcel, powershell-beautifier, powershell-yaml, psgithub, winget-ps, completionpredictor, dockercompletion (+10 more via cdn.powershellgallery.com)
+DOMAIN-SUFFIX,cdn.powershellgallery.com
+# jdtls, eclipse-committers, eclipse-cpp, eclipse-dsl, eclipse-embedcpp, eclipse-java, eclipse-javascript, eclipse-jee (+10 more via download.eclipse.org)
+DOMAIN-SUFFIX,download.eclipse.org
+# spark, jmeter, netbeans, openoffice, tomcat, maven3, maven4, spark-hadoop3 (+9 more via archive.apache.org)
+DOMAIN-SUFFIX,archive.apache.org
+# msival2, oscdimg, portqry, altools, hwp-converter, msklc, msrt, msxml4 (+9 more via download.microsoft.com)
+DOMAIN-SUFFIX,download.microsoft.com
+# intellij-jbr11-jcef, intellij-jbr11-sdk-jcef, intellij-jbr11-sdk, intellij-jbr11, intellij-jbr17-jcef, intellij-jbr17-sdk-jcef, intellij-jbr17-sdk, intellij-jbr17 (+8 more via cache-redirector.jetbrains.com)
+DOMAIN-SUFFIX,cache-redirector.jetbrains.com
+# corretto-jdk, corretto-jmc, corretto-lts-jdk, corretto11-jdk, corretto15-jdk, corretto16-jdk, corretto17-jdk, corretto18-jdk (+8 more via corretto.aws)
+DOMAIN-SUFFIX,corretto.aws
+# php-nts, php, php54, php55, php56, php70, php71, php72 (+8 more via downloads.php.net)
+DOMAIN-SUFFIX,downloads.php.net
+# buck, lxc, nunit-console, nunit-extension-nunit-project-loader, nunit-extension-nunit-v2-driver, nunit-extension-nunit-v2-result-writer, nunit-extension-teamcity-event-listener, nunit-extension-vs-project-loader (+7 more via packages.chocolatey.org)
+DOMAIN-SUFFIX,packages.chocolatey.org
+# aws-nosql-workbench, aws-session-manager-plugin, cacher, ec2-api-tools, notejoy, rstudio, sqlyog-community, testmace (+4 more via s3.amazonaws.com)
+DOMAIN-SUFFIX,s3.amazonaws.com
+# boundary, consul, nomad, packer, sentinel, terraform-ls, terraform, vagrant (+3 more via releases.hashicorp.com)
+DOMAIN-SUFFIX,releases.hashicorp.com
+# anaconda3, miniconda3, anaconda2, anaconda3-2022.05, miniconda2, miniconda3-4.12.0, miniconda3-py310, miniconda3-py311 (+3 more via repo.anaconda.com)
+DOMAIN-SUFFIX,repo.anaconda.com
+# dotnet-sdk-lts, dotnet-sdk-preview, dotnet10-sdk, dotnet2-sdk, dotnet3-sdk, dotnet5-sdk, dotnet6-sdk, dotnet7-sdk (+2 more via dotnetcli.azureedge.net)
+DOMAIN-SUFFIX,dotnetcli.azureedge.net
+# kafka, pdfbox, skywalking-cli, zookeeper, activemq, apache-directory-studio, apache-ivy, apache-tinkerpop-gremlin-console (+2 more via downloads.apache.org)
+DOMAIN-SUFFIX,downloads.apache.org
+# asciidoctorj, bfg, dokka, jd-cli, jruby, mill, openapi-generator-cli, gatling (+2 more via repo1.maven.org)
+DOMAIN-SUFFIX,repo1.maven.org
+# vcredist, vcredist2022, sql-server-management-studio-np, microsoft-jdk, microsoft-lts-jdk, microsoft11-jdk, microsoft16-jdk, microsoft17-jdk (+1 more via aka.ms)
+DOMAIN-SUFFIX,aka.ms
+# opus-tools, firefox-eme-free, firefox-esr, firefox, thunderbird-esr, thunderbird, firefox-beta, firefox-developer (+1 more via archive.mozilla.org)
+DOMAIN-SUFFIX,archive.mozilla.org
+# crow-translate, digikam, falkon, kdenlive, kdiff3, krita, labplot, snoretoast (+1 more via download.kde.org)
+DOMAIN-SUFFIX,download.kde.org
+# postgresql, postgresql10, postgresql11, postgresql12, postgresql13, postgresql14, postgresql15, postgresql16 (+1 more via get.enterprisedb.com)
+DOMAIN-SUFFIX,get.enterprisedb.com
+# windowsdesktop-runtime-lts, windowsdesktop-runtime, dotnet-nightly, windowsdesktop-runtime-10.0, windowsdesktop-runtime-6.0, windowsdesktop-runtime-7.0, windowsdesktop-runtime-8.0, windowsdesktop-runtime-9.0
+DOMAIN-SUFFIX,dotnetcli.blob.core.windows.net
+# rust-gnu, rust-msvc, rust, rustup-gnu, rustup-msvc, rustup, rust-msvc-nightly, rust-nightly
+DOMAIN-SUFFIX,static.rust-lang.org
+# 7zip19.00-helper, exiftool, dualmonitortaskbar, isocreator, xampp, xampp74, xampp-np
+DOMAIN-SUFFIX,download.sourceforge.net
+# librehardwaremonitor-dotnet10-nightly, librehardwaremonitor-nightly, olive-editor-nightly, prismlauncher-git, qbittorrent-nightly, smiley-sans-dev, twitchdropsminer
+DOMAIN-SUFFIX,nightly.link
+# gluon-openjfx-jmods-ea, gluon-openjfx-jmods, gluon-openjfx-monocle-sdk-ea, gluon-openjfx-monocle-sdk, gluon-openjfx-sdk-ea, gluon-openjfx-sdk
+DOMAIN-SUFFIX,download2.gluonhq.com
+# mongodb-atlas-cli, mongodb-database-tools, mongodb, mongodb-rc, mongodb34, mongodb36
+DOMAIN-SUFFIX,fastdl.mongodb.org
+# gradle-bin, gradle, gradle4, gradle5, gradle6, gradle7
+DOMAIN-SUFFIX,services.gradle.org
+# chronograf, influxdb, kapacitor, telegraf, influx2
+DOMAIN-SUFFIX,dl.influxdata.com
+# ant, avro-tools, maven, thrift, activemq-artemis
+DOMAIN-SUFFIX,dlcdn.apache.org
+# jom, qtifw, qt-creator-cdb-ext, qt-creator-wininterrupt, qt-creator
+DOMAIN-SUFFIX,download.qt.io
+# nconvert, xnconvert, xnresize, xnview, xnviewmp
+DOMAIN-SUFFIX,download.xnview.com
+# android-studio, antigravity-ide, chromedriver-beta, chromedriver-canary, chromedriver-dev
+DOMAIN-SUFFIX,edgedl.me.gvt1.com
+# elasticsearch, kibana, logstash, elasticsearch5
+DOMAIN-SUFFIX,artifacts.elastic.co
+# calibre-normal, calibre, calibre-normal5, calibre-np
+DOMAIN-SUFFIX,download.calibre-ebook.com
+# ccleaner, defraggler, recuva, speccy
+DOMAIN-SUFFIX,download.ccleaner.com
+# portable-virtualbox, virtualbox-np, virtualbox-with-extension-pack-np, virtualbox52-np
+DOMAIN-SUFFIX,download.virtualbox.org
+# k-lite-codec-pack-basic-np, k-lite-codec-pack-full-np, k-lite-codec-pack-mega-np, k-lite-codec-pack-standard-np
+DOMAIN-SUFFIX,files3.codecguide.com
+# icecast, musescore-nightly, musescore3-nightly, freedroidrpg
+DOMAIN-SUFFIX,ftp.osuosl.org
+# julia, juliaup, julia-lts, julia-rc
+DOMAIN-SUFFIX,julialang-s3.julialang.org
+# nvidia-display-driver-dch-np, nvidia-display-driver-dch-with-3d-vision-np, nvidia-display-driver-np, nvidia-display-driver-with-3d-vision-np
+DOMAIN-SUFFIX,us.download.nvidia.com
+# x264, vlc-nightly-ucrt-llvm, vlc-nightly
+DOMAIN-SUFFIX,artifacts.videolan.org
+# kubeadm, kubectl, kubelet
+DOMAIN-SUFFIX,dl.k8s.io
+# postman, postman-canary, postman9
+DOMAIN-SUFFIX,dl.pstmn.io
+# appbuster, regeditor, shutup10
+DOMAIN-SUFFIX,dl5.oo-software.com
+# libericamc, libericamc7, libericamc8
+DOMAIN-SUFFIX,download.bell-sw.com
+# cpu-z-arm64, cpu-z, hwmonitor
+DOMAIN-SUFFIX,download.cpuid.com
+# btest, winbox, winbox3
+DOMAIN-SUFFIX,download.mikrotik.com
+# datamash, lzip, tcc
+DOMAIN-SUFFIX,download.savannah.gnu.org
+# lili, openarena, opendungeons
+DOMAIN-SUFFIX,download.tuxfamily.org
+# voicemeeter-banana-np, voicemeeter-np, voicemeeter-potato-np
+DOMAIN-SUFFIX,download.vb-audio.com
+# plex-server, plex-desktop, plex-player
+DOMAIN-SUFFIX,downloads.plex.tv
+# git-machete, cookiecutter, cruft
+DOMAIN-SUFFIX,files.pythonhosted.org
+# cvs, gtypist, units
+DOMAIN-SUFFIX,ftp.gnu.org
+# color-sustainer, msiafterburner, rtss
+DOMAIN-SUFFIX,ftp.nluug.nl
+# octave, emacs, emacs27.2
+DOMAIN-SUFFIX,ftpmirror.gnu.org
+# 7zip, abc, acr-cli
+DOMAIN-SUFFIX,github-releases.githubusercontent.com
+# pester, ilmerge, pester4
+DOMAIN-SUFFIX,globalcdn.nuget.org
+# aspell, luajit, qrencode
+DOMAIN-SUFFIX,mirror.msys2.org
+# kodi, kodi-dev, kodi-nightly
+DOMAIN-SUFFIX,mirrors.kodi.tv
+# 7zip, abc, acr-cli
+DOMAIN-SUFFIX,objects.githubusercontent.com
+# 7zip, abc, acr-cli
+DOMAIN-SUFFIX,release-assets.githubusercontent.com
+# red-toolchain, red-view, red
+DOMAIN-SUFFIX,static.red-lang.org
+# eclipse-android, eclipse-automotive
+DOMAIN-SUFFIX,archive.eclipse.org
+# tor, tor-browser
+DOMAIN-SUFFIX,archive.torproject.org
+# ngrok, ngrok2
+DOMAIN-SUFFIX,bin.ngrok.com
+# sonar-scanner, sonarqube
+DOMAIN-SUFFIX,binaries.sonarsource.com
+# parsec, parsec-np
+DOMAIN-SUFFIX,builds.parsec.app
+# 1password-cli, 1password-cli1
+DOMAIN-SUFFIX,cache.agilebits.com
+# obs-studio27, obs-studio28
+DOMAIN-SUFFIX,cdn-fastly.obsproject.com
+# files-np, files-preview-np
+DOMAIN-SUFFIX,cdn.files.community
+# linqpad, linqpad5
+DOMAIN-SUFFIX,cdn.linqpad.net
+# foxit-pdf-reader, foxit-reader
+DOMAIN-SUFFIX,cdn06.foxitsoftware.com
+# universal-mediacreationtool, wyrmsun
+DOMAIN-SUFFIX,codeload.github.com
+# nuget, nuget3
+DOMAIN-SUFFIX,dist.nuget.org
+# dolphin-dev, dolphin
+DOMAIN-SUFFIX,dl.dolphin-emu.org
+# gogs, gogs0
+DOMAIN-SUFFIX,dl.gogs.io
+# minio-client, minio
+DOMAIN-SUFFIX,dl.min.io
+# nwjs-sdk, nwjs
+DOMAIN-SUFFIX,dl.nwjs.io
+# Wenquanyi-Microhei, Wenquanyi-Zenhei
+DOMAIN-SUFFIX,dl.sourceforge.net
+# xpdf-tools-lsp, xpdf-tools
+DOMAIN-SUFFIX,dl.xpdfreader.com
+# qq, wecom
+DOMAIN-SUFFIX,dldir1.qq.com
+# monero-cli, monero
+DOMAIN-SUFFIX,dlsrc.getmonero.org
+# aida64business, aida64extreme
+DOMAIN-SUFFIX,download.aida64.com
+# bleachbit, bleachbit-beta
+DOMAIN-SUFFIX,download.bleachbit.org
+# blender-benchmark-cli, blender
+DOMAIN-SUFFIX,download.blender.org
+# elasticsearch1, elasticsearch2
+DOMAIN-SUFFIX,download.elastic.co
+# recmd, registry-explorer
+DOMAIN-SUFFIX,download.ericzimmermanstools.com
+# explorerplusplus, explorerplusplus-dev
+DOMAIN-SUFFIX,download.explorerplusplus.com
+# geogebra, geogebra5
+DOMAIN-SUFFIX,download.geogebra.org
+# gimp, gimp-dev
+DOMAIN-SUFFIX,download.gimp.org
+# glasswire-lite-np, glasswire-np
+DOMAIN-SUFFIX,download.glasswire.com
+# gedit, meld
+DOMAIN-SUFFIX,download.gnome.org
+# influxdb1, influxdb2
+DOMAIN-SUFFIX,download.influxdata.com
+# sublime-merge, sublime-text
+DOMAIN-SUFFIX,download.sublimetext.com
+# teamviewer-qs, teamviewer
+DOMAIN-SUFFIX,download.teamviewer.com
+# gpac, gpac-nightly
+DOMAIN-SUFFIX,download.tsi.telecom-paristech.fr
+# zotero, zotero6
+DOMAIN-SUFFIX,download.zotero.org
+# logitech-omm, logitech-gaming-software-np
+DOMAIN-SUFFIX,download01.logi.com
+# cursor, cursor-latest
+DOMAIN-SUFFIX,downloads.cursor.com
+# haskell-cabal, haskell
+DOMAIN-SUFFIX,downloads.haskell.org
+# mongodb-compass, mongosh
+DOMAIN-SUFFIX,downloads.mongodb.com
+# puppet-agent, puppet-bolt
+DOMAIN-SUFFIX,downloads.puppetlabs.com
+# pypy2, pypy3
+DOMAIN-SUFFIX,downloads.python.org
+# slack, slack-beta
+DOMAIN-SUFFIX,downloads.slack-edge.com
+# vivaldi, vivaldi-snapshot
+DOMAIN-SUFFIX,downloads.vivaldi.com
+# lftp, odin-nightly
+DOMAIN-SUFFIX,f001.backblazeb2.com
+# iperf3, iperf3.5
+DOMAIN-SUFFIX,files.budman.pw
+# openscad, openscad-dev
+DOMAIN-SUFFIX,files.openscad.org
+# flashplayer-sa-debug, flashplayer-sa
+DOMAIN-SUFFIX,fpdownload.macromedia.com
+# psqlodbc, pgadmin4-np
+DOMAIN-SUFFIX,ftp.postgresql.org
+# helm, helm2
+DOMAIN-SUFFIX,get.helm.sh
+# jenkins-lts, jenkins
+DOMAIN-SUFFIX,get.jenkins.io
+# lantern-client, lantern-np
+DOMAIN-SUFFIX,media.githubusercontent.com
+# racket-minimal, racket
+DOMAIN-SUFFIX,mirror.racket-lang.org
+# binutils, gawk
+DOMAIN-SUFFIX,mirrors.gigenet.com
+# latex, miktex
+DOMAIN-SUFFIX,mirrors.mit.edu
+# edgedriver-canary, edgedriver-dev
+DOMAIN-SUFFIX,msedgedriver.azureedge.net
+# invoke-build, psake
+DOMAIN-SUFFIX,nuget.org
+# gitbutler, gitbutler-nightly
+DOMAIN-SUFFIX,releases.gitbutler.com
+# spotbugs, spotbugs-beta
+DOMAIN-SUFFIX,repo.maven.apache.org
+# wand, wemod
+DOMAIN-SUFFIX,storage-cdn.wemod.com
+# openvpn, openvpn-w7
+DOMAIN-SUFFIX,swupdate.openvpn.org
+# ubisoftconnect, uplay
+DOMAIN-SUFFIX,ubistatic3-a.akamaihd.net
+# bulk-rename-command, bulk-rename-utility
+DOMAIN-SUFFIX,www.s3.tgrmn.com
+# lf2
+DOMAIN-SUFFIX,201708.mediafire.com
+# akelpad
+DOMAIN-SUFFIX,akelpad.sourceforge.net
+# aws-ecs
+DOMAIN-SUFFIX,amazon-ecs-cli.s3.amazonaws.com
+# mariadb
+DOMAIN-SUFFIX,archive.mariadb.org
+# lime3ds
+DOMAIN-SUFFIX,archive.org
+# seamonkey
+DOMAIN-SUFFIX,archive.seamonkey-project.org
+# tinymediamanager3
+DOMAIN-SUFFIX,archive.tinymediamanager.org
+# termius
+DOMAIN-SUFFIX,autoupdate.termius.com
+# azuredatastudio-insiders
+DOMAIN-SUFFIX,azuredatastudio-update.azurewebsites.net
+# basecamp
+DOMAIN-SUFFIX,bc3-desktop.s3.amazonaws.com
+# beeper
+DOMAIN-SUFFIX,beeper-desktop.download.beeper.com
+# cockroachdb
+DOMAIN-SUFFIX,binaries.cockroachdb.com
+# webex
+DOMAIN-SUFFIX,binaries.webex.com
+# blisk
+DOMAIN-SUFFIX,bliskcloudstorage.blob.core.windows.net
+# dotnet-sdk
+DOMAIN-SUFFIX,builds.dotnet.microsoft.com
+# elixir
+DOMAIN-SUFFIX,builds.hex.pm
+# ppsspp-dev
+DOMAIN-SUFFIX,builds.ppsspp.org
+# zls-dev
+DOMAIN-SUFFIX,builds.zigtools.org
+# zcode
+DOMAIN-SUFFIX,cdn-zcode.z.ai
+# anythingllm
+DOMAIN-SUFFIX,cdn.anythingllm.com
+# cascadeur
+DOMAIN-SUFFIX,cdn.cascadeur.com
+# classicube
+DOMAIN-SUFFIX,cdn.classicube.net
+# folge
+DOMAIN-SUFFIX,cdn.folge.me
+# fork
+DOMAIN-SUFFIX,cdn.fork.dev
+# geekbench
+DOMAIN-SUFFIX,cdn.geekbench.com
+# snaptimer
+DOMAIN-SUFFIX,cdn.hersam.com
+# manictime
+DOMAIN-SUFFIX,cdn.manictime.com
+# sidekick-browser
+DOMAIN-SUFFIX,cdn.meetsidekick.com
+# mysql-workbench
+DOMAIN-SUFFIX,cdn.mysql.com
+# openttd
+DOMAIN-SUFFIX,cdn.openttd.org
+# positron
+DOMAIN-SUFFIX,cdn.posit.co
+# sts
+DOMAIN-SUFFIX,cdn.spring.io
+# steamcmd
+DOMAIN-SUFFIX,cdn.steamstatic.com
+# streamlabs-chatbot
+DOMAIN-SUFFIX,cdn.streamlabs.com
+# teleport
+DOMAIN-SUFFIX,cdn.teleport.dev
+# unar
+DOMAIN-SUFFIX,cdn.theunarchiver.com
+# tooniversal
+DOMAIN-SUFFIX,cdn.tooniversal.com
+# toontownrewritten
+DOMAIN-SUFFIX,cdn.toontownrewritten.com
+# urbanterror
+DOMAIN-SUFFIX,cdn.urbanterror.info
+# zoom
+DOMAIN-SUFFIX,cdn.zoom.us
+# waterfox
+DOMAIN-SUFFIX,cdn1.waterfox.net
+# etlas
+DOMAIN-SUFFIX,cdnverify.eta-lang.org
+# chatterino
+DOMAIN-SUFFIX,chatterino.fra1.digitaloceanspaces.com
+# splashtop-business-access
+DOMAIN-SUFFIX,d17kmd0va0f0mp.cloudfront.net
+# ultraplusmanager
+DOMAIN-SUFFIX,d25cpafae92g0h.cloudfront.net
+# amazon-workspaces
+DOMAIN-SUFFIX,d2td7dqidlhjx7.cloudfront.net
+# ravendb
+DOMAIN-SUFFIX,daily-builds.s3.amazonaws.com
+# notion
+DOMAIN-SUFFIX,desktop-release.notion-static.com
+# dfu-util
+DOMAIN-SUFFIX,dfu-util.sourceforge.net
+# mvndaemon
+DOMAIN-SUFFIX,dist.apache.org
+# kubo
+DOMAIN-SUFFIX,dist.ipfs.tech
+# tor-browser-alpha
+DOMAIN-SUFFIX,dist.torproject.org
+# audacious
+DOMAIN-SUFFIX,distfiles.audacious-media-player.org
+# discord-canary
+DOMAIN-SUFFIX,dl-canary.discordapp.net
+# airdroid
+DOMAIN-SUFFIX,dl.airdroid.com
+# basilisk
+DOMAIN-SUFFIX,dl.basilisk-browser.org
+# boosterx
+DOMAIN-SUFFIX,dl.boosterx.org
+# basic-comical-nc
+DOMAIN-SUFFIX,dl.dafont.com
+# elvish
+DOMAIN-SUFFIX,dl.elv.sh
+# chainctl
+DOMAIN-SUFFIX,dl.enforce.dev
+# enpass
+DOMAIN-SUFFIX,dl.enpass.io
+# soapui
+DOMAIN-SUFFIX,dl.eviware.com
+# gitea
+DOMAIN-SUFFIX,dl.gitea.com
+# grafana
+DOMAIN-SUFFIX,dl.grafana.com
+# jami
+DOMAIN-SUFFIX,dl.jami.net
+# jamovi
+DOMAIN-SUFFIX,dl.jamovi.org
+# koodo-reader
+DOMAIN-SUFFIX,dl.koodoreader.com
+# rapidcrc
+DOMAIN-SUFFIX,dl.ov2.eu
+# stremio
+DOMAIN-SUFFIX,dl.strem.io
+# integerscaler
+DOMAIN-SUFFIX,dl.tanalin.com
+# teamviewer-np
+DOMAIN-SUFFIX,dl.teamviewer.com
+# xonotic
+DOMAIN-SUFFIX,dl.xonotic.org
+# yatqa
+DOMAIN-SUFFIX,dl.yat.qa
+# xmind
+DOMAIN-SUFFIX,dl3.xmind.net
+# wechat-legacy
+DOMAIN-SUFFIX,dldir1v6.qq.com
+# resilio-sync-np
+DOMAIN-SUFFIX,download-cdn.resilio.com
+# grammarly-np
+DOMAIN-SUFFIX,download-windows.grammarly.com
+# ucheck
+DOMAIN-SUFFIX,download.adlice.com
+# advanced-ip-scanner
+DOMAIN-SUFFIX,download.advanced-ip-scanner.com
+# aircrack-ng
+DOMAIN-SUFFIX,download.aircrack-ng.org
+# anydesk
+DOMAIN-SUFFIX,download.anydesk.com
+# orange
+DOMAIN-SUFFIX,download.biolab.si
+# breitbandmessung
+DOMAIN-SUFFIX,download.breitbandmessung.de
+# bzflag
+DOMAIN-SUFFIX,download.bzflag.org
+# chatboxai
+DOMAIN-SUFFIX,download.chatboxai.app
+# banana-cake-pop
+DOMAIN-SUFFIX,download.chillicream.com
+# ibmcloud-cli
+DOMAIN-SUFFIX,download.clis.cloud.ibm.com
+# deltachat
+DOMAIN-SUFFIX,download.delta.chat
+# deluge
+DOMAIN-SUFFIX,download.deluge-torrent.org
+# docker
+DOMAIN-SUFFIX,download.docker.com
+# libreoffice
+DOMAIN-SUFFIX,download.documentfoundation.org
+# electrum
+DOMAIN-SUFFIX,download.electrum.org
+# tcping
+DOMAIN-SUFFIX,download.elifulkerson.com
+# fman-np
+DOMAIN-SUFFIX,download.fman.io
+# folding-at-home
+DOMAIN-SUFFIX,download.foldingathome.org
+# geany
+DOMAIN-SUFFIX,download.geany.org
+# glary-utilities
+DOMAIN-SUFFIX,download.glarysoft.com
+# imagemagick-ffmpeg
+DOMAIN-SUFFIX,download.imagemagick.org
+# kiwix
+DOMAIN-SUFFIX,download.kiwix.org
+# knime
+DOMAIN-SUFFIX,download.knime.org
+# linphone
+DOMAIN-SUFFIX,download.linphone.org
+# mathpix
+DOMAIN-SUFFIX,download.mathpix.com
+# prime95
+DOMAIN-SUFFIX,download.mersenne.ca
+# mobaxterm
+DOMAIN-SUFFIX,download.mobatek.net
+# mono
+DOMAIN-SUFFIX,download.mono-project.com
+# mp3tag
+DOMAIN-SUFFIX,download.mp3tag.de
+# nirlauncher
+DOMAIN-SUFFIX,download.nirsoft.net
+# octopustools
+DOMAIN-SUFFIX,download.octopusdeploy.com
+# openmpt
+DOMAIN-SUFFIX,download.openmpt.org
+# owncloud
+DOMAIN-SUFFIX,download.owncloud.com
+# pdf24-creator-np
+DOMAIN-SUFFIX,download.pdf24.org
+# picpick
+DOMAIN-SUFFIX,download.picpick.app
+# poedit
+DOMAIN-SUFFIX,download.poedit.net
+# protonvpn-np
+DOMAIN-SUFFIX,download.protonvpn.net
+# rethinkdb
+DOMAIN-SUFFIX,download.rethinkdb.com
+# revouninstaller
+DOMAIN-SUFFIX,download.revouninstaller.com
+# spotify
+DOMAIN-SUFFIX,download.scdn.co
+# seafile-syncing-client
+DOMAIN-SUFFIX,download.seadrive.org
+# smartgit
+DOMAIN-SUFFIX,download.smartgit.dev
+# snipaste
+DOMAIN-SUFFIX,download.snipaste.com
+# nexus-repository-oss
+DOMAIN-SUFFIX,download.sonatype.com
+# diffmerge
+DOMAIN-SUFFIX,download.sourcegear.com
+# sts396
+DOMAIN-SUFFIX,download.springsource.com
+# surrealdb
+DOMAIN-SUFFIX,download.surrealdb.com
+# svcat
+DOMAIN-SUFFIX,download.svcat.sh
+# 010editor
+DOMAIN-SUFFIX,download.sweetscape.com
+# swift
+DOMAIN-SUFFIX,download.swift.org
+# sysinternals
+DOMAIN-SUFFIX,download.sysinternals.com
+# tidal
+DOMAIN-SUFFIX,download.tidal.com
+# tixati
+DOMAIN-SUFFIX,download.tixati.com
+# tortoisegit-np
+DOMAIN-SUFFIX,download.tortoisegit.org
+# typora
+DOMAIN-SUFFIX,download.typora.io
+# flashpoint
+DOMAIN-SUFFIX,download.unstable.life
+# vlc
+DOMAIN-SUFFIX,download.videolan.org
+# vcredist2013
+DOMAIN-SUFFIX,download.visualstudio.microsoft.com
+# vroid-studio
+DOMAIN-SUFFIX,download.vroid.com
+# islc
+DOMAIN-SUFFIX,download.wagnardsoft.com
+# wavebox
+DOMAIN-SUFFIX,download.wavebox.app
+# wireguard-np
+DOMAIN-SUFFIX,download.wireguard.com
+# zerobrane-studio
+DOMAIN-SUFFIX,download.zerobrane.com
+# zerotier-np
+DOMAIN-SUFFIX,download.zerotier.com
+# rstudio11
+DOMAIN-SUFFIX,download1.rstudio.org
+# diskgenius
+DOMAIN-SUFFIX,download2.eassos.com
+# libreoffice-pre
+DOMAIN-SUFFIX,downloadarchive.documentfoundation.org
+# pdfgear
+DOMAIN-SUFFIX,downloadfiles.pdfgear.com
+# arduino18
+DOMAIN-SUFFIX,downloads.arduino.cc
+# claude
+DOMAIN-SUFFIX,downloads.claude.ai
+# coppeliasim
+DOMAIN-SUFFIX,downloads.coppeliarobotics.com
+# dmd
+DOMAIN-SUFFIX,downloads.dlang.org
+# fiddler
+DOMAIN-SUFFIX,downloads.getfiddler.com
+# fiji
+DOMAIN-SUFFIX,downloads.imagej.net
+# bind
+DOMAIN-SUFFIX,downloads.isc.org
+# treesize-free
+DOMAIN-SUFFIX,downloads.jam-software.de
+# kicad-nightly
+DOMAIN-SUFFIX,downloads.kicad.org
+# git-annex
+DOMAIN-SUFFIX,downloads.kitenet.net
+# kiwi-for-gmail
+DOMAIN-SUFFIX,downloads.kiwiforgmail.com
+# scala212
+DOMAIN-SUFFIX,downloads.lightbend.com
+# mariadb103
+DOMAIN-SUFFIX,downloads.mariadb.com
+# metabase
+DOMAIN-SUFFIX,downloads.metabase.com
+# nordpass
+DOMAIN-SUFFIX,downloads.npass.app
+# ntlite
+DOMAIN-SUFFIX,downloads.ntlite.com
+# commandbox
+DOMAIN-SUFFIX,downloads.ortussolutions.com
+# vncviewer
+DOMAIN-SUFFIX,downloads.realvnc.com
+# rcc
+DOMAIN-SUFFIX,downloads.robocorp.com
+# scratch
+DOMAIN-SUFFIX,downloads.scratch.mit.edu
+# scummvm
+DOMAIN-SUFFIX,downloads.scummvm.org
+# sejda-pdf
+DOMAIN-SUFFIX,downloads.sejda-cdn.com
+# simulationcraft
+DOMAIN-SUFFIX,downloads.simulationcraft.org
+# deepgit
+DOMAIN-SUFFIX,downloads.syntevo.com
+# godot-alpha
+DOMAIN-SUFFIX,downloads.tuxfamily.org
+# scala2
+DOMAIN-SUFFIX,downloads.typesafe.com
+# typora-dev
+DOMAIN-SUFFIX,downloads.typora.io
+# winsetupfromusb
+DOMAIN-SUFFIX,downloads.winsetupfromusb.com
+# 3d-fix-manager
+DOMAIN-SUFFIX,duselpaul86.s3.amazonaws.com
+# streamdeck
+DOMAIN-SUFFIX,edge.elgato.com
+# emeditor
+DOMAIN-SUFFIX,emeditor.blob.core.windows.net
+# epic-games-launcher
+DOMAIN-SUFFIX,epicgames-download1.akamaized.net
+# playback
+DOMAIN-SUFFIX,epilogue.nyc3.cdn.digitaloceanspaces.com
+# feem
+DOMAIN-SUFFIX,f000.backblazeb2.com
+# soulseekqt
+DOMAIN-SUFFIX,f004.backblazeb2.com
+# apifox
+DOMAIN-SUFFIX,file-assets.apifox.com
+# openark
+DOMAIN-SUFFIX,file.blackint3.com
+# wonderpen
+DOMAIN-SUFFIX,file.tominlab.com
+# doomsday
+DOMAIN-SUFFIX,files.dengine.net
+# modboy
+DOMAIN-SUFFIX,files.gamebanana.com
+# gpg4win
+DOMAIN-SUFFIX,files.gpg4win.org
+# marble
+DOMAIN-SUFFIX,files.kde.org
+# makehuman
+DOMAIN-SUFFIX,files.makehumancommunity.org
+# maxto
+DOMAIN-SUFFIX,files.maxto.net
+# nrfutil
+DOMAIN-SUFFIX,files.nordicsemi.com
+# tableplus
+DOMAIN-SUFFIX,files.tableplus.com
+# teamspeak3
+DOMAIN-SUFFIX,files.teamspeak-services.com
+# portable-virtualbox
+DOMAIN-SUFFIX,files.vbox.me
+# nettraffic
+DOMAIN-SUFFIX,files02.tchspt.com
+# musicbee-np
+DOMAIN-SUFFIX,files1.majorgeeks.com
+# freedownloadmanager
+DOMAIN-SUFFIX,files2.freedownloadmanager.org
+# binance
+DOMAIN-SUFFIX,ftp.binance.com
+# hp-support-assistant-np
+DOMAIN-SUFFIX,ftp.ext.hp.com
+# pkg-config
+DOMAIN-SUFFIX,ftp.gnome.org
+# picard
+DOMAIN-SUFFIX,ftp.musicbrainz.org
+# fun
+DOMAIN-SUFFIX,funcruft-release.oss-accelerate.aliyuncs.com
+# filebot
+DOMAIN-SUFFIX,get.filebot.net
+# opera
+DOMAIN-SUFFIX,get.geo.opera.com
+# opera-gx
+DOMAIN-SUFFIX,get.opera.com
+# pulumi
+DOMAIN-SUFFIX,get.pulumi.com
+# geth
+DOMAIN-SUFFIX,gethstore.blob.core.windows.net
+# find-java
+DOMAIN-SUFFIX,gist.githubusercontent.com
+# gitlab-runner
+DOMAIN-SUFFIX,gitlab-runner-downloads.s3.amazonaws.com
+# synology-surveillance-station
+DOMAIN-SUFFIX,global.download.synology.com
+# ossutil
+DOMAIN-SUFFIX,gosspublic.alicdn.com
+# jdownloader
+DOMAIN-SUFFIX,installer.jdownloader.org
+# lmstudio
+DOMAIN-SUFFIX,installers.lmstudio.ai
+# oraclejre8
+DOMAIN-SUFFIX,javadl.oracle.com
+# jdownloader
+DOMAIN-SUFFIX,jdownloader.org
+# kicad-lite-nightly
+DOMAIN-SUFFIX,kicad-downloads.s3.cern.ch
+# trae
+DOMAIN-SUFFIX,lf-cdn.trae.ai
+# kakaotalk
+DOMAIN-SUFFIX,lk.kakaocdn.net
+# bomi
+DOMAIN-SUFFIX,master.dl.sourceforge.net
+# inkscape
+DOMAIN-SUFFIX,media.inkscape.org
+# cdex
+DOMAIN-SUFFIX,mirror.cdex.mu
+# httrack
+DOMAIN-SUFFIX,mirror.httrack.com
+# latexindent
+DOMAIN-SUFFIX,mirrors.ctan.org
+# mkvtoolnix
+DOMAIN-SUFFIX,mkvtoolnix.download
+# webview2
+DOMAIN-SUFFIX,msedge.sf.dl.delivery.mp.microsoft.com
+# anypoint-studio
+DOMAIN-SUFFIX,mule-studio.s3.amazonaws.com
+# nester
+DOMAIN-SUFFIX,nchc.dl.sourceforge.net
+# neatdownloadmanager
+DOMAIN-SUFFIX,neatdownloadmanager.com
+# beef-nightly
+DOMAIN-SUFFIX,nightly.beeflang.org
+# eden-nightly
+DOMAIN-SUFFIX,nightly.eden-emu.dev
+# visualboyadvance-m-nightly
+DOMAIN-SUFFIX,nightly.vba-m.com
+# zettlr-nightly
+DOMAIN-SUFFIX,nightly.zettlr.com
+# throttlestop
+DOMAIN-SUFFIX,nl1-dl.techpowerup.com
+# chef-workstation
+DOMAIN-SUFFIX,packages.chef.io
+# edgedb
+DOMAIN-SUFFIX,packages.edgedb.com
+# element
+DOMAIN-SUFFIX,packages.riot.im
+# vector
+DOMAIN-SUFFIX,packages.timber.io
+# zeplin
+DOMAIN-SUFFIX,pkg.zeplin.io
+# tailscale
+DOMAIN-SUFFIX,pkgs.tailscale.com
+# potrace
+DOMAIN-SUFFIX,potrace.sourceforge.net
+# freeciv
+DOMAIN-SUFFIX,prdownloads.sourceforge.net
+# pia-desktop
+DOMAIN-SUFFIX,privateinternetaccess-storage.s3.amazonaws.com
+# kiro-cli
+DOMAIN-SUFFIX,prod.download.cli.kiro.dev
+# kiro
+DOMAIN-SUFFIX,prod.download.desktop.kiro.dev
+# sourcetree
+DOMAIN-SUFFIX,product-downloads.atlassian.com
+# clonehero
+DOMAIN-SUFFIX,pubdl.clonehero.net
+# unity-hub-np
+DOMAIN-SUFFIX,public-cdn.cloud.unity3d.com
+# qq-nt
+DOMAIN-SUFFIX,qqdl.gtimg.cn
+# dvc
+DOMAIN-SUFFIX,r2.dvc.org
+# tinymediamanager
+DOMAIN-SUFFIX,release.tinymediamanager.org
+# fontbase
+DOMAIN-SUFFIX,releases.fontba.se
+# jfrog
+DOMAIN-SUFFIX,releases.jfrog.io
+# mattermost
+DOMAIN-SUFFIX,releases.mattermost.com
+# virt-viewer
+DOMAIN-SUFFIX,releases.pagure.org
+# threema
+DOMAIN-SUFFIX,releases.threema.ch
+# warp-terminal
+DOMAIN-SUFFIX,releases.warp.dev
+# 0ad
+DOMAIN-SUFFIX,releases.wildfiregames.com
+# enonic
+DOMAIN-SUFFIX,repo.enonic.com
+# ivpn-client-np
+DOMAIN-SUFFIX,repo.ivpn.net
+# jellyfin
+DOMAIN-SUFFIX,repo.jellyfin.org
+# springboot15
+DOMAIN-SUFFIX,repo.spring.io
+# roamresearch
+DOMAIN-SUFFIX,roam-electron-deploy.s3.us-east-2.amazonaws.com
+# nexusfont
+DOMAIN-SUFFIX,s3.ap-northeast-2.amazonaws.com
+# s3browser
+DOMAIN-SUFFIX,s3browser.com
+# selenium3
+DOMAIN-SUFFIX,selenium-release.storage.googleapis.com
+# lark
+DOMAIN-SUFFIX,sf16-sg.larksuitecdn.com
+# streamlabs-obs
+DOMAIN-SUFFIX,slobs-cdn.streamlabs.com
+# imo-messenger
+DOMAIN-SUFFIX,static-web.imoim.net
+# zmc
+DOMAIN-SUFFIX,static.azul.com
+# ldplayer
+DOMAIN-SUFFIX,static.ldrescdn.com
+# mendeley
+DOMAIN-SUFFIX,static.mendeley.com
+# wii-backup-manager
+DOMAIN-SUFFIX,static.wiidatabase.de
+# steam
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+# svtplay-dl
+DOMAIN-SUFFIX,svtplay-dl.se
+# openvpn-connect
+DOMAIN-SUFFIX,swupdate.openvpn.net
+# potplayer
+DOMAIN-SUFFIX,t1.daumcdn.net
+# tunnelbear-np
+DOMAIN-SUFFIX,tunnelbear.s3.amazonaws.com
+# devtunnel
+DOMAIN-SUFFIX,tunnelsassetsprod.blob.core.windows.net
+# twilio-cli
+DOMAIN-SUFFIX,twilio-cli-prod.s3.amazonaws.com
+# typespec
+DOMAIN-SUFFIX,typespec.blob.core.windows.net
+# unxutils
+DOMAIN-SUFFIX,unxutils.sourceforge.net
+# vscode
+DOMAIN-SUFFIX,update.code.visualstudio.com
+# cyberduck
+DOMAIN-SUFFIX,update.cyberduck.io
+# qflipper
+DOMAIN-SUFFIX,update.flipperzero.one
+# racelab
+DOMAIN-SUFFIX,update.racelab.app
+# portmaster-np
+DOMAIN-SUFFIX,updates.safing.io
+# signal
+DOMAIN-SUFFIX,updates.signal.org
+# nvcleanstall
+DOMAIN-SUFFIX,us1-dl.techpowerup.com
+# gpu-z
+DOMAIN-SUFFIX,us2-dl.techpowerup.com
+# vscode-insiders
+DOMAIN-SUFFIX,vscode.download.prss.microsoft.com
+# wpsoffice
+DOMAIN-SUFFIX,wdl1.pcfg.cache.wpscdn.com
+# xata
+DOMAIN-SUFFIX,xata-cli-versions.s3.amazonaws.com
