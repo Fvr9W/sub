@@ -1,5 +1,9 @@
 # gofile
 DOMAIN-SUFFIX,gofile.io
+# openai
+DOMAIN-SUFFIX,oaistatic.com
+# 推特
+DOMAIN-SUFFIX,twimg.com
 # riot
 DOMAIN-SUFFIX,dyn.riotcdn.net
 # Garena LOL TW download
