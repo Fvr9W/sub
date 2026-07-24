@@ -1,3 +1,5 @@
+# 疑似微软商店重定向 cdn
+IP-CIDR,14.102.231.202/32,no-resolve
 # gofile
 DOMAIN-SUFFIX,gofile.io
 # openai
