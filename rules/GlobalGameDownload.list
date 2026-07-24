@@ -91,8 +91,8 @@ DOMAIN,xvcf1.xboxlive.com
 DOMAIN,xvcf2.xboxlive.com
 DOMAIN,assets1.xboxlive.com
 DOMAIN,assets2.xboxlive.com
-# 疑似微软商店重定向 cdn
-IP-CIDR,14.102.231.202/32,no-resolve
+# 疑似微软商店重定向 cdn (新加坡 Edgevana 网段)
+# IP-CIDR,14.102.231.0/24,no-resolve
 # Google Diver
 DOMAIN-SUFFIX,www.googleapis.com
 DOMAIN-KEYWORD,drive-data-export.googleusercontent.com
