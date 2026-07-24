@@ -3,7 +3,7 @@
 #!author=Fvr9W
 #!homepage=https://github.com/Fvr9W/sub/edit/master/rules/rejectFix.list
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
-#!date=2024-8-29 06:11:54
+#!date=2026-7-24 08:53:26
 
 # ======= A ======= #
 # 阿里巴巴
@@ -210,6 +210,8 @@ DOMAIN,finderks.video.qq.com
 DOMAIN,finderv1.video.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
+# 疑似微软商店重定向 cdn (新加坡 Edgevana 网段)
+IP-CIDR,14.102.231.0/24,no-resolve
 
 # ======= X ======= #
 # 小米
