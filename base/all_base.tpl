@@ -335,7 +335,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2026-04-27
+#!date = 2026-8-9
 # IPV6 启动与否
 ip-mode = ipv4-only
 ipv6-vif = off
@@ -529,7 +529,7 @@ https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, tag=「HTTPDNS」禁止, enab
 https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx, policy = B1gProxy, enabled = false
 https://kelee.one/Tool/Loon/Lpx/Fileball_mount.lpx, tag=「Fileball」挂载增强, enabled = false
 https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx, tag=「京东」比价脚本, enabled = true
-https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.plugin, tag=自定义「天气Kit」功能, enabled = true
+https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.lpx, tag=自定义「天气Kit」功能, enabled = true
 https://github.com/NSRingo/Weather/raw/main/modules/Weather.plugin, tag=自定义「天气」功能, enabled = false
 https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.plugin, tag=自定义「定位服务」功能, enabled = true
 https://github.com/NSRingo/Maps/releases/latest/download/iRingo.Maps.plugin, tag=自定义「地图」功能, enabled = true
