@@ -3,15 +3,15 @@ DOMAIN-SUFFIX,adoptangelaboradvacotionclwonthorughconfrmcompimentdeseertaltar.or
 DOMAIN-SUFFIX,domainforsub.work
 DOMAIN-SUFFIX,linkcube.dev
 DOMAIN-SUFFIX,adomainforsub.org
-# 中转站不让直连的
-DOMAIN-SUFFIX,congmingai.com
+# 中转站不让直连的,有些是网站不能直连,api可以直连
 DOMAIN-SUFFIX,anyrouter.top
-DOMAIN-SUFFIX,asxs.top
 DOMAIN-SUFFIX,stpatrickschoolgnv.org
 DOMAIN-SUFFIX,mdkj.lol
 DOMAIN-SUFFIX,nvtokens.com
-DOMAIN-SUFFIX,sourcesdata.com
 DOMAIN-SUFFIX,yyyyai.org
+DOMAIN,sub2.congmingai.com
+DOMAIN,www.sourcesdata.com
+DOMAIN,cdk.asxs.top
 # kilo
 DOMAIN-SUFFIX,kilosessions.ai
 DOMAIN-SUFFIX,kilo.ai
