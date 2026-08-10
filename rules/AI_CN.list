@@ -1,3 +1,7 @@
+# AI中转站,官网不能上但是 API 可以走CN
+DOMAIN,api.congmingai.com
+DOMAIN,api.sourcesdata.com
+DOMAIN,api.asxs.top
 # AI中转站
 DOMAIN-SUFFIX,exacg.cc
 DOMAIN-SUFFIX,stpatrickschoolgnv.org
