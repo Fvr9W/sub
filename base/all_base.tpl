@@ -38,6 +38,32 @@ tun:
     - tcp://any:53
   auto-route: false
   auto-detect-interface: false
+sniffer:
+  override-destination: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+  skip-domain:
+    - www.apple.com
+    - www.cathaypacific.com
+    - "+.aileoneed.org"
+    - "+.akacaio.org"
+    - "+.alilago.org"
+    - "+.allmzk.org"
+    - "+.aisafushi.org"
+    - "+.aisthegroupa.org"
+    - "+.bsxis.org"
+    - "+.6isthe6.org"
+    - "+.ctg.wtf"
+    - "+.ctemanufushi.org"
+    - "+.edg.wtf"
+    - "+.fjk.wtf"
+    - "+.fualta.org"
+    - "+.forentier.org"
+  skip-dst-address:
+    - 158.69.202.208/32
+    - 51.222.9.117/32
     {% else %}
       {% if request.tun == "stash" %}
 http:
