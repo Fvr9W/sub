@@ -136,6 +136,10 @@ DOMAIN-SUFFIX,kineticbloom.org
 DOMAIN-SUFFIX,nxonearth.com
 # > CNIX
 DOMAIN-SUFFIX,6isthe6.org
+DOMAIN-SUFFIX,aileoneed.org
+DOMAIN-SUFFIX,akacaio.org
+DOMAIN-SUFFIX,alilago.org
+DOMAIN-SUFFIX,allmzk.org
 DOMAIN-SUFFIX,aisafushi.org
 DOMAIN-SUFFIX,aisthegroupa.org
 DOMAIN-SUFFIX,bsxis.org
@@ -145,6 +149,8 @@ DOMAIN-SUFFIX,edg.wtf
 DOMAIN-SUFFIX,fjk.wtf
 DOMAIN-SUFFIX,fualta.org
 DOMAIN-SUFFIX,forentier.org
+IP-CIDR,51.222.9.117/32,no-resolve
+IP-CIDR,158.69.202.208/32,no-resolve
 # > 卡盟
 DOMAIN-SUFFIX,8848.kim
 DOMAIN-SUFFIX,xiandao02.com
