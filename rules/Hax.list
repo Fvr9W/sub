@@ -3,6 +3,9 @@ DOMAIN-SUFFIX,adoptangelaboradvacotionclwonthorughconfrmcompimentdeseertaltar.or
 DOMAIN-SUFFIX,domainforsub.work
 DOMAIN-SUFFIX,linkcube.dev
 DOMAIN-SUFFIX,adomainforsub.org
+# 中转站头子
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,opencode.ai
 # 中转站不让直连的,有些是网站不能直连,api可以直连
 DOMAIN-SUFFIX,anyrouter.top
 DOMAIN-SUFFIX,stpatrickschoolgnv.org
