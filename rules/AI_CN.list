@@ -2,6 +2,7 @@
 DOMAIN,api.congmingai.com
 DOMAIN,api.sourcesdata.com
 DOMAIN,api.asxs.top
+DOMAIN,api-slb.jiji.cc
 # AI中转站
 DOMAIN-SUFFIX,exacg.cc
 DOMAIN-SUFFIX,stpatrickschoolgnv.org
