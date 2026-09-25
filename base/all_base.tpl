@@ -61,6 +61,7 @@ sniffer:
     - "+.fjk.wtf"
     - "+.fualta.org"
     - "+.forentier.org"
+    - "+.sdo.com"
   skip-dst-address:
     - 158.69.202.208/32
     - 51.222.9.117/32
@@ -125,6 +126,7 @@ dns:
     - '+.market.xiaomi.com'
     - ntp.ntsc.ac.cn
     - pool.ntp.org
+    - '+.sdo.com'
     ## Windows
     - dns.msftncsi.com
     - www.msftncsi.com
