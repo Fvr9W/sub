@@ -2,6 +2,8 @@
 DOMAIN-SUFFIX,gofile.io
 # openai
 DOMAIN-SUFFIX,oaistatic.com
+# docker desktop
+DOMAIN-SUFFIX,desktop.docker.com
 # 推特
 DOMAIN-SUFFIX,twimg.com
 # riot
