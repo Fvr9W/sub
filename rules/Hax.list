@@ -134,11 +134,14 @@ DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 # claude
+DOMAIN-KEYWORD,claude
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
-DOMAIN-KEYWORD,claude
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
 # OpenAI
+DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sora.com
