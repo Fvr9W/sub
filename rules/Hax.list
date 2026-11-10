@@ -137,6 +137,7 @@ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-KEYWORD,claude
 # OpenAI
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
